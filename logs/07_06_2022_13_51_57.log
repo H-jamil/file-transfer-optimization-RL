@@ -1,0 +1,168 @@
+1657129918.046217 -- INFO: Start Process :: 0
+1657129918.046266 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0
+1657129918.046867 -- INFO: Active CC: 2
+1657129918.049117 -- INFO: Start Process :: 1
+1657129918.056381 -- INFO: Process 0 get item 0 from queue and executing
+1657129918.059144 -- INFO: Process 1 get item 1 from queue and executing
+1657129919.058150 -- INFO: Process 0 get item 2 from queue and executing
+1657129919.060102 -- INFO: Process 1 get item 3 from queue and executing
+1657129920.059954 -- INFO: Process 0 get item 4 from queue and executing
+1657129920.061831 -- INFO: Process 1 get item 5 from queue and executing
+1657129921.050352 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1
+1657129921.050487 -- INFO: Start Process :: 6
+1657129921.050476 -- INFO: Start Process :: 2
+1657129921.050932 -- INFO: Active CC: 8
+1657129921.050488 -- INFO: Start Process :: 7
+1657129921.050821 -- INFO: Start Process :: 5
+1657129921.051145 -- INFO: Start Process :: 4
+1657129921.051922 -- INFO: Start Process :: 3
+1657129921.054538 -- INFO: Process 6 get item 6 from queue and executing
+1657129921.054634 -- INFO: Process 7 get item 7 from queue and executing
+1657129921.054712 -- INFO: Process 4 get item 8 from queue and executing
+1657129921.054961 -- INFO: Process 2 get item 9 from queue and executing
+1657129921.055633 -- INFO: Process 5 get item 0 from queue and executing
+1657129921.055729 -- INFO: Process 3 get item 1 from queue and executing
+1657129921.061792 -- INFO: Process 0 get item 2 from queue and executing
+1657129921.063828 -- INFO: Process 1 get item 3 from queue and executing
+1657129922.057768 -- INFO: Process 6 get item 4 from queue and executing
+1657129922.057961 -- INFO: Process 7 get item 5 from queue and executing
+1657129922.058802 -- INFO: Process 3 get item 7 from queue and executing
+1657129922.058935 -- INFO: Process 4 get item 6 from queue and executing
+1657129922.059294 -- INFO: Process 2 get item 8 from queue and executing
+1657129922.059572 -- INFO: Process 5 get item 9 from queue and executing
+1657129922.064097 -- INFO: Process 0 get item 1 from queue and executing
+1657129922.066017 -- INFO: Process 1 get item 0 from queue and executing
+1657129923.061135 -- INFO: Process 4 get item 2 from queue and executing
+1657129923.061489 -- INFO: Process 6 get item 3 from queue and executing
+1657129923.061822 -- INFO: Process 7 get item 5 from queue and executing
+1657129923.062302 -- INFO: Process 3 get item 4 from queue and executing
+1657129923.062376 -- INFO: Process 2 get item 6 from queue and executing
+1657129923.062794 -- INFO: Process 5 get item 7 from queue and executing
+1657129923.066277 -- INFO: Process 0 get item 8 from queue and executing
+1657129923.068316 -- INFO: Process 1 get item 9 from queue and executing
+1657129924.063797 -- INFO: Process 6 get item 1 from queue and executing
+1657129924.064593 -- INFO: Process 4 get item 0 from queue and executing
+1657129924.065065 -- INFO: Process 5 get item 2 from queue and executing
+1657129924.065346 -- INFO: Process 7 get item 3 from queue and executing
+1657129924.065562 -- INFO: Process 2 get item 5 from queue and executing
+1657129924.066029 -- INFO: Process 3 get item 7 from queue and executing
+1657129924.068463 -- INFO: Process 0 get item 6 from queue and executing
+1657129924.070601 -- INFO: Process 1 get item 4 from queue and executing
+1657129925.066357 -- INFO: Process 6 get item 8 from queue and executing
+1657129925.067949 -- INFO: Process 5 get item 9 from queue and executing
+1657129925.068377 -- INFO: Process 3 get item 1 from queue and executing
+1657129925.068443 -- INFO: Process 7 get item 0 from queue and executing
+1657129925.068608 -- INFO: Process 4 get item 7 from queue and executing
+1657129925.068798 -- INFO: Process 2 get item 2 from queue and executing
+1657129925.070695 -- INFO: Process 0 get item 5 from queue and executing
+1657129925.072581 -- INFO: Process 1 get item 3 from queue and executing
+1657129926.068808 -- INFO: Process 6 get item 6 from queue and executing
+1657129926.070308 -- INFO: Process 7 get item 4 from queue and executing
+1657129926.071323 -- INFO: Process 4 get item 8 from queue and executing
+1657129926.071368 -- INFO: Process 3 get item 9 from queue and executing
+1657129926.071445 -- INFO: Process 2 get item 0 from queue and executing
+1657129926.071837 -- INFO: Process 5 get item 2 from queue and executing
+1657129926.072471 -- INFO: Process 0 get item 1 from queue and executing
+1657129926.074769 -- INFO: Process 1 get item 7 from queue and executing
+1657129927.071201 -- INFO: Process 6 get item 5 from queue and executing
+1657129927.072560 -- INFO: Process 4 get item 3 from queue and executing
+1657129927.072702 -- INFO: Process 7 get item 6 from queue and executing
+1657129927.073514 -- INFO: Process 3 get item 8 from queue and executing
+1657129927.074072 -- INFO: Process 2 get item 4 from queue and executing
+1657129927.074539 -- INFO: Process 5 get item 9 from queue and executing
+1657129927.074707 -- INFO: Process 0 get item 0 from queue and executing
+1657129927.076558 -- INFO: Process 1 get item 2 from queue and executing
+1657129928.073690 -- INFO: Process 6 get item 1 from queue and executing
+1657129928.074850 -- INFO: Process 4 get item 7 from queue and executing
+1657129928.074915 -- INFO: Process 7 get item 5 from queue and executing
+1657129928.075621 -- INFO: Process 3 get item 6 from queue and executing
+1657129928.076252 -- INFO: Process 0 get item 3 from queue and executing
+1657129928.076835 -- INFO: Process 2 get item 8 from queue and executing
+1657129928.077249 -- INFO: Process 5 get item 4 from queue and executing
+1657129928.078712 -- INFO: Process 1 get item 0 from queue and executing
+1657129929.076450 -- INFO: Process 6 get item 9 from queue and executing
+1657129929.076606 -- INFO: Process 7 get item 2 from queue and executing
+1657129929.077183 -- INFO: Process 4 get item 1 from queue and executing
+1657129929.078077 -- INFO: Process 3 get item 5 from queue and executing
+1657129929.078222 -- INFO: Process 0 get item 7 from queue and executing
+1657129929.078492 -- INFO: Process 5 get item 6 from queue and executing
+1657129929.078895 -- INFO: Process 2 get item 3 from queue and executing
+1657129929.080601 -- INFO: Process 1 get item 4 from queue and executing
+1657129930.079268 -- INFO: Process 7 get item 8 from queue and executing
+1657129930.080542 -- INFO: Process 4 get item 0 from queue and executing
+1657129930.080618 -- INFO: Process 6 get item 2 from queue and executing
+1657129930.081129 -- INFO: Process 2 get item 9 from queue and executing
+1657129930.081683 -- INFO: Process 0 get item 1 from queue and executing
+1657129930.082207 -- INFO: Process 3 get item 7 from queue and executing
+1657129930.082417 -- INFO: Process 5 get item 5 from queue and executing
+1657129930.082927 -- INFO: Process 1 get item 3 from queue and executing
+1657129931.062225 -- INFO: Process Status Bits are: 1 1 1 0 0 0 0 0
+1657129931.062580 -- INFO: Active CC: 3
+1657129931.083048 -- INFO: Process 2 get item 6 from queue and executing
+1657129931.083664 -- INFO: Process 0 get item 4 from queue and executing
+1657129931.087979 -- INFO: Process 1 get item 8 from queue and executing
+1657129932.084147 -- INFO: Process 2 get item 0 from queue and executing
+1657129932.085289 -- INFO: Process 0 get item 2 from queue and executing
+1657129932.089632 -- INFO: Process 1 get item 9 from queue and executing
+1657129933.086069 -- INFO: Process 2 get item 1 from queue and executing
+1657129933.087045 -- INFO: Process 0 get item 7 from queue and executing
+1657129933.091225 -- INFO: Process 1 get item 3 from queue and executing
+1657129934.088013 -- INFO: Process 2 get item 5 from queue and executing
+1657129934.088142 -- INFO: Process 0 get item 6 from queue and executing
+1657129934.092018 -- INFO: Process 1 get item 4 from queue and executing
+1657129935.089828 -- INFO: Process 2 get item 8 from queue and executing
+1657129935.090212 -- INFO: Process 0 get item 0 from queue and executing
+1657129935.093743 -- INFO: Process 1 get item 2 from queue and executing
+1657129936.068156 -- INFO: Start Process :: 4
+1657129936.068309 -- INFO: Start Process :: 5
+1657129936.068141 -- INFO: Start Process :: 3
+1657129936.068194 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0
+1657129936.068893 -- INFO: Process 5 get item 9 from queue and executing
+1657129936.069014 -- INFO: Active CC: 6
+1657129936.069153 -- INFO: Process 4 get item 1 from queue and executing
+1657129936.069211 -- INFO: Process 3 get item 7 from queue and executing
+1657129936.091350 -- INFO: Process 0 get item 3 from queue and executing
+1657129936.091449 -- INFO: Process 2 get item 5 from queue and executing
+1657129936.095412 -- INFO: Process 1 get item 6 from queue and executing
+1657129937.070645 -- INFO: Process 3 get item 4 from queue and executing
+1657129937.070904 -- INFO: Process 5 get item 0 from queue and executing
+1657129937.070944 -- INFO: Process 4 get item 8 from queue and executing
+1657129937.092185 -- INFO: Process 0 get item 2 from queue and executing
+1657129937.093131 -- INFO: Process 2 get item 7 from queue and executing
+1657129937.096076 -- INFO: Process 1 get item 9 from queue and executing
+1657129938.072334 -- INFO: Process 3 get item 1 from queue and executing
+1657129938.072598 -- INFO: Process 4 get item 3 from queue and executing
+1657129938.072837 -- INFO: Process 5 get item 5 from queue and executing
+1657129938.093955 -- INFO: Process 2 get item 6 from queue and executing
+1657129938.094396 -- INFO: Process 0 get item 4 from queue and executing
+1657129938.097770 -- INFO: Process 1 get item 8 from queue and executing
+1657129939.074317 -- INFO: Process 4 get item 0 from queue and executing
+1657129939.074349 -- INFO: Process 5 get item 7 from queue and executing
+1657129939.074524 -- INFO: Process 3 get item 2 from queue and executing
+1657129939.095782 -- INFO: Process 2 get item 9 from queue and executing
+1657129939.096240 -- INFO: Process 0 get item 1 from queue and executing
+1657129939.099565 -- INFO: Process 1 get item 3 from queue and executing
+1657129940.076377 -- INFO: Process 4 get item 5 from queue and executing
+1657129940.076435 -- INFO: Process 5 get item 6 from queue and executing
+1657129940.076643 -- INFO: Process 3 get item 4 from queue and executing
+1657129940.097701 -- INFO: Process 2 get item 8 from queue and executing
+1657129940.097921 -- INFO: Process 0 get item 0 from queue and executing
+1657129940.101196 -- INFO: Process 1 get item 2 from queue and executing
+1657129941.078285 -- INFO: Process 5 get item 7 from queue and executing
+1657129941.078362 -- INFO: Process 4 get item 9 from queue and executing
+1657129941.078540 -- INFO: Process 3 get item 1 from queue and executing
+1657129941.098582 -- INFO: Process 0 get item 3 from queue and executing
+1657129941.099276 -- INFO: Process 2 get item 5 from queue and executing
+1657129941.102838 -- INFO: Process 1 get item 6 from queue and executing
+1657129942.080189 -- INFO: Process 5 get item 4 from queue and executing
+1657129942.080520 -- INFO: Process 3 get item 0 from queue and executing
+1657129942.080643 -- INFO: Process 4 get item 8 from queue and executing
+1657129942.100107 -- INFO: Process 2 get item 2 from queue and executing
+1657129942.100301 -- INFO: Process 0 get item 7 from queue and executing
+1657129942.105936 -- INFO: Process 1 get item 1 from queue and executing
+1657129943.082228 -- INFO: Process 3 get item 9 from queue and executing
+1657129943.082386 -- INFO: Process 5 get item 3 from queue and executing
+1657129943.082434 -- INFO: Process 4 get item 5 from queue and executing
+1657129943.102049 -- INFO: Process 2 get item 6 from queue and executing
+1657129943.102139 -- INFO: Process 0 get item 4 from queue and executing
+1657129943.109385 -- INFO: Process 1 get item 0 from queue and executing
