@@ -1,6 +1,6 @@
 configurations = {
     "receiver": {
-        "host": "10.10.2.2",
+        "host": "128.205.223.105",
         "port": 50021
     },
     "data_dir": "/home/hjamil/Documents/parallel_processing/files_processed/",

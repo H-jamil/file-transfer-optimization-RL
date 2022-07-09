@@ -51,6 +51,7 @@ class TransferServiceTest:
     self.process_status = mp.Array("i", [0 for i in range(configurations["thread_limit"])])
     self.file_offsets = mp.Array("d", [0.0 for i in range(self.file_count)])
     self.file_transfer=True
+    self.transfer_status=False
     manager=mp.Manager()
     self.throughput_logs=manager.list()
     self.q = manager.Queue(maxsize=self.file_count)
@@ -59,26 +60,32 @@ class TransferServiceTest:
 
   def worker(self,process_id,q):
     while self.file_incomplete.value >0:
-      if self.process_status[process_id] ==0:
+      if self.process_status[process_id] == 0:
         pass
       else:
         self.log.info(f"Start Process :: {process_id}")
-        try:
-          while (not q.empty()) and (self.process_status[process_id] == 1):
-            try:
-              file_id = q.get()
-              self.log.info(f"Process {process_id} get item {file_id} from queue and executing")
-              ####work
-              time.sleep(1)
-              ####
-              q.put(file_id)
+        while (not q.empty()) and (self.process_status[process_id] == 1):
+          file_id = q.get()
+          self.log.info(f"Process {process_id} get item {file_id} from queue and executing")
+          ####work
+          time.sleep(1)
+          self.file_offsets[file_id]+=1
+          ####
+          if (self.file_offsets[file_id] < 8):
+            q.put(file_id)
+          else:
+            self.file_incomplete.value =self.file_incomplete.value - 1
+            self.log.info(f"Process {process_id} finished on working on file {file_id} ")
+            self.process_status[process_id] = 0
+            self.log.info(f"Process {process_id} shutdown itself ")
+            self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
 
-            except:
-              self.log.info(f"Process {process_id} can't get item from queue")
-              break
+            # self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
 
-        except Exception as e:
-                self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
+    self.process_status[process_id] =0
+    self.log.info(f"Process {process_id} shutdown itself ")
+    self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
+
 
   def reset(self, configurations):
     self.root=configurations["data_dir"]
@@ -90,6 +97,7 @@ class TransferServiceTest:
     self.process_status = mp.Array("i", [0 for i in range(configurations["thread_limit"])])
     self.file_offsets = mp.Array("d", [0.0 for i in range(self.file_count)])
     self.file_transfer=True
+    self.transfer_status=False
     manager=mp.Manager()
     self.throughput_logs=manager.list()
     self.q = manager.Queue(maxsize=self.file_count)
@@ -102,7 +110,10 @@ class TransferServiceTest:
     for p in workers:
         p.daemon = True
         p.start()
-    return workers
+    reporting_process = mp.Process(target=self.monitor)
+    reporting_process.daemon = True
+    reporting_process.start()
+    return workers,reporting_process
 
   def change_concurrency(self, params):
     self.num_workers.value = params[0]
@@ -115,6 +126,14 @@ class TransferServiceTest:
     # time.sleep(1)
     self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
     self.log.info("Active CC: {0}".format(np.sum(self.process_status)))
+
+  def monitor(self):
+    while(True):
+      time.sleep(1)
+      if self.file_incomplete.value==0:
+        self.transfer_status=True
+
+      self.log.info(f"total {np.sum(self.process_status)} process are working and total {np.sum(self.file_offsets)} chunks are done: Transfer Status {self.transfer_status}")
 
 
 
@@ -136,7 +155,7 @@ if __name__=="__main__":
   transfer=TransferServiceTest(configurations,log)
   transfer.print_directory_details()
   print(transfer.reset(configurations))
-  workers=transfer.run()
+  workers,reporting_process=transfer.run()
   transfer.change_concurrency([2])
   time.sleep(3)
   transfer.change_concurrency([8])
@@ -149,4 +168,7 @@ if __name__=="__main__":
     if p.is_alive():
       p.terminate()
       p.join(timeout=0.1)
+  if reporting_process.is_alive():
+    reporting_process.terminate()
+    reporting_process.join(timeout=0.1)
 

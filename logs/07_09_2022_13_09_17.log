@@ -1,0 +1,169 @@
+1657386557.255166 -- INFO: Start Process :: 0
+1657386557.255167 -- INFO: Start Process :: 1
+1657386557.255232 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0
+1657386557.255942 -- INFO: Active CC: 2
+1657386557.259358 -- INFO: Process 1 get item 0 from queue and executing
+1657386557.260434 -- INFO: Process 0 get item 1 from queue and executing
+1657386558.261280 -- INFO: Process 1 get item 2 from queue and executing
+1657386558.262196 -- INFO: Process 0 get item 3 from queue and executing
+1657386558.273859 -- INFO: total 2 process are working and total 2.0 chunks are done: Transfer Status False
+1657386559.263266 -- INFO: Process 0 get item 4 from queue and executing
+1657386559.263341 -- INFO: Process 1 get item 5 from queue and executing
+1657386559.275954 -- INFO: total 2 process are working and total 4.0 chunks are done: Transfer Status False
+1657386560.259728 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1
+1657386560.260068 -- INFO: Active CC: 8
+1657386560.260332 -- INFO: Start Process :: 5
+1657386560.260341 -- INFO: Start Process :: 7
+1657386560.260423 -- INFO: Start Process :: 4
+1657386560.259830 -- INFO: Start Process :: 3
+1657386560.259830 -- INFO: Start Process :: 2
+1657386560.259853 -- INFO: Start Process :: 6
+1657386560.262693 -- INFO: Process 7 get item 6 from queue and executing
+1657386560.263309 -- INFO: Process 4 get item 7 from queue and executing
+1657386560.263839 -- INFO: Process 5 get item 8 from queue and executing
+1657386560.264612 -- INFO: Process 2 get item 9 from queue and executing
+1657386560.264692 -- INFO: Process 1 get item 0 from queue and executing
+1657386560.264833 -- INFO: Process 3 get item 1 from queue and executing
+1657386560.264923 -- INFO: Process 0 get item 3 from queue and executing
+1657386560.265185 -- INFO: Process 6 get item 2 from queue and executing
+1657386560.277550 -- INFO: total 8 process are working and total 6.0 chunks are done: Transfer Status False
+1657386561.264998 -- INFO: Process 7 get item 4 from queue and executing
+1657386561.266009 -- INFO: Process 4 get item 5 from queue and executing
+1657386561.266499 -- INFO: Process 5 get item 6 from queue and executing
+1657386561.267388 -- INFO: Process 1 get item 7 from queue and executing
+1657386561.267874 -- INFO: Process 2 get item 8 from queue and executing
+1657386561.267976 -- INFO: Process 3 get item 0 from queue and executing
+1657386561.268051 -- INFO: Process 0 get item 1 from queue and executing
+1657386561.268438 -- INFO: Process 6 get item 9 from queue and executing
+1657386561.279172 -- INFO: total 8 process are working and total 14.0 chunks are done: Transfer Status False
+1657386562.267631 -- INFO: Process 4 get item 3 from queue and executing
+1657386562.267777 -- INFO: Process 7 get item 2 from queue and executing
+1657386562.268617 -- INFO: Process 5 get item 5 from queue and executing
+1657386562.269938 -- INFO: Process 1 get item 4 from queue and executing
+1657386562.270903 -- INFO: Process 3 get item 6 from queue and executing
+1657386562.271214 -- INFO: Process 2 get item 7 from queue and executing
+1657386562.271827 -- INFO: Process 6 get item 8 from queue and executing
+1657386562.271965 -- INFO: Process 0 get item 0 from queue and executing
+1657386562.279932 -- INFO: total 8 process are working and total 22.0 chunks are done: Transfer Status False
+1657386563.270475 -- INFO: Process 7 get item 9 from queue and executing
+1657386563.270906 -- INFO: Process 4 get item 1 from queue and executing
+1657386563.270970 -- INFO: Process 5 get item 2 from queue and executing
+1657386563.272174 -- INFO: Process 1 get item 3 from queue and executing
+1657386563.272685 -- INFO: Process 2 get item 5 from queue and executing
+1657386563.272863 -- INFO: Process 3 get item 4 from queue and executing
+1657386563.273897 -- INFO: Process 6 get item 6 from queue and executing
+1657386563.274167 -- INFO: Process 0 get item 7 from queue and executing
+1657386563.281552 -- INFO: total 8 process are working and total 30.0 chunks are done: Transfer Status False
+1657386564.273359 -- INFO: Process 4 get item 8 from queue and executing
+1657386564.273510 -- INFO: Process 7 get item 0 from queue and executing
+1657386564.273897 -- INFO: Process 5 get item 1 from queue and executing
+1657386564.274320 -- INFO: Process 1 get item 9 from queue and executing
+1657386564.275104 -- INFO: Process 2 get item 2 from queue and executing
+1657386564.275410 -- INFO: Process 3 get item 3 from queue and executing
+1657386564.276023 -- INFO: Process 6 get item 5 from queue and executing
+1657386564.276126 -- INFO: Process 0 get item 4 from queue and executing
+1657386564.283128 -- INFO: total 8 process are working and total 38.0 chunks are done: Transfer Status False
+1657386565.276410 -- INFO: Process 4 get item 6 from queue and executing
+1657386565.276560 -- INFO: Process 1 get item 7 from queue and executing
+1657386565.276829 -- INFO: Process 7 get item 8 from queue and executing
+1657386565.276829 -- INFO: Process 5 get item 9 from queue and executing
+1657386565.277772 -- INFO: Process 2 get item 0 from queue and executing
+1657386565.278214 -- INFO: Process 6 get item 1 from queue and executing
+1657386565.278284 -- INFO: Process 3 get item 2 from queue and executing
+1657386565.278840 -- INFO: Process 0 get item 3 from queue and executing
+1657386565.284011 -- INFO: total 8 process are working and total 46.0 chunks are done: Transfer Status False
+1657386566.279180 -- INFO: Process 4 get item 5 from queue and executing
+1657386566.280223 -- INFO: Process 1 get item 4 from queue and executing
+1657386566.280262 -- INFO: Process 5 get item 9 from queue and executing
+1657386566.280632 -- INFO: Process 7 get item 6 from queue and executing
+1657386566.281540 -- INFO: Process 2 get item 7 from queue and executing
+1657386566.281629 -- INFO: Process 3 get item 8 from queue and executing
+1657386566.281851 -- INFO: Process 0 get item 2 from queue and executing
+1657386566.282122 -- INFO: Process 6 get item 1 from queue and executing
+1657386566.285588 -- INFO: total 8 process are working and total 54.0 chunks are done: Transfer Status False
+1657386567.281704 -- INFO: Process 1 get item 3 from queue and executing
+1657386567.281797 -- INFO: Process 4 get item 0 from queue and executing
+1657386567.282489 -- INFO: Process 5 get item 4 from queue and executing
+1657386567.282680 -- INFO: Process 7 get item 5 from queue and executing
+1657386567.283558 -- INFO: Process 2 get item 9 from queue and executing
+1657386567.284410 -- INFO: Process 0 get item 6 from queue and executing
+1657386567.284545 -- INFO: Process 6 get item 7 from queue and executing
+1657386567.284672 -- INFO: Process 3 get item 2 from queue and executing
+1657386567.287222 -- INFO: total 8 process are working and total 62.0 chunks are done: Transfer Status False
+1657386568.284999 -- INFO: Process 1 get item 8 from queue and executing
+1657386568.285124 -- INFO: Process 7 get item 1 from queue and executing
+1657386568.285808 -- INFO: Process 5 get item 3 from queue and executing
+1657386568.286006 -- INFO: Process 3 finished on working on file 2 
+1657386568.286073 -- INFO: Process 4 get item 5 from queue and executing
+1657386568.286239 -- INFO: Process 3 shutdown itself 
+1657386568.286422 -- INFO: Process 0 get item 4 from queue and executing
+1657386568.286451 -- INFO: Process Status Bits are: 1 1 1 0 1 1 1 1
+1657386568.286678 -- INFO: Process 2 get item 0 from queue and executing
+1657386568.286975 -- INFO: Process 6 get item 9 from queue and executing
+1657386568.287962 -- INFO: total 7 process are working and total 70.0 chunks are done: Transfer Status False
+1657386569.286538 -- INFO: Process 7 finished on working on file 1 
+1657386569.286715 -- INFO: Process 7 shutdown itself 
+1657386569.286887 -- INFO: Process Status Bits are: 1 1 1 0 1 1 1 0
+1657386569.287013 -- INFO: Process 1 get item 6 from queue and executing
+1657386569.287209 -- INFO: Process 5 finished on working on file 3 
+1657386569.287320 -- INFO: Process 4 finished on working on file 5 
+1657386569.287445 -- INFO: Process 5 shutdown itself 
+1657386569.287457 -- INFO: Process 4 shutdown itself 
+1657386569.287594 -- INFO: Process Status Bits are: 1 1 1 0 0 0 1 0
+1657386569.287609 -- INFO: Process 6 finished on working on file 9 
+1657386569.287753 -- INFO: Process 6 shutdown itself 
+1657386569.287790 -- INFO: Process 2 finished on working on file 0 
+1657386569.287887 -- INFO: Process Status Bits are: 1 1 1 0 0 0 0 0
+1657386569.287925 -- INFO: Process 2 shutdown itself 
+1657386569.288046 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0
+1657386569.288126 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0
+1657386569.288239 -- INFO: Process 0 finished on working on file 4 
+1657386569.288370 -- INFO: Process 0 shutdown itself 
+1657386569.288491 -- INFO: Process Status Bits are: 0 1 0 0 0 0 0 0
+1657386569.289580 -- INFO: total 1 process are working and total 77.0 chunks are done: Transfer Status False
+1657386570.268206 -- INFO: Start Process :: 0
+1657386570.268341 -- INFO: Process Status Bits are: 1 1 1 0 0 0 0 0
+1657386570.268258 -- INFO: Start Process :: 2
+1657386570.268689 -- INFO: Active CC: 3
+1657386570.269003 -- INFO: Process 2 get item 7 from queue and executing
+1657386570.269062 -- INFO: Process 0 get item 8 from queue and executing
+1657386570.287613 -- INFO: Process 1 finished on working on file 6 
+1657386570.287773 -- INFO: Process 1 shutdown itself 
+1657386570.287914 -- INFO: Process Status Bits are: 1 0 1 0 0 0 0 0
+1657386570.291229 -- INFO: total 2 process are working and total 78.0 chunks are done: Transfer Status False
+1657386571.270193 -- INFO: Process 2 finished on working on file 7 
+1657386571.270337 -- INFO: Process 0 finished on working on file 8 
+1657386571.270341 -- INFO: Process 1 shutdown itself 
+1657386571.270344 -- INFO: Process 7 shutdown itself 
+1657386571.270567 -- INFO: Process 2 shutdown itself 
+1657386571.270588 -- INFO: Process 4 shutdown itself 
+1657386571.270639 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0
+1657386571.270755 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0
+1657386571.270766 -- INFO: Process Status Bits are: 1 0 0 0 0 0 0 0
+1657386571.270792 -- INFO: Process 0 shutdown itself 
+1657386571.271051 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.271100 -- INFO: Process 3 shutdown itself 
+1657386571.271261 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.271325 -- INFO: Process 5 shutdown itself 
+1657386571.271491 -- INFO: Process 2 shutdown itself 
+1657386571.271599 -- INFO: Process 6 shutdown itself 
+1657386571.271507 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.271526 -- INFO: Process 0 shutdown itself 
+1657386571.271829 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.271834 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.271854 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.272070 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0
+1657386571.292034 -- INFO: total 0 process are working and total 80.0 chunks are done: Transfer Status True
+1657386572.293873 -- INFO: total 0 process are working and total 80.0 chunks are done: Transfer Status True
+1657386573.295648 -- INFO: total 0 process are working and total 80.0 chunks are done: Transfer Status True
+1657386574.297490 -- INFO: total 0 process are working and total 80.0 chunks are done: Transfer Status True
+1657386575.274281 -- INFO: Process Status Bits are: 1 1 1 1 1 1 0 0
+1657386575.274639 -- INFO: Active CC: 6
+1657386575.299122 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386576.300037 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386577.301676 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386578.303416 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386579.305186 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386580.306987 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386581.308744 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True
+1657386582.310496 -- INFO: total 6 process are working and total 80.0 chunks are done: Transfer Status True

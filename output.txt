@@ -1,0 +1,9 @@
+file_names: ['input5.txt', 'input8.txt', 'input4.txt', 'input7.txt', 'input1.txt', 'input6.txt', 'input2.txt', 'input9.txt', 'input3.txt', 'input10.txt']
+file_sizes: [560, 560, 560000000, 560, 560000000, 560, 560000000, 560, 700000000, 560]
+file_count: 10
+num_workers: 0
+file_incomplete: 10
+process_status: [0, 0, 0, 0, 0, 0, 0, 0]
+file_offsets: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+[[0 0]
+ [0 0]]
