@@ -1,0 +1,23 @@
+1657397680.977213 -- INFO: Start Process :: 0
+1657397680.977267 -- INFO: Process Status Bits are: 1 0 0 0
+1657397680.977923 -- INFO: Active CC: 1
+1657397680.978408 -- INFO: Process 0 is connected
+1657397680.982271 -- INFO: Process 0 get item 0 from queue and executing
+1657397680.982520 -- INFO: starting 0, 0, /home/hjamil/Documents/files_processed_small/input1.txt
+1657397681.984587 -- INFO: total 1 process are working and total 111149056.0 chunks are done: Transfer Status False
+1657397682.986310 -- INFO: total 1 process are working and total 221249536.0 chunks are done: Transfer Status False
+1657397683.987849 -- INFO: total 1 process are working and total 332398592.0 chunks are done: Transfer Status False
+1657397684.989401 -- INFO: total 1 process are working and total 442499072.0 chunks are done: Transfer Status False
+1657397685.990948 -- INFO: total 1 process are working and total 553648128.0 chunks are done: Transfer Status False
+1657397686.047066 -- INFO: Process 0 finished on working on file 0 
+1657397686.047281 -- INFO: Process 0 shutdown itself 
+1657397686.047435 -- INFO: Process Status Bits are: 0 0 0 0
+1657397686.992627 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397687.994342 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397688.995983 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397689.997523 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397690.998831 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397691.999961 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397693.001567 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397694.003227 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True
+1657397695.003962 -- INFO: total 0 process are working and total 559939584.0 chunks are done: Transfer Status True

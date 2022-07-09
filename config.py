@@ -3,7 +3,7 @@ configurations = {
         "host": "128.205.223.105",
         "port": 50021
     },
-    "data_dir": "/home/hjamil/Documents/files_processed/",
+    "data_dir": "/home/hjamil/Documents/files_processed_small/",
     "method": "probe", #[gradient, bayes, random, brute, probe, cg, lbfgs]
     "bayes": {
         "initial_run": 3,
@@ -25,5 +25,5 @@ configurations = {
         "bsize": 10,
         "thread": 5
     },
-    "max_cc":8,
+    "max_cc":4,
 }
