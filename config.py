@@ -3,7 +3,7 @@ configurations = {
         "host": "128.205.223.105",
         "port": 50021
     },
-    "data_dir": "/home/hjamil/Documents/parallel_processing/files_processed/",
+    "data_dir": "/home/hjamil/Documents/files_processed/",
     "method": "probe", #[gradient, bayes, random, brute, probe, cg, lbfgs]
     "bayes": {
         "initial_run": 3,
