@@ -130,26 +130,37 @@ class TransferServiceTest:
     self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
 
   def tcp_stats(self):
-    start = time.time()
+    cwnd_list=[]
+    rtt_list=[]
     sent, retm = 0, 0
+    goodput=0
+    start = time.time()
     try:
-        data = os.popen("ss -ti").read().split("\n")
-        for i in range(1,len(data)):
-            if self.RCVR_ADDR in data[i-1]:
-                parse_data = data[i].split(" ")
-                for entry in parse_data:
-                    if "data_segs_out" in entry:
-                        sent += int(entry.split(":")[-1])
-                    if "bytes_retrans" in entry:
-                        pass
-                    elif "retrans" in entry:
-                        retm += int(entry.split("/")[-1])
+      data = os.popen("ss -ti").read().split("\n")
+      for i in range(1,len(data)):
+          if self.RCVR_ADDR in data[i-1]:
+              goodput+=int((re.findall("\d+",re.findall(r'delivery_rate [\d\.-]+Mbps+',data[i])[0])[0]))
+              parse_data = data[i].split(" ")
+              for entry in parse_data:
+                  if "cwnd" in entry:
+                      cwnd_list.append(int(entry.split(":")[-1]))
+                  if "rtt" in entry:
+                      try:
+                          rtt_list.append(float(re.findall(r":(.*?)/", entry)[0]))
+                      except:
+                          break
+                  if "data_segs_out" in entry:
+                      sent += int(entry.split(":")[-1])
+                  if "bytes_retrans" in entry:
+                      pass
+                  elif "retrans" in entry:
+                      retm += int(entry.split("/")[-1])
     except Exception as e:
-        print("From tcp_stat()",e)
+      print(e)
 
     end = time.time()
-    log.debug("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
-    return sent, retm
+    self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
+    return cwnd_list,rtt_list,sent,retm,goodput
 
   def reset(self, configurations):
     self.root=configurations["data_dir"]
@@ -234,7 +245,7 @@ class TransferServiceTest:
 if __name__=="__main__":
   transfer=TransferServiceTest(configurations,log)
   transfer.print_directory_details()
-  print(transfer.reset(configurations))
+  # print(transfer.reset(configurations))
   workers,reporting_process=transfer.run()
   while(transfer.file_incomplete.value is not 0):
     if np.sum(transfer.process_status) == 0:
