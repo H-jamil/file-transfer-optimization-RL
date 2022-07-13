@@ -36,6 +36,8 @@ class TransferClass:
     while self.file_incomplete.value > 0:
         if (self.process_status[process_id] == 0):
           pass
+        elif (self.process_status[process_id]==1) and (q.empty()):
+          pass
         else:
           self.log.info(f"Start Process :: {process_id}")
           try:
@@ -89,9 +91,9 @@ class TransferClass:
             self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
             self.log.info(f"Process {process_id} shutdown itself ")
 
-        if (self.process_status[process_id]==1) and (q.empty()):
-          self.process_status[process_id] = 0
-          self.log.info(f"Process {process_id} shutdown itself because nothing in queue")
+        # if (self.process_status[process_id]==1) and (q.empty()):
+        #   self.process_status[process_id] = 0
+        #   self.log.info(f"Process {process_id} shutdown itself because nothing in queue")
 
 
     self.process_status[process_id] = 0

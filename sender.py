@@ -45,6 +45,16 @@ if __name__=="__main__":
   workers,reporting_process=transfer.run()
   while(transfer.file_incomplete.value != 0):
     if np.sum(transfer.process_status) == 0:
+      print("Changing concurrency to 8 ******")
+      transfer.change_concurrency([8])
+      time.sleep(5)
+      print("Changing concurrency to 6 ******")
+      transfer.change_concurrency([6])
+      time.sleep(5)
+      print("Changing concurrency to 4 ******")
+      transfer.change_concurrency([4])
+      time.sleep(5)
+      print("Changing concurrency to 8 ******")
       transfer.change_concurrency([8])
       time.sleep(5)
 
