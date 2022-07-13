@@ -1,0 +1,247 @@
+1657733841.992399 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733841.993069 -- INFO: Active CC: 8
+1657733842.016846 -- INFO: Start Process :: 0
+1657733842.018307 -- INFO: Start Process :: 2
+1657733842.019027 -- INFO: Process 0 get item 0 from queue and executing
+1657733842.019416 -- INFO: starting 0, 0, /home/hjamil/Documents/files_processed_small/7g.img
+1657733842.020518 -- INFO: Process 2 get item 1 from queue and executing
+1657733842.020722 -- INFO: starting 2, 1, /home/hjamil/Documents/files_processed_small/5g.img
+1657733842.021884 -- INFO: Start Process :: 7
+1657733842.025014 -- INFO: Process 7 get item 2 from queue and executing
+1657733842.025244 -- INFO: starting 7, 2, /home/hjamil/Documents/files_processed_small/input4.txt
+1657733842.025840 -- INFO: Start Process :: 4
+1657733842.027736 -- INFO: Start Process :: 1
+1657733842.028464 -- INFO: Process 4 get item 3 from queue and executing
+1657733842.028724 -- INFO: starting 4, 3, /home/hjamil/Documents/files_processed_small/1g.img
+1657733842.029915 -- INFO: Process 1 get item 4 from queue and executing
+1657733842.030214 -- INFO: starting 1, 4, /home/hjamil/Documents/files_processed_small/6g.img
+1657733842.034020 -- INFO: Start Process :: 3
+1657733842.035171 -- INFO: Start Process :: 5
+1657733842.035797 -- INFO: Start Process :: 6
+1657733842.037129 -- INFO: Process 3 get item 5 from queue and executing
+1657733842.037549 -- INFO: starting 3, 5, /home/hjamil/Documents/files_processed_small/3g.img
+1657733842.039383 -- INFO: Process 6 get item 6 from queue and executing
+1657733842.039775 -- INFO: starting 6, 6, /home/hjamil/Documents/files_processed_small/4g.img
+1657733842.039969 -- INFO: Process 5 get item 7 from queue and executing
+1657733842.040364 -- INFO: starting 5, 7, /home/hjamil/Documents/files_processed_small/input1.txt
+1657733842.050202 -- INFO: Throughput @0.1s:83.89Mbps, rtt :2.19ms cwnd: 21.8 lossRate: 0.021079691516709513 CC:8 goodput:815Mbps score:-54.0 
+1657733843.053576 -- INFO: Throughput @1.1s:696.25Mbps, rtt :4.32ms cwnd: 73.0 lossRate: 0.0008800091260205661 CC:8 goodput:956Mbps score:-588.0 
+1657733844.049493 -- INFO: Throughput @2.1s:889.19Mbps, rtt :4.46ms cwnd: 80.1 lossRate: 0.00016014306113461358 CC:8 goodput:879Mbps score:-757.0 
+1657733845.053583 -- INFO: Throughput @3.1s:872.42Mbps, rtt :4.64ms cwnd: 77.5 lossRate: 0.0001986491855383393 CC:8 goodput:872Mbps score:-743.0 
+1657733846.052830 -- INFO: Throughput @4.1s:872.42Mbps, rtt :4.7ms cwnd: 85.8 lossRate: 0.0001062685139676678 CC:8 goodput:841Mbps score:-744.0 
+1657733847.003312 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733847.011673 -- INFO: Active CC: 6
+1657733847.055264 -- INFO: Throughput @5.1s:880.8Mbps, rtt :4.96ms cwnd: 88.6 lossRate: 0.00022519837327292718 CC:6 goodput:905Mbps score:-780.0 
+1657733848.057389 -- INFO: Throughput @6.1s:864.03Mbps, rtt :4.24ms cwnd: 90.7 lossRate: 0 CC:6 goodput:867Mbps score:-767.0 
+1657733849.057610 -- INFO: Throughput @7.1s:872.42Mbps, rtt :4.7ms cwnd: 104.2 lossRate: 3.9643211100099105e-05 CC:6 goodput:936Mbps score:-774.0 
+1657733850.059554 -- INFO: Throughput @8.1s:880.8Mbps, rtt :4.03ms cwnd: 87.3 lossRate: 0.00018516559094275737 CC:6 goodput:895Mbps score:-780.0 
+1657733851.059356 -- INFO: Throughput @9.1s:880.8Mbps, rtt :4.02ms cwnd: 80.7 lossRate: 0.00031798608810864525 CC:6 goodput:929Mbps score:-779.0 
+1657733852.021385 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733852.028009 -- INFO: Active CC: 4
+1657733852.061446 -- INFO: Throughput @10.1s:872.42Mbps, rtt :4.73ms cwnd: 97.0 lossRate: 9.248616010675546e-05 CC:4 goodput:772Mbps score:-805.0 
+1657733853.061912 -- INFO: Throughput @11.1s:880.8Mbps, rtt :3.32ms cwnd: 99.5 lossRate: 0 CC:4 goodput:669Mbps score:-814.0 
+1657733854.064414 -- INFO: Throughput @12.1s:864.03Mbps, rtt :2.78ms cwnd: 92.8 lossRate: 0.00023734177215189873 CC:4 goodput:976Mbps score:-796.0 
+1657733855.062651 -- INFO: Throughput @13.1s:880.8Mbps, rtt :5.07ms cwnd: 102.5 lossRate: 0.00022536555618893589 CC:4 goodput:868Mbps score:-812.0 
+1657733856.064909 -- INFO: Throughput @14.1s:889.19Mbps, rtt :2.69ms cwnd: 89.8 lossRate: 0.0002632410234810993 CC:4 goodput:914Mbps score:-819.0 
+1657733857.032464 -- INFO: Start Process :: 5
+1657733857.032798 -- INFO: Start Process :: 7
+1657733857.033336 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733857.033185 -- INFO: Start Process :: 6
+1657733857.034128 -- INFO: Start Process :: 4
+1657733857.035558 -- INFO: Process 7 get item 8 from queue and executing
+1657733857.036056 -- INFO: starting 7, 8, /home/hjamil/Documents/files_processed_small/2g.img
+1657733857.036309 -- INFO: Active CC: 8
+1657733857.036851 -- INFO: Process 4 get item 10 from queue and executing
+1657733857.036974 -- INFO: Process 5 get item 9 from queue and executing
+1657733857.037202 -- INFO: Process 6 get item 11 from queue and executing
+1657733857.037891 -- INFO: starting 5, 9, /home/hjamil/Documents/files_processed_small/input2.txt
+1657733857.038143 -- INFO: starting 6, 11, /home/hjamil/Documents/files_processed_small/8g.img
+1657733857.038798 -- INFO: starting 4, 10, /home/hjamil/Documents/files_processed_small/input3.txt
+1657733857.065071 -- INFO: Throughput @15.1s:872.42Mbps, rtt :3.97ms cwnd: 72.4 lossRate: 5.2789252108270755e-05 CC:8 goodput:870Mbps score:-744.0 
+1657733858.066322 -- INFO: Throughput @16.1s:880.8Mbps, rtt :6.03ms cwnd: 101.1 lossRate: 0.00029175397183248017 CC:8 goodput:774Mbps score:-749.0 
+1657733859.066101 -- INFO: Throughput @17.1s:864.03Mbps, rtt :6.79ms cwnd: 98.6 lossRate: 0.00011964425774031879 CC:8 goodput:767Mbps score:-736.0 
+1657733860.068134 -- INFO: Throughput @18.1s:880.8Mbps, rtt :7.14ms cwnd: 97.4 lossRate: 0.0001325925827709198 CC:8 goodput:873Mbps score:-751.0 
+1657733861.065824 -- INFO: Throughput @19.1s:880.8Mbps, rtt :5.07ms cwnd: 101.0 lossRate: 0.00010615711252653928 CC:8 goodput:785Mbps score:-751.0 
+1657733862.071266 -- INFO: Throughput @20.1s:872.42Mbps, rtt :4.16ms cwnd: 67.2 lossRate: 0.0003176535987505625 CC:8 goodput:822Mbps score:-742.0 
+1657733863.071767 -- INFO: Throughput @21.1s:872.42Mbps, rtt :4.78ms cwnd: 92.8 lossRate: 9.289240405541695e-05 CC:8 goodput:834Mbps score:-744.0 
+1657733864.072033 -- INFO: Throughput @22.1s:872.42Mbps, rtt :4.46ms cwnd: 70.9 lossRate: 0.0004255658696172567 CC:8 goodput:848Mbps score:-741.0 
+1657733865.071668 -- INFO: Throughput @23.1s:872.42Mbps, rtt :4.11ms cwnd: 70.9 lossRate: 0.000226120961413123 CC:8 goodput:675Mbps score:-743.0 
+1657733866.075904 -- INFO: Throughput @24.1s:872.42Mbps, rtt :4.87ms cwnd: 88.0 lossRate: 0.0001456799279546538 CC:8 goodput:873Mbps score:-743.0 
+1657733867.076184 -- INFO: Throughput @25.1s:872.42Mbps, rtt :4.49ms cwnd: 89.6 lossRate: 0.00014580737520214206 CC:8 goodput:952Mbps score:-743.0 
+1657733868.076469 -- INFO: Throughput @26.1s:872.42Mbps, rtt :4.83ms cwnd: 92.9 lossRate: 0.00013266118333775536 CC:8 goodput:950Mbps score:-743.0 
+1657733869.078165 -- INFO: Throughput @27.1s:872.42Mbps, rtt :6.51ms cwnd: 88.4 lossRate: 0.0002125963327132607 CC:8 goodput:873Mbps score:-743.0 
+1657733870.077875 -- INFO: Throughput @28.1s:864.03Mbps, rtt :5.84ms cwnd: 81.0 lossRate: 0.00015937313234610533 CC:8 goodput:862Mbps score:-736.0 
+1657733871.079784 -- INFO: Throughput @29.1s:880.8Mbps, rtt :7.52ms cwnd: 88.9 lossRate: 0.00014597958939922763 CC:8 goodput:852Mbps score:-750.0 
+1657733872.077996 -- INFO: Throughput @30.1s:864.03Mbps, rtt :7.87ms cwnd: 96.9 lossRate: 0.0001599914671217535 CC:8 goodput:908Mbps score:-736.0 
+1657733873.081109 -- INFO: Throughput @31.1s:880.8Mbps, rtt :7.5ms cwnd: 81.6 lossRate: 0.00024066423328386347 CC:8 goodput:813Mbps score:-750.0 
+1657733874.082547 -- INFO: Throughput @32.1s:847.25Mbps, rtt :8.06ms cwnd: 90.9 lossRate: 0.0001628112068380707 CC:8 goodput:1016Mbps score:-722.0 
+1657733875.084070 -- INFO: Throughput @33.1s:864.03Mbps, rtt :10.07ms cwnd: 97.0 lossRate: 0.00013287270794578793 CC:8 goodput:976Mbps score:-736.0 
+1657733876.085848 -- INFO: Throughput @34.1s:880.8Mbps, rtt :4.85ms cwnd: 94.2 lossRate: 0.00015905415794077884 CC:8 goodput:859Mbps score:-750.0 
+1657733877.085457 -- INFO: Throughput @35.1s:872.42Mbps, rtt :4.93ms cwnd: 89.0 lossRate: 0.0002524514363158035 CC:8 goodput:896Mbps score:-742.0 
+1657733878.085960 -- INFO: Throughput @36.1s:872.42Mbps, rtt :4.49ms cwnd: 76.2 lossRate: 0.0010101278609213429 CC:8 goodput:845Mbps score:-736.0 
+1657733879.087423 -- INFO: Throughput @37.1s:872.42Mbps, rtt :4.63ms cwnd: 70.6 lossRate: 0.0001592758259115223 CC:8 goodput:728Mbps score:-743.0 
+1657733880.087505 -- INFO: Throughput @38.1s:872.42Mbps, rtt :4.56ms cwnd: 80.4 lossRate: 0.00014633108072154526 CC:8 goodput:922Mbps score:-743.0 
+1657733881.090904 -- INFO: Throughput @39.1s:872.42Mbps, rtt :4.81ms cwnd: 91.5 lossRate: 7.941024656881559e-05 CC:8 goodput:809Mbps score:-744.0 
+1657733882.090463 -- INFO: Throughput @40.1s:872.42Mbps, rtt :4.53ms cwnd: 83.6 lossRate: 0.00019937529075563236 CC:8 goodput:966Mbps score:-743.0 
+1657733883.091762 -- INFO: Throughput @41.1s:872.42Mbps, rtt :4.93ms cwnd: 82.4 lossRate: 0.00015913219907438104 CC:8 goodput:959Mbps score:-743.0 
+1657733884.091319 -- INFO: Throughput @42.1s:872.42Mbps, rtt :4.35ms cwnd: 76.1 lossRate: 0.00022627445760681485 CC:8 goodput:951Mbps score:-743.0 
+1657733885.093211 -- INFO: Throughput @43.1s:864.03Mbps, rtt :8.96ms cwnd: 90.5 lossRate: 0.0001327703868929074 CC:8 goodput:1021Mbps score:-736.0 
+1657733886.096103 -- INFO: Throughput @44.1s:864.03Mbps, rtt :7.07ms cwnd: 90.0 lossRate: 0.00022520433982010148 CC:8 goodput:931Mbps score:-735.0 
+1657733887.095728 -- INFO: Throughput @45.1s:880.8Mbps, rtt :9.2ms cwnd: 90.0 lossRate: 0.00014609785900228443 CC:8 goodput:940Mbps score:-750.0 
+1657733888.095703 -- INFO: Throughput @46.1s:872.42Mbps, rtt :6.67ms cwnd: 66.8 lossRate: 0.00045392646391284613 CC:8 goodput:813Mbps score:-741.0 
+1657733889.097660 -- INFO: Throughput @47.1s:864.03Mbps, rtt :7.71ms cwnd: 85.1 lossRate: 0.0001590056844532192 CC:8 goodput:843Mbps score:-736.0 
+1657733890.093381 -- INFO: Throughput @48.1s:864.03Mbps, rtt :7.55ms cwnd: 89.8 lossRate: 0.00018700077471749525 CC:8 goodput:853Mbps score:-736.0 
+1657733891.097375 -- INFO: Throughput @49.1s:880.8Mbps, rtt :7.84ms cwnd: 85.1 lossRate: 0.00025205959219411244 CC:8 goodput:872Mbps score:-750.0 
+1657733892.100975 -- INFO: Throughput @50.1s:855.64Mbps, rtt :9.2ms cwnd: 103.1 lossRate: 0.00013266822330715346 CC:8 goodput:926Mbps score:-729.0 
+1657733893.101100 -- INFO: Throughput @51.1s:905.97Mbps, rtt :4.42ms cwnd: 80.1 lossRate: 0.0002516822974619827 CC:8 goodput:855Mbps score:-771.0 
+1657733894.103936 -- INFO: Throughput @52.1s:872.42Mbps, rtt :4.71ms cwnd: 75.4 lossRate: 0.00030530703268112674 CC:8 goodput:833Mbps score:-742.0 
+1657733895.102135 -- INFO: Throughput @53.1s:872.42Mbps, rtt :5.18ms cwnd: 92.6 lossRate: 3.987293823681867e-05 CC:8 goodput:821Mbps score:-744.0 
+1657733896.105335 -- INFO: Throughput @54.1s:872.42Mbps, rtt :4.48ms cwnd: 74.4 lossRate: 0.0003052908226923996 CC:8 goodput:834Mbps score:-742.0 
+1657733897.105462 -- INFO: Throughput @55.1s:872.42Mbps, rtt :4.49ms cwnd: 77.6 lossRate: 0.00011949969461189155 CC:8 goodput:852Mbps score:-744.0 
+1657733898.106109 -- INFO: Throughput @56.1s:872.42Mbps, rtt :4.6ms cwnd: 78.8 lossRate: 0.0001594514868851152 CC:8 goodput:877Mbps score:-743.0 
+1657733899.105206 -- INFO: Throughput @57.1s:872.42Mbps, rtt :4.92ms cwnd: 88.9 lossRate: 9.295654945288431e-05 CC:8 goodput:994Mbps score:-744.0 
+1657733900.107644 -- INFO: Throughput @58.1s:872.42Mbps, rtt :4.75ms cwnd: 92.5 lossRate: 9.270418095856123e-05 CC:8 goodput:882Mbps score:-744.0 
+1657733901.109378 -- INFO: Throughput @59.1s:864.03Mbps, rtt :8.75ms cwnd: 88.6 lossRate: 0.00029214139643587495 CC:8 goodput:705Mbps score:-735.0 
+1657733902.110480 -- INFO: Throughput @60.1s:864.03Mbps, rtt :4.71ms cwnd: 85.9 lossRate: 0.00011915164032091509 CC:8 goodput:869Mbps score:-736.0 
+1657733903.111426 -- INFO: Throughput @61.1s:864.03Mbps, rtt :5.15ms cwnd: 95.8 lossRate: 9.289240405541695e-05 CC:8 goodput:830Mbps score:-737.0 
+1657733904.111232 -- INFO: Throughput @62.1s:889.19Mbps, rtt :7.68ms cwnd: 69.1 lossRate: 0.00016001280102408193 CC:8 goodput:687Mbps score:-757.0 
+1657733905.113341 -- INFO: Throughput @63.1s:872.42Mbps, rtt :8.1ms cwnd: 85.5 lossRate: 0.0002922617070740618 CC:8 goodput:946Mbps score:-742.0 
+1657733905.743895 -- INFO: Process 1 finished on working on file 4 
+1657733905.744712 -- INFO: Process 1 get item 6 from queue and executing
+1657733905.745168 -- INFO: starting 1, 6, /home/hjamil/Documents/files_processed_small/4g.img
+1657733905.858940 -- INFO: Process 3 finished on working on file 5 
+1657733905.859746 -- INFO: Process 3 get item 2 from queue and executing
+1657733905.860306 -- INFO: starting 3, 2, /home/hjamil/Documents/files_processed_small/input4.txt
+1657733906.114722 -- INFO: Throughput @64.1s:864.03Mbps, rtt :8.97ms cwnd: 83.9 lossRate: 0.00017320862312468355 CC:8 goodput:1034Mbps score:-736.0 
+1657733907.115337 -- INFO: Throughput @65.1s:880.8Mbps, rtt :10.59ms cwnd: 89.5 lossRate: 0.00015967851392529708 CC:8 goodput:885Mbps score:-750.0 
+1657733908.117623 -- INFO: Throughput @66.1s:872.42Mbps, rtt :7.23ms cwnd: 83.6 lossRate: 0.00021304926764314247 CC:8 goodput:1128Mbps score:-743.0 
+1657733909.117657 -- INFO: Throughput @67.1s:864.03Mbps, rtt :9.11ms cwnd: 90.6 lossRate: 0.0001730357119088501 CC:8 goodput:984Mbps score:-736.0 
+1657733910.118068 -- INFO: Throughput @68.1s:872.42Mbps, rtt :4.94ms cwnd: 100.2 lossRate: 0.00010602205258693808 CC:8 goodput:898Mbps score:-744.0 
+1657733911.119352 -- INFO: Throughput @69.1s:880.8Mbps, rtt :5.33ms cwnd: 99.5 lossRate: 7.944073721004132e-05 CC:8 goodput:876Mbps score:-751.0 
+1657733912.120775 -- INFO: Throughput @70.1s:872.42Mbps, rtt :4.97ms cwnd: 100.9 lossRate: 6.606154293339676e-05 CC:8 goodput:828Mbps score:-744.0 
+1657733913.119821 -- INFO: Throughput @71.1s:872.42Mbps, rtt :4.57ms cwnd: 81.9 lossRate: 0.00021299538066268188 CC:8 goodput:808Mbps score:-743.0 
+1657733914.123141 -- INFO: Throughput @72.1s:872.42Mbps, rtt :4.62ms cwnd: 88.1 lossRate: 0.00025161563724970863 CC:8 goodput:905Mbps score:-742.0 
+1657733915.123741 -- INFO: Throughput @73.1s:872.42Mbps, rtt :4.52ms cwnd: 75.9 lossRate: 0.00026597159423373583 CC:8 goodput:865Mbps score:-742.0 
+1657733916.125421 -- INFO: Throughput @74.1s:872.42Mbps, rtt :4.71ms cwnd: 78.6 lossRate: 0.00017250530785562632 CC:8 goodput:785Mbps score:-743.0 
+1657733917.124193 -- INFO: Throughput @75.1s:872.42Mbps, rtt :4.48ms cwnd: 85.2 lossRate: 0.0002129897099346388 CC:8 goodput:826Mbps score:-743.0 
+1657733918.125017 -- INFO: Throughput @76.1s:872.42Mbps, rtt :4.46ms cwnd: 78.5 lossRate: 0.00019899177500663307 CC:8 goodput:843Mbps score:-743.0 
+1657733919.127644 -- INFO: Throughput @77.1s:872.42Mbps, rtt :4.87ms cwnd: 98.4 lossRate: 3.98316449141628e-05 CC:8 goodput:739Mbps score:-744.0 
+1657733919.965375 -- INFO: Process 6 finished on working on file 11 
+1657733919.965974 -- INFO: Process 6 get item 3 from queue and executing
+1657733919.966330 -- INFO: starting 6, 3, /home/hjamil/Documents/files_processed_small/1g.img
+1657733920.129284 -- INFO: Throughput @78.1s:822.08Mbps, rtt :12.71ms cwnd: 88.0 lossRate: 0.00042130097741826763 CC:8 goodput:342Mbps score:-698.0 
+1657733920.885414 -- INFO: Process 2 finished on working on file 1 
+1657733920.886129 -- INFO: Process 2 get item 7 from queue and executing
+1657733920.886578 -- INFO: starting 2, 7, /home/hjamil/Documents/files_processed_small/input1.txt
+1657733921.128063 -- INFO: Throughput @79.1s:754.97Mbps, rtt :4.64ms cwnd: 85.6 lossRate: 0.000228070975687634 CC:8 goodput:952Mbps score:-643.0 
+1657733921.729843 -- INFO: Process 0 finished on working on file 0 
+1657733922.129880 -- INFO: Throughput @80.1s:880.8Mbps, rtt :4.48ms cwnd: 87.7 lossRate: 0 CC:8 goodput:938Mbps score:-752.0 
+1657733923.130547 -- INFO: Throughput @81.1s:830.47Mbps, rtt :11.75ms cwnd: 106.7 lossRate: 0.00015402063876559458 CC:8 goodput:599Mbps score:-708.0 
+1657733924.132109 -- INFO: Throughput @82.1s:780.14Mbps, rtt :8.65ms cwnd: 86.9 lossRate: 0.00029618659755646057 CC:8 goodput:697Mbps score:-664.0 
+1657733925.132776 -- INFO: Throughput @83.1s:662.7Mbps, rtt :9.98ms cwnd: 85.3 lossRate: 0.00037737790966945123 CC:8 goodput:1414Mbps score:-563.0 
+1657733926.131831 -- INFO: Throughput @84.1s:637.53Mbps, rtt :15.38ms cwnd: 118.6 lossRate: 5.441683294032287e-05 CC:8 goodput:665Mbps score:-544.0 
+1657733927.134342 -- INFO: Throughput @85.1s:620.76Mbps, rtt :4.1ms cwnd: 74.1 lossRate: 0.0006504004608551836 CC:8 goodput:837Mbps score:-526.0 
+1657733928.136678 -- INFO: Throughput @86.1s:880.8Mbps, rtt :4.6ms cwnd: 92.1 lossRate: 0.00011917530687641521 CC:8 goodput:765Mbps score:-751.0 
+1657733928.825010 -- INFO: Process 4 finished on working on file 10 
+1657733929.136258 -- INFO: Throughput @87.1s:824.66Mbps, rtt :3.93ms cwnd: 79.7 lossRate: 0 CC:8 goodput:634Mbps score:-704.0 
+1657733930.135967 -- INFO: Throughput @88.1s:880.8Mbps, rtt :4.54ms cwnd: 96.3 lossRate: 0.00014641288433382137 CC:8 goodput:802Mbps score:-750.0 
+1657733931.138509 -- INFO: Throughput @89.1s:864.03Mbps, rtt :3.74ms cwnd: 71.0 lossRate: 0.0003179903012958105 CC:8 goodput:874Mbps score:-735.0 
+1657733932.138197 -- INFO: Throughput @90.1s:880.8Mbps, rtt :4.15ms cwnd: 89.5 lossRate: 0.00027797265278568307 CC:8 goodput:781Mbps score:-749.0 
+1657733933.137661 -- INFO: Throughput @91.1s:872.42Mbps, rtt :4.31ms cwnd: 87.8 lossRate: 0.00011911221694305112 CC:8 goodput:789Mbps score:-744.0 
+1657733934.138307 -- INFO: Throughput @92.1s:864.03Mbps, rtt :3.76ms cwnd: 75.5 lossRate: 0.0002515756580689582 CC:8 goodput:942Mbps score:-735.0 
+1657733935.142777 -- INFO: Throughput @93.1s:796.92Mbps, rtt :12.38ms cwnd: 81.2 lossRate: 0.00019398352632207235 CC:8 goodput:302Mbps score:-679.0 
+1657733936.145751 -- INFO: Throughput @94.1s:704.64Mbps, rtt :3.94ms cwnd: 80.8 lossRate: 0.0002758396884634107 CC:8 goodput:870Mbps score:-599.0 
+1657733937.145024 -- INFO: Throughput @95.1s:729.81Mbps, rtt :3.7ms cwnd: 70.2 lossRate: 0.0007041151619464872 CC:8 goodput:844Mbps score:-618.0 
+1657733938.148432 -- INFO: Throughput @96.1s:796.92Mbps, rtt :8.63ms cwnd: 111.2 lossRate: 7.299696332632563e-05 CC:8 goodput:1119Mbps score:-680.0 
+1657733939.144777 -- INFO: Throughput @97.1s:704.64Mbps, rtt :8.07ms cwnd: 101.7 lossRate: 0.0003784139519578809 CC:8 goodput:1115Mbps score:-599.0 
+1657733940.073466 -- INFO: Process 7 finished on working on file 8 
+1657733940.147590 -- INFO: Throughput @98.1s:721.42Mbps, rtt :9.9ms cwnd: 101.6 lossRate: 0 CC:8 goodput:763Mbps score:-616.0 
+1657733941.147084 -- INFO: Throughput @99.1s:520.09Mbps, rtt :13.3ms cwnd: 93.4 lossRate: 0.00035365368462932675 CC:8 goodput:472Mbps score:-442.0 
+1657733942.145247 -- INFO: Throughput @100.1s:494.93Mbps, rtt :8.07ms cwnd: 88.2 lossRate: 0.0007173772687056123 CC:8 goodput:695Mbps score:-419.0 
+1657733943.147998 -- INFO: Throughput @101.1s:746.59Mbps, rtt :3.43ms cwnd: 78.4 lossRate: 0.00047708455169441966 CC:8 goodput:893Mbps score:-634.0 
+1657733944.145661 -- INFO: Throughput @102.2s:709.22Mbps, rtt :13.04ms cwnd: 95.6 lossRate: 0.00016449828024525198 CC:8 goodput:471Mbps score:-604.0 
+1657733945.147451 -- INFO: Throughput @103.2s:713.03Mbps, rtt :3.38ms cwnd: 86.4 lossRate: 0.00022554089539735472 CC:8 goodput:936Mbps score:-607.0 
+1657733946.148793 -- INFO: Throughput @104.2s:880.8Mbps, rtt :3.5ms cwnd: 89.4 lossRate: 0.00019805379140974688 CC:8 goodput:898Mbps score:-750.0 
+1657733947.150147 -- INFO: Throughput @105.2s:880.8Mbps, rtt :3.59ms cwnd: 81.6 lossRate: 0.00019809040846242225 CC:8 goodput:913Mbps score:-750.0 
+1657733948.151481 -- INFO: Throughput @106.2s:872.42Mbps, rtt :3.6ms cwnd: 102.0 lossRate: 0.0001451474566207033 CC:8 goodput:769Mbps score:-743.0 
+1657733949.151309 -- INFO: Throughput @107.2s:880.8Mbps, rtt :3.47ms cwnd: 102.0 lossRate: 9.246783440331827e-05 CC:8 goodput:936Mbps score:-751.0 
+1657733950.153740 -- INFO: Throughput @108.2s:872.42Mbps, rtt :3.58ms cwnd: 89.8 lossRate: 0.00014489126569106547 CC:8 goodput:885Mbps score:-743.0 
+1657733951.157890 -- INFO: Throughput @109.2s:864.03Mbps, rtt :3.53ms cwnd: 79.0 lossRate: 0.0001981924845409862 CC:8 goodput:891Mbps score:-736.0 
+1657733952.161047 -- INFO: Throughput @110.2s:880.8Mbps, rtt :3.56ms cwnd: 87.2 lossRate: 0.00027688413058382996 CC:8 goodput:867Mbps score:-749.0 
+1657733953.125170 -- INFO: Process 5 finished on working on file 9 
+1657733953.162085 -- INFO: Throughput @111.2s:884.67Mbps, rtt :3.78ms cwnd: 94.0 lossRate: 0.000144740651069765 CC:8 goodput:888Mbps score:-754.0 
+1657733954.159891 -- INFO: Throughput @112.2s:620.76Mbps, rtt :2.72ms cwnd: 78.2 lossRate: 0 CC:8 goodput:930Mbps score:-530.0 
+1657733955.173050 -- INFO: Throughput @113.2s:562.04Mbps, rtt :10.6ms cwnd: 82.8 lossRate: 0.00026483050847457627 CC:8 goodput:661Mbps score:-478.0 
+1657733955.648306 -- INFO: Process 2 finished on working on file 7 
+1657733956.157453 -- INFO: Throughput @114.2s:572.57Mbps, rtt :9.58ms cwnd: 86.3 lossRate: 0 CC:8 goodput:300Mbps score:-489.0 
+1657733957.163468 -- INFO: Throughput @115.2s:662.7Mbps, rtt :2.58ms cwnd: 88.0 lossRate: 0.0002772002772002772 CC:8 goodput:918Mbps score:-564.0 
+1657733957.635929 -- INFO: Process 3 finished on working on file 2 
+1657733958.158514 -- INFO: Throughput @116.2s:656.89Mbps, rtt :10.37ms cwnd: 126.5 lossRate: 0 CC:8 goodput:267Mbps score:-561.0 
+1657733959.167867 -- INFO: Throughput @117.2s:612.37Mbps, rtt :2.47ms cwnd: 114.5 lossRate: 0.0006624588263437793 CC:8 goodput:933Mbps score:-519.0 
+1657733960.164060 -- INFO: Throughput @118.2s:880.8Mbps, rtt :2.67ms cwnd: 169.0 lossRate: 0.00013315579227696404 CC:8 goodput:927Mbps score:-751.0 
+1657733961.164001 -- INFO: Throughput @119.2s:301.99Mbps, rtt :7.37ms cwnd: 71.0 lossRate: 0.0017443212652143577 CC:8 goodput:286Mbps score:-252.0 
+1657733962.165172 -- INFO: Throughput @120.2s:260.05Mbps, rtt :7.44ms cwnd: 85.5 lossRate: 0.0003045331941181589 CC:8 goodput:179Mbps score:-221.0 
+1657733963.110311 -- INFO: Process 1 finished on working on file 6 
+1657733963.168021 -- INFO: Throughput @121.2s:570.43Mbps, rtt :2.07ms cwnd: 72.0 lossRate: 0 CC:8 goodput:272Mbps score:-487.0 
+1657733963.604584 -- INFO: Process 6 finished on working on file 3 
+1657733963.604757 -- INFO: Process 15 shutdown itself from outest loop
+1657733963.604786 -- INFO: Process 8 shutdown itself from outest loop
+1657733963.604771 -- INFO: Process 10 shutdown itself from outest loop
+1657733963.605054 -- INFO: Process 6 shutdown itself from outest loop
+1657733963.609171 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.605247 -- INFO: Process 29 shutdown itself from outest loop
+1657733963.609289 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.609308 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.605307 -- INFO: Process 26 shutdown itself from outest loop
+1657733963.609570 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.605479 -- INFO: Process 21 shutdown itself from outest loop
+1657733963.605325 -- INFO: Process 19 shutdown itself from outest loop
+1657733963.609719 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.605695 -- INFO: Process 27 shutdown itself from outest loop
+1657733963.609974 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.609958 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.610002 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.605758 -- INFO: Process 31 shutdown itself from outest loop
+1657733963.605948 -- INFO: Process 13 shutdown itself from outest loop
+1657733963.605978 -- INFO: Process 25 shutdown itself from outest loop
+1657733963.610322 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.610367 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.610401 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.606143 -- INFO: Process 23 shutdown itself from outest loop
+1657733963.606199 -- INFO: Process 14 shutdown itself from outest loop
+1657733963.606483 -- INFO: Process 28 shutdown itself from outest loop
+1657733963.606413 -- INFO: Process 20 shutdown itself from outest loop
+1657733963.606771 -- INFO: Process 11 shutdown itself from outest loop
+1657733963.606658 -- INFO: Process 18 shutdown itself from outest loop
+1657733963.610826 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.607155 -- INFO: Process 3 shutdown itself from outest loop
+1657733963.610951 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.611020 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.607290 -- INFO: Process 7 shutdown itself from outest loop
+1657733963.611145 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.607175 -- INFO: Process 22 shutdown itself from outest loop
+1657733963.607252 -- INFO: Process 24 shutdown itself from outest loop
+1657733963.611522 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.611617 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.611629 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.607775 -- INFO: Process 2 shutdown itself from outest loop
+1657733963.607788 -- INFO: Process 1 shutdown itself from outest loop
+1657733963.611930 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.607658 -- INFO: Process 17 shutdown itself from outest loop
+1657733963.607905 -- INFO: Process 16 shutdown itself from outest loop
+1657733963.614010 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.614502 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.614652 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.607508 -- INFO: Process 9 shutdown itself from outest loop
+1657733963.608257 -- INFO: Process 4 shutdown itself from outest loop
+1657733963.608369 -- INFO: Process 5 shutdown itself from outest loop
+1657733963.608257 -- INFO: Process 30 shutdown itself from outest loop
+1657733963.608692 -- INFO: Process 12 shutdown itself from outest loop
+1657733963.615295 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.609062 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.615346 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.615528 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.611349 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.611357 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.615895 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1657733963.616274 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -43,8 +43,10 @@ configurations["cpu_count"] = mp.cpu_count()
 if __name__=="__main__":
   transfer=TransferClass(configurations,log)
   workers,reporting_process=transfer.run()
+  start_time=time.time()
   while(transfer.file_incomplete.value != 0):
     if np.sum(transfer.process_status) == 0:
+      print("Starting transfer *********")
       print("Changing concurrency to 8 ******")
       transfer.change_concurrency([8])
       time.sleep(5)
@@ -57,6 +59,12 @@ if __name__=="__main__":
       print("Changing concurrency to 8 ******")
       transfer.change_concurrency([8])
       time.sleep(5)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
 
   for p in workers:
     if p.is_alive():
@@ -67,7 +75,11 @@ if __name__=="__main__":
     reporting_process.terminate()
     reporting_process.join(timeout=0.1)
 
+  # if throughput_process.is_alive():
+  #   throughput_process.terminate()
+  #   throughput_process.join(timeout=0.1)
 
+  # transfer.transfer_throughput.value=transfer_throughput
   list_main=[]
   for i in range(len(transfer.throughput_logs)):
     list_main.append(transfer.throughput_logs[i])

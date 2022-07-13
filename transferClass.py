@@ -30,7 +30,18 @@ class TransferClass:
     for i in range(self.file_count):
       self.q.put(i)
     self.throughput_logs=manager.list()
+    self.transfer_throughput=mp.Value("i", 0)
 
+  # def throughput_calculation(self,start_time):
+  #   # while (np.sum(self.process_status) ==0):
+  #   #   pass
+  #   start_time=time.time()
+  #   while self.file_incomplete.value > 0:
+  #     time.sleep(0.1)
+  #   end_time=time.time()
+  #   total_bytes = np.sum(self.file_sizes)
+  #   self.transfer_throughput.value=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  #   self.log.info(f"Transfer service has finished and Throughput is  {self.transfer_throughput.value} Mbps ")
 
   def worker(self,process_id,q):
     while self.file_incomplete.value > 0:
@@ -206,6 +217,9 @@ class TransferClass:
     reporting_process = mp.Process(target=self.monitor,args=(time.time(),))
     reporting_process.daemon = True
     reporting_process.start()
+    # throughput_process = mp.Process(target=self.throughput_calculation,args=(time.time(),))
+    # throughput_process.daemon = True
+    # throughput_process.start()
     self.transfer_status.value=0
     return workers,reporting_process
 
@@ -215,6 +229,7 @@ class TransferClass:
     self.process_status = mp.Array("i", [0 for i in range(configurations["thread_limit"])])
     self.file_offsets = mp.Array("d", [0.0 for i in range(self.file_count)])
     self.transfer_status=mp.Value("i", 0)
+    self.transfer_throughput=0
     manager=mp.Manager()
     self.q = manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
