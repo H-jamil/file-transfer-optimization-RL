@@ -9,6 +9,7 @@ import pandas as pd
 import re
 from config import configurations
 from transferClass import *
+from transferEnv import *
 
 
 log_FORMAT = '%(created)f -- %(levelname)s: %(message)s'
@@ -36,53 +37,65 @@ else:
           log.StreamHandler()
       ]
   )
-
 configurations["thread_limit"] = configurations["max_cc"]
 configurations["cpu_count"] = mp.cpu_count()
 
+# if __name__=="__main__":
+#   transfer=TransferClass(configurations,log)
+#   workers,reporting_process=transfer.run()
+#   start_time=time.time()
+#   while(transfer.file_incomplete.value != 0):
+#     if np.sum(transfer.process_status) == 0:
+#       print("Starting transfer *********")
+#       print("Changing concurrency to 8 ******")
+#       transfer.change_concurrency([8])
+#       time.sleep(5)
+#       print("Changing concurrency to 6 ******")
+#       transfer.change_concurrency([6])
+#       time.sleep(5)
+#       print("Changing concurrency to 4 ******")
+#       transfer.change_concurrency([4])
+#       time.sleep(5)
+#       print("Changing concurrency to 8 ******")
+#       transfer.change_concurrency([8])
+#       time.sleep(5)
+#   end_time=time.time()
+#   total_bytes = np.sum(transfer.file_sizes)
+#   print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+#   transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+
+#   print(f"transfer_throughput {transfer_throughput} Mbps#############")
+
+#   for p in workers:
+#     if p.is_alive():
+#       p.terminate()
+#       p.join(timeout=0.1)
+
+#   if reporting_process.is_alive():
+#     reporting_process.terminate()
+#     reporting_process.join(timeout=0.1)
+
+#   list_main=[]
+#   for i in range(len(transfer.throughput_logs)):
+#     list_main.append(transfer.throughput_logs[i])
+
+#   df = pd.DataFrame(list_main, columns = ['curr_thrpt','goodput','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+#   mod_df=df.dropna(axis=0, how='any')
+#   mod_df.to_csv('record.csv', sep='\t', encoding='utf-8')
+
 if __name__=="__main__":
   transfer=TransferClass(configurations,log)
-  workers,reporting_process=transfer.run()
-  start_time=time.time()
-  while(transfer.file_incomplete.value != 0):
-    if np.sum(transfer.process_status) == 0:
-      print("Starting transfer *********")
-      print("Changing concurrency to 8 ******")
-      transfer.change_concurrency([8])
-      time.sleep(5)
-      print("Changing concurrency to 6 ******")
-      transfer.change_concurrency([6])
-      time.sleep(5)
-      print("Changing concurrency to 4 ******")
-      transfer.change_concurrency([4])
-      time.sleep(5)
-      print("Changing concurrency to 8 ******")
-      transfer.change_concurrency([8])
-      time.sleep(5)
-  end_time=time.time()
-  total_bytes = np.sum(transfer.file_sizes)
-  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
-  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-
-  print(f"transfer_throughput {transfer_throughput} Mbps#############")
-
-  for p in workers:
-    if p.is_alive():
-      p.terminate()
-      p.join(timeout=0.1)
-
-  if reporting_process.is_alive():
-    reporting_process.terminate()
-    reporting_process.join(timeout=0.1)
-
-  # if throughput_process.is_alive():
-  #   throughput_process.terminate()
-  #   throughput_process.join(timeout=0.1)
-
-  # transfer.transfer_throughput.value=transfer_throughput
+  transferEnvironment=transferEnv(transfer)
+  transferEnvironment.reset()
+  done=False
+  while(not done):
+    state,score,done,_=transferEnvironment.step(8)
+    print("state:*********",state)
+    print(f"score{score}  done {done} ********")
+  transferEnvironment.close()
   list_main=[]
-  for i in range(len(transfer.throughput_logs)):
-    list_main.append(transfer.throughput_logs[i])
+  for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
+    list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])
 
   df = pd.DataFrame(list_main, columns = ['curr_thrpt','goodput','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
   mod_df=df.dropna(axis=0, how='any')

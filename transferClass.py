@@ -17,6 +17,7 @@ class TransferClass:
     self.file_names = os.listdir(self.root) * configurations["multiplier"]
     self.file_sizes = [os.path.getsize(self.root+filename) for filename in self.file_names]
     self.file_count = len(self.file_names)
+    self.configurations=configurations
     self.chunk_size=  1 * 1024 * 1024
     self.B=int(configurations["B"])
     self.K=float(configurations["K"])
@@ -234,5 +235,5 @@ class TransferClass:
     self.q = manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
-    return np.zeros([3,7],dtype = int)#curr_thrpt,goodput,cc_level,cwnd,rtt,packet_loss_rate,score
+    return np.zeros([3,7],dtype = np.float32)#curr_thrpt,goodput,cc_level,cwnd,rtt,packet_loss_rate,score
 
