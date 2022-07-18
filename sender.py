@@ -84,14 +84,14 @@ configurations["cpu_count"] = mp.cpu_count()
 #   mod_df.to_csv('record.csv', sep='\t', encoding='utf-8')
 
 if __name__=="__main__":
-  transfer=TransferClass(configurations,log)
+  transfer=TransferClass(configurations,log,transfer_emu=False)
   transferEnvironment=transferEnv(transfer)
   transferEnvironment.reset()
   done=False
   while(not done):
-    state,score,done,_=transferEnvironment.step(8)
+    state,score,done,_=transferEnvironment.step(12)
     print("state:*********",state)
-    print(f"score{score}  done {done} ********")
+    print(f"score {score}  done {done} ********")
   transferEnvironment.close()
   list_main=[]
   for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
