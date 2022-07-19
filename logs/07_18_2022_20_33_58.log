@@ -1,0 +1,337 @@
+1658190838.694987 -- INFO: Changing concurrency to 8 ******
+1658190838.698348 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190838.710352 -- INFO: Start Process :: 1
+1658190838.711797 -- INFO: Start Process :: 7
+1658190838.712408 -- INFO: Process 1 get item 0 from queue and executing
+1658190838.712459 -- INFO: Start Process :: 3
+1658190838.712713 -- INFO: starting 1, 0, /home/hjamil/Documents/files_processed_small/7g.img
+1658190838.713648 -- INFO: Active CC: 8
+1658190838.713843 -- INFO: Process 3 get item 1 from queue and executing
+1658190838.716160 -- INFO: starting 3, 1, /home/hjamil/Documents/files_processed_small/5g.img
+1658190838.713935 -- INFO: Start Process :: 2
+1658190838.714322 -- INFO: Process 7 get item 2 from queue and executing
+1658190838.716873 -- INFO: starting 7, 2, /home/hjamil/Documents/files_processed_small/input4.txt
+1658190838.718444 -- INFO: Process 2 get item 3 from queue and executing
+1658190838.718696 -- INFO: starting 2, 3, /home/hjamil/Documents/files_processed_small/1g.img
+1658190838.718871 -- INFO: Start Process :: 0
+1658190838.720514 -- INFO: Start Process :: 6
+1658190838.720795 -- INFO: Process 0 get item 4 from queue and executing
+1658190838.721041 -- INFO: starting 0, 4, /home/hjamil/Documents/files_processed_small/6g.img
+1658190838.724987 -- INFO: Start Process :: 5
+1658190838.725304 -- INFO: Start Process :: 4
+1658190838.726054 -- INFO: Process 6 get item 5 from queue and executing
+1658190838.726344 -- INFO: starting 6, 5, /home/hjamil/Documents/files_processed_small/3g.img
+1658190838.727882 -- INFO: Process 5 get item 6 from queue and executing
+1658190838.728092 -- INFO: starting 5, 6, /home/hjamil/Documents/files_processed_small/4g.img
+1658190838.728598 -- INFO: Process 4 get item 7 from queue and executing
+1658190838.728793 -- INFO: starting 4, 7, /home/hjamil/Documents/files_processed_small/input1.txt
+1658190838.762760 -- INFO: Throughput @0.1s:83.89Mbps, rtt :3.56ms cwnd: 56.9 lossRate: 0.0 CC:8 goodput:834Mbps score:-72.0 
+1658190839.761686 -- INFO: Throughput @1.1s:897.58Mbps, rtt :5.46ms cwnd: 113.2 lossRate: 0.0 CC:8 goodput:987Mbps score:-766.0 
+1658190840.760440 -- INFO: Throughput @2.1s:880.8Mbps, rtt :5.38ms cwnd: 113.2 lossRate: 0.0 CC:8 goodput:854Mbps score:-752.0 
+1658190841.722554 -- INFO: Changing concurrency to 8 ******
+1658190841.725499 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190841.732408 -- INFO: Active CC: 8
+1658190841.762027 -- INFO: Throughput @3.1s:880.8Mbps, rtt :5.59ms cwnd: 113.2 lossRate: 0.0 CC:8 goodput:882Mbps score:-752.0 
+1658190842.763879 -- INFO: Throughput @4.1s:880.8Mbps, rtt :5.34ms cwnd: 113.2 lossRate: 0.0 CC:8 goodput:824Mbps score:-752.0 
+1658190843.763807 -- INFO: Throughput @5.1s:880.8Mbps, rtt :5.71ms cwnd: 116.2 lossRate: 0.0 CC:8 goodput:786Mbps score:-752.0 
+1658190844.737369 -- INFO: Changing concurrency to 8 ******
+1658190844.744204 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190844.750796 -- INFO: Active CC: 8
+1658190844.765829 -- INFO: Throughput @6.1s:880.8Mbps, rtt :5.69ms cwnd: 119.4 lossRate: 0.0 CC:8 goodput:1013Mbps score:-752.0 
+1658190845.766694 -- INFO: Throughput @7.1s:872.42Mbps, rtt :5.61ms cwnd: 123.8 lossRate: 0.0 CC:8 goodput:927Mbps score:-745.0 
+1658190846.768798 -- INFO: Throughput @8.1s:872.42Mbps, rtt :5.56ms cwnd: 123.8 lossRate: 0.0 CC:8 goodput:978Mbps score:-745.0 
+1658190847.754137 -- INFO: Changing concurrency to 8 ******
+1658190847.758181 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190847.763875 -- INFO: Active CC: 8
+1658190847.769050 -- INFO: Throughput @9.1s:872.42Mbps, rtt :5.47ms cwnd: 123.8 lossRate: 0.0 CC:8 goodput:950Mbps score:-745.0 
+1658190848.769944 -- INFO: Throughput @10.1s:872.42Mbps, rtt :5.65ms cwnd: 123.8 lossRate: 0.0 CC:8 goodput:968Mbps score:-745.0 
+1658190849.769458 -- INFO: Throughput @11.1s:889.19Mbps, rtt :6.38ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:804Mbps score:-759.0 
+1658190850.769308 -- INFO: Changing concurrency to 8 ******
+1658190850.770761 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190850.771164 -- INFO: Active CC: 8
+1658190850.772480 -- INFO: Throughput @12.1s:872.42Mbps, rtt :6.56ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:1001Mbps score:-745.0 
+1658190851.774500 -- INFO: Throughput @13.1s:872.42Mbps, rtt :5.64ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:935Mbps score:-745.0 
+1658190852.772964 -- INFO: Throughput @14.1s:872.42Mbps, rtt :6.09ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:930Mbps score:-745.0 
+1658190853.773447 -- INFO: Changing concurrency to 8 ******
+1658190853.773638 -- INFO: Throughput @15.1s:880.8Mbps, rtt :5.88ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:1033Mbps score:-752.0 
+1658190853.779823 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190853.784754 -- INFO: Active CC: 8
+1658190854.775236 -- INFO: Throughput @16.1s:889.19Mbps, rtt :6.0ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:953Mbps score:-759.0 
+1658190855.776715 -- INFO: Throughput @17.1s:880.8Mbps, rtt :5.97ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:999Mbps score:-752.0 
+1658190856.777022 -- INFO: Throughput @18.1s:880.8Mbps, rtt :6.28ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:1055Mbps score:-752.0 
+1658190856.789164 -- INFO: Changing concurrency to 8 ******
+1658190856.795641 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190856.802141 -- INFO: Active CC: 8
+1658190857.779118 -- INFO: Throughput @19.1s:889.19Mbps, rtt :6.13ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:926Mbps score:-759.0 
+1658190858.779794 -- INFO: Throughput @20.1s:880.8Mbps, rtt :6.08ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:923Mbps score:-752.0 
+1658190859.781858 -- INFO: Throughput @21.1s:872.42Mbps, rtt :5.89ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:791Mbps score:-745.0 
+1658190859.805609 -- INFO: Changing concurrency to 8 ******
+1658190859.812707 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190859.819100 -- INFO: Active CC: 8
+1658190860.780232 -- INFO: Throughput @22.1s:872.42Mbps, rtt :5.96ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:929Mbps score:-745.0 
+1658190861.784331 -- INFO: Throughput @23.1s:872.42Mbps, rtt :5.55ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:838Mbps score:-745.0 
+1658190862.779351 -- INFO: Throughput @24.1s:872.42Mbps, rtt :5.76ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:947Mbps score:-745.0 
+1658190862.824182 -- INFO: Changing concurrency to 8 ******
+1658190862.829521 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190862.835948 -- INFO: Active CC: 8
+1658190863.782170 -- INFO: Throughput @25.1s:872.42Mbps, rtt :6.18ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:868Mbps score:-745.0 
+1658190864.786804 -- INFO: Throughput @26.1s:872.42Mbps, rtt :6.18ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:931Mbps score:-745.0 
+1658190865.787591 -- INFO: Throughput @27.1s:872.42Mbps, rtt :6.58ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:891Mbps score:-745.0 
+1658190865.841143 -- INFO: Changing concurrency to 8 ******
+1658190865.848888 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190865.855006 -- INFO: Active CC: 8
+1658190866.783857 -- INFO: Throughput @28.1s:897.58Mbps, rtt :5.84ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:1013Mbps score:-766.0 
+1658190867.788634 -- INFO: Throughput @29.1s:872.42Mbps, rtt :5.99ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:926Mbps score:-745.0 
+1658190868.789325 -- INFO: Throughput @30.1s:880.8Mbps, rtt :6.8ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:895Mbps score:-752.0 
+1658190868.857453 -- INFO: Changing concurrency to 8 ******
+1658190868.863319 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190868.867866 -- INFO: Active CC: 8
+1658190869.788994 -- INFO: Throughput @31.1s:880.8Mbps, rtt :6.77ms cwnd: 156.1 lossRate: 0.0 CC:8 goodput:960Mbps score:-752.0 
+1658190870.788829 -- INFO: Throughput @32.1s:897.58Mbps, rtt :7.59ms cwnd: 175.2 lossRate: 0.0011862396204033216 CC:8 goodput:942Mbps score:-755.0 
+1658190871.792927 -- INFO: Throughput @33.1s:880.8Mbps, rtt :7.73ms cwnd: 179.0 lossRate: 0.0 CC:8 goodput:874Mbps score:-752.0 
+1658190871.873056 -- INFO: Changing concurrency to 8 ******
+1658190871.879934 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190871.887215 -- INFO: Active CC: 8
+1658190872.792463 -- INFO: Throughput @34.1s:872.42Mbps, rtt :6.84ms cwnd: 181.9 lossRate: 0.0 CC:8 goodput:934Mbps score:-745.0 
+1658190873.792357 -- INFO: Throughput @35.1s:872.42Mbps, rtt :6.27ms cwnd: 176.1 lossRate: 0.0005935109469796888 CC:8 goodput:1119Mbps score:-739.0 
+1658190874.795449 -- INFO: Throughput @36.1s:872.42Mbps, rtt :6.46ms cwnd: 176.1 lossRate: 0.0 CC:8 goodput:964Mbps score:-745.0 
+1658190874.889576 -- INFO: Changing concurrency to 8 ******
+1658190874.896231 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190874.900755 -- INFO: Active CC: 8
+1658190875.797611 -- INFO: Throughput @37.1s:880.8Mbps, rtt :6.35ms cwnd: 176.1 lossRate: 0.0 CC:8 goodput:927Mbps score:-752.0 
+1658190876.798131 -- INFO: Throughput @38.1s:872.42Mbps, rtt :5.88ms cwnd: 162.5 lossRate: 0.0005938163919716024 CC:8 goodput:931Mbps score:-739.0 
+1658190877.799091 -- INFO: Throughput @39.1s:880.8Mbps, rtt :6.03ms cwnd: 162.5 lossRate: 0.0 CC:8 goodput:1031Mbps score:-752.0 
+1658190877.905487 -- INFO: Changing concurrency to 8 ******
+1658190877.911906 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190877.919204 -- INFO: Active CC: 8
+1658190878.798805 -- INFO: Throughput @40.1s:897.58Mbps, rtt :8.35ms cwnd: 177.1 lossRate: 0.0 CC:8 goodput:832Mbps score:-766.0 
+1658190879.801429 -- INFO: Throughput @41.1s:872.42Mbps, rtt :6.53ms cwnd: 177.4 lossRate: 0.0 CC:8 goodput:859Mbps score:-745.0 
+1658190880.801136 -- INFO: Throughput @42.1s:880.8Mbps, rtt :5.73ms cwnd: 162.8 lossRate: 1.3202017268238587e-05 CC:8 goodput:920Mbps score:-752.0 
+1658190880.921663 -- INFO: Changing concurrency to 8 ******
+1658190880.928892 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190880.933979 -- INFO: Active CC: 8
+1658190881.803973 -- INFO: Throughput @43.1s:880.8Mbps, rtt :6.03ms cwnd: 162.8 lossRate: 0.0 CC:8 goodput:986Mbps score:-752.0 
+1658190882.802742 -- INFO: Throughput @44.1s:880.8Mbps, rtt :6.08ms cwnd: 162.8 lossRate: 0.0 CC:8 goodput:872Mbps score:-752.0 
+1658190883.802593 -- INFO: Throughput @45.1s:872.42Mbps, rtt :5.9ms cwnd: 162.8 lossRate: 0.0 CC:8 goodput:975Mbps score:-745.0 
+1658190883.937511 -- INFO: Changing concurrency to 8 ******
+1658190883.944843 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190883.951597 -- INFO: Active CC: 8
+1658190884.804244 -- INFO: Throughput @46.1s:872.42Mbps, rtt :5.94ms cwnd: 162.8 lossRate: 0.0 CC:8 goodput:1028Mbps score:-745.0 
+1658190885.801680 -- INFO: Throughput @47.1s:864.03Mbps, rtt :8.29ms cwnd: 175.4 lossRate: 0.0 CC:8 goodput:970Mbps score:-737.0 
+1658190886.806782 -- INFO: Throughput @48.1s:880.8Mbps, rtt :6.95ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:863Mbps score:-752.0 
+1658190886.956513 -- INFO: Changing concurrency to 8 ******
+1658190886.962933 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190886.969154 -- INFO: Active CC: 8
+1658190887.808640 -- INFO: Throughput @49.1s:880.8Mbps, rtt :6.31ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:1028Mbps score:-752.0 
+1658190888.809453 -- INFO: Throughput @50.1s:872.42Mbps, rtt :6.49ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:1008Mbps score:-745.0 
+1658190889.810842 -- INFO: Throughput @51.1s:880.8Mbps, rtt :6.61ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:997Mbps score:-752.0 
+1658190889.973668 -- INFO: Changing concurrency to 8 ******
+1658190889.978744 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190889.985749 -- INFO: Active CC: 8
+1658190890.811597 -- INFO: Throughput @52.1s:889.19Mbps, rtt :6.5ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:920Mbps score:-759.0 
+1658190891.813204 -- INFO: Throughput @53.1s:880.8Mbps, rtt :6.37ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:888Mbps score:-752.0 
+1658190892.812940 -- INFO: Throughput @54.1s:880.8Mbps, rtt :6.39ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:969Mbps score:-752.0 
+1658190892.989393 -- INFO: Changing concurrency to 8 ******
+1658190892.995948 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190893.002588 -- INFO: Active CC: 8
+1658190893.320115 -- INFO: Process 4 finished on working on file 7 
+1658190893.321079 -- INFO: Process 4 get item 8 from queue and executing
+1658190893.321708 -- INFO: starting 4, 8, /home/hjamil/Documents/files_processed_small/2g.img
+1658190893.812288 -- INFO: Throughput @55.1s:882.95Mbps, rtt :7.02ms cwnd: 176.5 lossRate: 0.0 CC:8 goodput:1006Mbps score:-754.0 
+1658190894.813157 -- INFO: Throughput @56.1s:880.8Mbps, rtt :6.24ms cwnd: 178.0 lossRate: 0.0005940201966866873 CC:8 goodput:939Mbps score:-747.0 
+1658190895.815197 -- INFO: Throughput @57.1s:872.42Mbps, rtt :6.42ms cwnd: 178.0 lossRate: 0.0 CC:8 goodput:990Mbps score:-745.0 
+1658190896.005786 -- INFO: Changing concurrency to 8 ******
+1658190896.013525 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190896.020061 -- INFO: Active CC: 8
+1658190896.818329 -- INFO: Throughput @58.1s:872.42Mbps, rtt :5.96ms cwnd: 178.0 lossRate: 0.0 CC:8 goodput:1093Mbps score:-745.0 
+1658190897.819603 -- INFO: Throughput @59.1s:872.42Mbps, rtt :6.21ms cwnd: 178.0 lossRate: 0.0 CC:8 goodput:959Mbps score:-745.0 
+1658190898.820020 -- INFO: Throughput @60.1s:872.42Mbps, rtt :6.9ms cwnd: 178.0 lossRate: 0.0 CC:8 goodput:967Mbps score:-745.0 
+1658190899.024764 -- INFO: Changing concurrency to 8 ******
+1658190899.031836 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190899.039062 -- INFO: Active CC: 8
+1658190899.821113 -- INFO: Throughput @61.1s:872.42Mbps, rtt :6.38ms cwnd: 178.1 lossRate: 0.0 CC:8 goodput:813Mbps score:-745.0 
+1658190900.817326 -- INFO: Throughput @62.1s:872.42Mbps, rtt :6.12ms cwnd: 178.1 lossRate: 0.0 CC:8 goodput:1002Mbps score:-745.0 
+1658190901.821752 -- INFO: Throughput @63.1s:889.19Mbps, rtt :6.38ms cwnd: 178.1 lossRate: 0.0 CC:8 goodput:918Mbps score:-759.0 
+1658190902.041613 -- INFO: Changing concurrency to 8 ******
+1658190902.048689 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190902.056334 -- INFO: Active CC: 8
+1658190902.823690 -- INFO: Throughput @64.1s:889.19Mbps, rtt :7.03ms cwnd: 178.1 lossRate: 0.0 CC:8 goodput:1026Mbps score:-759.0 
+1658190903.823805 -- INFO: Throughput @65.1s:897.58Mbps, rtt :6.85ms cwnd: 201.0 lossRate: 0.0 CC:8 goodput:946Mbps score:-766.0 
+1658190904.229887 -- INFO: Process 7 finished on working on file 2 
+1658190904.230704 -- INFO: Process 7 get item 9 from queue and executing
+1658190904.231259 -- INFO: starting 7, 9, /home/hjamil/Documents/files_processed_small/input2.txt
+1658190904.827507 -- INFO: Throughput @66.1s:874.99Mbps, rtt :6.6ms cwnd: 201.0 lossRate: 0.0 CC:8 goodput:1102Mbps score:-747.0 
+1658190905.061269 -- INFO: Changing concurrency to 8 ******
+1658190905.068675 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190905.076529 -- INFO: Active CC: 8
+1658190905.826774 -- INFO: Throughput @67.1s:872.42Mbps, rtt :6.71ms cwnd: 201.0 lossRate: 0.0 CC:8 goodput:847Mbps score:-745.0 
+1658190906.827574 -- INFO: Throughput @68.1s:872.42Mbps, rtt :6.5ms cwnd: 201.0 lossRate: 0.0 CC:8 goodput:955Mbps score:-745.0 
+1658190907.828599 -- INFO: Throughput @69.1s:872.42Mbps, rtt :6.87ms cwnd: 201.0 lossRate: 0.0 CC:8 goodput:950Mbps score:-745.0 
+1658190908.081419 -- INFO: Changing concurrency to 8 ******
+1658190908.086870 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190908.093831 -- INFO: Active CC: 8
+1658190908.829359 -- INFO: Throughput @70.1s:880.8Mbps, rtt :6.65ms cwnd: 201.0 lossRate: 0.0 CC:8 goodput:957Mbps score:-752.0 
+1658190909.831197 -- INFO: Throughput @71.1s:872.42Mbps, rtt :6.48ms cwnd: 183.8 lossRate: 0.00058017642637693 CC:8 goodput:969Mbps score:-740.0 
+1658190910.833168 -- INFO: Throughput @72.1s:872.42Mbps, rtt :5.9ms cwnd: 183.8 lossRate: 0.0 CC:8 goodput:879Mbps score:-745.0 
+1658190911.097488 -- INFO: Changing concurrency to 8 ******
+1658190911.105129 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190911.111161 -- INFO: Active CC: 8
+1658190911.833614 -- INFO: Throughput @73.1s:872.42Mbps, rtt :6.19ms cwnd: 183.8 lossRate: 0.0 CC:8 goodput:989Mbps score:-745.0 
+1658190912.834338 -- INFO: Throughput @74.1s:889.19Mbps, rtt :6.16ms cwnd: 183.8 lossRate: 0.0 CC:8 goodput:821Mbps score:-759.0 
+1658190913.834836 -- INFO: Throughput @75.1s:897.58Mbps, rtt :5.89ms cwnd: 183.8 lossRate: 0.0 CC:8 goodput:984Mbps score:-766.0 
+1658190914.113493 -- INFO: Changing concurrency to 8 ******
+1658190914.121012 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190914.126423 -- INFO: Active CC: 8
+1658190914.835988 -- INFO: Throughput @76.1s:889.19Mbps, rtt :6.34ms cwnd: 206.6 lossRate: 0.0 CC:8 goodput:919Mbps score:-759.0 
+1658190915.836158 -- INFO: Throughput @77.1s:872.42Mbps, rtt :5.73ms cwnd: 206.6 lossRate: 0.0 CC:8 goodput:997Mbps score:-745.0 
+1658190916.837981 -- INFO: Throughput @78.1s:872.42Mbps, rtt :6.08ms cwnd: 206.6 lossRate: 0.0 CC:8 goodput:1066Mbps score:-745.0 
+1658190916.941305 -- INFO: Process 1 finished on working on file 0 
+1658190916.941948 -- INFO: Process 1 get item 10 from queue and executing
+1658190916.942385 -- INFO: starting 1, 10, /home/hjamil/Documents/files_processed_small/input3.txt
+1658190916.999025 -- INFO: Process 3 finished on working on file 1 
+1658190916.999568 -- INFO: Process 3 get item 11 from queue and executing
+1658190916.999979 -- INFO: starting 3, 11, /home/hjamil/Documents/files_processed_small/8g.img
+1658190917.005829 -- INFO: Process 0 finished on working on file 4 
+1658190917.011158 -- INFO: Process 6 finished on working on file 5 
+1658190917.025697 -- INFO: Process 5 finished on working on file 6 
+1658190917.026200 -- INFO: Process 2 finished on working on file 3 
+1658190917.129128 -- INFO: Changing concurrency to 8 ******
+1658190917.130610 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190917.131216 -- INFO: Active CC: 8
+1658190917.835032 -- INFO: Throughput @79.1s:872.42Mbps, rtt :4.34ms cwnd: 281.2 lossRate: 0 CC:8 goodput:898Mbps score:-745.0 
+1658190918.839050 -- INFO: Throughput @80.1s:889.19Mbps, rtt :4.61ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:933Mbps score:-759.0 
+1658190919.837841 -- INFO: Throughput @81.1s:880.8Mbps, rtt :4.61ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:874Mbps score:-752.0 
+1658190920.133207 -- INFO: Changing concurrency to 8 ******
+1658190920.134835 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190920.136072 -- INFO: Active CC: 8
+1658190920.840830 -- INFO: Throughput @82.1s:880.8Mbps, rtt :4.53ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:833Mbps score:-752.0 
+1658190921.842497 -- INFO: Throughput @83.1s:880.8Mbps, rtt :4.46ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:848Mbps score:-752.0 
+1658190922.846272 -- INFO: Throughput @84.1s:889.19Mbps, rtt :4.56ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:807Mbps score:-759.0 
+1658190923.140599 -- INFO: Changing concurrency to 8 ******
+1658190923.141417 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190923.142428 -- INFO: Active CC: 8
+1658190923.849818 -- INFO: Throughput @85.1s:880.8Mbps, rtt :4.63ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:910Mbps score:-752.0 
+1658190924.847078 -- INFO: Throughput @86.1s:880.8Mbps, rtt :4.56ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:841Mbps score:-752.0 
+1658190925.847204 -- INFO: Throughput @87.1s:889.19Mbps, rtt :4.6ms cwnd: 281.2 lossRate: 0.0 CC:8 goodput:900Mbps score:-759.0 
+1658190926.145084 -- INFO: Changing concurrency to 8 ******
+1658190926.146339 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190926.147382 -- INFO: Active CC: 8
+1658190926.846451 -- INFO: Throughput @88.1s:889.19Mbps, rtt :6.17ms cwnd: 416.5 lossRate: 0.0 CC:8 goodput:815Mbps score:-759.0 
+1658190927.845570 -- INFO: Throughput @89.1s:880.8Mbps, rtt :5.4ms cwnd: 400.0 lossRate: 0.001176470588235294 CC:8 goodput:880Mbps score:-741.0 
+1658190928.846487 -- INFO: Throughput @90.1s:880.8Mbps, rtt :5.15ms cwnd: 371.2 lossRate: 0.000591016548463357 CC:8 goodput:964Mbps score:-747.0 
+1658190929.149403 -- INFO: Changing concurrency to 8 ******
+1658190929.150885 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190929.151762 -- INFO: Active CC: 8
+1658190929.846228 -- INFO: Throughput @91.1s:889.19Mbps, rtt :7.24ms cwnd: 377.5 lossRate: 0.0 CC:8 goodput:930Mbps score:-759.0 
+1658190930.851627 -- INFO: Throughput @92.1s:889.19Mbps, rtt :5.46ms cwnd: 363.5 lossRate: 0.0005872143854475226 CC:8 goodput:917Mbps score:-754.0 
+1658190931.849028 -- INFO: Throughput @93.1s:872.42Mbps, rtt :5.28ms cwnd: 373.8 lossRate: 0.0 CC:8 goodput:933Mbps score:-745.0 
+1658190932.156094 -- INFO: Changing concurrency to 8 ******
+1658190932.157609 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190932.158145 -- INFO: Active CC: 8
+1658190932.849422 -- INFO: Throughput @94.1s:889.19Mbps, rtt :6.58ms cwnd: 397.8 lossRate: 0.0 CC:8 goodput:872Mbps score:-759.0 
+1658190933.853149 -- INFO: Throughput @95.1s:880.8Mbps, rtt :6.98ms cwnd: 406.0 lossRate: 0.0 CC:8 goodput:756Mbps score:-752.0 
+1658190934.855361 -- INFO: Throughput @96.1s:880.8Mbps, rtt :7.49ms cwnd: 408.8 lossRate: 0.0 CC:8 goodput:802Mbps score:-752.0 
+1658190935.161084 -- INFO: Changing concurrency to 8 ******
+1658190935.162031 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190935.163013 -- INFO: Active CC: 8
+1658190935.852261 -- INFO: Throughput @97.2s:808.36Mbps, rtt :8.64ms cwnd: 411.2 lossRate: 0.0 CC:8 goodput:800Mbps score:-690.0 
+1658190936.863507 -- INFO: Throughput @98.2s:880.8Mbps, rtt :7.44ms cwnd: 411.5 lossRate: 0.0 CC:8 goodput:911Mbps score:-752.0 
+1658190937.854430 -- INFO: Throughput @99.2s:889.19Mbps, rtt :7.37ms cwnd: 427.8 lossRate: 0.0 CC:8 goodput:837Mbps score:-759.0 
+1658190938.165098 -- INFO: Changing concurrency to 8 ******
+1658190938.165941 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190938.167004 -- INFO: Active CC: 8
+1658190938.859626 -- INFO: Throughput @100.2s:889.19Mbps, rtt :5.03ms cwnd: 381.5 lossRate: 0.0005871990604815032 CC:8 goodput:817Mbps score:-754.0 
+1658190939.861659 -- INFO: Throughput @101.2s:889.19Mbps, rtt :5.11ms cwnd: 381.5 lossRate: 0.0 CC:8 goodput:885Mbps score:-759.0 
+1658190940.862540 -- INFO: Throughput @102.2s:872.42Mbps, rtt :5.29ms cwnd: 381.5 lossRate: 0.0 CC:8 goodput:895Mbps score:-745.0 
+1658190941.169019 -- INFO: Changing concurrency to 8 ******
+1658190941.169797 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190941.170525 -- INFO: Active CC: 8
+1658190941.860138 -- INFO: Throughput @103.2s:889.19Mbps, rtt :5.5ms cwnd: 381.5 lossRate: 0.0 CC:8 goodput:916Mbps score:-759.0 
+1658190942.863745 -- INFO: Throughput @104.2s:872.42Mbps, rtt :5.34ms cwnd: 381.5 lossRate: 0.0 CC:8 goodput:860Mbps score:-745.0 
+1658190943.863560 -- INFO: Throughput @105.2s:880.8Mbps, rtt :8.46ms cwnd: 428.8 lossRate: 0.0 CC:8 goodput:910Mbps score:-752.0 
+1658190944.159457 -- INFO: Process 4 finished on working on file 8 
+1658190944.173076 -- INFO: Changing concurrency to 8 ******
+1658190944.174476 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190944.175615 -- INFO: Active CC: 8
+1658190944.862151 -- INFO: Throughput @106.2s:880.8Mbps, rtt :8.14ms cwnd: 526.7 lossRate: 0 CC:8 goodput:870Mbps score:-752.0 
+1658190945.862054 -- INFO: Throughput @107.2s:889.19Mbps, rtt :7.01ms cwnd: 563.0 lossRate: 0.0 CC:8 goodput:860Mbps score:-759.0 
+1658190946.869885 -- INFO: Throughput @108.2s:889.19Mbps, rtt :4.83ms cwnd: 514.0 lossRate: 0.0005837711617046118 CC:8 goodput:829Mbps score:-754.0 
+1658190947.180344 -- INFO: Changing concurrency to 8 ******
+1658190947.181724 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190947.183242 -- INFO: Active CC: 8
+1658190947.863874 -- INFO: Throughput @109.2s:889.19Mbps, rtt :5.16ms cwnd: 514.0 lossRate: 0.0 CC:8 goodput:802Mbps score:-759.0 
+1658190948.283402 -- INFO: Process 1 finished on working on file 10 
+1658190948.864049 -- INFO: Throughput @110.2s:858.21Mbps, rtt :3.74ms cwnd: 480.0 lossRate: 0 CC:8 goodput:914Mbps score:-732.0 
+1658190949.869200 -- INFO: Throughput @111.2s:889.19Mbps, rtt :4.01ms cwnd: 480.0 lossRate: 0.0 CC:8 goodput:871Mbps score:-759.0 
+1658190950.184871 -- INFO: Changing concurrency to 8 ******
+1658190950.186195 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190950.187133 -- INFO: Active CC: 8
+1658190950.870163 -- INFO: Throughput @112.2s:872.42Mbps, rtt :3.99ms cwnd: 480.0 lossRate: 0.0 CC:8 goodput:821Mbps score:-745.0 
+1658190951.259715 -- INFO: Process 3 finished on working on file 11 
+1658190951.877867 -- INFO: Throughput @113.2s:738.2Mbps, rtt :13.3ms cwnd: 617.0 lossRate: 0 CC:8 goodput:745Mbps score:-630.0 
+1658190952.879869 -- INFO: Throughput @114.2s:562.04Mbps, rtt :8.65ms cwnd: 617.0 lossRate: 0.0 CC:8 goodput:647Mbps score:-480.0 
+1658190952.949444 -- INFO: Process 7 finished on working on file 9 
+1658190952.949631 -- INFO: Process 15 shutdown itself from outest loop
+1658190952.949489 -- INFO: Process 5 shutdown itself from outest loop
+1658190952.954919 -- INFO: Process 9 shutdown itself from outest loop
+1658190952.949899 -- INFO: Process 7 shutdown itself from outest loop
+1658190952.955260 -- INFO: Process Status Bits are: 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.955257 -- INFO: Process Status Bits are: 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.955283 -- INFO: Process Status Bits are: 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.955547 -- INFO: Process Status Bits are: 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.949796 -- INFO: Process 10 shutdown itself from outest loop
+1658190952.950126 -- INFO: Process 6 shutdown itself from outest loop
+1658190952.955595 -- INFO: Process 16 shutdown itself from outest loop
+1658190952.950217 -- INFO: Process 27 shutdown itself from outest loop
+1658190952.950250 -- INFO: Process 23 shutdown itself from outest loop
+1658190952.950423 -- INFO: Process 24 shutdown itself from outest loop
+1658190952.956543 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.956683 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.956731 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.956723 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.950721 -- INFO: Process 29 shutdown itself from outest loop
+1658190952.950725 -- INFO: Process 30 shutdown itself from outest loop
+1658190952.950897 -- INFO: Process 22 shutdown itself from outest loop
+1658190952.957055 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.957270 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.957590 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.951210 -- INFO: Process 25 shutdown itself from outest loop
+1658190952.951716 -- INFO: Process 31 shutdown itself from outest loop
+1658190952.957961 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.957995 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.949816 -- INFO: Process 12 shutdown itself from outest loop
+1658190952.951928 -- INFO: Process 21 shutdown itself from outest loop
+1658190952.952266 -- INFO: Process 8 shutdown itself from outest loop
+1658190952.952390 -- INFO: Process 20 shutdown itself from outest loop
+1658190952.959250 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.959274 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.959290 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.952602 -- INFO: Process 0 shutdown itself from outest loop
+1658190952.959560 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.959785 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.952842 -- INFO: Process 4 shutdown itself from outest loop
+1658190952.952909 -- INFO: Process 2 shutdown itself from outest loop
+1658190952.953409 -- INFO: Process 14 shutdown itself from outest loop
+1658190952.960316 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.953908 -- INFO: Process 26 shutdown itself from outest loop
+1658190952.952255 -- INFO: Process 13 shutdown itself from outest loop
+1658190952.951216 -- INFO: Process 11 shutdown itself from outest loop
+1658190952.954380 -- INFO: Process 19 shutdown itself from outest loop
+1658190952.954477 -- INFO: Process 28 shutdown itself from outest loop
+1658190952.954834 -- INFO: Process 17 shutdown itself from outest loop
+1658190952.960946 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.961078 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.955864 -- INFO: Process Status Bits are: 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.955888 -- INFO: Process Status Bits are: 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.955954 -- INFO: Process 1 shutdown itself from outest loop
+1658190952.962638 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.956112 -- INFO: Process 18 shutdown itself from outest loop
+1658190952.963015 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.956380 -- INFO: Process 3 shutdown itself from outest loop
+1658190952.963808 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.964306 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.964392 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.964591 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.964725 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.964906 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658190952.960403 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

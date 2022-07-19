@@ -9,7 +9,7 @@ import re
 from config import configurations
 
 class TransferClass:
-  def __init__(self,configurations,log):
+  def __init__(self,configurations,log,transfer_emulation=False):
     self.log=log ### for logging
     self.HOST, self.PORT = configurations["receiver"]["host"], configurations["receiver"]["port"]
     self.RCVR_ADDR = str(self.HOST) + ":" + str(self.PORT)
@@ -32,7 +32,10 @@ class TransferClass:
       self.q.put(i)
     self.throughput_logs=manager.list()
     self.transfer_throughput=mp.Value("i", 0)
-
+    if transfer_emulation ==True:
+      self.transfer_emu_status=mp.Value("i",1)
+    else:
+      self.transfer_emu_status=mp.Value("i",0)
   # def throughput_calculation(self,start_time):
   #   # while (np.sum(self.process_status) ==0):
   #   #   pass
@@ -51,11 +54,19 @@ class TransferClass:
         elif (self.process_status[process_id]==1) and (q.empty()):
           pass
         else:
+
           self.log.info(f"Start Process :: {process_id}")
+
           try:
             sock = socket.socket()
             sock.settimeout(3)
             sock.connect((self.HOST, self.PORT))
+
+            if self.transfer_emu_status.value ==1:
+              target, factor = 10, 10
+              max_speed = (target * 1000 * 1000)/8
+              second_target, second_data_count = int(max_speed/factor), 0
+
             while (not q.empty()) and (self.process_status[process_id] == 1):
               try:
                 file_id = q.get()
@@ -67,6 +78,7 @@ class TransferClass:
                 break
               offset = self.file_offsets[file_id]
               to_send = self.file_sizes[file_id] - offset
+
               if (to_send > 0) and (self.process_status[process_id] == 1):
                 filename = self.root + self.file_names[file_id]
                 file = open(filename, "rb")
@@ -77,16 +89,35 @@ class TransferClass:
                   self.log.info("starting {0}, {1}, {2}".format(process_id, file_id, filename))
                 except:
                   self.log.info(f"Process {process_id} failed to send file message")
+
+                timer100ms = time.time()
+
                 while (to_send > 0) and (self.process_status[process_id] == 1):
-                  block_size = int(min(self.chunk_size, to_send))
                   try:
-                    sent = sock.sendfile(file=file, offset=int(offset), count=block_size)
+                    if self.transfer_emu_status.value==1:
+                      block_size = min(self.chunk_size, second_target-second_data_count)
+                      data_to_send = bytearray(int(block_size))
+                      sent = sock.send(data_to_send)
+
+                    else:
+                      block_size = int(min(self.chunk_size, to_send))
+                      sent = sock.sendfile(file=file, offset=int(offset), count=block_size)
+
                     offset += sent
                     to_send -= sent
                     self.file_offsets[file_id] = offset
                   except Exception as e:
                     to_send=0
                     self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
+
+                  if self.transfer_emu_status.value ==1:
+                    second_data_count += sent
+                    if second_data_count >= second_target:
+                      second_data_count = 0
+                      while timer100ms + (1/factor) > time.time():
+                          pass
+                      timer100ms = time.time()
+
               if to_send>0:
                 q.put(file_id)
               else:

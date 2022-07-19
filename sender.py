@@ -84,7 +84,7 @@ configurations["cpu_count"] = mp.cpu_count()
 #   mod_df.to_csv('record.csv', sep='\t', encoding='utf-8')
 
 if __name__=="__main__":
-  transfer=TransferClass(configurations,log)
+  transfer=TransferClass(configurations,log,transfer_emulation=True)
   transferEnvironment=transferEnv(transfer)
   transferEnvironment.reset()
   done=False
