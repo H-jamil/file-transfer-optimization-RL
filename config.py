@@ -3,7 +3,7 @@ configurations = {
         "host": "128.205.223.105",
         "port": 50021
     },
-    "data_dir": "/home/hjamil/Documents/files_processed_small/",
+    "data_dir": "/home/hjamil/Documents/files_bash/",#files_bash
     "file_transfer": True,
     "B": 10,
     "K": 1.02,

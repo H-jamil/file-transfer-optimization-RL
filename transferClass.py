@@ -36,16 +36,6 @@ class TransferClass:
       self.transfer_emu_status=mp.Value("i",1)
     else:
       self.transfer_emu_status=mp.Value("i",0)
-  # def throughput_calculation(self,start_time):
-  #   # while (np.sum(self.process_status) ==0):
-  #   #   pass
-  #   start_time=time.time()
-  #   while self.file_incomplete.value > 0:
-  #     time.sleep(0.1)
-  #   end_time=time.time()
-  #   total_bytes = np.sum(self.file_sizes)
-  #   self.transfer_throughput.value=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-  #   self.log.info(f"Transfer service has finished and Throughput is  {self.transfer_throughput.value} Mbps ")
 
   def worker(self,process_id,q):
     while self.file_incomplete.value > 0:
@@ -54,19 +44,15 @@ class TransferClass:
         elif (self.process_status[process_id]==1) and (q.empty()):
           pass
         else:
-
           self.log.info(f"Start Process :: {process_id}")
-
           try:
             sock = socket.socket()
             sock.settimeout(3)
             sock.connect((self.HOST, self.PORT))
-
             if self.transfer_emu_status.value ==1:
-              target, factor = 10, 10
+              target, factor = 100, 10
               max_speed = (target * 1000 * 1000)/8
               second_target, second_data_count = int(max_speed/factor), 0
-
             while (not q.empty()) and (self.process_status[process_id] == 1):
               try:
                 file_id = q.get()
@@ -78,7 +64,6 @@ class TransferClass:
                 break
               offset = self.file_offsets[file_id]
               to_send = self.file_sizes[file_id] - offset
-
               if (to_send > 0) and (self.process_status[process_id] == 1):
                 filename = self.root + self.file_names[file_id]
                 file = open(filename, "rb")
@@ -98,24 +83,24 @@ class TransferClass:
                       block_size = min(self.chunk_size, second_target-second_data_count)
                       data_to_send = bytearray(int(block_size))
                       sent = sock.send(data_to_send)
-
                     else:
                       block_size = int(min(self.chunk_size, to_send))
                       sent = sock.sendfile(file=file, offset=int(offset), count=block_size)
 
-                    offset += sent
-                    to_send -= sent
-                    self.file_offsets[file_id] = offset
                   except Exception as e:
-                    to_send=0
-                    self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
+                    sent=0
+                    self.log.error("Process: {0}, Error from socket: {1}".format(process_id, str(e)))
 
-                  if self.transfer_emu_status.value ==1:
+                  offset += sent
+                  to_send -= sent
+                  self.file_offsets[file_id] = offset
+
+                  if self.transfer_emu_status.value == 1:
                     second_data_count += sent
                     if second_data_count >= second_target:
                       second_data_count = 0
                       while timer100ms + (1/factor) > time.time():
-                          pass
+                        pass
                       timer100ms = time.time()
 
               if to_send>0:
@@ -124,21 +109,16 @@ class TransferClass:
                 self.file_incomplete.value =self.file_incomplete.value - 1
                 self.log.info(f"Process {process_id} finished on working on file {file_id} ")
             sock.close()
-
           except socket.timeout as e:
             pass
-
           except Exception as e:
             self.log.info(f"Process {process_id} had error to send file ")
             self.process_status[process_id] = 0
             self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
             self.log.info(f"Process {process_id} shutdown itself ")
-
         # if (self.process_status[process_id]==1) and (q.empty()):
         #   self.process_status[process_id] = 0
         #   self.log.info(f"Process {process_id} shutdown itself because nothing in queue")
-
-
     self.process_status[process_id] = 0
     self.log.info(f"Process {process_id} shutdown itself from outest loop")
     self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))

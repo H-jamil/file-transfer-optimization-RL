@@ -89,9 +89,27 @@ if __name__=="__main__":
   transferEnvironment.reset()
   done=False
   while(not done):
-    state,score,done,_=transferEnvironment.step(8)
+    state,score,done,_=transferEnvironment.step(6)
     print("state:*********",state)
     print(f"score{score}  done {done} ********")
+    time.sleep(20)
+    # state,score,done,_=transferEnvironment.step(4)
+    # print("state:*********",state)
+    # print(f"score{score}  done {done} ********")
+    # time.sleep(15)
+    # state,score,done,_=transferEnvironment.step(8)
+    # print("state:*********",state)
+    # print(f"score{score}  done {done} ********")
+    # time.sleep(15)
+    # state,score,done,_=transferEnvironment.step(16)
+    # print("state:*********",state)
+    # print(f"score{score}  done {done} ********")
+    # time.sleep(15)
+    # state,score,done,_=transferEnvironment.step(32)
+    # print("state:*********",state)
+    # print(f"score{score}  done {done} ********")
+    # time.sleep(15)
+
   transferEnvironment.close()
   list_main=[]
   for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
@@ -99,4 +117,5 @@ if __name__=="__main__":
 
   df = pd.DataFrame(list_main, columns = ['curr_thrpt','goodput','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
   mod_df=df.dropna(axis=0, how='any')
-  mod_df.to_csv('record.csv', sep='\t', encoding='utf-8')
+  record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"
+  mod_df.to_csv(record_name, sep='\t', encoding='utf-8')

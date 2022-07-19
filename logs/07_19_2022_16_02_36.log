@@ -1,0 +1,48 @@
+1658260957.118922 -- INFO: Changing concurrency to 6 ******
+1658260957.120381 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658260957.121179 -- INFO: Active CC: 6
+1658260957.121705 -- INFO: Start Process :: 0
+1658260957.122894 -- INFO: Process 0 get item 0 from queue and executing
+1658260957.123093 -- INFO: starting 0, 0, /home/hjamil/Documents/files_bash/FILE19
+1658260957.128763 -- INFO: Start Process :: 4
+1658260957.130337 -- INFO: Process 4 get item 1 from queue and executing
+1658260957.130534 -- INFO: starting 4, 1, /home/hjamil/Documents/files_bash/FILE10
+1658260957.136618 -- INFO: Start Process :: 5
+1658260957.147917 -- INFO: Process 5 get item 2 from queue and executing
+1658260957.148287 -- INFO: starting 5, 2, /home/hjamil/Documents/files_bash/FILE31
+1658260957.150939 -- INFO: Start Process :: 2
+1658260957.152882 -- INFO: Process 2 get item 3 from queue and executing
+1658260957.153093 -- INFO: starting 2, 3, /home/hjamil/Documents/files_bash/FILE18
+1658260957.160519 -- INFO: Start Process :: 3
+1658260957.162645 -- INFO: Process 3 get item 4 from queue and executing
+1658260957.162926 -- INFO: starting 3, 4, /home/hjamil/Documents/files_bash/FILE6
+1658260957.176294 -- INFO: Start Process :: 1
+1658260957.178738 -- INFO: Process 1 get item 5 from queue and executing
+1658260957.179025 -- INFO: starting 1, 5, /home/hjamil/Documents/files_bash/FILE14
+1658260957.685982 -- INFO: Throughput @0.5s:520.0Mbps, rtt :3.52ms cwnd: 194.7 lossRate: 0.0 CC:6 goodput:1653Mbps score:-462.0 
+1658260958.632224 -- INFO: Throughput @1.5s:568.39Mbps, rtt :2.97ms cwnd: 275.7 lossRate: 0.0 CC:6 goodput:3140Mbps score:-505.0 
+1658260959.614074 -- INFO: Throughput @2.5s:541.61Mbps, rtt :2.8ms cwnd: 311.8 lossRate: 0.0 CC:6 goodput:3745Mbps score:-481.0 
+1658260960.638522 -- INFO: Throughput @3.5s:580.0Mbps, rtt :3.1ms cwnd: 352.5 lossRate: 0.0 CC:6 goodput:3178Mbps score:-515.0 
+1658260961.640810 -- INFO: Throughput @4.5s:550.0Mbps, rtt :2.6ms cwnd: 373.7 lossRate: 0.0 CC:6 goodput:4358Mbps score:-488.0 
+1658260962.615552 -- INFO: Throughput @5.5s:570.0Mbps, rtt :2.96ms cwnd: 389.0 lossRate: 0.0 CC:6 goodput:4111Mbps score:-506.0 
+1658260963.644118 -- INFO: Throughput @6.5s:580.0Mbps, rtt :2.91ms cwnd: 412.2 lossRate: 0.0 CC:6 goodput:4222Mbps score:-515.0 
+1658260964.646359 -- INFO: Throughput @7.5s:570.0Mbps, rtt :4.03ms cwnd: 419.3 lossRate: 0.0 CC:6 goodput:2958Mbps score:-506.0 
+1658260965.640883 -- INFO: Throughput @8.5s:540.0Mbps, rtt :4.95ms cwnd: 422.3 lossRate: 0.0 CC:6 goodput:1953Mbps score:-480.0 
+1658260966.636153 -- INFO: Throughput @9.5s:570.0Mbps, rtt :3.24ms cwnd: 426.3 lossRate: 0.0 CC:6 goodput:3736Mbps score:-506.0 
+1658260967.658138 -- INFO: Throughput @10.5s:590.0Mbps, rtt :6.35ms cwnd: 437.2 lossRate: 0.0 CC:6 goodput:766Mbps score:-524.0 
+1658260968.704425 -- INFO: Throughput @11.5s:560.0Mbps, rtt :4.13ms cwnd: 441.5 lossRate: 0.0 CC:6 goodput:2384Mbps score:-497.0 
+1658260969.712711 -- INFO: Throughput @12.5s:560.0Mbps, rtt :3.38ms cwnd: 441.5 lossRate: 0.0 CC:6 goodput:3365Mbps score:-497.0 
+1658260970.627428 -- INFO: Throughput @13.5s:568.39Mbps, rtt :3.45ms cwnd: 445.3 lossRate: 0.0 CC:6 goodput:3220Mbps score:-505.0 
+1658260971.636862 -- INFO: Throughput @14.5s:561.61Mbps, rtt :3.26ms cwnd: 448.8 lossRate: 0.0 CC:6 goodput:3376Mbps score:-499.0 
+1658260972.693559 -- INFO: Throughput @15.5s:540.0Mbps, rtt :4.9ms cwnd: 448.8 lossRate: 0.0 CC:6 goodput:1421Mbps score:-480.0 
+1658260973.657902 -- INFO: Throughput @16.5s:560.0Mbps, rtt :2.7ms cwnd: 452.3 lossRate: 0.0 CC:6 goodput:4708Mbps score:-497.0 
+1658260974.660810 -- INFO: Throughput @17.5s:570.0Mbps, rtt :3.2ms cwnd: 456.3 lossRate: 0.0 CC:6 goodput:3369Mbps score:-506.0 
+1658260975.692902 -- INFO: Throughput @18.5s:560.0Mbps, rtt :3.57ms cwnd: 463.8 lossRate: 0.0 CC:6 goodput:3500Mbps score:-497.0 
+1658260976.676259 -- INFO: Throughput @19.5s:550.0Mbps, rtt :4.9ms cwnd: 463.8 lossRate: 0.0 CC:6 goodput:2221Mbps score:-488.0 
+1658260977.664886 -- INFO: Throughput @20.5s:580.0Mbps, rtt :3.11ms cwnd: 468.3 lossRate: 0.0 CC:6 goodput:3906Mbps score:-515.0 
+1658260978.720508 -- INFO: Throughput @21.5s:550.0Mbps, rtt :5.71ms cwnd: 496.8 lossRate: 0.0 CC:6 goodput:1999Mbps score:-488.0 
+1658260979.664858 -- INFO: Throughput @22.5s:540.0Mbps, rtt :5.34ms cwnd: 534.2 lossRate: 0.0 CC:6 goodput:2882Mbps score:-480.0 
+1658260980.658319 -- INFO: Changing concurrency to 6 ******
+1658260980.663050 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658260980.665969 -- INFO: Active CC: 6
+1658260980.676221 -- INFO: Throughput @23.5s:560.0Mbps, rtt :5.19ms cwnd: 635.5 lossRate: 0.0 CC:6 goodput:2577Mbps score:-497.0 

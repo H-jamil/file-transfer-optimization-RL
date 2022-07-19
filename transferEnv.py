@@ -24,7 +24,9 @@ class transferEnv(gym.Env):
       done = False
       self.transferClassObject.log.info(f"Changing concurrency to {action} ******")
       self.transferClassObject.change_concurrency([action])
-      time.sleep(3)
+      timer3s=time.time()
+      while timer3s + 3.5 > time.time():
+        pass
       if len(self.transferClassObject.throughput_logs)>=3:
         log_list=copy.deepcopy(self.transferClassObject.throughput_logs[-3:])
         score=[]

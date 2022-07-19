@@ -1,0 +1,41 @@
+1658260929.334796 -- INFO: Changing concurrency to 8 ******
+1658260929.341985 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658260929.342600 -- INFO: Active CC: 8
+1658260929.343481 -- INFO: Start Process :: 2
+1658260929.347826 -- INFO: Process 2 get item 0 from queue and executing
+1658260929.348068 -- INFO: starting 2, 0, /home/hjamil/Documents/files_bash/FILE19
+1658260929.360735 -- INFO: Start Process :: 1
+1658260929.361855 -- INFO: Process 1 get item 1 from queue and executing
+1658260929.362105 -- INFO: starting 1, 1, /home/hjamil/Documents/files_bash/FILE10
+1658260929.376231 -- INFO: Start Process :: 0
+1658260929.379928 -- INFO: Process 0 get item 2 from queue and executing
+1658260929.380185 -- INFO: starting 0, 2, /home/hjamil/Documents/files_bash/FILE31
+1658260929.402427 -- INFO: Start Process :: 3
+1658260929.403438 -- INFO: Process 3 get item 3 from queue and executing
+1658260929.403708 -- INFO: starting 3, 3, /home/hjamil/Documents/files_bash/FILE18
+1658260929.408192 -- INFO: Start Process :: 4
+1658260929.409624 -- INFO: Start Process :: 6
+1658260929.410155 -- INFO: Process 4 get item 4 from queue and executing
+1658260929.410405 -- INFO: starting 4, 4, /home/hjamil/Documents/files_bash/FILE6
+1658260929.411930 -- INFO: Process 6 get item 5 from queue and executing
+1658260929.412221 -- INFO: starting 6, 5, /home/hjamil/Documents/files_bash/FILE14
+1658260929.430758 -- INFO: Start Process :: 7
+1658260929.432842 -- INFO: Process 7 get item 6 from queue and executing
+1658260929.433073 -- INFO: starting 7, 6, /home/hjamil/Documents/files_bash/FILE1
+1658260929.439587 -- INFO: Start Process :: 5
+1658260929.441218 -- INFO: Process 5 get item 7 from queue and executing
+1658260929.441441 -- INFO: starting 5, 7, /home/hjamil/Documents/files_bash/FILE30
+1658260929.765174 -- INFO: Throughput @0.3s:733.33Mbps, rtt :1.83ms cwnd: 169.8 lossRate: 0.0 CC:8 goodput:5535Mbps score:-626.0 
+1658260930.792820 -- INFO: Throughput @1.3s:720.0Mbps, rtt :3.27ms cwnd: 257.0 lossRate: 0.0 CC:8 goodput:2822Mbps score:-615.0 
+1658260931.722931 -- INFO: Throughput @2.3s:730.0Mbps, rtt :2.77ms cwnd: 267.5 lossRate: 0.0 CC:8 goodput:4034Mbps score:-623.0 
+1658260932.713010 -- INFO: Throughput @3.3s:710.0Mbps, rtt :3.41ms cwnd: 279.1 lossRate: 0.0 CC:8 goodput:3001Mbps score:-606.0 
+1658260933.728841 -- INFO: Throughput @4.3s:760.0Mbps, rtt :4.94ms cwnd: 289.2 lossRate: 0.0 CC:8 goodput:1696Mbps score:-649.0 
+1658260934.716934 -- INFO: Throughput @5.3s:698.39Mbps, rtt :3.41ms cwnd: 302.8 lossRate: 0.0 CC:8 goodput:3298Mbps score:-596.0 
+1658260935.720396 -- INFO: Throughput @6.3s:760.0Mbps, rtt :3.48ms cwnd: 320.9 lossRate: 0.0 CC:8 goodput:3976Mbps score:-649.0 
+1658260936.723150 -- INFO: Throughput @7.3s:731.61Mbps, rtt :3.76ms cwnd: 350.9 lossRate: 0.0 CC:8 goodput:3524Mbps score:-624.0 
+1658260937.743964 -- INFO: Throughput @8.3s:740.0Mbps, rtt :3.38ms cwnd: 365.6 lossRate: 0.0 CC:8 goodput:3567Mbps score:-632.0 
+1658260938.806025 -- INFO: Throughput @9.3s:738.39Mbps, rtt :4.15ms cwnd: 421.4 lossRate: 0.0 CC:8 goodput:2944Mbps score:-630.0 
+1658260939.752927 -- INFO: Throughput @10.4s:656.01Mbps, rtt :5.28ms cwnd: 437.2 lossRate: 0.0 CC:8 goodput:2281Mbps score:-560.0 
+1658260940.756905 -- INFO: Throughput @11.4s:760.0Mbps, rtt :6.71ms cwnd: 458.4 lossRate: 0.0 CC:8 goodput:1235Mbps score:-649.0 
+1658260941.720994 -- INFO: Throughput @12.4s:730.0Mbps, rtt :6.08ms cwnd: 484.9 lossRate: 0.0 CC:8 goodput:2637Mbps score:-623.0 
+1658260942.757880 -- INFO: Throughput @13.4s:750.0Mbps, rtt :7.32ms cwnd: 526.1 lossRate: 0.0 CC:8 goodput:1933Mbps score:-640.0 
