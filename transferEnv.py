@@ -10,8 +10,8 @@ class transferEnv(gym.Env):
   def __init__(self,transferClassObject):
     self.transferClassObject=transferClassObject
     self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
-    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3,7), dtype=np.float32)
-    self.current_observation = np.zeros([3,7],dtype = np.float32)
+    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3,6), dtype=np.float32)
+    self.current_observation = np.zeros([3,6],dtype = np.float32)
 
   def reset(self):
     self.current_observation=self.transferClassObject.reset()
@@ -43,7 +43,7 @@ class transferEnv(gym.Env):
     else:
       done=True
       score_=10 ** 10
-      return np.zeros([3,7],dtype = np.float32),score_,done,info
+      return np.zeros([3,6],dtype = np.float32),score_,done,info
 
   def bayes_step(self,action):
     params = [1 if x<1 else int(np.round(x)) for x in action]

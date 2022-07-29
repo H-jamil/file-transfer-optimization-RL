@@ -143,10 +143,9 @@ class TransferClass:
         curr_thrpt = np.round((curr_total*8)/(curr_time_sec*1000*1000), 2)
         previous_time, previous_total = time_since_begining, total_bytes
         cc_level=np.sum(self.process_status)
-        record_list=[] ## will record curr_thrpt,goodput,cc_level,cwnd,rtt,packet_loss_rate,score,datetime
-        cwnd_list,rtt_list,curr_sc,curr_rc,goodput=self.tcp_stats()
+        record_list=[] ## will record curr_thrpt,cc_level,cwnd,rtt,packet_loss_rate,score,datetime
+        cwnd_list,rtt_list,curr_sc,curr_rc=self.tcp_stats()
         record_list.append(curr_thrpt)
-        record_list.append(goodput)
         record_list.append(cc_level)
         try:
           if len(cwnd_list)==0:
@@ -187,8 +186,8 @@ class TransferClass:
         record_list.append(score_value)
         record_list.append(datetime.datetime.now())
         self.throughput_logs.append(record_list)
-        self.log.info("Throughput @{0}s:{1}Mbps, rtt :{2}ms cwnd: {3} lossRate: {4} CC:{5} goodput:{6}Mbps score:{7} ".format(
-            time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,goodput,score_value))
+        self.log.info("Throughput @{0}s:{1}Mbps, rtt :{2}ms cwnd: {3} lossRate: {4} CC:{5} score:{6} ".format(
+            time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
     self.transfer_status.value=1
@@ -207,13 +206,11 @@ class TransferClass:
     cwnd_list=[]
     rtt_list=[]
     sent, retm = 0, 0
-    goodput=0
     start = time.time()
     try:
       data = os.popen("ss -ti").read().split("\n")
       for i in range(1,len(data)):
           if self.RCVR_ADDR in data[i-1]:
-              goodput+=int((re.findall("\d+",re.findall(r'delivery_rate [\d\.-]+Mbps+',data[i])[0])[0]))
               parse_data = data[i].split(" ")
               for entry in parse_data:
                 if "minrtt" in entry:
@@ -241,7 +238,7 @@ class TransferClass:
 
     end = time.time()
     self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
-    return cwnd_list,rtt_list,sent,retm,goodput
+    return cwnd_list,rtt_list,sent,retm
 
   def run(self):
     workers = [mp.Process(target=self.worker, args=(i, self.q)) for i in range(configurations["thread_limit"])]
@@ -268,5 +265,5 @@ class TransferClass:
     self.q = manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
-    return np.zeros([3,7],dtype = np.float32)#curr_thrpt,goodput,cc_level,cwnd,rtt,packet_loss_rate,score
+    return np.zeros([3,6],dtype = np.float32)#curr_thrpt,cc_level,cwnd,rtt,packet_loss_rate,score
 

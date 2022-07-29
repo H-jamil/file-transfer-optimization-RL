@@ -131,7 +131,7 @@ if __name__=="__main__":
   for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
     list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])
 
-  df = pd.DataFrame(list_main, columns = ['curr_thrpt','goodput','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+  df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
   # mod_df=df.dropna(axis=0, how='any')
   mod_df=df.fillna(0)
   record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"
