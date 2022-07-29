@@ -67,21 +67,22 @@ def worker(sock, process_num):
                     chunk = client.recv(chunk_size.value)
                     while chunk:
                         chunk = client.recv(chunk_size.value)
-
+                log.info(f"{process_num} is out of chunk loop")
                 d = client.recv(1).decode()
-
+            log.info(f"{process_num} is out of d loop")
             total = np.round(total/(1024*1024))
             log.info("{u} exited. total received {d} MB".format(u=address, d=total))
             client.close()
             process_status[process_num] = 0
         except Exception as e:
+            # process_status[process_num] = 0
             log.error(str(e))
             # raise e
 
 
 if __name__ == '__main__':
     direct_io = False
-    file_transfer = True
+    file_transfer = False
     if "file_transfer" in configurations and configurations["file_transfer"] is not None:
         file_transfer = configurations["file_transfer"]
 
@@ -89,16 +90,18 @@ if __name__ == '__main__':
     if num_workers == -1:
         num_workers = mp.cpu_count()
 
-    sock = socket.socket()
-    #sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    sock.bind((HOST, PORT))
-    sock.listen(num_workers)
+    # sock = socket.socket()
+    # #sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    # sock.bind((HOST, PORT))
+    # sock.listen(num_workers)
 
     iter = 0
     while True:
         iter += 1
         log.info(f">>>>>> Iterations: {iter} >>>>>>")
-
+        sock = socket.socket()
+        sock.bind((HOST, PORT))
+        sock.listen(num_workers)
 
         process_status = mp.Array("i", [0 for _ in range(num_workers)])
         workers = [mp.Process(target=worker, args=(sock, i,)) for i in range(num_workers)]
@@ -113,10 +116,14 @@ if __name__ == '__main__':
             for i in range(num_workers):
                 if process_status[i] == 1:
                     alive += 1
+                # else:
+                #     print(f"process{i} is hanged")
 
             time.sleep(0.1)
-
+        print("Alive is done")
         for p in workers:
             if p.is_alive():
                 p.terminate()
                 p.join(timeout=0.1)
+        sock.close()
+        log.info(f"Socket Closed ... for iteration {iter} ")

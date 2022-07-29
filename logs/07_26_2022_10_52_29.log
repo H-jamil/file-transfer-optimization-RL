@@ -1,0 +1,1735 @@
+1658847149.333656 -- INFO: Iteration 1 Starts ...
+1658847149.337967 -- INFO: Changing concurrency to 18 ******
+1658847149.342621 -- INFO: Start Process :: 1
+1658847149.345917 -- INFO: Process 1 get item 0 from queue and executing
+1658847149.346137 -- INFO: starting 1, 0, /home/hjamil/Documents/files_bash/FILE19
+1658847149.358449 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847149.368435 -- INFO: Active CC: 18
+1658847149.380296 -- INFO: Start Process :: 4
+1658847149.381312 -- INFO: Process 4 get item 1 from queue and executing
+1658847149.381612 -- INFO: starting 4, 1, /home/hjamil/Documents/files_bash/FILE10
+1658847149.412477 -- INFO: Start Process :: 5
+1658847149.413764 -- INFO: Start Process :: 3
+1658847149.414809 -- INFO: Process 3 get item 2 from queue and executing
+1658847149.415105 -- INFO: starting 3, 2, /home/hjamil/Documents/files_bash/FILE31
+1658847149.415271 -- INFO: Process 5 get item 3 from queue and executing
+1658847149.415564 -- INFO: starting 5, 3, /home/hjamil/Documents/files_bash/FILE18
+1658847149.445727 -- INFO: Start Process :: 2
+1658847149.459208 -- INFO: Process 2 get item 4 from queue and executing
+1658847149.459587 -- INFO: Start Process :: 6
+1658847149.460126 -- INFO: starting 2, 4, /home/hjamil/Documents/files_bash/FILE6
+1658847149.461882 -- INFO: Process 6 get item 5 from queue and executing
+1658847149.462219 -- INFO: starting 6, 5, /home/hjamil/Documents/files_bash/FILE14
+1658847149.463395 -- INFO: Time taken to collect tcp stats: 95.0ms
+1658847149.476054 -- INFO: Start Process :: 0
+1658847149.476486 -- INFO: Throughput @0.1s:50.0Mbps, rtt :1.55ms cwnd: 99.0 lossRate: 0.0 CC:18 goodput:1301Mbps score:-35.0 
+1658847149.478062 -- INFO: Process 0 get item 6 from queue and executing
+1658847149.478296 -- INFO: starting 0, 6, /home/hjamil/Documents/files_bash/FILE1
+1658847149.524341 -- INFO: Start Process :: 8
+1658847149.528023 -- INFO: Start Process :: 9
+1658847149.532074 -- INFO: Process 9 get item 7 from queue and executing
+1658847149.532384 -- INFO: starting 9, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847149.532280 -- INFO: Start Process :: 7
+1658847149.533326 -- INFO: Process 8 get item 8 from queue and executing
+1658847149.533541 -- INFO: starting 8, 8, /home/hjamil/Documents/files_bash/FILE3
+1658847149.534420 -- INFO: Process 7 get item 9 from queue and executing
+1658847149.534722 -- INFO: starting 7, 9, /home/hjamil/Documents/files_bash/FILE20
+1658847149.580624 -- INFO: Start Process :: 10
+1658847149.583890 -- INFO: Process 10 get item 10 from queue and executing
+1658847149.584182 -- INFO: starting 10, 10, /home/hjamil/Documents/files_bash/FILE15
+1658847149.612114 -- INFO: Start Process :: 11
+1658847149.613516 -- INFO: Start Process :: 12
+1658847149.614405 -- INFO: Process 11 get item 11 from queue and executing
+1658847149.614771 -- INFO: starting 11, 11, /home/hjamil/Documents/files_bash/FILE0
+1658847149.631969 -- INFO: Process 12 get item 12 from queue and executing
+1658847149.632212 -- INFO: starting 12, 12, /home/hjamil/Documents/files_bash/FILE26
+1658847149.656722 -- INFO: Start Process :: 13
+1658847149.659265 -- INFO: Process 13 get item 13 from queue and executing
+1658847149.659516 -- INFO: starting 13, 13, /home/hjamil/Documents/files_bash/FILE23
+1658847149.659927 -- INFO: Start Process :: 14
+1658847149.664048 -- INFO: Process 14 get item 14 from queue and executing
+1658847149.664292 -- INFO: starting 14, 14, /home/hjamil/Documents/files_bash/FILE24
+1658847149.671173 -- INFO: Start Process :: 15
+1658847149.701052 -- INFO: Process 15 get item 15 from queue and executing
+1658847149.701410 -- INFO: starting 15, 15, /home/hjamil/Documents/files_bash/FILE13
+1658847149.707564 -- INFO: Start Process :: 16
+1658847149.716483 -- INFO: Start Process :: 17
+1658847149.720219 -- INFO: Process 16 get item 16 from queue and executing
+1658847149.720435 -- INFO: starting 16, 16, /home/hjamil/Documents/files_bash/FILE4
+1658847149.723857 -- INFO: Process 17 get item 17 from queue and executing
+1658847149.724160 -- INFO: starting 17, 17, /home/hjamil/Documents/files_bash/FILE25
+1658847150.396618 -- INFO: Time taken to collect tcp stats: 43.0ms
+1658847150.397624 -- INFO: Throughput @1.1s:660.0Mbps, rtt :3.32ms cwnd: 155.2 lossRate: 0.0 CC:18 goodput:4668Mbps score:-462.0 
+1658847151.396579 -- INFO: Time taken to collect tcp stats: 42.0ms
+1658847151.397537 -- INFO: Throughput @2.1s:785.0Mbps, rtt :3.72ms cwnd: 195.6 lossRate: 0.0 CC:18 goodput:5355Mbps score:-550.0 
+1658847152.440946 -- INFO: Time taken to collect tcp stats: 86.0ms
+1658847152.441905 -- INFO: Throughput @3.1s:765.0Mbps, rtt :3.38ms cwnd: 222.2 lossRate: 0.0 CC:18 goodput:7864Mbps score:-536.0 
+1658847152.909229 -- INFO: Iteration 1 Ends, Took 3.57 Seconds. Best Params: [18] and Score: -516.0.
+1658847152.909543 -- INFO: Iteration 2 Starts ...
+1658847152.910142 -- INFO: Changing concurrency to 18 ******
+1658847152.910607 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847152.911133 -- INFO: Active CC: 18
+1658847153.404123 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847153.404947 -- INFO: Throughput @4.1s:800.0Mbps, rtt :4.8ms cwnd: 237.0 lossRate: 0.0 CC:18 goodput:4498Mbps score:-560.0 
+1658847154.412776 -- INFO: Time taken to collect tcp stats: 56.0ms
+1658847154.413711 -- INFO: Throughput @5.1s:760.0Mbps, rtt :2.95ms cwnd: 245.6 lossRate: 0.0 CC:18 goodput:8544Mbps score:-532.0 
+1658847155.394186 -- INFO: Time taken to collect tcp stats: 37.0ms
+1658847155.395064 -- INFO: Throughput @6.1s:785.0Mbps, rtt :3.83ms cwnd: 255.6 lossRate: 0.0 CC:18 goodput:7598Mbps score:-550.0 
+1658847156.442621 -- INFO: Iteration 2 Ends, Took 3.53 Seconds. Best Params: [18] and Score: -547.3333333333334.
+1658847156.455969 -- INFO: Iteration 3 Starts ...
+1658847156.464357 -- INFO: Changing concurrency to 23 ******
+1658847156.470269 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847156.484648 -- INFO: Time taken to collect tcp stats: 126.0ms
+1658847156.485412 -- INFO: Throughput @7.1s:780.0Mbps, rtt :3.4ms cwnd: 265.2 lossRate: 0.0 CC:18 goodput:7893Mbps score:-546.0 
+1658847156.485621 -- INFO: Active CC: 23
+1658847156.512066 -- INFO: Start Process :: 21
+1658847156.519904 -- INFO: Process 21 get item 18 from queue and executing
+1658847156.520332 -- INFO: starting 21, 18, /home/hjamil/Documents/files_bash/FILE17
+1658847156.532050 -- INFO: Start Process :: 19
+1658847156.539895 -- INFO: Process 19 get item 19 from queue and executing
+1658847156.540233 -- INFO: starting 19, 19, /home/hjamil/Documents/files_bash/FILE8
+1658847156.553714 -- INFO: Start Process :: 20
+1658847156.562265 -- INFO: Process 20 get item 20 from queue and executing
+1658847156.562675 -- INFO: starting 20, 20, /home/hjamil/Documents/files_bash/FILE11
+1658847156.572041 -- INFO: Start Process :: 22
+1658847156.574404 -- INFO: Process 22 get item 21 from queue and executing
+1658847156.574914 -- INFO: starting 22, 21, /home/hjamil/Documents/files_bash/FILE29
+1658847156.575190 -- INFO: Start Process :: 18
+1658847156.577266 -- INFO: Process 18 get item 22 from queue and executing
+1658847156.577581 -- INFO: starting 18, 22, /home/hjamil/Documents/files_bash/FILE28
+1658847157.400401 -- INFO: Time taken to collect tcp stats: 41.0ms
+1658847157.401405 -- INFO: Throughput @8.1s:964.46Mbps, rtt :11.45ms cwnd: 190.1 lossRate: 0.0021040450265635683 CC:23 goodput:876Mbps score:-591.0 
+1658847158.458858 -- INFO: Time taken to collect tcp stats: 91.0ms
+1658847158.459870 -- INFO: Throughput @9.1s:969.37Mbps, rtt :10.44ms cwnd: 153.7 lossRate: 0.002546602831822349 CC:23 goodput:893Mbps score:-590.0 
+1658847159.432912 -- INFO: Time taken to collect tcp stats: 65.0ms
+1658847159.433766 -- INFO: Throughput @10.1s:971.75Mbps, rtt :9.66ms cwnd: 133.3 lossRate: 0.001555189456342669 CC:23 goodput:885Mbps score:-601.0 
+1658847160.381221 -- INFO: Time taken to collect tcp stats: 13.0ms
+1658847160.382136 -- INFO: Throughput @11.1s:891.91Mbps, rtt :9.02ms cwnd: 117.7 lossRate: 0.000835692141798086 CC:23 goodput:973Mbps score:-558.0 
+1658847160.437953 -- INFO: Iteration 3 Ends, Took 3.97 Seconds. Best Params: [23] and Score: -594.0.
+1658847160.438617 -- INFO: Iteration 4 Starts ...
+1658847160.439287 -- INFO: Changing concurrency to 23 ******
+1658847160.439774 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847160.440760 -- INFO: Active CC: 23
+1658847161.392705 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847161.393679 -- INFO: Throughput @12.1s:893.01Mbps, rtt :8.96ms cwnd: 117.7 lossRate: 0.0 CC:23 goodput:984Mbps score:-566.0 
+1658847162.397427 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847162.398226 -- INFO: Throughput @13.1s:881.52Mbps, rtt :8.72ms cwnd: 109.3 lossRate: 0.00038029794376835923 CC:23 goodput:840Mbps score:-556.0 
+1658847163.396446 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847163.397382 -- INFO: Throughput @14.1s:883.14Mbps, rtt :8.69ms cwnd: 104.0 lossRate: 0.0003769268761860199 CC:23 goodput:901Mbps score:-557.0 
+1658847164.426770 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847164.427742 -- INFO: Throughput @15.1s:886.8Mbps, rtt :8.17ms cwnd: 98.9 lossRate: 0.000503635213141005 CC:23 goodput:893Mbps score:-558.0 
+1658847164.582175 -- INFO: Iteration 4 Ends, Took 4.14 Seconds. Best Params: [23] and Score: -594.0.
+1658847164.582395 -- INFO: Iteration 5 Starts ...
+1658847164.582655 -- INFO: Changing concurrency to 23 ******
+1658847164.593916 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847164.595457 -- INFO: Active CC: 23
+1658847165.400942 -- INFO: Time taken to collect tcp stats: 28.0ms
+1658847165.401870 -- INFO: Throughput @16.1s:885.63Mbps, rtt :8.11ms cwnd: 98.9 lossRate: 0.0 CC:23 goodput:898Mbps score:-562.0 
+1658847166.400643 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847166.401589 -- INFO: Throughput @17.1s:881.56Mbps, rtt :8.43ms cwnd: 97.8 lossRate: 0.00015681354869060687 CC:23 goodput:888Mbps score:-558.0 
+1658847167.389326 -- INFO: Time taken to collect tcp stats: 15.0ms
+1658847167.390120 -- INFO: Throughput @18.1s:883.53Mbps, rtt :8.45ms cwnd: 98.1 lossRate: 0.0 CC:23 goodput:865Mbps score:-560.0 
+1658847168.410646 -- INFO: Time taken to collect tcp stats: 34.0ms
+1658847168.411549 -- INFO: Throughput @19.1s:885.53Mbps, rtt :8.24ms cwnd: 98.1 lossRate: 0.0 CC:23 goodput:898Mbps score:-562.0 
+1658847168.576265 -- INFO: Iteration 5 Ends, Took 3.99 Seconds. Best Params: [23] and Score: -594.0.
+1658847168.576529 -- INFO: Iteration 6 Starts ...
+1658847168.576801 -- INFO: Changing concurrency to 24 ******
+1658847168.579847 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1658847168.583949 -- INFO: Start Process :: 23
+1658847168.583601 -- INFO: Active CC: 24
+1658847168.587141 -- INFO: Process 23 get item 23 from queue and executing
+1658847168.587814 -- INFO: starting 23, 23, /home/hjamil/Documents/files_bash/FILE12
+1658847169.383458 -- INFO: Time taken to collect tcp stats: 7.0ms
+1658847169.384305 -- INFO: Throughput @20.1s:902.22Mbps, rtt :8.43ms cwnd: 93.2 lossRate: 0.0008373428320795343 CC:24 goodput:889Mbps score:-553.0 
+1658847170.397063 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847170.397989 -- INFO: Throughput @21.1s:878.75Mbps, rtt :7.88ms cwnd: 89.7 lossRate: 0.00027169342631286147 CC:24 goodput:946Mbps score:-544.0 
+1658847171.412627 -- INFO: Time taken to collect tcp stats: 33.0ms
+1658847171.413866 -- INFO: Throughput @22.1s:879.15Mbps, rtt :8.0ms cwnd: 87.5 lossRate: 0.00031035017845135263 CC:24 goodput:950Mbps score:-544.0 
+1658847172.411017 -- INFO: Time taken to collect tcp stats: 31.0ms
+1658847172.412123 -- INFO: Throughput @23.1s:885.98Mbps, rtt :7.82ms cwnd: 85.6 lossRate: 0.00022461518134372728 CC:24 goodput:893Mbps score:-549.0 
+1658847172.655901 -- INFO: Iteration 6 Ends, Took 4.08 Seconds. Best Params: [23] and Score: -594.0.
+1658847172.656164 -- INFO: Iteration 7 Starts ...
+1658847172.656509 -- INFO: Changing concurrency to 23 ******
+1658847172.659214 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847172.664165 -- INFO: Active CC: 23
+1658847173.395185 -- INFO: Time taken to collect tcp stats: 14.0ms
+1658847173.396194 -- INFO: Throughput @24.1s:876.69Mbps, rtt :7.71ms cwnd: 82.8 lossRate: 0.0002454670419584997 CC:23 goodput:923Mbps score:-554.0 
+1658847174.404916 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847174.405790 -- INFO: Throughput @25.1s:886.85Mbps, rtt :7.53ms cwnd: 81.7 lossRate: 0.00015694891312877657 CC:23 goodput:884Mbps score:-561.0 
+1658847175.397900 -- INFO: Time taken to collect tcp stats: 15.0ms
+1658847175.398706 -- INFO: Throughput @26.1s:879.42Mbps, rtt :7.54ms cwnd: 81.7 lossRate: 0.0 CC:23 goodput:878Mbps score:-558.0 
+1658847176.410454 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847176.411814 -- INFO: Throughput @27.1s:883.16Mbps, rtt :7.55ms cwnd: 80.0 lossRate: 0.0001955569461827284 CC:23 goodput:887Mbps score:-558.0 
+1658847176.745009 -- INFO: Iteration 7 Ends, Took 4.09 Seconds. Best Params: [23] and Score: -594.0.
+1658847176.745222 -- INFO: Iteration 8 Starts ...
+1658847176.745498 -- INFO: Changing concurrency to 23 ******
+1658847176.746908 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847176.748112 -- INFO: Active CC: 23
+1658847177.412450 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847177.413713 -- INFO: Throughput @28.1s:885.66Mbps, rtt :7.58ms cwnd: 78.3 lossRate: 0.00016962200388825826 CC:23 goodput:926Mbps score:-560.0 
+1658847178.403120 -- INFO: Time taken to collect tcp stats: 17.0ms
+1658847178.404055 -- INFO: Throughput @29.1s:880.62Mbps, rtt :7.46ms cwnd: 78.3 lossRate: 0.00015919130815457476 CC:23 goodput:892Mbps score:-557.0 
+1658847179.426824 -- INFO: Time taken to collect tcp stats: 40.0ms
+1658847179.427775 -- INFO: Throughput @30.1s:880.03Mbps, rtt :7.45ms cwnd: 78.3 lossRate: 0.0 CC:23 goodput:780Mbps score:-558.0 
+1658847180.443411 -- INFO: Time taken to collect tcp stats: 56.0ms
+1658847180.444393 -- INFO: Throughput @31.1s:879.41Mbps, rtt :7.29ms cwnd: 76.0 lossRate: 0.00031109440418940464 CC:23 goodput:906Mbps score:-555.0 
+1658847180.877799 -- INFO: Iteration 8 Ends, Took 4.13 Seconds. Best Params: [23] and Score: -594.0.
+1658847180.878042 -- INFO: Iteration 9 Starts ...
+1658847180.878453 -- INFO: Changing concurrency to 23 ******
+1658847180.880612 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847180.882874 -- INFO: Active CC: 23
+1658847181.405535 -- INFO: Time taken to collect tcp stats: 16.0ms
+1658847181.406348 -- INFO: Throughput @32.1s:881.07Mbps, rtt :7.18ms cwnd: 70.7 lossRate: 0.00012121375372058882 CC:23 goodput:865Mbps score:-558.0 
+1658847182.410243 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847182.411086 -- INFO: Throughput @33.1s:885.48Mbps, rtt :7.25ms cwnd: 72.5 lossRate: 0.00020991314843483508 CC:23 goodput:877Mbps score:-560.0 
+1658847183.416868 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847183.417801 -- INFO: Throughput @34.1s:879.96Mbps, rtt :6.98ms cwnd: 71.3 lossRate: 0.0001564333202972233 CC:23 goodput:859Mbps score:-557.0 
+1658847184.406566 -- INFO: Time taken to collect tcp stats: 15.0ms
+1658847184.407713 -- INFO: Throughput @35.1s:880.76Mbps, rtt :6.99ms cwnd: 71.3 lossRate: 0.0 CC:23 goodput:894Mbps score:-559.0 
+1658847185.035886 -- INFO: Iteration 9 Ends, Took 4.16 Seconds. Best Params: [23] and Score: -594.0.
+1658847185.036176 -- INFO: Iteration 10 Starts ...
+1658847185.036636 -- INFO: Changing concurrency to 23 ******
+1658847185.038533 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847185.040963 -- INFO: Active CC: 23
+1658847185.413395 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847185.414195 -- INFO: Throughput @36.1s:880.97Mbps, rtt :7.08ms cwnd: 71.8 lossRate: 0.0 CC:23 goodput:876Mbps score:-559.0 
+1658847186.425071 -- INFO: Time taken to collect tcp stats: 32.0ms
+1658847186.428015 -- INFO: Throughput @37.1s:880.34Mbps, rtt :7.1ms cwnd: 72.5 lossRate: 2.611034230658764e-05 CC:23 goodput:865Mbps score:-558.0 
+1658847187.420570 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847187.421508 -- INFO: Throughput @38.1s:879.3Mbps, rtt :7.06ms cwnd: 71.1 lossRate: 0.00021028559412251765 CC:23 goodput:869Mbps score:-556.0 
+1658847188.420921 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847188.421833 -- INFO: Throughput @39.1s:889.47Mbps, rtt :6.97ms cwnd: 71.2 lossRate: 0.0 CC:23 goodput:851Mbps score:-564.0 
+1658847189.072266 -- INFO: Iteration 10 Ends, Took 4.04 Seconds. Best Params: [23] and Score: -594.0.
+1658847189.072525 -- INFO: Iteration 11 Starts ...
+1658847189.072959 -- INFO: Changing concurrency to 23 ******
+1658847189.074067 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847189.080174 -- INFO: Active CC: 23
+1658847189.414220 -- INFO: Time taken to collect tcp stats: 17.0ms
+1658847189.415103 -- INFO: Throughput @40.1s:879.71Mbps, rtt :7.03ms cwnd: 70.3 lossRate: 0.00011869592741084617 CC:23 goodput:886Mbps score:-557.0 
+1658847190.421610 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847190.427882 -- INFO: Throughput @41.1s:880.61Mbps, rtt :7.01ms cwnd: 69.1 lossRate: 0.00015696533682145193 CC:23 goodput:766Mbps score:-557.0 
+1658847191.413053 -- INFO: Time taken to collect tcp stats: 14.0ms
+1658847191.413976 -- INFO: Throughput @42.1s:878.89Mbps, rtt :7.0ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:871Mbps score:-557.0 
+1658847192.420606 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847192.421462 -- INFO: Throughput @43.1s:885.86Mbps, rtt :6.93ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:868Mbps score:-562.0 
+1658847193.238900 -- INFO: Iteration 11 Ends, Took 4.17 Seconds. Best Params: [23] and Score: -594.0.
+1658847193.239110 -- INFO: Iteration 12 Starts ...
+1658847193.239543 -- INFO: Changing concurrency to 23 ******
+1658847193.240101 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847193.240933 -- INFO: Active CC: 23
+1658847193.411759 -- INFO: Time taken to collect tcp stats: 11.0ms
+1658847193.412718 -- INFO: Throughput @44.1s:875.03Mbps, rtt :7.18ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:930Mbps score:-555.0 
+1658847194.424738 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847194.426016 -- INFO: Throughput @45.1s:879.53Mbps, rtt :6.83ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:990Mbps score:-558.0 
+1658847195.428600 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847195.429532 -- INFO: Throughput @46.1s:881.64Mbps, rtt :7.06ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:860Mbps score:-559.0 
+1658847196.431658 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847196.432622 -- INFO: Throughput @47.1s:879.37Mbps, rtt :6.81ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:897Mbps score:-558.0 
+1658847197.315190 -- INFO: Iteration 12 Ends, Took 4.08 Seconds. Best Params: [23] and Score: -594.0.
+1658847197.315455 -- INFO: Iteration 13 Starts ...
+1658847197.315913 -- INFO: Changing concurrency to 23 ******
+1658847197.318249 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847197.319489 -- INFO: Active CC: 23
+1658847197.438571 -- INFO: Time taken to collect tcp stats: 34.0ms
+1658847197.439494 -- INFO: Throughput @48.1s:889.6Mbps, rtt :6.89ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:913Mbps score:-564.0 
+1658847198.432934 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847198.433908 -- INFO: Throughput @49.1s:876.0Mbps, rtt :6.89ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:929Mbps score:-556.0 
+1658847199.429142 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847199.430447 -- INFO: Throughput @50.1s:885.54Mbps, rtt :6.82ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:882Mbps score:-562.0 
+1658847200.428623 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847200.429492 -- INFO: Throughput @51.1s:878.72Mbps, rtt :6.94ms cwnd: 69.1 lossRate: 0.0 CC:23 goodput:849Mbps score:-557.0 
+1658847201.363771 -- INFO: Iteration 13 Ends, Took 4.05 Seconds. Best Params: [23] and Score: -594.0.
+1658847201.364044 -- INFO: Iteration 14 Starts ...
+1658847201.364371 -- INFO: Changing concurrency to 22 ******
+1658847201.365358 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1658847201.366760 -- INFO: Active CC: 22
+1658847201.437395 -- INFO: Time taken to collect tcp stats: 28.0ms
+1658847201.438225 -- INFO: Throughput @52.1s:881.54Mbps, rtt :6.92ms cwnd: 69.1 lossRate: 0.0 CC:22 goodput:882Mbps score:-570.0 
+1658847202.446662 -- INFO: Time taken to collect tcp stats: 37.0ms
+1658847202.447516 -- INFO: Throughput @53.1s:893.43Mbps, rtt :6.89ms cwnd: 68.5 lossRate: 0 CC:22 goodput:865Mbps score:-578.0 
+1658847203.422452 -- INFO: Time taken to collect tcp stats: 11.0ms
+1658847203.423613 -- INFO: Throughput @54.1s:871.84Mbps, rtt :6.77ms cwnd: 68.7 lossRate: 0.0 CC:22 goodput:850Mbps score:-564.0 
+1658847204.436908 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847204.437861 -- INFO: Throughput @55.1s:882.98Mbps, rtt :6.89ms cwnd: 68.7 lossRate: 0.0 CC:22 goodput:821Mbps score:-571.0 
+1658847205.250293 -- INFO: Iteration 14 Ends, Took 3.89 Seconds. Best Params: [23] and Score: -594.0.
+1658847205.250902 -- INFO: Iteration 15 Starts ...
+1658847205.251344 -- INFO: Changing concurrency to 1 ******
+1658847205.252404 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847205.253404 -- INFO: Active CC: 1
+1658847205.432870 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847205.433820 -- INFO: Throughput @56.1s:801.57Mbps, rtt :6.78ms cwnd: 69.9 lossRate: 0 CC:1 goodput:844Mbps score:-786.0 
+1658847206.467323 -- INFO: Time taken to collect tcp stats: 53.0ms
+1658847206.468213 -- INFO: Throughput @57.1s:60.0Mbps, rtt :3.4ms cwnd: 519.0 lossRate: 0 CC:1 goodput:900Mbps score:-59.0 
+1658847207.436349 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847207.437273 -- INFO: Throughput @58.1s:50.0Mbps, rtt :3.47ms cwnd: 519.0 lossRate: 0.0 CC:1 goodput:865Mbps score:-49.0 
+1658847208.464196 -- INFO: Time taken to collect tcp stats: 49.0ms
+1658847208.465091 -- INFO: Throughput @59.1s:50.0Mbps, rtt :3.46ms cwnd: 519.0 lossRate: 0.0 CC:1 goodput:892Mbps score:-49.0 
+1658847209.200675 -- INFO: Iteration 15 Ends, Took 3.95 Seconds. Best Params: [23] and Score: -594.0.
+1658847209.200935 -- INFO: Iteration 16 Starts ...
+1658847209.201339 -- INFO: Changing concurrency to 32 ******
+1658847209.201918 -- INFO: Start Process :: 4
+1658847209.202227 -- INFO: Start Process :: 2
+1658847209.202409 -- INFO: Start Process :: 3
+1658847209.202967 -- INFO: Process 4 get item 24 from queue and executing
+1658847209.203279 -- INFO: starting 4, 24, /home/hjamil/Documents/files_bash/FILE2
+1658847209.203494 -- INFO: Process 2 get item 26 from queue and executing
+1658847209.203748 -- INFO: Process 3 get item 25 from queue and executing
+1658847209.204121 -- INFO: starting 3, 25, /home/hjamil/Documents/files_bash/FILE5
+1658847209.204323 -- INFO: Start Process :: 8
+1658847209.204581 -- INFO: starting 2, 26, /home/hjamil/Documents/files_bash/FILE22
+1658847209.206356 -- INFO: Start Process :: 6
+1658847209.206688 -- INFO: Start Process :: 14
+1658847209.207212 -- INFO: Start Process :: 21
+1658847209.207242 -- INFO: Start Process :: 13
+1658847209.207431 -- INFO: Start Process :: 9
+1658847209.207896 -- INFO: Start Process :: 5
+1658847209.208513 -- INFO: Start Process :: 1
+1658847209.208858 -- INFO: Start Process :: 7
+1658847209.209175 -- INFO: Start Process :: 18
+1658847209.209390 -- INFO: Process 14 get item 28 from queue and executing
+1658847209.209803 -- INFO: starting 14, 28, /home/hjamil/Documents/files_bash/FILE21
+1658847209.209913 -- INFO: Process 9 get item 31 from queue and executing
+1658847209.210284 -- INFO: starting 9, 31, /home/hjamil/Documents/files_bash/FILE9
+1658847209.210476 -- INFO: Start Process :: 20
+1658847209.210824 -- INFO: Start Process :: 16
+1658847209.210994 -- INFO: Process 5 get item 21 from queue and executing
+1658847209.211284 -- INFO: starting 5, 21, /home/hjamil/Documents/files_bash/FILE29
+1658847209.211760 -- INFO: Process 7 get item 15 from queue and executing
+1658847209.212003 -- INFO: Start Process :: 19
+1658847209.212026 -- INFO: Process 13 get item 23 from queue and executing
+1658847209.212523 -- INFO: starting 13, 23, /home/hjamil/Documents/files_bash/FILE12
+1658847209.212548 -- INFO: Process 18 get item 10 from queue and executing
+1658847209.212842 -- INFO: Process 20 get item 20 from queue and executing
+1658847209.212916 -- INFO: starting 18, 10, /home/hjamil/Documents/files_bash/FILE15
+1658847209.213241 -- INFO: starting 20, 20, /home/hjamil/Documents/files_bash/FILE11
+1658847209.213531 -- INFO: Start Process :: 15
+1658847209.213735 -- INFO: Process 16 get item 5 from queue and executing
+1658847209.206451 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1658847209.206488 -- INFO: Start Process :: 10
+1658847209.207392 -- INFO: Start Process :: 23
+1658847209.207586 -- INFO: Start Process :: 17
+1658847209.207704 -- INFO: Start Process :: 11
+1658847209.214262 -- INFO: starting 16, 5, /home/hjamil/Documents/files_bash/FILE14
+1658847209.208228 -- INFO: Start Process :: 12
+1658847209.214622 -- INFO: Process 1 get item 12 from queue and executing
+1658847209.208398 -- INFO: Start Process :: 22
+1658847209.208414 -- INFO: Process 6 get item 27 from queue and executing
+1658847209.209409 -- INFO: Process 21 get item 29 from queue and executing
+1658847209.214481 -- INFO: Active CC: 32
+1658847209.212112 -- INFO: starting 7, 15, /home/hjamil/Documents/files_bash/FILE13
+1658847209.213343 -- INFO: Process 8 get item 30 from queue and executing
+1658847209.215267 -- INFO: Process 19 get item 18 from queue and executing
+1658847209.215724 -- INFO: starting 6, 27, /home/hjamil/Documents/files_bash/FILE16
+1658847209.215890 -- INFO: Process 10 get item 13 from queue and executing
+1658847209.216203 -- INFO: Process 23 get item 2 from queue and executing
+1658847209.215679 -- INFO: starting 1, 12, /home/hjamil/Documents/files_bash/FILE26
+1658847209.216460 -- INFO: Process 15 get item 9 from queue and executing
+1658847209.216612 -- INFO: Process 17 get item 14 from queue and executing
+1658847209.216980 -- INFO: starting 17, 14, /home/hjamil/Documents/files_bash/FILE24
+1658847209.217457 -- INFO: starting 21, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847209.217581 -- INFO: Process 11 get item 4 from queue and executing
+1658847209.218146 -- INFO: Process 22 get item 1 from queue and executing
+1658847209.218224 -- INFO: starting 11, 4, /home/hjamil/Documents/files_bash/FILE6
+1658847209.219298 -- INFO: starting 22, 1, /home/hjamil/Documents/files_bash/FILE10
+1658847209.218456 -- INFO: Start Process :: 28
+1658847209.217959 -- INFO: Process 12 get item 22 from queue and executing
+1658847209.220889 -- INFO: starting 10, 13, /home/hjamil/Documents/files_bash/FILE23
+1658847209.222012 -- INFO: Process 28 get item 0 from queue and executing
+1658847209.222351 -- INFO: starting 28, 0, /home/hjamil/Documents/files_bash/FILE19
+1658847209.222407 -- INFO: starting 8, 30, /home/hjamil/Documents/files_bash/FILE7
+1658847209.223016 -- INFO: starting 12, 22, /home/hjamil/Documents/files_bash/FILE28
+1658847209.223053 -- INFO: starting 15, 9, /home/hjamil/Documents/files_bash/FILE20
+1658847209.224156 -- INFO: starting 19, 18, /home/hjamil/Documents/files_bash/FILE17
+1658847209.224715 -- INFO: starting 23, 2, /home/hjamil/Documents/files_bash/FILE31
+1658847209.232836 -- INFO: Start Process :: 31
+1658847209.240354 -- INFO: Start Process :: 25
+1658847209.242619 -- INFO: Process 25 get item 7 from queue and executing
+1658847209.242944 -- INFO: starting 25, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847209.247993 -- INFO: Process 31 get item 16 from queue and executing
+1658847209.248312 -- INFO: starting 31, 16, /home/hjamil/Documents/files_bash/FILE4
+1658847209.249734 -- INFO: Start Process :: 24
+1658847209.252047 -- INFO: Process 24 get item 11 from queue and executing
+1658847209.252293 -- INFO: starting 24, 11, /home/hjamil/Documents/files_bash/FILE0
+1658847209.252042 -- INFO: Start Process :: 26
+1658847209.254481 -- INFO: Process 26 get item 19 from queue and executing
+1658847209.254755 -- INFO: starting 26, 19, /home/hjamil/Documents/files_bash/FILE8
+1658847209.259763 -- INFO: Start Process :: 30
+1658847209.261919 -- INFO: Process 30 get item 3 from queue and executing
+1658847209.262206 -- INFO: starting 30, 3, /home/hjamil/Documents/files_bash/FILE18
+1658847209.319736 -- INFO: Start Process :: 29
+1658847209.320681 -- INFO: Start Process :: 27
+1658847209.322002 -- INFO: Process 29 get item 17 from queue and executing
+1658847209.322314 -- INFO: starting 29, 17, /home/hjamil/Documents/files_bash/FILE25
+1658847209.322770 -- INFO: Process 27 get item 8 from queue and executing
+1658847209.323061 -- INFO: starting 27, 8, /home/hjamil/Documents/files_bash/FILE3
+1658847209.422403 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847209.423499 -- INFO: Throughput @60.1s:286.99Mbps, rtt :6.63ms cwnd: 51.9 lossRate: 0.0 CC:32 goodput:782Mbps score:-152.0 
+1658847210.423574 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847210.424476 -- INFO: Throughput @61.1s:880.65Mbps, rtt :6.05ms cwnd: 36.6 lossRate: 0.001608277267000831 CC:32 goodput:855Mbps score:-453.0 
+1658847211.425001 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847211.426133 -- INFO: Throughput @62.1s:864.7Mbps, rtt :6.13ms cwnd: 36.9 lossRate: 0.00012069196727906664 CC:32 goodput:849Mbps score:-458.0 
+1658847212.426273 -- INFO: Time taken to collect tcp stats: 7.0ms
+1658847212.427360 -- INFO: Throughput @63.1s:860.26Mbps, rtt :6.12ms cwnd: 37.2 lossRate: 0.0 CC:32 goodput:818Mbps score:-456.0 
+1658847213.055241 -- INFO: Iteration 16 Ends, Took 3.85 Seconds. Best Params: [23] and Score: -594.0.
+1658847213.055399 -- INFO: Iteration 17 Starts ...
+1658847213.055656 -- INFO: Changing concurrency to 21 ******
+1658847213.055855 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847213.056047 -- INFO: Active CC: 21
+1658847213.434325 -- INFO: Time taken to collect tcp stats: 13.0ms
+1658847213.435412 -- INFO: Throughput @64.1s:855.45Mbps, rtt :5.86ms cwnd: 49.8 lossRate: 0 CC:21 goodput:879Mbps score:-564.0 
+1658847214.443456 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847214.444321 -- INFO: Throughput @65.1s:886.86Mbps, rtt :6.05ms cwnd: 55.5 lossRate: 0.0 CC:21 goodput:935Mbps score:-585.0 
+1658847215.452613 -- INFO: Time taken to collect tcp stats: 30.0ms
+1658847215.453967 -- INFO: Throughput @66.1s:873.34Mbps, rtt :6.2ms cwnd: 58.1 lossRate: 0.00015697149659241042 CC:21 goodput:833Mbps score:-575.0 
+1658847216.447850 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847216.448787 -- INFO: Throughput @67.1s:887.23Mbps, rtt :6.4ms cwnd: 60.0 lossRate: 0.0 CC:21 goodput:795Mbps score:-585.0 
+1658847217.174480 -- INFO: Iteration 17 Ends, Took 4.12 Seconds. Best Params: [23] and Score: -594.0.
+1658847217.174745 -- INFO: Iteration 18 Starts ...
+1658847217.175139 -- INFO: Changing concurrency to 21 ******
+1658847217.177811 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847217.180383 -- INFO: Active CC: 21
+1658847217.456921 -- INFO: Time taken to collect tcp stats: 32.0ms
+1658847217.457864 -- INFO: Throughput @68.1s:875.44Mbps, rtt :6.37ms cwnd: 60.3 lossRate: 0.0 CC:21 goodput:858Mbps score:-578.0 
+1658847218.456607 -- INFO: Time taken to collect tcp stats: 31.0ms
+1658847218.457602 -- INFO: Throughput @69.1s:880.14Mbps, rtt :6.44ms cwnd: 63.0 lossRate: 0.0 CC:21 goodput:859Mbps score:-581.0 
+1658847219.444670 -- INFO: Time taken to collect tcp stats: 17.0ms
+1658847219.445580 -- INFO: Throughput @70.1s:882.31Mbps, rtt :6.5ms cwnd: 63.0 lossRate: 0.0 CC:21 goodput:927Mbps score:-582.0 
+1658847220.453593 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847220.454502 -- INFO: Throughput @71.1s:878.06Mbps, rtt :6.78ms cwnd: 64.0 lossRate: 0.0001575919943266882 CC:21 goodput:838Mbps score:-578.0 
+1658847221.313622 -- INFO: Iteration 18 Ends, Took 4.14 Seconds. Best Params: [23] and Score: -594.0.
+1658847221.313883 -- INFO: Iteration 19 Starts ...
+1658847221.314371 -- INFO: Changing concurrency to 21 ******
+1658847221.319825 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847221.320237 -- INFO: Active CC: 21
+1658847221.452833 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847221.453714 -- INFO: Throughput @72.1s:887.81Mbps, rtt :6.63ms cwnd: 64.0 lossRate: 0.0 CC:21 goodput:850Mbps score:-586.0 
+1658847222.452415 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847222.453209 -- INFO: Throughput @73.1s:877.33Mbps, rtt :6.62ms cwnd: 64.0 lossRate: 0.0 CC:21 goodput:861Mbps score:-579.0 
+1658847223.456575 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847223.457517 -- INFO: Throughput @74.1s:879.81Mbps, rtt :6.8ms cwnd: 65.1 lossRate: 0.0 CC:21 goodput:850Mbps score:-580.0 
+1658847224.456424 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847224.457357 -- INFO: Throughput @75.1s:883.21Mbps, rtt :6.48ms cwnd: 64.0 lossRate: 0.00015845977102563086 CC:21 goodput:904Mbps score:-581.0 
+1658847225.452514 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847225.453656 -- INFO: Throughput @76.1s:879.11Mbps, rtt :6.53ms cwnd: 64.0 lossRate: 0.0 CC:21 goodput:822Mbps score:-580.0 
+1658847225.471736 -- INFO: Iteration 19 Ends, Took 4.16 Seconds. Best Params: [23] and Score: -594.0.
+1658847225.472030 -- INFO: Iteration 20 Starts ...
+1658847225.472525 -- INFO: Changing concurrency to 21 ******
+1658847225.474900 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847225.477345 -- INFO: Active CC: 21
+1658847226.456749 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847226.457657 -- INFO: Throughput @77.1s:888.03Mbps, rtt :6.8ms cwnd: 64.5 lossRate: 0.0 CC:21 goodput:860Mbps score:-586.0 
+1658847227.440623 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847227.441415 -- INFO: Throughput @78.1s:876.99Mbps, rtt :6.58ms cwnd: 64.7 lossRate: 0.0 CC:21 goodput:855Mbps score:-579.0 
+1658847228.460100 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847228.461375 -- INFO: Throughput @79.1s:873.98Mbps, rtt :6.51ms cwnd: 63.7 lossRate: 1.2941298271042551e-05 CC:21 goodput:901Mbps score:-577.0 
+1658847229.402577 -- INFO: Iteration 20 Ends, Took 3.93 Seconds. Best Params: [23] and Score: -594.0.
+1658847229.402839 -- INFO: Iteration 21 Starts ...
+1658847229.403339 -- INFO: Changing concurrency to 21 ******
+1658847229.412903 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847229.415282 -- INFO: Active CC: 21
+1658847229.459409 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847229.460364 -- INFO: Throughput @80.1s:892.13Mbps, rtt :6.54ms cwnd: 63.7 lossRate: 0.0 CC:21 goodput:812Mbps score:-589.0 
+1658847230.460855 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847230.462044 -- INFO: Throughput @81.1s:877.9Mbps, rtt :6.57ms cwnd: 64.7 lossRate: 0.0 CC:21 goodput:942Mbps score:-579.0 
+1658847231.450638 -- INFO: Time taken to collect tcp stats: 12.0ms
+1658847231.451417 -- INFO: Throughput @82.1s:880.13Mbps, rtt :6.69ms cwnd: 65.0 lossRate: 0.0 CC:21 goodput:866Mbps score:-581.0 
+1658847232.468956 -- INFO: Time taken to collect tcp stats: 29.0ms
+1658847232.469820 -- INFO: Throughput @83.1s:884.78Mbps, rtt :6.7ms cwnd: 69.0 lossRate: 0.0 CC:21 goodput:882Mbps score:-584.0 
+1658847233.441864 -- INFO: Iteration 21 Ends, Took 4.04 Seconds. Best Params: [23] and Score: -594.0.
+1658847233.442468 -- INFO: Iteration 22 Starts ...
+1658847233.443322 -- INFO: Changing concurrency to 21 ******
+1658847233.444233 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847233.445101 -- INFO: Active CC: 21
+1658847233.495325 -- INFO: Time taken to collect tcp stats: 55.0ms
+1658847233.496265 -- INFO: Throughput @84.1s:874.91Mbps, rtt :6.71ms cwnd: 69.0 lossRate: 0.0 CC:21 goodput:897Mbps score:-577.0 
+1658847234.459265 -- INFO: Time taken to collect tcp stats: 16.0ms
+1658847234.460258 -- INFO: Throughput @85.1s:894.77Mbps, rtt :6.77ms cwnd: 69.0 lossRate: 0.0 CC:21 goodput:895Mbps score:-590.0 
+1658847235.468864 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847235.469840 -- INFO: Throughput @86.1s:878.5Mbps, rtt :6.89ms cwnd: 69.5 lossRate: 0.0 CC:21 goodput:905Mbps score:-580.0 
+1658847236.479986 -- INFO: Time taken to collect tcp stats: 37.0ms
+1658847236.480905 -- INFO: Throughput @87.1s:870.01Mbps, rtt :6.77ms cwnd: 69.5 lossRate: 0.0 CC:21 goodput:851Mbps score:-574.0 
+1658847237.463533 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847237.464853 -- INFO: Throughput @88.1s:882.65Mbps, rtt :6.63ms cwnd: 69.8 lossRate: 0.0 CC:21 goodput:895Mbps score:-582.0 
+1658847237.513047 -- INFO: Iteration 22 Ends, Took 4.07 Seconds. Best Params: [23] and Score: -594.0.
+1658847237.513317 -- INFO: Iteration 23 Starts ...
+1658847237.513834 -- INFO: Changing concurrency to 21 ******
+1658847237.517117 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847237.520365 -- INFO: Active CC: 21
+1658847238.472532 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847238.473391 -- INFO: Throughput @89.1s:880.0Mbps, rtt :6.69ms cwnd: 69.8 lossRate: 0.0 CC:21 goodput:887Mbps score:-581.0 
+1658847239.490646 -- INFO: Time taken to collect tcp stats: 38.0ms
+1658847239.491735 -- INFO: Throughput @90.1s:893.01Mbps, rtt :6.64ms cwnd: 68.5 lossRate: 0.00015588059546387467 CC:21 goodput:856Mbps score:-588.0 
+1658847240.465701 -- INFO: Time taken to collect tcp stats: 18.0ms
+1658847240.466603 -- INFO: Throughput @91.1s:883.06Mbps, rtt :6.66ms cwnd: 68.5 lossRate: 0.0 CC:21 goodput:873Mbps score:-583.0 
+1658847241.462674 -- INFO: Iteration 23 Ends, Took 3.95 Seconds. Best Params: [23] and Score: -594.0.
+1658847241.463175 -- INFO: Iteration 24 Starts ...
+1658847241.467343 -- INFO: Changing concurrency to 21 ******
+1658847241.468804 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847241.469670 -- INFO: Throughput @92.1s:872.61Mbps, rtt :6.86ms cwnd: 68.5 lossRate: 0.0 CC:21 goodput:907Mbps score:-576.0 
+1658847241.470085 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847241.470743 -- INFO: Active CC: 21
+1658847242.472872 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847242.473784 -- INFO: Throughput @93.2s:806.63Mbps, rtt :6.8ms cwnd: 69.8 lossRate: 0.0 CC:21 goodput:917Mbps score:-532.0 
+1658847243.533504 -- INFO: Time taken to collect tcp stats: 81.0ms
+1658847243.535116 -- INFO: Throughput @94.2s:876.63Mbps, rtt :6.9ms cwnd: 69.5 lossRate: 0.0001503872471614407 CC:21 goodput:878Mbps score:-577.0 
+1658847244.480407 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847244.481325 -- INFO: Throughput @95.2s:899.16Mbps, rtt :6.83ms cwnd: 69.8 lossRate: 0.0 CC:21 goodput:901Mbps score:-593.0 
+1658847245.472880 -- INFO: Time taken to collect tcp stats: 18.0ms
+1658847245.473789 -- INFO: Throughput @96.2s:877.0Mbps, rtt :6.7ms cwnd: 69.8 lossRate: 0.0 CC:21 goodput:818Mbps score:-579.0 
+1658847245.499470 -- INFO: Iteration 24 Ends, Took 4.03 Seconds. Best Params: [23] and Score: -594.0.
+1658847245.499727 -- INFO: Iteration 25 Starts ...
+1658847245.500288 -- INFO: Changing concurrency to 21 ******
+1658847245.503642 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847245.505749 -- INFO: Active CC: 21
+1658847246.473413 -- INFO: Time taken to collect tcp stats: 18.0ms
+1658847246.474347 -- INFO: Throughput @97.2s:879.87Mbps, rtt :6.77ms cwnd: 69.8 lossRate: 0.0 CC:21 goodput:840Mbps score:-581.0 
+1658847247.484863 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847247.486321 -- INFO: Throughput @98.2s:884.09Mbps, rtt :6.73ms cwnd: 68.8 lossRate: 1.3096719271822408e-05 CC:21 goodput:862Mbps score:-583.0 
+1658847248.478405 -- INFO: Time taken to collect tcp stats: 17.0ms
+1658847248.479740 -- INFO: Throughput @99.2s:880.1Mbps, rtt :6.92ms cwnd: 68.8 lossRate: 0.0 CC:21 goodput:890Mbps score:-581.0 
+1658847249.504551 -- INFO: Time taken to collect tcp stats: 41.0ms
+1658847249.505665 -- INFO: Throughput @100.2s:889.93Mbps, rtt :6.89ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:872Mbps score:-587.0 
+1658847249.591201 -- INFO: Iteration 25 Ends, Took 4.09 Seconds. Best Params: [23] and Score: -594.0.
+1658847249.591461 -- INFO: Iteration 26 Starts ...
+1658847249.592003 -- INFO: Changing concurrency to 21 ******
+1658847249.592396 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847249.592797 -- INFO: Active CC: 21
+1658847250.504736 -- INFO: Time taken to collect tcp stats: 40.0ms
+1658847250.505677 -- INFO: Throughput @101.2s:874.99Mbps, rtt :6.83ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:811Mbps score:-577.0 
+1658847251.497025 -- INFO: Time taken to collect tcp stats: 31.0ms
+1658847251.497931 -- INFO: Throughput @102.2s:887.11Mbps, rtt :6.76ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:823Mbps score:-585.0 
+1658847252.481633 -- INFO: Time taken to collect tcp stats: 16.0ms
+1658847252.482416 -- INFO: Throughput @103.2s:879.05Mbps, rtt :6.91ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:844Mbps score:-580.0 
+1658847253.488346 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847253.489258 -- INFO: Throughput @104.2s:876.03Mbps, rtt :6.63ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:884Mbps score:-578.0 
+1658847253.502176 -- INFO: Iteration 26 Ends, Took 3.91 Seconds. Best Params: [23] and Score: -594.0.
+1658847253.502433 -- INFO: Iteration 27 Starts ...
+1658847253.502973 -- INFO: Changing concurrency to 21 ******
+1658847253.503471 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847253.503766 -- INFO: Active CC: 21
+1658847254.489842 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847254.490956 -- INFO: Throughput @105.2s:893.26Mbps, rtt :6.93ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:900Mbps score:-589.0 
+1658847255.489114 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847255.490240 -- INFO: Throughput @106.2s:875.86Mbps, rtt :6.7ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:907Mbps score:-578.0 
+1658847256.495655 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847256.496551 -- INFO: Throughput @107.2s:885.82Mbps, rtt :6.91ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:805Mbps score:-584.0 
+1658847257.497355 -- INFO: Time taken to collect tcp stats: 27.0ms
+1658847257.498431 -- INFO: Throughput @108.2s:877.29Mbps, rtt :6.71ms cwnd: 69.4 lossRate: 0.0 CC:21 goodput:901Mbps score:-579.0 
+1658847257.582315 -- INFO: Iteration 27 Ends, Took 4.08 Seconds. Best Params: [23] and Score: -594.0.
+1658847257.582588 -- INFO: Iteration 28 Starts ...
+1658847257.582996 -- INFO: Changing concurrency to 20 ******
+1658847257.584761 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847257.585775 -- INFO: Active CC: 20
+1658847258.492785 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847258.493697 -- INFO: Throughput @109.2s:885.17Mbps, rtt :6.76ms cwnd: 68.2 lossRate: 0 CC:20 goodput:903Mbps score:-596.0 
+1658847259.482076 -- INFO: Time taken to collect tcp stats: 7.0ms
+1658847259.483029 -- INFO: Throughput @110.2s:873.19Mbps, rtt :6.63ms cwnd: 68.2 lossRate: 0.0 CC:20 goodput:885Mbps score:-588.0 
+1658847260.497410 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847260.498638 -- INFO: Throughput @111.2s:879.54Mbps, rtt :6.63ms cwnd: 68.2 lossRate: 0.0 CC:20 goodput:899Mbps score:-592.0 
+1658847261.496709 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847261.497576 -- INFO: Throughput @112.2s:889.65Mbps, rtt :6.61ms cwnd: 68.2 lossRate: 0.0 CC:20 goodput:857Mbps score:-599.0 
+1658847261.773728 -- INFO: Iteration 28 Ends, Took 4.19 Seconds. Best Params: [23] and Score: -594.0.
+1658847261.773992 -- INFO: Iteration 29 Starts ...
+1658847261.774391 -- INFO: Changing concurrency to 15 ******
+1658847261.780437 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847261.783656 -- INFO: Active CC: 15
+1658847262.563000 -- INFO: Time taken to collect tcp stats: 88.0ms
+1658847262.563828 -- INFO: Throughput @113.2s:763.82Mbps, rtt :2.5ms cwnd: 196.1 lossRate: 0 CC:15 goodput:8002Mbps score:-568.0 
+1658847263.621397 -- INFO: Time taken to collect tcp stats: 141.0ms
+1658847263.622397 -- INFO: Throughput @114.2s:665.0Mbps, rtt :3.05ms cwnd: 343.9 lossRate: 0.0 CC:15 goodput:9110Mbps score:-494.0 
+1658847264.524643 -- INFO: Time taken to collect tcp stats: 44.0ms
+1658847264.525549 -- INFO: Throughput @115.2s:665.0Mbps, rtt :3.66ms cwnd: 361.9 lossRate: 0.0 CC:15 goodput:6473Mbps score:-494.0 
+1658847265.524634 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847265.525882 -- INFO: Throughput @116.2s:655.0Mbps, rtt :5.83ms cwnd: 375.0 lossRate: 0.0 CC:15 goodput:4563Mbps score:-487.0 
+1658847266.575963 -- INFO: Time taken to collect tcp stats: 97.0ms
+1658847266.576858 -- INFO: Throughput @117.2s:650.0Mbps, rtt :3.36ms cwnd: 376.1 lossRate: 0.0 CC:15 goodput:10063Mbps score:-483.0 
+1658847267.520638 -- INFO: Time taken to collect tcp stats: 41.0ms
+1658847267.521555 -- INFO: Throughput @118.2s:665.0Mbps, rtt :3.85ms cwnd: 388.6 lossRate: 0.0 CC:15 goodput:7823Mbps score:-494.0 
+1658847268.532648 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847268.533460 -- INFO: Throughput @119.2s:650.0Mbps, rtt :3.49ms cwnd: 390.3 lossRate: 0.0 CC:15 goodput:8794Mbps score:-483.0 
+1658847268.776109 -- INFO: Iteration 29 Ends, Took 7.0 Seconds. Best Params: [20] and Score: -592.0.
+1658847268.776375 -- INFO: Iteration 30 Starts ...
+1658847268.776793 -- INFO: Changing concurrency to 19 ******
+1658847268.796205 -- INFO: Start Process :: 15
+1658847268.796434 -- INFO: Start Process :: 18
+1658847268.796722 -- INFO: Start Process :: 16
+1658847268.796754 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847268.798415 -- INFO: Process 18 get item 11 from queue and executing
+1658847268.798694 -- INFO: starting 18, 11, /home/hjamil/Documents/files_bash/FILE0
+1658847268.799454 -- INFO: Active CC: 19
+1658847268.799839 -- INFO: Start Process :: 17
+1658847268.804113 -- INFO: Process 15 get item 3 from queue and executing
+1658847268.804147 -- INFO: Process 17 get item 19 from queue and executing
+1658847268.804316 -- INFO: starting 15, 3, /home/hjamil/Documents/files_bash/FILE18
+1658847268.804343 -- INFO: starting 17, 19, /home/hjamil/Documents/files_bash/FILE8
+1658847268.804987 -- INFO: Process 16 get item 0 from queue and executing
+1658847268.805216 -- INFO: starting 16, 0, /home/hjamil/Documents/files_bash/FILE19
+1658847269.547576 -- INFO: Time taken to collect tcp stats: 67.0ms
+1658847269.548538 -- INFO: Throughput @120.2s:795.0Mbps, rtt :7.66ms cwnd: 338.8 lossRate: 0.0 CC:19 goodput:4075Mbps score:-546.0 
+1658847270.576858 -- INFO: Time taken to collect tcp stats: 95.0ms
+1658847270.577808 -- INFO: Throughput @121.2s:845.0Mbps, rtt :5.97ms cwnd: 346.5 lossRate: 0.0 CC:19 goodput:4114Mbps score:-580.0 
+1658847271.536748 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847271.537583 -- INFO: Throughput @122.2s:840.0Mbps, rtt :5.54ms cwnd: 353.5 lossRate: 0.0 CC:19 goodput:4264Mbps score:-577.0 
+1658847272.544720 -- INFO: Time taken to collect tcp stats: 61.0ms
+1658847272.545560 -- INFO: Throughput @123.2s:805.0Mbps, rtt :9.35ms cwnd: 356.6 lossRate: 0.0 CC:19 goodput:2913Mbps score:-553.0 
+1658847273.508826 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847273.509748 -- INFO: Throughput @124.2s:810.0Mbps, rtt :6.65ms cwnd: 357.3 lossRate: 0.0 CC:19 goodput:4373Mbps score:-556.0 
+1658847274.568948 -- INFO: Time taken to collect tcp stats: 80.0ms
+1658847274.569852 -- INFO: Throughput @125.2s:840.0Mbps, rtt :7.39ms cwnd: 351.7 lossRate: 0.0 CC:19 goodput:3794Mbps score:-577.0 
+1658847275.368112 -- INFO: Iteration 30 Ends, Took 6.59 Seconds. Best Params: [20] and Score: -592.0.
+1658847275.371905 -- INFO: Iteration 31 Starts ...
+1658847275.372471 -- INFO: Changing concurrency to 20 ******
+1658847275.408057 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847275.408606 -- INFO: Active CC: 20
+1658847275.408609 -- INFO: Start Process :: 19
+1658847275.416063 -- INFO: Process 19 get item 1 from queue and executing
+1658847275.416279 -- INFO: starting 19, 1, /home/hjamil/Documents/files_bash/FILE10
+1658847275.564861 -- INFO: Time taken to collect tcp stats: 80.0ms
+1658847275.565645 -- INFO: Throughput @126.2s:840.0Mbps, rtt :6.21ms cwnd: 337.3 lossRate: 0.0 CC:20 goodput:2990Mbps score:-565.0 
+1658847276.553072 -- INFO: Time taken to collect tcp stats: 67.0ms
+1658847276.554006 -- INFO: Throughput @127.2s:850.0Mbps, rtt :6.57ms cwnd: 343.8 lossRate: 0.0 CC:20 goodput:3089Mbps score:-572.0 
+1658847277.560844 -- INFO: Time taken to collect tcp stats: 74.0ms
+1658847277.561742 -- INFO: Throughput @128.2s:880.0Mbps, rtt :5.6ms cwnd: 344.8 lossRate: 0.0 CC:20 goodput:3705Mbps score:-592.0 
+1658847278.526911 -- INFO: Time taken to collect tcp stats: 38.0ms
+1658847278.527856 -- INFO: Throughput @129.2s:860.0Mbps, rtt :4.3ms cwnd: 345.7 lossRate: 0.0 CC:20 goodput:6581Mbps score:-579.0 
+1658847279.535152 -- INFO: Time taken to collect tcp stats: 39.0ms
+1658847279.536086 -- INFO: Throughput @130.2s:905.0Mbps, rtt :8.44ms cwnd: 346.8 lossRate: 0.0 CC:20 goodput:1857Mbps score:-609.0 
+1658847280.608699 -- INFO: Time taken to collect tcp stats: 104.0ms
+1658847280.612245 -- INFO: Throughput @131.2s:850.0Mbps, rtt :6.6ms cwnd: 347.4 lossRate: 0.0 CC:20 goodput:3563Mbps score:-572.0 
+1658847281.332325 -- INFO: Iteration 31 Ends, Took 5.96 Seconds. Best Params: [20] and Score: -592.0.
+1658847281.355904 -- INFO: Iteration 32 Starts ...
+1658847281.359921 -- INFO: Changing concurrency to 20 ******
+1658847281.371950 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847281.380190 -- INFO: Active CC: 20
+1658847281.591363 -- INFO: Time taken to collect tcp stats: 70.0ms
+1658847281.592328 -- INFO: Throughput @132.2s:865.0Mbps, rtt :5.51ms cwnd: 356.3 lossRate: 0.0 CC:20 goodput:4413Mbps score:-582.0 
+1658847282.568857 -- INFO: Time taken to collect tcp stats: 74.0ms
+1658847282.569831 -- INFO: Throughput @133.2s:885.0Mbps, rtt :8.19ms cwnd: 346.7 lossRate: 0.0010431589635172538 CC:20 goodput:1939Mbps score:-586.0 
+1658847283.554392 -- INFO: Time taken to collect tcp stats: 59.0ms
+1658847283.555236 -- INFO: Throughput @134.2s:875.0Mbps, rtt :5.87ms cwnd: 348.0 lossRate: 0.0 CC:20 goodput:4926Mbps score:-589.0 
+1658847284.552387 -- INFO: Time taken to collect tcp stats: 46.0ms
+1658847284.553298 -- INFO: Throughput @135.2s:870.0Mbps, rtt :5.88ms cwnd: 358.2 lossRate: 0.0 CC:20 goodput:3706Mbps score:-585.0 
+1658847285.560278 -- INFO: Time taken to collect tcp stats: 63.0ms
+1658847285.561193 -- INFO: Throughput @136.2s:860.0Mbps, rtt :5.19ms cwnd: 359.6 lossRate: 0.0 CC:20 goodput:6018Mbps score:-579.0 
+1658847286.548827 -- INFO: Time taken to collect tcp stats: 50.0ms
+1658847286.550048 -- INFO: Throughput @137.2s:850.0Mbps, rtt :6.46ms cwnd: 359.6 lossRate: 0.0 CC:20 goodput:3116Mbps score:-572.0 
+1658847287.532920 -- INFO: Time taken to collect tcp stats: 34.0ms
+1658847287.533795 -- INFO: Throughput @138.2s:860.0Mbps, rtt :7.96ms cwnd: 361.2 lossRate: 0.0 CC:20 goodput:2818Mbps score:-579.0 
+1658847288.378532 -- INFO: Iteration 32 Ends, Took 7.02 Seconds. Best Params: [20] and Score: -592.0.
+1658847288.382076 -- INFO: Iteration 33 Starts ...
+1658847288.400162 -- INFO: Changing concurrency to 20 ******
+1658847288.412023 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847288.412516 -- INFO: Active CC: 20
+1658847288.562147 -- INFO: Time taken to collect tcp stats: 62.0ms
+1658847288.562943 -- INFO: Throughput @139.2s:865.0Mbps, rtt :6.66ms cwnd: 361.8 lossRate: 0.0 CC:20 goodput:4113Mbps score:-582.0 
+1658847289.560779 -- INFO: Time taken to collect tcp stats: 53.0ms
+1658847289.561639 -- INFO: Throughput @140.2s:850.0Mbps, rtt :5.24ms cwnd: 363.3 lossRate: 0.0 CC:20 goodput:4852Mbps score:-572.0 
+1658847290.572360 -- INFO: Time taken to collect tcp stats: 71.0ms
+1658847290.573198 -- INFO: Throughput @141.2s:905.0Mbps, rtt :10.52ms cwnd: 363.6 lossRate: 0.0 CC:20 goodput:2046Mbps score:-609.0 
+1658847291.610567 -- INFO: Time taken to collect tcp stats: 106.0ms
+1658847291.611413 -- INFO: Throughput @142.2s:860.0Mbps, rtt :7.06ms cwnd: 363.6 lossRate: 0.0 CC:20 goodput:3241Mbps score:-579.0 
+1658847292.607185 -- INFO: Time taken to collect tcp stats: 102.0ms
+1658847292.608160 -- INFO: Throughput @143.2s:845.0Mbps, rtt :5.82ms cwnd: 363.8 lossRate: 0.0 CC:20 goodput:5122Mbps score:-569.0 
+1658847293.572870 -- INFO: Time taken to collect tcp stats: 66.0ms
+1658847293.573781 -- INFO: Throughput @144.2s:865.0Mbps, rtt :5.39ms cwnd: 363.8 lossRate: 0.0 CC:20 goodput:5189Mbps score:-582.0 
+1658847294.600963 -- INFO: Time taken to collect tcp stats: 94.0ms
+1658847294.601888 -- INFO: Throughput @145.2s:860.0Mbps, rtt :7.93ms cwnd: 364.8 lossRate: 0.0 CC:20 goodput:2331Mbps score:-579.0 
+1658847295.308105 -- INFO: Iteration 33 Ends, Took 6.91 Seconds. Best Params: [20] and Score: -592.0.
+1658847295.308362 -- INFO: Iteration 34 Starts ...
+1658847295.311931 -- INFO: Changing concurrency to 20 ******
+1658847295.312304 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847295.339994 -- INFO: Active CC: 20
+1658847295.613708 -- INFO: Time taken to collect tcp stats: 105.0ms
+1658847295.614730 -- INFO: Throughput @146.2s:865.0Mbps, rtt :5.58ms cwnd: 365.0 lossRate: 0.0 CC:20 goodput:4544Mbps score:-582.0 
+1658847296.580631 -- INFO: Time taken to collect tcp stats: 72.0ms
+1658847296.581568 -- INFO: Throughput @147.2s:855.0Mbps, rtt :5.01ms cwnd: 365.2 lossRate: 0.0 CC:20 goodput:6913Mbps score:-575.0 
+1658847297.556335 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847297.557273 -- INFO: Throughput @148.2s:855.0Mbps, rtt :4.34ms cwnd: 365.2 lossRate: 0.0 CC:20 goodput:7700Mbps score:-575.0 
+1658847298.591261 -- INFO: Time taken to collect tcp stats: 81.0ms
+1658847298.592233 -- INFO: Throughput @149.2s:875.0Mbps, rtt :6.69ms cwnd: 365.2 lossRate: 0.0 CC:20 goodput:3043Mbps score:-589.0 
+1658847299.584875 -- INFO: Time taken to collect tcp stats: 73.0ms
+1658847299.585788 -- INFO: Throughput @150.2s:865.0Mbps, rtt :7.35ms cwnd: 366.0 lossRate: 0.0 CC:20 goodput:2836Mbps score:-582.0 
+1658847300.596840 -- INFO: Time taken to collect tcp stats: 60.0ms
+1658847300.597733 -- INFO: Throughput @151.2s:875.0Mbps, rtt :6.24ms cwnd: 366.1 lossRate: 0.0 CC:20 goodput:3735Mbps score:-589.0 
+1658847300.964121 -- INFO: Iteration 34 Ends, Took 5.66 Seconds. Best Params: [20] and Score: -592.0.
+1658847300.967905 -- INFO: Iteration 35 Starts ...
+1658847300.975948 -- INFO: Changing concurrency to 20 ******
+1658847301.004269 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847301.008091 -- INFO: Active CC: 20
+1658847301.568866 -- INFO: Time taken to collect tcp stats: 56.0ms
+1658847301.569787 -- INFO: Throughput @152.2s:855.0Mbps, rtt :5.99ms cwnd: 366.2 lossRate: 0.0 CC:20 goodput:3798Mbps score:-575.0 
+1658847302.572795 -- INFO: Time taken to collect tcp stats: 57.0ms
+1658847302.573969 -- INFO: Throughput @153.2s:845.0Mbps, rtt :7.05ms cwnd: 366.3 lossRate: 0.0 CC:20 goodput:3059Mbps score:-569.0 
+1658847303.568900 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847303.569861 -- INFO: Throughput @154.2s:875.0Mbps, rtt :6.48ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:5268Mbps score:-589.0 
+1658847304.568875 -- INFO: Time taken to collect tcp stats: 44.0ms
+1658847304.569852 -- INFO: Throughput @155.2s:850.0Mbps, rtt :5.31ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:5111Mbps score:-572.0 
+1658847305.584867 -- INFO: Time taken to collect tcp stats: 62.0ms
+1658847305.585856 -- INFO: Throughput @156.2s:865.0Mbps, rtt :5.62ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:5287Mbps score:-582.0 
+1658847306.724983 -- INFO: Time taken to collect tcp stats: 191.0ms
+1658847306.726019 -- INFO: Throughput @157.2s:870.0Mbps, rtt :8.01ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:3626Mbps score:-585.0 
+1658847307.176232 -- INFO: Iteration 35 Ends, Took 6.2 Seconds. Best Params: [20] and Score: -592.0.
+1658847307.176507 -- INFO: Iteration 36 Starts ...
+1658847307.180324 -- INFO: Changing concurrency to 20 ******
+1658847307.195992 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847307.204156 -- INFO: Active CC: 20
+1658847307.612336 -- INFO: Time taken to collect tcp stats: 84.0ms
+1658847307.613336 -- INFO: Throughput @158.2s:870.0Mbps, rtt :7.15ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:3283Mbps score:-585.0 
+1658847308.577892 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847308.579230 -- INFO: Throughput @159.2s:855.0Mbps, rtt :4.75ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:6777Mbps score:-575.0 
+1658847309.576932 -- INFO: Time taken to collect tcp stats: 46.0ms
+1658847309.577915 -- INFO: Throughput @160.2s:865.0Mbps, rtt :6.5ms cwnd: 372.2 lossRate: 0.0 CC:20 goodput:3823Mbps score:-582.0 
+1658847310.592846 -- INFO: Time taken to collect tcp stats: 61.0ms
+1658847310.593779 -- INFO: Throughput @161.2s:855.0Mbps, rtt :7.39ms cwnd: 372.3 lossRate: 0.0 CC:20 goodput:2956Mbps score:-575.0 
+1658847311.589062 -- INFO: Time taken to collect tcp stats: 57.0ms
+1658847311.590012 -- INFO: Throughput @162.2s:840.0Mbps, rtt :5.66ms cwnd: 373.4 lossRate: 0.0 CC:20 goodput:7275Mbps score:-565.0 
+1658847312.600413 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847312.601246 -- INFO: Throughput @163.2s:900.0Mbps, rtt :8.71ms cwnd: 378.4 lossRate: 0.0 CC:20 goodput:2036Mbps score:-606.0 
+1658847313.052115 -- INFO: Iteration 36 Ends, Took 5.87 Seconds. Best Params: [20] and Score: -592.0.
+1658847313.052558 -- INFO: Iteration 37 Starts ...
+1658847313.057232 -- INFO: Changing concurrency to 20 ******
+1658847313.071905 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847313.081266 -- INFO: Active CC: 20
+1658847313.630586 -- INFO: Time taken to collect tcp stats: 81.0ms
+1658847313.631514 -- INFO: Throughput @164.3s:777.27Mbps, rtt :6.32ms cwnd: 378.4 lossRate: 0.0 CC:20 goodput:4474Mbps score:-523.0 
+1658847314.610629 -- INFO: Time taken to collect tcp stats: 60.0ms
+1658847314.611539 -- INFO: Throughput @165.3s:820.0Mbps, rtt :4.38ms cwnd: 378.6 lossRate: 0.0 CC:20 goodput:6960Mbps score:-552.0 
+1658847315.626012 -- INFO: Time taken to collect tcp stats: 75.0ms
+1658847315.626934 -- INFO: Throughput @166.3s:835.0Mbps, rtt :5.99ms cwnd: 390.2 lossRate: 0.0 CC:20 goodput:5144Mbps score:-562.0 
+1658847316.628872 -- INFO: Time taken to collect tcp stats: 77.0ms
+1658847316.629751 -- INFO: Throughput @167.3s:860.0Mbps, rtt :7.94ms cwnd: 390.2 lossRate: 0.0 CC:20 goodput:3115Mbps score:-579.0 
+1658847317.612582 -- INFO: Time taken to collect tcp stats: 59.0ms
+1658847317.615851 -- INFO: Throughput @168.3s:835.0Mbps, rtt :8.56ms cwnd: 396.0 lossRate: 0.0 CC:20 goodput:2383Mbps score:-562.0 
+1658847318.600820 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847318.601678 -- INFO: Throughput @169.3s:840.0Mbps, rtt :7.04ms cwnd: 396.1 lossRate: 0.0 CC:20 goodput:4604Mbps score:-565.0 
+1658847319.404161 -- INFO: Iteration 37 Ends, Took 6.35 Seconds. Best Params: [20] and Score: -592.0.
+1658847319.407955 -- INFO: Iteration 38 Starts ...
+1658847319.408552 -- INFO: Changing concurrency to 20 ******
+1658847319.424886 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847319.440678 -- INFO: Active CC: 20
+1658847319.604799 -- INFO: Time taken to collect tcp stats: 49.0ms
+1658847319.605597 -- INFO: Throughput @170.3s:875.0Mbps, rtt :5.17ms cwnd: 396.2 lossRate: 0.0 CC:20 goodput:4621Mbps score:-589.0 
+1658847320.627999 -- INFO: Time taken to collect tcp stats: 67.0ms
+1658847320.628859 -- INFO: Throughput @171.3s:880.0Mbps, rtt :6.63ms cwnd: 396.2 lossRate: 0.0 CC:20 goodput:4559Mbps score:-592.0 
+1658847321.608254 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847321.609045 -- INFO: Throughput @172.3s:865.0Mbps, rtt :8.18ms cwnd: 396.2 lossRate: 0.0 CC:20 goodput:2223Mbps score:-582.0 
+1658847322.616745 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847322.617525 -- INFO: Throughput @173.3s:875.0Mbps, rtt :10.09ms cwnd: 396.2 lossRate: 0.0 CC:20 goodput:2093Mbps score:-589.0 
+1658847323.668882 -- INFO: Time taken to collect tcp stats: 106.0ms
+1658847323.669659 -- INFO: Throughput @174.3s:870.0Mbps, rtt :8.32ms cwnd: 396.2 lossRate: 0.0 CC:20 goodput:2591Mbps score:-585.0 
+1658847324.655113 -- INFO: Time taken to collect tcp stats: 89.0ms
+1658847324.656044 -- INFO: Throughput @175.3s:870.0Mbps, rtt :7.12ms cwnd: 396.2 lossRate: 0.0 CC:20 goodput:3074Mbps score:-585.0 
+1658847325.436109 -- INFO: Iteration 38 Ends, Took 6.03 Seconds. Best Params: [20] and Score: -592.0.
+1658847325.436400 -- INFO: Iteration 39 Starts ...
+1658847325.436926 -- INFO: Changing concurrency to 20 ******
+1658847325.446763 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847325.472190 -- INFO: Active CC: 20
+1658847325.620880 -- INFO: Time taken to collect tcp stats: 56.0ms
+1658847325.621765 -- INFO: Throughput @176.3s:830.0Mbps, rtt :8.69ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:4607Mbps score:-559.0 
+1658847326.720850 -- INFO: Time taken to collect tcp stats: 137.0ms
+1658847326.721769 -- INFO: Throughput @177.3s:885.0Mbps, rtt :6.53ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:4702Mbps score:-596.0 
+1658847327.657696 -- INFO: Time taken to collect tcp stats: 70.0ms
+1658847327.658727 -- INFO: Throughput @178.3s:860.0Mbps, rtt :7.01ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:5670Mbps score:-579.0 
+1658847328.649139 -- INFO: Time taken to collect tcp stats: 79.0ms
+1658847328.650061 -- INFO: Throughput @179.3s:870.0Mbps, rtt :7.95ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:4129Mbps score:-585.0 
+1658847329.619396 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847329.620459 -- INFO: Throughput @180.3s:850.0Mbps, rtt :3.88ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:8947Mbps score:-572.0 
+1658847330.604865 -- INFO: Time taken to collect tcp stats: 32.0ms
+1658847330.605653 -- INFO: Throughput @181.3s:875.0Mbps, rtt :7.72ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:2775Mbps score:-589.0 
+1658847331.633235 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847331.634254 -- INFO: Throughput @182.3s:870.0Mbps, rtt :6.71ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:3181Mbps score:-585.0 
+1658847332.661921 -- INFO: Time taken to collect tcp stats: 73.0ms
+1658847332.662750 -- INFO: Throughput @183.3s:850.0Mbps, rtt :5.29ms cwnd: 397.5 lossRate: 0.0 CC:20 goodput:6124Mbps score:-572.0 
+1658847333.319985 -- INFO: Iteration 39 Ends, Took 7.88 Seconds. Best Params: [20] and Score: -592.0.
+1658847333.320322 -- INFO: Iteration 40 Starts ...
+1658847333.334612 -- INFO: Changing concurrency to 23 ******
+1658847333.343952 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847333.345692 -- INFO: Start Process :: 22
+1658847333.346800 -- INFO: Start Process :: 21
+1658847333.347987 -- INFO: Start Process :: 20
+1658847333.348415 -- INFO: Process 22 get item 7 from queue and executing
+1658847333.348681 -- INFO: Active CC: 23
+1658847333.348732 -- INFO: starting 22, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847333.351590 -- INFO: Process 20 get item 16 from queue and executing
+1658847333.351841 -- INFO: Process 21 get item 29 from queue and executing
+1658847333.352035 -- INFO: starting 21, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847333.352073 -- INFO: starting 20, 16, /home/hjamil/Documents/files_bash/FILE4
+1658847333.696972 -- INFO: Time taken to collect tcp stats: 114.0ms
+1658847333.697910 -- INFO: Throughput @184.3s:890.0Mbps, rtt :12.16ms cwnd: 354.7 lossRate: 0.0 CC:23 goodput:1760Mbps score:-564.0 
+1658847334.632944 -- INFO: Time taken to collect tcp stats: 45.0ms
+1658847334.633753 -- INFO: Throughput @185.3s:991.91Mbps, rtt :10.96ms cwnd: 173.6 lossRate: 0.010761865390000933 CC:23 goodput:854Mbps score:-522.0 
+1658847335.641088 -- INFO: Time taken to collect tcp stats: 57.0ms
+1658847335.642011 -- INFO: Throughput @186.3s:1006.77Mbps, rtt :9.73ms cwnd: 128.2 lossRate: 0.0028768699654775605 CC:23 goodput:944Mbps score:-609.0 
+1658847336.617967 -- INFO: Time taken to collect tcp stats: 33.0ms
+1658847336.618882 -- INFO: Throughput @187.3s:912.12Mbps, rtt :9.13ms cwnd: 114.9 lossRate: 0.0015952567698709172 CC:23 goodput:906Mbps score:-564.0 
+1658847337.504228 -- INFO: Iteration 40 Ends, Took 4.18 Seconds. Best Params: [20] and Score: -592.0.
+1658847337.504495 -- INFO: Iteration 41 Starts ...
+1658847337.505025 -- INFO: Changing concurrency to 21 ******
+1658847337.506531 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847337.508035 -- INFO: Active CC: 21
+1658847337.608923 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847337.610021 -- INFO: Throughput @188.3s:892.38Mbps, rtt :8.22ms cwnd: 89.7 lossRate: 0.0023884415092862085 CC:21 goodput:838Mbps score:-567.0 
+1658847338.608479 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847338.609398 -- INFO: Throughput @189.3s:873.11Mbps, rtt :7.24ms cwnd: 84.4 lossRate: 0.0013474251547433576 CC:21 goodput:802Mbps score:-564.0 
+1658847339.008721 -- INFO: Process 0 finished on working on file 6 
+1658847339.009423 -- INFO: Process 0 get item 17 from queue and executing
+1658847339.126335 -- INFO: starting 0, 17, /home/hjamil/Documents/files_bash/FILE25
+1658847339.608455 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847339.609397 -- INFO: Throughput @190.3s:886.59Mbps, rtt :7.21ms cwnd: 79.1 lossRate: 0.0006555399682718656 CC:21 goodput:847Mbps score:-579.0 
+1658847340.611597 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847340.612530 -- INFO: Throughput @191.3s:881.23Mbps, rtt :6.86ms cwnd: 76.9 lossRate: 0.00020990764063811922 CC:21 goodput:867Mbps score:-580.0 
+1658847341.553640 -- INFO: Iteration 41 Ends, Took 4.05 Seconds. Best Params: [20] and Score: -592.0.
+1658847341.553851 -- INFO: Iteration 42 Starts ...
+1658847341.554202 -- INFO: Changing concurrency to 1 ******
+1658847341.554959 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847341.556727 -- INFO: Active CC: 1
+1658847341.650700 -- INFO: Time taken to collect tcp stats: 53.0ms
+1658847341.651784 -- INFO: Throughput @192.3s:888.37Mbps, rtt :6.86ms cwnd: 76.1 lossRate: 0.00019199262748310466 CC:1 goodput:885Mbps score:-869.0 
+1658847342.620205 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847342.621105 -- INFO: Throughput @193.3s:81.0Mbps, rtt :1.17ms cwnd: 100.0 lossRate: 0 CC:1 goodput:839Mbps score:-79.0 
+1658847343.600395 -- INFO: Time taken to collect tcp stats: 9.0ms
+1658847343.601305 -- INFO: Throughput @194.3s:50.0Mbps, rtt :1.42ms cwnd: 121.0 lossRate: 0.0 CC:1 goodput:883Mbps score:-49.0 
+1658847344.628194 -- INFO: Time taken to collect tcp stats: 35.0ms
+1658847344.629045 -- INFO: Throughput @195.3s:45.0Mbps, rtt :1.47ms cwnd: 133.0 lossRate: 0.0 CC:1 goodput:805Mbps score:-44.0 
+1658847345.632763 -- INFO: Time taken to collect tcp stats: 32.0ms
+1658847345.633675 -- INFO: Throughput @196.3s:50.0Mbps, rtt :1.65ms cwnd: 147.0 lossRate: 0.0 CC:1 goodput:701Mbps score:-49.0 
+1658847345.702756 -- INFO: Iteration 42 Ends, Took 4.15 Seconds. Best Params: [20] and Score: -592.0.
+1658847345.703015 -- INFO: Iteration 43 Starts ...
+1658847345.703470 -- INFO: Changing concurrency to 32 ******
+1658847345.704006 -- INFO: Start Process :: 2
+1658847345.704367 -- INFO: Start Process :: 3
+1658847345.704165 -- INFO: Start Process :: 1
+1658847345.704364 -- INFO: Start Process :: 4
+1658847345.705416 -- INFO: Process 2 get item 8 from queue and executing
+1658847345.705878 -- INFO: Process 3 get item 10 from queue and executing
+1658847345.705650 -- INFO: Process 1 get item 2 from queue and executing
+1658847345.705722 -- INFO: Process 4 get item 20 from queue and executing
+1658847345.706022 -- INFO: starting 2, 8, /home/hjamil/Documents/files_bash/FILE3
+1658847345.706393 -- INFO: starting 4, 20, /home/hjamil/Documents/files_bash/FILE11
+1658847345.706611 -- INFO: Start Process :: 5
+1658847345.706940 -- INFO: Start Process :: 7
+1658847345.706399 -- INFO: starting 1, 2, /home/hjamil/Documents/files_bash/FILE31
+1658847345.706978 -- INFO: starting 3, 10, /home/hjamil/Documents/files_bash/FILE15
+1658847345.708864 -- INFO: Start Process :: 6
+1658847345.709092 -- INFO: Start Process :: 12
+1658847345.709365 -- INFO: Start Process :: 25
+1658847345.709531 -- INFO: Start Process :: 17
+1658847345.709157 -- INFO: Process 5 get item 14 from queue and executing
+1658847345.709840 -- INFO: Start Process :: 9
+1658847345.710073 -- INFO: Start Process :: 23
+1658847345.710166 -- INFO: Start Process :: 29
+1658847345.710487 -- INFO: starting 5, 14, /home/hjamil/Documents/files_bash/FILE24
+1658847345.710792 -- INFO: Start Process :: 20
+1658847345.710929 -- INFO: Start Process :: 31
+1658847345.711093 -- INFO: Process 12 get item 18 from queue and executing
+1658847345.711355 -- INFO: starting 12, 18, /home/hjamil/Documents/files_bash/FILE17
+1658847345.711538 -- INFO: Start Process :: 11
+1658847345.711818 -- INFO: Start Process :: 21
+1658847345.712082 -- INFO: Start Process :: 8
+1658847345.712360 -- INFO: Process 29 get item 7 from queue and executing
+1658847345.712770 -- INFO: starting 29, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847345.713175 -- INFO: Process 9 get item 22 from queue and executing
+1658847345.713456 -- INFO: starting 9, 22, /home/hjamil/Documents/files_bash/FILE28
+1658847345.713594 -- INFO: Process 20 get item 26 from queue and executing
+1658847345.714178 -- INFO: starting 20, 26, /home/hjamil/Documents/files_bash/FILE22
+1658847345.715001 -- INFO: Start Process :: 15
+1658847345.716285 -- INFO: Process 8 get item 15 from queue and executing
+1658847345.716384 -- INFO: Process 21 get item 13 from queue and executing
+1658847345.716602 -- INFO: starting 21, 13, /home/hjamil/Documents/files_bash/FILE23
+1658847345.716632 -- INFO: starting 8, 15, /home/hjamil/Documents/files_bash/FILE13
+1658847345.717713 -- INFO: Process 11 get item 25 from queue and executing
+1658847345.717944 -- INFO: starting 11, 25, /home/hjamil/Documents/files_bash/FILE5
+1658847345.718548 -- INFO: Process 15 get item 27 from queue and executing
+1658847345.718754 -- INFO: starting 15, 27, /home/hjamil/Documents/files_bash/FILE16
+1658847345.720181 -- INFO: Start Process :: 22
+1658847345.720379 -- INFO: Process 23 get item 11 from queue and executing
+1658847345.720506 -- INFO: Start Process :: 10
+1658847345.720603 -- INFO: starting 23, 11, /home/hjamil/Documents/files_bash/FILE0
+1658847345.709169 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1658847345.709569 -- INFO: Start Process :: 26
+1658847345.709621 -- INFO: Start Process :: 19
+1658847345.709687 -- INFO: Start Process :: 28
+1658847345.721155 -- INFO: Active CC: 32
+1658847345.710322 -- INFO: Start Process :: 14
+1658847345.710478 -- INFO: Start Process :: 13
+1658847345.710799 -- INFO: Start Process :: 30
+1658847345.711357 -- INFO: Process 25 get item 5 from queue and executing
+1658847345.721982 -- INFO: starting 25, 5, /home/hjamil/Documents/files_bash/FILE14
+1658847345.711685 -- INFO: Start Process :: 18
+1658847345.722875 -- INFO: Process 19 get item 19 from queue and executing
+1658847345.722944 -- INFO: Process 26 get item 23 from queue and executing
+1658847345.723112 -- INFO: starting 19, 19, /home/hjamil/Documents/files_bash/FILE8
+1658847345.724079 -- INFO: Process 22 get item 30 from queue and executing
+1658847345.724331 -- INFO: starting 22, 30, /home/hjamil/Documents/files_bash/FILE7
+1658847345.724402 -- INFO: Process 28 get item 0 from queue and executing
+1658847345.724833 -- INFO: starting 28, 0, /home/hjamil/Documents/files_bash/FILE19
+1658847345.724879 -- INFO: Process 7 get item 3 from queue and executing
+1658847345.725417 -- INFO: starting 7, 3, /home/hjamil/Documents/files_bash/FILE18
+1658847345.725896 -- INFO: Process 10 get item 1 from queue and executing
+1658847345.726149 -- INFO: starting 10, 1, /home/hjamil/Documents/files_bash/FILE10
+1658847345.711436 -- INFO: Start Process :: 24
+1658847345.712214 -- INFO: Process 17 get item 9 from queue and executing
+1658847345.712236 -- INFO: Start Process :: 27
+1658847345.712963 -- INFO: Start Process :: 16
+1658847345.728173 -- INFO: starting 17, 9, /home/hjamil/Documents/files_bash/FILE20
+1658847345.713070 -- INFO: Process 31 get item 29 from queue and executing
+1658847345.728984 -- INFO: starting 31, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847345.715254 -- INFO: Process 6 get item 21 from queue and executing
+1658847345.729627 -- INFO: starting 6, 21, /home/hjamil/Documents/files_bash/FILE29
+1658847345.723344 -- INFO: starting 26, 23, /home/hjamil/Documents/files_bash/FILE12
+1658847345.723610 -- INFO: Process 13 get item 16 from queue and executing
+1658847345.723689 -- INFO: Process 14 get item 28 from queue and executing
+1658847345.723713 -- INFO: Process 30 get item 24 from queue and executing
+1658847345.732282 -- INFO: starting 13, 16, /home/hjamil/Documents/files_bash/FILE4
+1658847345.732342 -- INFO: starting 30, 24, /home/hjamil/Documents/files_bash/FILE2
+1658847345.728191 -- INFO: Process 18 get item 12 from queue and executing
+1658847345.730366 -- INFO: Process 27 get item 31 from queue and executing
+1658847345.730489 -- INFO: Process 16 get item 4 from queue and executing
+1658847345.732981 -- INFO: starting 14, 28, /home/hjamil/Documents/files_bash/FILE21
+1658847345.733317 -- INFO: starting 27, 31, /home/hjamil/Documents/files_bash/FILE9
+1658847345.733758 -- INFO: starting 16, 4, /home/hjamil/Documents/files_bash/FILE6
+1658847345.733936 -- INFO: starting 18, 12, /home/hjamil/Documents/files_bash/FILE26
+1658847346.599219 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847346.600442 -- INFO: Throughput @197.3s:871.68Mbps, rtt :6.61ms cwnd: 47.3 lossRate: 0.0008159268929503916 CC:32 goodput:821Mbps score:-455.0 
+1658847347.600454 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847347.601305 -- INFO: Throughput @198.3s:864.91Mbps, rtt :6.7ms cwnd: 45.5 lossRate: 0.00044082286935613146 CC:32 goodput:871Mbps score:-455.0 
+1658847348.601324 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847348.602089 -- INFO: Throughput @199.3s:872.66Mbps, rtt :6.67ms cwnd: 44.8 lossRate: 0.00024058381672859472 CC:32 goodput:847Mbps score:-461.0 
+1658847349.603141 -- INFO: Time taken to collect tcp stats: 7.0ms
+1658847349.604060 -- INFO: Throughput @200.3s:857.45Mbps, rtt :6.64ms cwnd: 44.3 lossRate: 0.00014696844186730087 CC:32 goodput:793Mbps score:-454.0 
+1658847349.649070 -- INFO: Iteration 43 Ends, Took 3.95 Seconds. Best Params: [20] and Score: -592.0.
+1658847349.649337 -- INFO: Iteration 44 Starts ...
+1658847349.649864 -- INFO: Changing concurrency to 21 ******
+1658847349.650120 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847349.650587 -- INFO: Active CC: 21
+1658847349.769319 -- INFO: Process 16 finished on working on file 4 
+1658847349.770269 -- INFO: Process 16 get item 24 from queue and executing
+1658847349.784602 -- INFO: starting 16, 24, /home/hjamil/Documents/files_bash/FILE2
+1658847350.552712 -- INFO: Process 8 finished on working on file 15 
+1658847350.553222 -- INFO: Process 8 get item 13 from queue and executing
+1658847350.577605 -- INFO: starting 8, 13, /home/hjamil/Documents/files_bash/FILE23
+1658847350.620870 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847350.621787 -- INFO: Throughput @201.3s:865.78Mbps, rtt :6.17ms cwnd: 57.8 lossRate: 0 CC:21 goodput:839Mbps score:-571.0 
+1658847350.628035 -- INFO: Process 8 finished on working on file 13 
+1658847350.628493 -- INFO: Process 8 get item 31 from queue and executing
+1658847350.677318 -- INFO: starting 8, 31, /home/hjamil/Documents/files_bash/FILE9
+1658847350.837700 -- INFO: Process 18 finished on working on file 12 
+1658847350.838205 -- INFO: Process 18 get item 30 from queue and executing
+1658847350.843400 -- INFO: starting 18, 30, /home/hjamil/Documents/files_bash/FILE7
+1658847351.616740 -- INFO: Time taken to collect tcp stats: 18.0ms
+1658847351.617619 -- INFO: Throughput @202.3s:892.42Mbps, rtt :6.44ms cwnd: 62.7 lossRate: 0.0 CC:21 goodput:889Mbps score:-589.0 
+1658847352.628861 -- INFO: Time taken to collect tcp stats: 29.0ms
+1658847352.629778 -- INFO: Throughput @203.3s:883.0Mbps, rtt :6.71ms cwnd: 66.4 lossRate: 0.0 CC:21 goodput:831Mbps score:-583.0 
+1658847353.607180 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847353.608156 -- INFO: Throughput @204.3s:873.62Mbps, rtt :6.89ms cwnd: 67.5 lossRate: 0.0 CC:21 goodput:851Mbps score:-576.0 
+1658847353.733580 -- INFO: Iteration 44 Ends, Took 4.08 Seconds. Best Params: [20] and Score: -592.0.
+1658847353.733846 -- INFO: Iteration 45 Starts ...
+1658847353.734374 -- INFO: Changing concurrency to 21 ******
+1658847353.737465 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847353.738682 -- INFO: Active CC: 21
+1658847354.640871 -- INFO: Time taken to collect tcp stats: 39.0ms
+1658847354.641805 -- INFO: Throughput @205.3s:882.46Mbps, rtt :6.73ms cwnd: 68.0 lossRate: 0.00015383234837899163 CC:21 goodput:896Mbps score:-581.0 
+1658847355.622769 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847355.623687 -- INFO: Throughput @206.3s:888.41Mbps, rtt :6.63ms cwnd: 66.9 lossRate: 0.0001462357586312333 CC:21 goodput:825Mbps score:-585.0 
+1658847356.620540 -- INFO: Time taken to collect tcp stats: 16.0ms
+1658847356.621354 -- INFO: Throughput @207.3s:880.6Mbps, rtt :6.58ms cwnd: 67.2 lossRate: 0.0 CC:21 goodput:920Mbps score:-581.0 
+1658847357.356594 -- INFO: Process 9 finished on working on file 22 
+1658847357.368039 -- INFO: Process 9 get item 5 from queue and executing
+1658847357.380671 -- INFO: starting 9, 5, /home/hjamil/Documents/files_bash/FILE14
+1658847357.643296 -- INFO: Time taken to collect tcp stats: 39.0ms
+1658847357.644676 -- INFO: Throughput @208.3s:872.05Mbps, rtt :6.66ms cwnd: 67.2 lossRate: 0.0 CC:21 goodput:902Mbps score:-575.0 
+1658847358.060186 -- INFO: Iteration 45 Ends, Took 4.33 Seconds. Best Params: [20] and Score: -592.0.
+1658847358.060483 -- INFO: Iteration 46 Starts ...
+1658847358.061154 -- INFO: Changing concurrency to 21 ******
+1658847358.063818 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847358.067015 -- INFO: Active CC: 21
+1658847358.617468 -- INFO: Time taken to collect tcp stats: 11.0ms
+1658847358.618376 -- INFO: Throughput @209.3s:885.83Mbps, rtt :6.55ms cwnd: 67.2 lossRate: 0.0 CC:21 goodput:805Mbps score:-584.0 
+1658847359.628503 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847359.629425 -- INFO: Throughput @210.3s:883.28Mbps, rtt :6.55ms cwnd: 67.6 lossRate: 0.0 CC:21 goodput:858Mbps score:-583.0 
+1658847360.628494 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847360.629339 -- INFO: Throughput @211.3s:883.99Mbps, rtt :6.68ms cwnd: 67.6 lossRate: 0.0 CC:21 goodput:859Mbps score:-583.0 
+1658847361.549023 -- INFO: Process 6 finished on working on file 21 
+1658847361.549679 -- INFO: Process 6 get item 11 from queue and executing
+1658847361.571295 -- INFO: starting 6, 11, /home/hjamil/Documents/files_bash/FILE0
+1658847361.628835 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847361.630076 -- INFO: Throughput @212.3s:874.43Mbps, rtt :6.62ms cwnd: 65.2 lossRate: 0.00017154922143045658 CC:21 goodput:860Mbps score:-575.0 
+1658847362.092223 -- INFO: Iteration 46 Ends, Took 4.03 Seconds. Best Params: [20] and Score: -592.0.
+1658847362.092477 -- INFO: Iteration 47 Starts ...
+1658847362.092971 -- INFO: Changing concurrency to 21 ******
+1658847362.096079 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847362.098969 -- INFO: Active CC: 21
+1658847362.650395 -- INFO: Time taken to collect tcp stats: 41.0ms
+1658847362.651375 -- INFO: Throughput @213.3s:882.77Mbps, rtt :6.65ms cwnd: 65.8 lossRate: 0.0 CC:21 goodput:921Mbps score:-582.0 
+1658847363.633315 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847363.634183 -- INFO: Throughput @214.3s:886.07Mbps, rtt :6.7ms cwnd: 68.1 lossRate: 0.0 CC:21 goodput:889Mbps score:-585.0 
+1658847364.636358 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847364.637184 -- INFO: Throughput @215.3s:883.58Mbps, rtt :6.92ms cwnd: 68.4 lossRate: 0.0 CC:21 goodput:910Mbps score:-583.0 
+1658847365.620965 -- INFO: Time taken to collect tcp stats: 8.0ms
+1658847365.621901 -- INFO: Throughput @216.3s:882.64Mbps, rtt :6.68ms cwnd: 68.4 lossRate: 0.0 CC:21 goodput:841Mbps score:-582.0 
+1658847366.191010 -- INFO: Iteration 47 Ends, Took 4.1 Seconds. Best Params: [20] and Score: -592.0.
+1658847366.191280 -- INFO: Iteration 48 Starts ...
+1658847366.191797 -- INFO: Changing concurrency to 22 ******
+1658847366.193161 -- INFO: Start Process :: 21
+1658847366.193797 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1658847366.194386 -- INFO: Process 21 get item 29 from queue and executing
+1658847366.194718 -- INFO: starting 21, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847366.197761 -- INFO: Active CC: 22
+1658847366.636560 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847366.637915 -- INFO: Throughput @217.3s:879.92Mbps, rtt :6.55ms cwnd: 67.2 lossRate: 0.0 CC:22 goodput:829Mbps score:-569.0 
+1658847367.641427 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847367.642351 -- INFO: Throughput @218.3s:881.72Mbps, rtt :6.72ms cwnd: 67.5 lossRate: 0.0 CC:22 goodput:928Mbps score:-570.0 
+1658847368.652464 -- INFO: Time taken to collect tcp stats: 36.0ms
+1658847368.653380 -- INFO: Throughput @219.3s:878.46Mbps, rtt :6.68ms cwnd: 67.5 lossRate: 0.0 CC:22 goodput:952Mbps score:-568.0 
+1658847369.641110 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847369.642338 -- INFO: Throughput @220.3s:882.4Mbps, rtt :6.62ms cwnd: 67.5 lossRate: 0.0 CC:22 goodput:864Mbps score:-571.0 
+1658847370.285494 -- INFO: Iteration 48 Ends, Took 4.09 Seconds. Best Params: [20] and Score: -592.0.
+1658847370.285758 -- INFO: Iteration 49 Starts ...
+1658847370.286199 -- INFO: Changing concurrency to 20 ******
+1658847370.289180 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847370.292493 -- INFO: Active CC: 20
+1658847370.629202 -- INFO: Time taken to collect tcp stats: 11.0ms
+1658847370.630110 -- INFO: Throughput @221.3s:881.14Mbps, rtt :6.58ms cwnd: 68.3 lossRate: 0 CC:20 goodput:882Mbps score:-593.0 
+1658847371.640468 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847371.641603 -- INFO: Throughput @222.3s:875.72Mbps, rtt :6.56ms cwnd: 68.9 lossRate: 0.0 CC:20 goodput:899Mbps score:-589.0 
+1658847372.644803 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847372.645726 -- INFO: Throughput @223.3s:892.16Mbps, rtt :6.36ms cwnd: 64.6 lossRate: 0.0005536879572869291 CC:20 goodput:907Mbps score:-595.0 
+1658847373.643267 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847373.644092 -- INFO: Throughput @224.3s:881.46Mbps, rtt :6.47ms cwnd: 64.8 lossRate: 0.0 CC:20 goodput:901Mbps score:-593.0 
+1658847374.320720 -- INFO: Iteration 49 Ends, Took 4.03 Seconds. Best Params: [20] and Score: -592.3333333333334.
+1658847374.320982 -- INFO: Iteration 50 Starts ...
+1658847374.321641 -- INFO: Changing concurrency to 20 ******
+1658847374.328436 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847374.333388 -- INFO: Active CC: 20
+1658847374.652927 -- INFO: Time taken to collect tcp stats: 31.0ms
+1658847374.653801 -- INFO: Throughput @225.3s:874.4Mbps, rtt :6.43ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:830Mbps score:-588.0 
+1658847375.644816 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847375.645588 -- INFO: Throughput @226.3s:889.92Mbps, rtt :6.48ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:848Mbps score:-599.0 
+1658847376.648281 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847376.649112 -- INFO: Throughput @227.3s:870.69Mbps, rtt :6.29ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:897Mbps score:-586.0 
+1658847377.648879 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847377.649673 -- INFO: Throughput @228.3s:890.5Mbps, rtt :6.63ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:817Mbps score:-599.0 
+1658847378.350600 -- INFO: Iteration 50 Ends, Took 4.03 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847378.350864 -- INFO: Iteration 51 Starts ...
+1658847378.351396 -- INFO: Changing concurrency to 20 ******
+1658847378.359831 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847378.362956 -- INFO: Active CC: 20
+1658847378.648454 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847378.649369 -- INFO: Throughput @229.3s:883.81Mbps, rtt :6.6ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:862Mbps score:-595.0 
+1658847379.645346 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847379.646142 -- INFO: Throughput @230.3s:876.26Mbps, rtt :6.61ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:937Mbps score:-590.0 
+1658847380.672955 -- INFO: Time taken to collect tcp stats: 45.0ms
+1658847380.673782 -- INFO: Throughput @231.3s:885.87Mbps, rtt :6.44ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:818Mbps score:-596.0 
+1658847381.648805 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847381.649727 -- INFO: Throughput @232.3s:887.48Mbps, rtt :6.67ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:897Mbps score:-597.0 
+1658847382.624809 -- INFO: Iteration 51 Ends, Took 4.27 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847382.625087 -- INFO: Iteration 52 Starts ...
+1658847382.625738 -- INFO: Changing concurrency to 20 ******
+1658847382.628913 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847382.631550 -- INFO: Active CC: 20
+1658847382.636588 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847382.637526 -- INFO: Throughput @233.3s:872.8Mbps, rtt :6.6ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:840Mbps score:-587.0 
+1658847383.657479 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847383.658638 -- INFO: Throughput @234.3s:891.15Mbps, rtt :6.52ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:902Mbps score:-600.0 
+1658847384.649511 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847384.650447 -- INFO: Throughput @235.3s:876.21Mbps, rtt :6.46ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:915Mbps score:-590.0 
+1658847385.652491 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847385.653406 -- INFO: Throughput @236.3s:878.86Mbps, rtt :6.59ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:904Mbps score:-591.0 
+1658847386.673490 -- INFO: Time taken to collect tcp stats: 41.0ms
+1658847386.674437 -- INFO: Throughput @237.3s:887.5Mbps, rtt :6.54ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:844Mbps score:-597.0 
+1658847386.724301 -- INFO: Iteration 52 Ends, Took 4.1 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847386.724499 -- INFO: Iteration 53 Starts ...
+1658847386.725038 -- INFO: Changing concurrency to 20 ******
+1658847386.727208 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847386.730692 -- INFO: Active CC: 20
+1658847387.652777 -- INFO: Time taken to collect tcp stats: 19.0ms
+1658847387.653561 -- INFO: Throughput @238.3s:883.52Mbps, rtt :6.44ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:987Mbps score:-595.0 
+1658847388.647984 -- INFO: Time taken to collect tcp stats: 13.0ms
+1658847388.648914 -- INFO: Throughput @239.3s:875.44Mbps, rtt :6.48ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:892Mbps score:-589.0 
+1658847389.660870 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847389.661786 -- INFO: Throughput @240.3s:891.65Mbps, rtt :6.44ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:881Mbps score:-600.0 
+1658847390.649539 -- INFO: Time taken to collect tcp stats: 13.0ms
+1658847390.650422 -- INFO: Throughput @241.3s:881.07Mbps, rtt :6.53ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:887Mbps score:-593.0 
+1658847390.807013 -- INFO: Iteration 53 Ends, Took 4.08 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847390.807279 -- INFO: Iteration 54 Starts ...
+1658847390.807824 -- INFO: Changing concurrency to 20 ******
+1658847390.811333 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847390.814657 -- INFO: Active CC: 20
+1658847391.663757 -- INFO: Time taken to collect tcp stats: 26.0ms
+1658847391.664645 -- INFO: Throughput @242.3s:876.1Mbps, rtt :6.44ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:814Mbps score:-590.0 
+1658847392.672898 -- INFO: Time taken to collect tcp stats: 34.0ms
+1658847392.673788 -- INFO: Throughput @243.3s:891.59Mbps, rtt :6.53ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:810Mbps score:-600.0 
+1658847393.646182 -- INFO: Time taken to collect tcp stats: 6.0ms
+1658847393.646978 -- INFO: Throughput @244.3s:870.89Mbps, rtt :6.43ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:932Mbps score:-586.0 
+1658847394.670623 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847394.672178 -- INFO: Throughput @245.3s:890.82Mbps, rtt :6.55ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:911Mbps score:-599.0 
+1658847394.794494 -- INFO: Iteration 54 Ends, Took 3.99 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847394.794760 -- INFO: Iteration 55 Starts ...
+1658847394.795280 -- INFO: Changing concurrency to 20 ******
+1658847394.796378 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847394.797100 -- INFO: Active CC: 20
+1658847395.661706 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847395.662646 -- INFO: Throughput @246.3s:879.89Mbps, rtt :6.41ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:935Mbps score:-592.0 
+1658847396.658549 -- INFO: Time taken to collect tcp stats: 16.0ms
+1658847396.660089 -- INFO: Throughput @247.3s:875.36Mbps, rtt :6.45ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:914Mbps score:-589.0 
+1658847397.664394 -- INFO: Time taken to collect tcp stats: 21.0ms
+1658847397.665325 -- INFO: Throughput @248.3s:885.19Mbps, rtt :6.4ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:812Mbps score:-596.0 
+1658847398.669331 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847398.670215 -- INFO: Throughput @249.3s:889.22Mbps, rtt :6.57ms cwnd: 65.2 lossRate: 0.0 CC:20 goodput:891Mbps score:-598.0 
+1658847398.774244 -- INFO: Iteration 55 Ends, Took 3.98 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847398.774505 -- INFO: Iteration 56 Starts ...
+1658847398.774902 -- INFO: Changing concurrency to 17 ******
+1658847398.776438 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847398.777740 -- INFO: Active CC: 17
+1658847399.712800 -- INFO: Time taken to collect tcp stats: 64.0ms
+1658847399.713753 -- INFO: Throughput @250.3s:823.19Mbps, rtt :5.65ms cwnd: 95.2 lossRate: 0 CC:17 goodput:1160Mbps score:-588.0 
+1658847400.768806 -- INFO: Time taken to collect tcp stats: 122.0ms
+1658847400.770038 -- INFO: Throughput @251.3s:745.2Mbps, rtt :4.48ms cwnd: 274.1 lossRate: 0.0 CC:17 goodput:6047Mbps score:-532.0 
+1658847401.716882 -- INFO: Time taken to collect tcp stats: 69.0ms
+1658847401.717893 -- INFO: Throughput @252.3s:740.0Mbps, rtt :6.31ms cwnd: 321.1 lossRate: 0.0 CC:17 goodput:3174Mbps score:-528.0 
+1658847402.287849 -- INFO: Process 15 finished on working on file 27 
+1658847402.288471 -- INFO: Process 15 get item 23 from queue and executing
+1658847402.288757 -- INFO: starting 15, 23, /home/hjamil/Documents/files_bash/FILE12
+1658847402.748735 -- INFO: Time taken to collect tcp stats: 101.0ms
+1658847402.749514 -- INFO: Throughput @253.3s:720.0Mbps, rtt :6.94ms cwnd: 327.7 lossRate: 0.0 CC:17 goodput:4621Mbps score:-514.0 
+1658847403.199821 -- INFO: Process 11 finished on working on file 25 
+1658847403.203962 -- INFO: Process 11 get item 7 from queue and executing
+1658847403.204259 -- INFO: starting 11, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847403.377760 -- INFO: Process 16 finished on working on file 24 
+1658847403.378459 -- INFO: Process 16 get item 0 from queue and executing
+1658847403.383959 -- INFO: starting 16, 0, /home/hjamil/Documents/files_bash/FILE19
+1658847403.627817 -- INFO: Process 14 finished on working on file 28 
+1658847403.647866 -- INFO: Process 14 get item 26 from queue and executing
+1658847403.663982 -- INFO: starting 14, 26, /home/hjamil/Documents/files_bash/FILE22
+1658847403.692659 -- INFO: Time taken to collect tcp stats: 42.0ms
+1658847403.693530 -- INFO: Throughput @254.3s:730.0Mbps, rtt :6.85ms cwnd: 344.1 lossRate: 0.0 CC:17 goodput:2640Mbps score:-521.0 
+1658847403.987936 -- INFO: Process 8 finished on working on file 31 
+1658847404.035848 -- INFO: Process 8 get item 29 from queue and executing
+1658847404.039961 -- INFO: starting 8, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847404.315834 -- INFO: Process 7 finished on working on file 3 
+1658847404.328018 -- INFO: Process 7 get item 9 from queue and executing
+1658847404.328327 -- INFO: starting 7, 9, /home/hjamil/Documents/files_bash/FILE20
+1658847404.737806 -- INFO: Time taken to collect tcp stats: 88.0ms
+1658847404.738724 -- INFO: Throughput @255.4s:663.64Mbps, rtt :4.38ms cwnd: 355.3 lossRate: 0.0 CC:17 goodput:6910Mbps score:-474.0 
+1658847404.964129 -- INFO: Iteration 56 Ends, Took 6.19 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847404.964392 -- INFO: Iteration 57 Starts ...
+1658847404.971933 -- INFO: Changing concurrency to 20 ******
+1658847404.972299 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847404.976038 -- INFO: Start Process :: 17
+1658847404.976095 -- INFO: Start Process :: 18
+1658847404.976324 -- INFO: Active CC: 20
+1658847404.976320 -- INFO: Start Process :: 19
+1658847404.978094 -- INFO: Process 17 get item 19 from queue and executing
+1658847404.978297 -- INFO: starting 17, 19, /home/hjamil/Documents/files_bash/FILE8
+1658847404.978775 -- INFO: Process 19 get item 30 from queue and executing
+1658847404.978960 -- INFO: starting 19, 30, /home/hjamil/Documents/files_bash/FILE7
+1658847405.728963 -- INFO: Time taken to collect tcp stats: 76.0ms
+1658847405.729938 -- INFO: Throughput @256.4s:815.0Mbps, rtt :7.24ms cwnd: 329.8 lossRate: 0.0 CC:20 goodput:2293Mbps score:-548.0 
+1658847406.712234 -- INFO: Time taken to collect tcp stats: 59.0ms
+1658847406.724604 -- INFO: Throughput @257.4s:800.0Mbps, rtt :6.48ms cwnd: 339.0 lossRate: 0.0 CC:20 goodput:4351Mbps score:-538.0 
+1658847407.720819 -- INFO: Time taken to collect tcp stats: 66.0ms
+1658847407.721728 -- INFO: Throughput @258.4s:825.0Mbps, rtt :5.69ms cwnd: 343.4 lossRate: 0.0 CC:20 goodput:5277Mbps score:-555.0 
+1658847408.716697 -- INFO: Time taken to collect tcp stats: 61.0ms
+1658847408.717588 -- INFO: Throughput @259.4s:825.0Mbps, rtt :5.38ms cwnd: 345.2 lossRate: 0.0 CC:20 goodput:3940Mbps score:-555.0 
+1658847409.603842 -- INFO: Process 19 finished on working on file 30 
+1658847409.736431 -- INFO: Time taken to collect tcp stats: 80.0ms
+1658847409.737386 -- INFO: Throughput @260.4s:805.0Mbps, rtt :4.12ms cwnd: 354.6 lossRate: 0.0 CC:20 goodput:8190Mbps score:-542.0 
+1658847410.712694 -- INFO: Time taken to collect tcp stats: 55.0ms
+1658847410.713548 -- INFO: Throughput @261.4s:770.0Mbps, rtt :3.92ms cwnd: 355.7 lossRate: 0.0 CC:20 goodput:6964Mbps score:-518.0 
+1658847411.292192 -- INFO: Iteration 57 Ends, Took 6.32 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847411.292458 -- INFO: Iteration 58 Starts ...
+1658847411.299924 -- INFO: Changing concurrency to 20 ******
+1658847411.326386 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847411.327020 -- INFO: Active CC: 20
+1658847411.716743 -- INFO: Time taken to collect tcp stats: 58.0ms
+1658847411.717638 -- INFO: Throughput @262.4s:780.0Mbps, rtt :4.74ms cwnd: 357.6 lossRate: 0.0 CC:20 goodput:6207Mbps score:-525.0 
+1658847411.983850 -- INFO: Process 10 finished on working on file 1 
+1658847412.738111 -- INFO: Time taken to collect tcp stats: 79.0ms
+1658847412.738932 -- INFO: Throughput @263.4s:740.0Mbps, rtt :8.29ms cwnd: 357.8 lossRate: 0 CC:20 goodput:4782Mbps score:-498.0 
+1658847413.712713 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847413.713698 -- INFO: Throughput @264.4s:745.0Mbps, rtt :4.18ms cwnd: 358.1 lossRate: 0.0 CC:20 goodput:7180Mbps score:-501.0 
+1658847414.744939 -- INFO: Time taken to collect tcp stats: 83.0ms
+1658847414.745753 -- INFO: Throughput @265.4s:745.0Mbps, rtt :3.32ms cwnd: 359.6 lossRate: 0.0 CC:20 goodput:9156Mbps score:-501.0 
+1658847415.708827 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847415.709791 -- INFO: Throughput @266.4s:720.0Mbps, rtt :3.62ms cwnd: 371.4 lossRate: 0.0 CC:20 goodput:8603Mbps score:-485.0 
+1658847416.725034 -- INFO: Time taken to collect tcp stats: 62.0ms
+1658847416.726283 -- INFO: Throughput @267.4s:730.0Mbps, rtt :5.17ms cwnd: 384.0 lossRate: 0.0 CC:20 goodput:4781Mbps score:-491.0 
+1658847416.987853 -- INFO: Process 6 finished on working on file 11 
+1658847417.745481 -- INFO: Time taken to collect tcp stats: 81.0ms
+1658847417.746419 -- INFO: Throughput @268.4s:695.0Mbps, rtt :4.52ms cwnd: 376.5 lossRate: 0 CC:20 goodput:5902Mbps score:-468.0 
+1658847418.050034 -- INFO: Iteration 58 Ends, Took 6.76 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847418.050302 -- INFO: Iteration 59 Starts ...
+1658847418.050837 -- INFO: Changing concurrency to 23 ******
+1658847418.098415 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847418.108846 -- INFO: Active CC: 23
+1658847418.257720 -- INFO: Process 17 finished on working on file 19 
+1658847418.763339 -- INFO: Time taken to collect tcp stats: 98.0ms
+1658847418.764290 -- INFO: Throughput @269.4s:640.0Mbps, rtt :5.53ms cwnd: 396.5 lossRate: 0.0 CC:23 goodput:4052Mbps score:-406.0 
+1658847419.732698 -- INFO: Time taken to collect tcp stats: 66.0ms
+1658847419.733624 -- INFO: Throughput @270.4s:640.0Mbps, rtt :3.19ms cwnd: 411.4 lossRate: 0.0 CC:23 goodput:10169Mbps score:-406.0 
+1658847420.740436 -- INFO: Time taken to collect tcp stats: 73.0ms
+1658847420.741275 -- INFO: Throughput @271.4s:655.0Mbps, rtt :4.15ms cwnd: 411.8 lossRate: 0.0 CC:23 goodput:6308Mbps score:-415.0 
+1658847421.748825 -- INFO: Time taken to collect tcp stats: 81.0ms
+1658847421.750031 -- INFO: Throughput @272.4s:650.0Mbps, rtt :4.05ms cwnd: 412.2 lossRate: 0.0 CC:23 goodput:6968Mbps score:-412.0 
+1658847422.777185 -- INFO: Time taken to collect tcp stats: 93.0ms
+1658847422.778009 -- INFO: Throughput @273.4s:650.0Mbps, rtt :4.47ms cwnd: 412.7 lossRate: 0.0 CC:23 goodput:6301Mbps score:-412.0 
+1658847423.762783 -- INFO: Time taken to collect tcp stats: 92.0ms
+1658847423.763622 -- INFO: Throughput @274.4s:660.0Mbps, rtt :4.84ms cwnd: 412.8 lossRate: 0.0 CC:23 goodput:5535Mbps score:-419.0 
+1658847424.818594 -- INFO: Time taken to collect tcp stats: 143.0ms
+1658847424.819437 -- INFO: Throughput @275.4s:635.0Mbps, rtt :4.41ms cwnd: 413.1 lossRate: 0.0 CC:23 goodput:6225Mbps score:-403.0 
+1658847424.888658 -- INFO: Iteration 59 Ends, Took 6.84 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847424.891710 -- INFO: Iteration 60 Starts ...
+1658847424.896343 -- INFO: Changing concurrency to 13 ******
+1658847424.899452 -- INFO: Start Process :: 17
+1658847424.903257 -- INFO: Start Process :: 19
+1658847424.912340 -- INFO: Start Process :: 10
+1658847424.912690 -- INFO: Start Process :: 6
+1658847424.913100 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847424.913408 -- INFO: Process 10 get item 23 from queue and executing
+1658847424.913747 -- INFO: starting 10, 23, /home/hjamil/Documents/files_bash/FILE12
+1658847424.936174 -- INFO: Active CC: 13
+1658847424.940112 -- INFO: Process 6 get item 26 from queue and executing
+1658847424.940420 -- INFO: starting 6, 26, /home/hjamil/Documents/files_bash/FILE22
+1658847425.832632 -- INFO: Time taken to collect tcp stats: 156.0ms
+1658847425.833564 -- INFO: Throughput @276.4s:610.0Mbps, rtt :3.54ms cwnd: 361.2 lossRate: 0 CC:13 goodput:6125Mbps score:-472.0 
+1658847426.712526 -- INFO: Time taken to collect tcp stats: 37.0ms
+1658847426.713424 -- INFO: Throughput @277.4s:570.0Mbps, rtt :5.23ms cwnd: 369.9 lossRate: 0.0 CC:13 goodput:4019Mbps score:-441.0 
+1658847427.864658 -- INFO: Time taken to collect tcp stats: 158.0ms
+1658847427.865666 -- INFO: Throughput @278.4s:575.0Mbps, rtt :4.09ms cwnd: 377.8 lossRate: 0.0 CC:13 goodput:5995Mbps score:-444.0 
+1658847428.756460 -- INFO: Time taken to collect tcp stats: 59.0ms
+1658847428.757468 -- INFO: Throughput @279.4s:585.0Mbps, rtt :3.63ms cwnd: 383.5 lossRate: 0.0 CC:13 goodput:7258Mbps score:-452.0 
+1658847429.780717 -- INFO: Time taken to collect tcp stats: 82.0ms
+1658847429.781632 -- INFO: Throughput @280.4s:560.0Mbps, rtt :4.02ms cwnd: 386.8 lossRate: 0.0 CC:13 goodput:6486Mbps score:-433.0 
+1658847429.919843 -- INFO: Process 5 finished on working on file 14 
+1658847429.920468 -- INFO: Process 5 get item 16 from queue and executing
+1658847429.920797 -- INFO: starting 5, 16, /home/hjamil/Documents/files_bash/FILE4
+1658847430.076195 -- INFO: Process 3 finished on working on file 10 
+1658847430.080649 -- INFO: Process 3 get item 0 from queue and executing
+1658847430.082758 -- INFO: starting 3, 0, /home/hjamil/Documents/files_bash/FILE19
+1658847430.820055 -- INFO: Time taken to collect tcp stats: 110.0ms
+1658847430.820933 -- INFO: Throughput @281.4s:570.0Mbps, rtt :5.23ms cwnd: 404.0 lossRate: 0.0 CC:13 goodput:6036Mbps score:-441.0 
+1658847431.536602 -- INFO: Iteration 60 Ends, Took 6.64 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847431.536875 -- INFO: Iteration 61 Starts ...
+1658847431.556070 -- INFO: Changing concurrency to 18 ******
+1658847431.561569 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847431.563681 -- INFO: Active CC: 18
+1658847431.748584 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847431.749495 -- INFO: Throughput @282.4s:545.0Mbps, rtt :4.13ms cwnd: 400.4 lossRate: 0.0 CC:18 goodput:5193Mbps score:-382.0 
+1658847432.765333 -- INFO: Time taken to collect tcp stats: 65.0ms
+1658847432.766229 -- INFO: Throughput @283.4s:545.0Mbps, rtt :5.21ms cwnd: 401.9 lossRate: 0.0 CC:18 goodput:6019Mbps score:-382.0 
+1658847433.752843 -- INFO: Time taken to collect tcp stats: 51.0ms
+1658847433.753710 -- INFO: Throughput @284.4s:560.0Mbps, rtt :3.53ms cwnd: 403.7 lossRate: 0.0 CC:18 goodput:8539Mbps score:-392.0 
+1658847434.808195 -- INFO: Time taken to collect tcp stats: 106.0ms
+1658847434.809231 -- INFO: Throughput @285.4s:555.0Mbps, rtt :3.72ms cwnd: 404.1 lossRate: 0.0 CC:18 goodput:7416Mbps score:-389.0 
+1658847435.848209 -- INFO: Time taken to collect tcp stats: 145.0ms
+1658847435.849101 -- INFO: Throughput @286.4s:550.0Mbps, rtt :4.36ms cwnd: 407.4 lossRate: 0.0 CC:18 goodput:6340Mbps score:-385.0 
+1658847436.583867 -- INFO: Process 6 finished on working on file 26 
+1658847436.800680 -- INFO: Time taken to collect tcp stats: 96.0ms
+1658847436.801585 -- INFO: Throughput @287.4s:550.0Mbps, rtt :4.47ms cwnd: 412.3 lossRate: 0.0 CC:18 goodput:5220Mbps score:-385.0 
+1658847436.919855 -- INFO: Process 12 finished on working on file 18 
+1658847437.619849 -- INFO: Process 9 finished on working on file 5 
+1658847437.648680 -- INFO: Iteration 61 Ends, Took 6.11 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847437.651766 -- INFO: Iteration 62 Starts ...
+1658847437.657277 -- INFO: Changing concurrency to 8 ******
+1658847437.663960 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847437.688182 -- INFO: Active CC: 8
+1658847437.691923 -- INFO: Start Process :: 6
+1658847437.694796 -- INFO: Process 6 get item 29 from queue and executing
+1658847437.695243 -- INFO: starting 6, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847437.756545 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847437.757462 -- INFO: Throughput @288.4s:478.96Mbps, rtt :4.6ms cwnd: 331.6 lossRate: 0 CC:8 goodput:2054Mbps score:-409.0 
+1658847438.744585 -- INFO: Time taken to collect tcp stats: 39.0ms
+1658847438.745507 -- INFO: Throughput @289.4s:361.04Mbps, rtt :2.95ms cwnd: 350.1 lossRate: 0.0 CC:8 goodput:5017Mbps score:-308.0 
+1658847439.760533 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847439.761467 -- INFO: Throughput @290.4s:375.0Mbps, rtt :4.14ms cwnd: 362.4 lossRate: 0.0 CC:8 goodput:3449Mbps score:-320.0 
+1658847440.765663 -- INFO: Time taken to collect tcp stats: 58.0ms
+1658847440.766578 -- INFO: Throughput @291.4s:365.0Mbps, rtt :3.15ms cwnd: 365.5 lossRate: 0.0 CC:8 goodput:5919Mbps score:-312.0 
+1658847441.511860 -- INFO: Process 4 finished on working on file 20 
+1658847441.527973 -- INFO: Process 4 get item 7 from queue and executing
+1658847441.528303 -- INFO: starting 4, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847441.764459 -- INFO: Time taken to collect tcp stats: 55.0ms
+1658847441.765444 -- INFO: Throughput @292.4s:355.0Mbps, rtt :2.78ms cwnd: 369.9 lossRate: 0.0 CC:8 goodput:6365Mbps score:-303.0 
+1658847442.764451 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847442.765401 -- INFO: Throughput @293.4s:370.0Mbps, rtt :3.46ms cwnd: 373.2 lossRate: 0.0 CC:8 goodput:4617Mbps score:-316.0 
+1658847443.092146 -- INFO: Iteration 62 Ends, Took 5.44 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847443.092427 -- INFO: Iteration 63 Starts ...
+1658847443.092875 -- INFO: Changing concurrency to 28 ******
+1658847443.104728 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1658847443.104861 -- INFO: Start Process :: 24
+1658847443.104884 -- INFO: Start Process :: 8
+1658847443.105089 -- INFO: Start Process :: 12
+1658847443.105440 -- INFO: Start Process :: 16
+1658847443.105467 -- INFO: Active CC: 28
+1658847443.105764 -- INFO: Start Process :: 19
+1658847443.106094 -- INFO: Start Process :: 11
+1658847443.106424 -- INFO: Start Process :: 13
+1658847443.106881 -- INFO: Start Process :: 14
+1658847443.107346 -- INFO: Process 12 get item 23 from queue and executing
+1658847443.107545 -- INFO: starting 12, 23, /home/hjamil/Documents/files_bash/FILE12
+1658847443.107841 -- INFO: Start Process :: 18
+1658847443.108090 -- INFO: Start Process :: 20
+1658847443.108942 -- INFO: Start Process :: 17
+1658847443.553684 -- INFO: Process 7 finished on working on file 9 
+1658847443.758261 -- INFO: Time taken to collect tcp stats: 49.0ms
+1658847443.759510 -- INFO: Throughput @294.4s:390.0Mbps, rtt :3.89ms cwnd: 352.9 lossRate: 0 CC:28 goodput:3774Mbps score:-224.0 
+1658847444.788446 -- INFO: Time taken to collect tcp stats: 78.0ms
+1658847444.789382 -- INFO: Throughput @295.4s:395.0Mbps, rtt :2.85ms cwnd: 363.5 lossRate: 0.0 CC:28 goodput:6587Mbps score:-227.0 
+1658847445.792637 -- INFO: Time taken to collect tcp stats: 81.0ms
+1658847445.793552 -- INFO: Throughput @296.4s:380.0Mbps, rtt :3.07ms cwnd: 373.2 lossRate: 0.0 CC:28 goodput:5784Mbps score:-218.0 
+1658847446.887701 -- INFO: Time taken to collect tcp stats: 175.0ms
+1658847446.888765 -- INFO: Throughput @297.4s:395.0Mbps, rtt :3.25ms cwnd: 373.6 lossRate: 0.0 CC:28 goodput:5126Mbps score:-227.0 
+1658847447.790560 -- INFO: Time taken to collect tcp stats: 78.0ms
+1658847447.792469 -- INFO: Throughput @298.4s:370.0Mbps, rtt :2.79ms cwnd: 374.1 lossRate: 0.0 CC:28 goodput:6694Mbps score:-213.0 
+1658847448.800851 -- INFO: Time taken to collect tcp stats: 87.0ms
+1658847448.801600 -- INFO: Throughput @299.4s:390.0Mbps, rtt :2.62ms cwnd: 378.8 lossRate: 0.0 CC:28 goodput:6551Mbps score:-224.0 
+1658847448.933647 -- INFO: Iteration 63 Ends, Took 5.84 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847448.933879 -- INFO: Iteration 64 Starts ...
+1658847448.936673 -- INFO: Changing concurrency to 15 ******
+1658847448.940610 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847448.944850 -- INFO: Active CC: 15
+1658847449.804473 -- INFO: Time taken to collect tcp stats: 85.0ms
+1658847449.805288 -- INFO: Throughput @300.4s:370.0Mbps, rtt :4.02ms cwnd: 379.4 lossRate: 0.0 CC:15 goodput:4352Mbps score:-275.0 
+1658847450.765758 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847450.766634 -- INFO: Throughput @301.4s:340.0Mbps, rtt :3.47ms cwnd: 382.5 lossRate: 0.0 CC:15 goodput:4931Mbps score:-253.0 
+1658847451.857167 -- INFO: Time taken to collect tcp stats: 139.0ms
+1658847451.858061 -- INFO: Throughput @302.4s:360.0Mbps, rtt :3.13ms cwnd: 386.0 lossRate: 0.0 CC:15 goodput:6550Mbps score:-267.0 
+1658847452.764465 -- INFO: Time taken to collect tcp stats: 45.0ms
+1658847452.765352 -- INFO: Throughput @303.4s:350.0Mbps, rtt :2.88ms cwnd: 386.9 lossRate: 0.0 CC:15 goodput:6898Mbps score:-260.0 
+1658847453.764482 -- INFO: Time taken to collect tcp stats: 44.0ms
+1658847453.765409 -- INFO: Throughput @304.4s:360.0Mbps, rtt :3.49ms cwnd: 414.1 lossRate: 0.0 CC:15 goodput:5066Mbps score:-267.0 
+1658847454.834616 -- INFO: Time taken to collect tcp stats: 110.0ms
+1658847454.835495 -- INFO: Throughput @305.4s:360.0Mbps, rtt :3.15ms cwnd: 414.5 lossRate: 0.0 CC:15 goodput:6057Mbps score:-267.0 
+1658847455.702174 -- INFO: Iteration 64 Ends, Took 6.77 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847455.713543 -- INFO: Iteration 65 Starts ...
+1658847455.713966 -- INFO: Changing concurrency to 11 ******
+1658847455.736056 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847455.738622 -- INFO: Active CC: 11
+1658847455.751851 -- INFO: Process 12 finished on working on file 23 
+1658847455.765431 -- INFO: Time taken to collect tcp stats: 29.0ms
+1658847455.766276 -- INFO: Throughput @306.4s:355.0Mbps, rtt :3.76ms cwnd: 418.1 lossRate: 0 CC:11 goodput:3524Mbps score:-286.0 
+1658847456.864539 -- INFO: Time taken to collect tcp stats: 139.0ms
+1658847456.865448 -- INFO: Throughput @307.4s:295.0Mbps, rtt :3.11ms cwnd: 445.4 lossRate: 0.0 CC:11 goodput:5084Mbps score:-237.0 
+1658847457.776443 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847457.777358 -- INFO: Throughput @308.4s:315.0Mbps, rtt :3.91ms cwnd: 451.9 lossRate: 0.0 CC:11 goodput:4793Mbps score:-253.0 
+1658847458.831699 -- INFO: Time taken to collect tcp stats: 107.0ms
+1658847458.832606 -- INFO: Throughput @309.4s:315.0Mbps, rtt :3.26ms cwnd: 452.0 lossRate: 0.0 CC:11 goodput:5342Mbps score:-253.0 
+1658847459.810043 -- INFO: Time taken to collect tcp stats: 85.0ms
+1658847459.810927 -- INFO: Throughput @310.4s:315.0Mbps, rtt :3.58ms cwnd: 452.6 lossRate: 0.0 CC:11 goodput:5215Mbps score:-253.0 
+1658847460.763720 -- INFO: Time taken to collect tcp stats: 36.0ms
+1658847460.764625 -- INFO: Throughput @311.4s:315.0Mbps, rtt :3.66ms cwnd: 455.0 lossRate: 0.0 CC:11 goodput:4743Mbps score:-253.0 
+1658847461.824907 -- INFO: Time taken to collect tcp stats: 96.0ms
+1658847461.825794 -- INFO: Throughput @312.4s:320.0Mbps, rtt :3.42ms cwnd: 455.1 lossRate: 0.0 CC:11 goodput:5219Mbps score:-257.0 
+1658847461.861521 -- INFO: Iteration 65 Ends, Took 6.15 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847461.867916 -- INFO: Iteration 66 Starts ...
+1658847461.868816 -- INFO: Changing concurrency to 5 ******
+1658847461.884680 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847461.886195 -- INFO: Active CC: 5
+1658847462.796773 -- INFO: Time taken to collect tcp stats: 39.0ms
+1658847462.797705 -- INFO: Throughput @313.4s:250.0Mbps, rtt :4.29ms cwnd: 457.6 lossRate: 0 CC:5 goodput:1669Mbps score:-226.0 
+1658847462.867862 -- INFO: Process 3 finished on working on file 0 
+1658847462.884074 -- INFO: Process 3 get item 29 from queue and executing
+1658847462.885146 -- INFO: starting 3, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847463.792340 -- INFO: Time taken to collect tcp stats: 57.0ms
+1658847463.793283 -- INFO: Throughput @314.4s:230.0Mbps, rtt :3.86ms cwnd: 457.8 lossRate: 0.0 CC:5 goodput:2547Mbps score:-208.0 
+1658847464.808993 -- INFO: Time taken to collect tcp stats: 72.0ms
+1658847464.809775 -- INFO: Throughput @315.4s:230.0Mbps, rtt :3.21ms cwnd: 457.8 lossRate: 0.0 CC:5 goodput:4041Mbps score:-208.0 
+1658847465.814789 -- INFO: Time taken to collect tcp stats: 80.0ms
+1658847465.815657 -- INFO: Throughput @316.4s:240.0Mbps, rtt :2.95ms cwnd: 457.8 lossRate: 0.0 CC:5 goodput:4515Mbps score:-217.0 
+1658847466.808248 -- INFO: Time taken to collect tcp stats: 73.0ms
+1658847466.809108 -- INFO: Throughput @317.4s:230.0Mbps, rtt :2.8ms cwnd: 457.8 lossRate: 0.0 CC:5 goodput:3328Mbps score:-208.0 
+1658847467.177400 -- INFO: Iteration 66 Ends, Took 5.31 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847467.177666 -- INFO: Iteration 67 Starts ...
+1658847467.178054 -- INFO: Changing concurrency to 25 ******
+1658847467.206747 -- INFO: Start Process :: 5
+1658847467.207520 -- INFO: Process 5 get item 16 from queue and executing
+1658847467.207831 -- INFO: starting 5, 16, /home/hjamil/Documents/files_bash/FILE4
+1658847467.219856 -- INFO: Start Process :: 6
+1658847467.273678 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1658847467.278013 -- INFO: Active CC: 25
+1658847467.809449 -- INFO: Time taken to collect tcp stats: 73.0ms
+1658847467.810203 -- INFO: Throughput @318.4s:265.0Mbps, rtt :2.66ms cwnd: 413.0 lossRate: 0.0 CC:25 goodput:5195Mbps score:-162.0 
+1658847468.071619 -- INFO: Process 0 finished on working on file 17 
+1658847468.792424 -- INFO: Time taken to collect tcp stats: 56.0ms
+1658847468.793393 -- INFO: Throughput @319.4s:265.0Mbps, rtt :2.74ms cwnd: 427.6 lossRate: 0 CC:25 goodput:4942Mbps score:-162.0 
+1658847469.799844 -- INFO: Time taken to collect tcp stats: 62.0ms
+1658847469.801345 -- INFO: Throughput @320.4s:250.0Mbps, rtt :2.7ms cwnd: 435.6 lossRate: 0.0 CC:25 goodput:4447Mbps score:-152.0 
+1658847470.802513 -- INFO: Time taken to collect tcp stats: 64.0ms
+1658847470.803633 -- INFO: Throughput @321.4s:245.0Mbps, rtt :3.92ms cwnd: 439.4 lossRate: 0.0 CC:25 goodput:2432Mbps score:-149.0 
+1658847471.814312 -- INFO: Time taken to collect tcp stats: 75.0ms
+1658847471.815466 -- INFO: Throughput @322.4s:245.0Mbps, rtt :4.08ms cwnd: 443.6 lossRate: 0.0 CC:25 goodput:3113Mbps score:-149.0 
+1658847472.784800 -- INFO: Time taken to collect tcp stats: 44.0ms
+1658847472.785664 -- INFO: Throughput @323.4s:245.0Mbps, rtt :2.94ms cwnd: 448.4 lossRate: 0.0 CC:25 goodput:4137Mbps score:-149.0 
+1658847473.839037 -- INFO: Time taken to collect tcp stats: 98.0ms
+1658847473.840774 -- INFO: Throughput @324.4s:245.0Mbps, rtt :3.0ms cwnd: 448.6 lossRate: 0.0 CC:25 goodput:4344Mbps score:-149.0 
+1658847474.252977 -- INFO: Iteration 67 Ends, Took 7.08 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847474.254462 -- INFO: Iteration 68 Starts ...
+1658847474.254826 -- INFO: Changing concurrency to 30 ******
+1658847474.260511 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1658847474.262586 -- INFO: Active CC: 30
+1658847474.647820 -- INFO: Process 1 finished on working on file 2 
+1658847474.771530 -- INFO: Time taken to collect tcp stats: 30.0ms
+1658847474.773250 -- INFO: Throughput @325.4s:245.0Mbps, rtt :2.92ms cwnd: 402.2 lossRate: 0 CC:30 goodput:3344Mbps score:-135.0 
+1658847475.796536 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847475.797880 -- INFO: Throughput @326.4s:195.0Mbps, rtt :2.84ms cwnd: 402.2 lossRate: 0.0 CC:30 goodput:3517Mbps score:-108.0 
+1658847476.783599 -- INFO: Time taken to collect tcp stats: 40.0ms
+1658847476.784857 -- INFO: Throughput @327.4s:195.0Mbps, rtt :2.89ms cwnd: 402.2 lossRate: 0.0 CC:30 goodput:3349Mbps score:-108.0 
+1658847477.884872 -- INFO: Process 5 finished on working on file 16 
+1658847477.908743 -- INFO: Time taken to collect tcp stats: 164.0ms
+1658847477.909577 -- INFO: Throughput @328.4s:200.0Mbps, rtt :2.89ms cwnd: 402.2 lossRate: 0.0 CC:30 goodput:3360Mbps score:-110.0 
+1658847478.805931 -- INFO: Time taken to collect tcp stats: 62.0ms
+1658847478.807956 -- INFO: Throughput @329.4s:155.0Mbps, rtt :2.66ms cwnd: 405.0 lossRate: 0 CC:30 goodput:2625Mbps score:-86.0 
+1658847479.432667 -- INFO: Iteration 68 Ends, Took 5.18 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847479.434038 -- INFO: Iteration 69 Starts ...
+1658847479.435126 -- INFO: Changing concurrency to 1 ******
+1658847479.486606 -- INFO: Start Process :: 0
+1658847479.486924 -- INFO: Start Process :: 26
+1658847479.486781 -- INFO: Start Process :: 28
+1658847479.486788 -- INFO: Start Process :: 25
+1658847479.487423 -- INFO: Start Process :: 23
+1658847479.486805 -- INFO: Start Process :: 27
+1658847479.486927 -- INFO: Start Process :: 29
+1658847479.487310 -- INFO: Start Process :: 24
+1658847479.488281 -- INFO: Process 26 get item 29 from queue and executing
+1658847479.488543 -- INFO: starting 26, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847479.496114 -- INFO: Process 27 get item 8 from queue and executing
+1658847479.496349 -- INFO: starting 27, 8, /home/hjamil/Documents/files_bash/FILE3
+1658847479.512286 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847479.525450 -- INFO: Process 29 get item 7 from queue and executing
+1658847479.531858 -- INFO: Process 25 get item 7 from queue and executing
+1658847479.532514 -- INFO: Process 23 get item 7 from queue and executing
+1658847479.532987 -- INFO: Process 0 get item 7 from queue and executing
+1658847479.533297 -- INFO: starting 0, 7, /home/hjamil/Documents/files_bash/FILE30
+1658847479.553988 -- INFO: Active CC: 1
+1658847479.773757 -- INFO: Time taken to collect tcp stats: 29.0ms
+1658847479.774646 -- INFO: Throughput @330.4s:130.0Mbps, rtt :1.17ms cwnd: 113.0 lossRate: 0 CC:1 goodput:894Mbps score:-127.0 
+1658847480.815595 -- INFO: Time taken to collect tcp stats: 70.0ms
+1658847480.816383 -- INFO: Throughput @331.4s:45.0Mbps, rtt :2.47ms cwnd: 263.0 lossRate: 0.0 CC:1 goodput:751Mbps score:-44.0 
+1658847481.775513 -- INFO: Time taken to collect tcp stats: 29.0ms
+1658847481.776417 -- INFO: Throughput @332.4s:50.0Mbps, rtt :2.63ms cwnd: 277.0 lossRate: 0.0 CC:1 goodput:729Mbps score:-49.0 
+1658847482.772334 -- INFO: Time taken to collect tcp stats: 24.0ms
+1658847482.773107 -- INFO: Throughput @333.4s:50.0Mbps, rtt :2.67ms cwnd: 305.0 lossRate: 0.0 CC:1 goodput:875Mbps score:-49.0 
+1658847483.721583 -- INFO: Iteration 69 Ends, Took 4.29 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847483.721840 -- INFO: Iteration 70 Starts ...
+1658847483.722250 -- INFO: Changing concurrency to 32 ******
+1658847483.723419 -- INFO: Start Process :: 1
+1658847483.724520 -- INFO: Process 1 get item 29 from queue and executing
+1658847483.724773 -- INFO: Start Process :: 3
+1658847483.732270 -- INFO: Process 3 get item 8 from queue and executing
+1658847483.732569 -- INFO: starting 3, 8, /home/hjamil/Documents/files_bash/FILE3
+1658847483.734064 -- INFO: starting 1, 29, /home/hjamil/Documents/files_bash/FILE27
+1658847483.724961 -- INFO: Start Process :: 2
+1658847483.750939 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1658847483.752614 -- INFO: Active CC: 32
+1658847483.781936 -- INFO: Time taken to collect tcp stats: 33.0ms
+1658847483.783245 -- INFO: Throughput @334.4s:60.0Mbps, rtt :1.87ms cwnd: 154.0 lossRate: 0.0 CC:14 goodput:2122Mbps score:-45.0 
+1658847484.772316 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847484.773451 -- INFO: Throughput @335.5s:136.36Mbps, rtt :2.76ms cwnd: 241.7 lossRate: 0.0 CC:32 goodput:2148Mbps score:-72.0 
+1658847485.768668 -- INFO: Time taken to collect tcp stats: 18.0ms
+1658847485.769617 -- INFO: Throughput @336.5s:145.0Mbps, rtt :2.08ms cwnd: 302.7 lossRate: 0.0 CC:32 goodput:2126Mbps score:-77.0 
+1658847486.771209 -- INFO: Time taken to collect tcp stats: 20.0ms
+1658847486.772115 -- INFO: Throughput @337.5s:150.0Mbps, rtt :2.85ms cwnd: 321.0 lossRate: 0.0 CC:32 goodput:2115Mbps score:-80.0 
+1658847487.774064 -- INFO: Time taken to collect tcp stats: 22.0ms
+1658847487.775157 -- INFO: Throughput @338.5s:150.0Mbps, rtt :2.85ms cwnd: 327.0 lossRate: 0.0 CC:32 goodput:2681Mbps score:-80.0 
+1658847488.623918 -- INFO: Iteration 70 Ends, Took 4.9 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847488.624511 -- INFO: Iteration 71 Starts ...
+1658847488.625098 -- INFO: Changing concurrency to 21 ******
+1658847488.625360 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1658847488.635933 -- INFO: Active CC: 21
+1658847488.799694 -- INFO: Time taken to collect tcp stats: 46.0ms
+1658847488.800708 -- INFO: Throughput @339.5s:140.0Mbps, rtt :2.45ms cwnd: 339.7 lossRate: 0.0 CC:21 goodput:2654Mbps score:-92.0 
+1658847489.794078 -- INFO: Time taken to collect tcp stats: 40.0ms
+1658847489.794979 -- INFO: Throughput @340.5s:150.0Mbps, rtt :2.78ms cwnd: 339.7 lossRate: 0.0 CC:21 goodput:2693Mbps score:-99.0 
+1658847490.830762 -- INFO: Time taken to collect tcp stats: 75.0ms
+1658847490.831771 -- INFO: Throughput @341.5s:145.0Mbps, rtt :2.94ms cwnd: 354.7 lossRate: 0.0 CC:21 goodput:2662Mbps score:-96.0 
+1658847491.854388 -- INFO: Time taken to collect tcp stats: 97.0ms
+1658847491.855136 -- INFO: Throughput @342.5s:150.0Mbps, rtt :2.93ms cwnd: 368.3 lossRate: 0.0 CC:21 goodput:2687Mbps score:-99.0 
+1658847492.854280 -- INFO: Time taken to collect tcp stats: 97.0ms
+1658847492.855256 -- INFO: Throughput @343.5s:150.0Mbps, rtt :2.87ms cwnd: 382.7 lossRate: 0.0 CC:21 goodput:2711Mbps score:-99.0 
+1658847493.833262 -- INFO: Time taken to collect tcp stats: 75.0ms
+1658847493.834368 -- INFO: Throughput @344.5s:145.0Mbps, rtt :2.92ms cwnd: 397.3 lossRate: 0.0 CC:21 goodput:2706Mbps score:-96.0 
+1658847494.471295 -- INFO: Iteration 71 Ends, Took 5.85 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847494.472224 -- INFO: Iteration 72 Starts ...
+1658847494.472877 -- INFO: Changing concurrency to 19 ******
+1658847494.473845 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847494.476479 -- INFO: Active CC: 19
+1658847494.812862 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847494.814207 -- INFO: Throughput @345.5s:145.0Mbps, rtt :2.81ms cwnd: 397.3 lossRate: 0.0 CC:19 goodput:2724Mbps score:-100.0 
+1658847495.860041 -- INFO: Time taken to collect tcp stats: 100.0ms
+1658847495.860937 -- INFO: Throughput @346.5s:150.0Mbps, rtt :2.7ms cwnd: 404.3 lossRate: 0.0 CC:19 goodput:2737Mbps score:-103.0 
+1658847496.813353 -- INFO: Time taken to collect tcp stats: 52.0ms
+1658847496.814283 -- INFO: Throughput @347.5s:145.0Mbps, rtt :2.63ms cwnd: 411.3 lossRate: 0.0 CC:19 goodput:2693Mbps score:-100.0 
+1658847497.815552 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847497.816451 -- INFO: Throughput @348.5s:145.0Mbps, rtt :3.39ms cwnd: 411.3 lossRate: 0.0 CC:19 goodput:1845Mbps score:-100.0 
+1658847498.837005 -- INFO: Time taken to collect tcp stats: 75.0ms
+1658847498.837947 -- INFO: Throughput @349.5s:150.0Mbps, rtt :2.43ms cwnd: 418.3 lossRate: 0.0 CC:19 goodput:2741Mbps score:-103.0 
+1658847499.817865 -- INFO: Time taken to collect tcp stats: 55.0ms
+1658847499.818757 -- INFO: Throughput @350.5s:145.0Mbps, rtt :3.13ms cwnd: 418.3 lossRate: 0.0 CC:19 goodput:2667Mbps score:-100.0 
+1658847499.961562 -- INFO: Iteration 72 Ends, Took 5.49 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847499.965608 -- INFO: Iteration 73 Starts ...
+1658847499.970837 -- INFO: Changing concurrency to 18 ******
+1658847499.973033 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847499.982510 -- INFO: Active CC: 18
+1658847500.874117 -- INFO: Time taken to collect tcp stats: 110.0ms
+1658847500.875011 -- INFO: Throughput @351.5s:145.0Mbps, rtt :2.4ms cwnd: 432.3 lossRate: 0.0 CC:18 goodput:2825Mbps score:-102.0 
+1658847501.836309 -- INFO: Time taken to collect tcp stats: 72.0ms
+1658847501.837070 -- INFO: Throughput @352.5s:150.0Mbps, rtt :3.05ms cwnd: 432.3 lossRate: 0.0 CC:18 goodput:2707Mbps score:-105.0 
+1658847502.826700 -- INFO: Time taken to collect tcp stats: 61.0ms
+1658847502.827696 -- INFO: Throughput @353.5s:145.0Mbps, rtt :3.57ms cwnd: 432.3 lossRate: 0.0 CC:18 goodput:1957Mbps score:-102.0 
+1658847503.865295 -- INFO: Time taken to collect tcp stats: 99.0ms
+1658847503.866194 -- INFO: Throughput @354.5s:145.0Mbps, rtt :3.31ms cwnd: 432.3 lossRate: 0.0 CC:18 goodput:2703Mbps score:-102.0 
+1658847504.846305 -- INFO: Time taken to collect tcp stats: 79.0ms
+1658847504.847413 -- INFO: Throughput @355.5s:145.0Mbps, rtt :3.15ms cwnd: 432.3 lossRate: 0.0 CC:18 goodput:2636Mbps score:-102.0 
+1658847505.849907 -- INFO: Time taken to collect tcp stats: 82.0ms
+1658847505.850837 -- INFO: Throughput @356.5s:150.0Mbps, rtt :3.22ms cwnd: 439.7 lossRate: 0.0 CC:18 goodput:2661Mbps score:-105.0 
+1658847506.847259 -- INFO: Time taken to collect tcp stats: 79.0ms
+1658847506.848028 -- INFO: Throughput @357.5s:150.0Mbps, rtt :3.41ms cwnd: 439.7 lossRate: 0.0 CC:18 goodput:2669Mbps score:-105.0 
+1658847507.169458 -- INFO: Iteration 73 Ends, Took 7.2 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847507.170952 -- INFO: Iteration 74 Starts ...
+1658847507.179265 -- INFO: Changing concurrency to 17 ******
+1658847507.185904 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847507.194533 -- INFO: Active CC: 17
+1658847507.820875 -- INFO: Time taken to collect tcp stats: 51.0ms
+1658847507.822083 -- INFO: Throughput @358.5s:145.0Mbps, rtt :3.22ms cwnd: 439.7 lossRate: 0.0 CC:17 goodput:2716Mbps score:-104.0 
+1658847508.839845 -- INFO: Time taken to collect tcp stats: 69.0ms
+1658847508.840743 -- INFO: Throughput @359.5s:145.0Mbps, rtt :2.49ms cwnd: 439.7 lossRate: 0.0 CC:17 goodput:2667Mbps score:-104.0 
+1658847509.857235 -- INFO: Time taken to collect tcp stats: 86.0ms
+1658847509.858377 -- INFO: Throughput @360.5s:150.0Mbps, rtt :3.06ms cwnd: 439.7 lossRate: 0.0 CC:17 goodput:2712Mbps score:-107.0 
+1658847510.419851 -- INFO: Process 3 finished on working on file 8 
+1658847510.821242 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847510.822461 -- INFO: Throughput @361.5s:120.0Mbps, rtt :3.26ms cwnd: 442.5 lossRate: 0 CC:17 goodput:1509Mbps score:-86.0 
+1658847511.815798 -- INFO: Time taken to collect tcp stats: 43.0ms
+1658847511.816660 -- INFO: Throughput @362.5s:100.0Mbps, rtt :4.49ms cwnd: 442.5 lossRate: 0.0 CC:17 goodput:671Mbps score:-71.0 
+1658847512.871168 -- INFO: Time taken to collect tcp stats: 97.0ms
+1658847512.872117 -- INFO: Throughput @363.5s:100.0Mbps, rtt :3.32ms cwnd: 442.5 lossRate: 0.0 CC:17 goodput:1809Mbps score:-71.0 
+1658847513.803630 -- INFO: Iteration 74 Ends, Took 6.63 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847513.806870 -- INFO: Iteration 75 Starts ...
+1658847513.811214 -- INFO: Changing concurrency to 20 ******
+1658847513.821839 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847513.822580 -- INFO: Throughput @364.5s:100.0Mbps, rtt :2.5ms cwnd: 442.5 lossRate: 0.0 CC:17 goodput:1779Mbps score:-71.0 
+1658847513.828177 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847513.830914 -- INFO: Active CC: 20
+1658847514.839086 -- INFO: Time taken to collect tcp stats: 63.0ms
+1658847514.839966 -- INFO: Throughput @365.5s:100.0Mbps, rtt :3.72ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:766Mbps score:-67.0 
+1658847515.863304 -- INFO: Time taken to collect tcp stats: 87.0ms
+1658847515.864101 -- INFO: Throughput @366.5s:100.0Mbps, rtt :3.26ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:1714Mbps score:-67.0 
+1658847516.869479 -- INFO: Time taken to collect tcp stats: 91.0ms
+1658847516.870610 -- INFO: Throughput @367.5s:100.0Mbps, rtt :3.02ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:1780Mbps score:-67.0 
+1658847517.845570 -- INFO: Time taken to collect tcp stats: 67.0ms
+1658847517.846565 -- INFO: Throughput @368.5s:100.0Mbps, rtt :2.88ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:1781Mbps score:-67.0 
+1658847518.850576 -- INFO: Time taken to collect tcp stats: 69.0ms
+1658847518.851440 -- INFO: Throughput @369.5s:100.0Mbps, rtt :3.21ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:965Mbps score:-67.0 
+1658847519.833847 -- INFO: Time taken to collect tcp stats: 53.0ms
+1658847519.834603 -- INFO: Throughput @370.5s:100.0Mbps, rtt :4.53ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:771Mbps score:-67.0 
+1658847520.733211 -- INFO: Iteration 75 Ends, Took 6.93 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847520.734419 -- INFO: Iteration 76 Starts ...
+1658847520.739308 -- INFO: Changing concurrency to 20 ******
+1658847520.748185 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847520.752649 -- INFO: Active CC: 20
+1658847520.826180 -- INFO: Time taken to collect tcp stats: 45.0ms
+1658847520.827543 -- INFO: Throughput @371.5s:100.0Mbps, rtt :4.28ms cwnd: 442.5 lossRate: 0.0 CC:20 goodput:828Mbps score:-67.0 
+1658847521.544619 -- INFO: Process 0 finished on working on file 7 
+1658847521.838874 -- INFO: Time taken to collect tcp stats: 57.0ms
+1658847521.839842 -- INFO: Throughput @372.5s:85.0Mbps, rtt :3.48ms cwnd: 449.0 lossRate: 0 CC:20 goodput:881Mbps score:-57.0 
+1658847522.806588 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847522.807480 -- INFO: Throughput @373.5s:50.0Mbps, rtt :3.57ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:867Mbps score:-34.0 
+1658847523.857722 -- INFO: Time taken to collect tcp stats: 74.0ms
+1658847523.858663 -- INFO: Throughput @374.5s:50.0Mbps, rtt :3.4ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:857Mbps score:-34.0 
+1658847524.816358 -- INFO: Time taken to collect tcp stats: 32.0ms
+1658847524.817268 -- INFO: Throughput @375.5s:50.0Mbps, rtt :3.32ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:855Mbps score:-34.0 
+1658847525.818479 -- INFO: Time taken to collect tcp stats: 33.0ms
+1658847525.820154 -- INFO: Throughput @376.5s:45.0Mbps, rtt :2.88ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:889Mbps score:-30.0 
+1658847525.825964 -- INFO: Iteration 76 Ends, Took 5.09 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847525.827759 -- INFO: Iteration 77 Starts ...
+1658847525.832514 -- INFO: Changing concurrency to 20 ******
+1658847525.847724 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847525.858606 -- INFO: Active CC: 20
+1658847526.804821 -- INFO: Time taken to collect tcp stats: 18.0ms
+1658847526.805829 -- INFO: Throughput @377.5s:50.0Mbps, rtt :3.14ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:885Mbps score:-34.0 
+1658847527.834007 -- INFO: Time taken to collect tcp stats: 46.0ms
+1658847527.835424 -- INFO: Throughput @378.5s:50.0Mbps, rtt :3.04ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:859Mbps score:-34.0 
+1658847528.836060 -- INFO: Time taken to collect tcp stats: 47.0ms
+1658847528.837108 -- INFO: Throughput @379.5s:50.0Mbps, rtt :3.39ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:892Mbps score:-34.0 
+1658847529.882962 -- INFO: Time taken to collect tcp stats: 93.0ms
+1658847529.883892 -- INFO: Throughput @380.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:881Mbps score:-34.0 
+1658847530.857965 -- INFO: Time taken to collect tcp stats: 67.0ms
+1658847530.859067 -- INFO: Throughput @381.5s:50.0Mbps, rtt :3.37ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:858Mbps score:-34.0 
+1658847530.939368 -- INFO: Iteration 77 Ends, Took 5.11 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847530.947891 -- INFO: Iteration 78 Starts ...
+1658847530.948375 -- INFO: Changing concurrency to 20 ******
+1658847530.956087 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1658847530.956627 -- INFO: Active CC: 20
+1658847531.841285 -- INFO: Time taken to collect tcp stats: 49.0ms
+1658847531.842040 -- INFO: Throughput @382.5s:50.0Mbps, rtt :3.41ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:880Mbps score:-34.0 
+1658847532.840680 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847532.841428 -- INFO: Throughput @383.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:857Mbps score:-34.0 
+1658847533.840878 -- INFO: Time taken to collect tcp stats: 48.0ms
+1658847533.842059 -- INFO: Throughput @384.5s:50.0Mbps, rtt :2.14ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:915Mbps score:-34.0 
+1658847534.842869 -- INFO: Time taken to collect tcp stats: 49.0ms
+1658847534.843603 -- INFO: Throughput @385.5s:50.0Mbps, rtt :2.5ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:900Mbps score:-34.0 
+1658847535.868513 -- INFO: Time taken to collect tcp stats: 74.0ms
+1658847535.869681 -- INFO: Throughput @386.5s:50.0Mbps, rtt :3.44ms cwnd: 449.0 lossRate: 0.0 CC:20 goodput:892Mbps score:-34.0 
+1658847535.942443 -- INFO: Iteration 78 Ends, Took 4.99 Seconds. Best Params: [20] and Score: -594.6666666666666.
+1658847535.943802 -- INFO: Iteration 79 Starts ...
+1658847535.945114 -- INFO: Changing concurrency to 14 ******
+1658847535.953620 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847535.954682 -- INFO: Active CC: 14
+1658847536.856462 -- INFO: Time taken to collect tcp stats: 61.0ms
+1658847536.857349 -- INFO: Throughput @387.5s:50.0Mbps, rtt :3.01ms cwnd: 449.0 lossRate: 0.0 CC:14 goodput:889Mbps score:-38.0 
+1658847537.872822 -- INFO: Time taken to collect tcp stats: 76.0ms
+1658847537.873661 -- INFO: Throughput @388.5s:50.0Mbps, rtt :3.71ms cwnd: 449.0 lossRate: 0.0 CC:14 goodput:910Mbps score:-38.0 
+1658847538.851812 -- INFO: Time taken to collect tcp stats: 54.0ms
+1658847538.852611 -- INFO: Throughput @389.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:14 goodput:868Mbps score:-38.0 
+1658847539.866928 -- INFO: Time taken to collect tcp stats: 69.0ms
+1658847539.867882 -- INFO: Throughput @390.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:14 goodput:866Mbps score:-38.0 
+1658847540.586228 -- INFO: Iteration 79 Ends, Took 4.64 Seconds. Best Params: [20] and Score: -592.3333333333334.
+1658847540.595912 -- INFO: Iteration 80 Starts ...
+1658847540.598468 -- INFO: Changing concurrency to 17 ******
+1658847540.600501 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847540.601526 -- INFO: Active CC: 17
+1658847540.864245 -- INFO: Time taken to collect tcp stats: 66.0ms
+1658847540.865078 -- INFO: Throughput @391.5s:45.0Mbps, rtt :3.46ms cwnd: 449.0 lossRate: 0.0 CC:17 goodput:853Mbps score:-32.0 
+1658847541.840158 -- INFO: Time taken to collect tcp stats: 40.0ms
+1658847541.841290 -- INFO: Throughput @392.5s:50.0Mbps, rtt :3.89ms cwnd: 449.0 lossRate: 0.0 CC:17 goodput:876Mbps score:-36.0 
+1658847542.845701 -- INFO: Time taken to collect tcp stats: 45.0ms
+1658847542.846766 -- INFO: Throughput @393.5s:50.0Mbps, rtt :2.21ms cwnd: 449.0 lossRate: 0.0 CC:17 goodput:1219Mbps score:-36.0 
+1658847543.833510 -- INFO: Time taken to collect tcp stats: 33.0ms
+1658847543.834448 -- INFO: Throughput @394.5s:50.0Mbps, rtt :3.42ms cwnd: 449.0 lossRate: 0.0 CC:17 goodput:855Mbps score:-36.0 
+1658847544.831614 -- INFO: Time taken to collect tcp stats: 30.0ms
+1658847544.832461 -- INFO: Throughput @395.5s:50.0Mbps, rtt :3.28ms cwnd: 449.0 lossRate: 0.0 CC:17 goodput:887Mbps score:-36.0 
+1658847545.189484 -- INFO: Iteration 80 Ends, Took 4.59 Seconds. Best Params: [20] and Score: -592.3333333333334.
+1658847545.189638 -- INFO: Iteration 81 Starts ...
+1658847545.190032 -- INFO: Changing concurrency to 11 ******
+1658847545.200524 -- INFO: Start Process :: 12
+1658847545.200941 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847545.201621 -- INFO: Active CC: 11
+1658847545.850136 -- INFO: Time taken to collect tcp stats: 46.0ms
+1658847545.850964 -- INFO: Throughput @396.5s:50.0Mbps, rtt :3.42ms cwnd: 449.0 lossRate: 0.0 CC:11 goodput:870Mbps score:-40.0 
+1658847546.857033 -- INFO: Time taken to collect tcp stats: 53.0ms
+1658847546.857926 -- INFO: Throughput @397.5s:50.0Mbps, rtt :4.85ms cwnd: 449.0 lossRate: 0.0 CC:11 goodput:366Mbps score:-40.0 
+1658847547.835009 -- INFO: Time taken to collect tcp stats: 30.0ms
+1658847547.835911 -- INFO: Throughput @398.5s:50.0Mbps, rtt :2.45ms cwnd: 449.0 lossRate: 0.0 CC:11 goodput:591Mbps score:-40.0 
+1658847548.877729 -- INFO: Time taken to collect tcp stats: 72.0ms
+1658847548.878486 -- INFO: Throughput @399.5s:45.0Mbps, rtt :2.01ms cwnd: 449.0 lossRate: 0.0 CC:11 goodput:1113Mbps score:-36.0 
+1658847549.885803 -- INFO: Time taken to collect tcp stats: 80.0ms
+1658847549.886643 -- INFO: Throughput @400.5s:50.0Mbps, rtt :3.66ms cwnd: 449.0 lossRate: 0.0 CC:11 goodput:896Mbps score:-40.0 
+1658847550.569931 -- INFO: Iteration 81 Ends, Took 5.38 Seconds. Best Params: [17] and Score: -549.3333333333334.
+1658847550.570080 -- INFO: Iteration 82 Starts ...
+1658847550.570466 -- INFO: Changing concurrency to 13 ******
+1658847550.599961 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847550.600326 -- INFO: Active CC: 13
+1658847550.855892 -- INFO: Time taken to collect tcp stats: 49.0ms
+1658847550.856991 -- INFO: Throughput @401.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:13 goodput:869Mbps score:-39.0 
+1658847551.832341 -- INFO: Time taken to collect tcp stats: 25.0ms
+1658847551.833265 -- INFO: Throughput @402.5s:50.0Mbps, rtt :3.3ms cwnd: 449.0 lossRate: 0.0 CC:13 goodput:893Mbps score:-39.0 
+1658847552.912341 -- INFO: Time taken to collect tcp stats: 103.0ms
+1658847552.913186 -- INFO: Throughput @403.5s:50.0Mbps, rtt :3.3ms cwnd: 449.0 lossRate: 0.0 CC:13 goodput:885Mbps score:-39.0 
+1658847553.872534 -- INFO: Time taken to collect tcp stats: 63.0ms
+1658847553.873468 -- INFO: Throughput @404.5s:50.0Mbps, rtt :2.82ms cwnd: 449.0 lossRate: 0.0 CC:13 goodput:895Mbps score:-39.0 
+1658847554.821051 -- INFO: Time taken to collect tcp stats: 10.0ms
+1658847554.821826 -- INFO: Throughput @405.5s:50.0Mbps, rtt :3.04ms cwnd: 449.0 lossRate: 0.0 CC:13 goodput:844Mbps score:-39.0 
+1658847555.295463 -- INFO: Iteration 82 Ends, Took 4.73 Seconds. Best Params: [20] and Score: -547.0.
+1658847555.317667 -- INFO: Iteration 83 Starts ...
+1658847555.325639 -- INFO: Changing concurrency to 23 ******
+1658847555.335367 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1658847555.339406 -- INFO: Active CC: 23
+1658847555.840149 -- INFO: Time taken to collect tcp stats: 28.0ms
+1658847555.841162 -- INFO: Throughput @406.5s:45.0Mbps, rtt :3.14ms cwnd: 449.0 lossRate: 0.0 CC:23 goodput:877Mbps score:-29.0 
+1658847556.862406 -- INFO: Time taken to collect tcp stats: 50.0ms
+1658847556.863479 -- INFO: Throughput @407.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:23 goodput:856Mbps score:-32.0 
+1658847557.835180 -- INFO: Time taken to collect tcp stats: 23.0ms
+1658847557.836539 -- INFO: Throughput @408.5s:50.0Mbps, rtt :3.42ms cwnd: 449.0 lossRate: 0.0 CC:23 goodput:868Mbps score:-32.0 
+1658847558.842623 -- INFO: Time taken to collect tcp stats: 28.0ms
+1658847558.844199 -- INFO: Throughput @409.5s:50.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:23 goodput:867Mbps score:-32.0 
+1658847559.847661 -- INFO: Time taken to collect tcp stats: 33.0ms
+1658847559.849275 -- INFO: Throughput @410.5s:45.0Mbps, rtt :3.31ms cwnd: 449.0 lossRate: 0.0 CC:23 goodput:862Mbps score:-29.0 
+1658847560.184989 -- INFO: Iteration 83 Ends, Took 4.86 Seconds. Best Params: [20] and Score: -500.0.
+1658847560.186209 -- INFO: Iteration 84 Starts ...
+1658847560.190325 -- INFO: Changing concurrency to 8 ******
+1658847560.246396 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847560.246756 -- INFO: Active CC: 8
+1658847560.878628 -- INFO: Time taken to collect tcp stats: 63.0ms
+1658847560.879428 -- INFO: Throughput @411.5s:50.0Mbps, rtt :2.53ms cwnd: 449.0 lossRate: 0.0 CC:8 goodput:900Mbps score:-43.0 
+1658847561.879670 -- INFO: Time taken to collect tcp stats: 62.0ms
+1658847561.880576 -- INFO: Throughput @412.5s:45.0Mbps, rtt :3.11ms cwnd: 449.0 lossRate: 0.0 CC:8 goodput:872Mbps score:-38.0 
+1658847562.877172 -- INFO: Time taken to collect tcp stats: 60.0ms
+1658847562.878093 -- INFO: Throughput @413.5s:50.0Mbps, rtt :3.33ms cwnd: 449.0 lossRate: 0.0 CC:8 goodput:877Mbps score:-43.0 
+1658847563.914325 -- INFO: Time taken to collect tcp stats: 90.0ms
+1658847563.915145 -- INFO: Throughput @414.5s:50.0Mbps, rtt :3.83ms cwnd: 449.0 lossRate: 0.0 CC:8 goodput:867Mbps score:-43.0 
+1658847564.856389 -- INFO: Time taken to collect tcp stats: 37.0ms
+1658847564.857464 -- INFO: Throughput @415.5s:45.0Mbps, rtt :2.36ms cwnd: 449.0 lossRate: 0.0 CC:8 goodput:905Mbps score:-38.0 
+1658847565.115358 -- INFO: Iteration 84 Ends, Took 4.93 Seconds. Best Params: [13] and Score: -452.3333333333333.
+1658847565.120953 -- INFO: Iteration 85 Starts ...
+1658847565.127370 -- INFO: Changing concurrency to 13 ******
+1658847565.132134 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847565.132814 -- INFO: Active CC: 13
+1658847565.905568 -- INFO: Time taken to collect tcp stats: 85.0ms
+1658847565.906316 -- INFO: Throughput @416.5s:50.0Mbps, rtt :3.02ms cwnd: 449.0 lossRate: 0.0 CC:13 goodput:886Mbps score:-39.0 
+1658847566.286520 -- INFO: Process 16 shutdown itself from outest loop
+1658847566.286541 -- INFO: Process 2 shutdown itself from outest loop
+1658847566.286565 -- INFO: Process 24 shutdown itself from outest loop
+1658847566.286616 -- INFO: Process 4 shutdown itself from outest loop
+1658847566.287466 -- INFO: Process Status Bits are: 1 1 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287490 -- INFO: Process Status Bits are: 1 1 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287482 -- INFO: Process Status Bits are: 1 1 0 1 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287598 -- INFO: Process 3 shutdown itself from outest loop
+1658847566.286497 -- INFO: Process 1 finished on working on file 29 
+1658847566.287313 -- INFO: Process 17 shutdown itself from outest loop
+1658847566.287891 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287969 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.288058 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.286696 -- INFO: Process 25 shutdown itself from outest loop
+1658847566.288325 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.286741 -- INFO: Process 20 shutdown itself from outest loop
+1658847566.286748 -- INFO: Process 21 shutdown itself from outest loop
+1658847566.288649 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.288675 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.286766 -- INFO: Process 30 shutdown itself from outest loop
+1658847566.286819 -- INFO: Process 22 shutdown itself from outest loop
+1658847566.289073 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.289301 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.289469 -- INFO: Process 7 shutdown itself from outest loop
+1658847566.289533 -- INFO: Process 11 shutdown itself from outest loop
+1658847566.289627 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.286865 -- INFO: Process 26 shutdown itself from outest loop
+1658847566.289803 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.289903 -- INFO: Process Status Bits are: 1 1 0 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.286904 -- INFO: Process 27 shutdown itself from outest loop
+1658847566.286932 -- INFO: Process 5 shutdown itself from outest loop
+1658847566.290280 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.290318 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.286945 -- INFO: Process 13 shutdown itself from outest loop
+1658847566.286983 -- INFO: Process 19 shutdown itself from outest loop
+1658847566.290691 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.290872 -- INFO: Process 0 shutdown itself from outest loop
+1658847566.287021 -- INFO: Process 18 shutdown itself from outest loop
+1658847566.291155 -- INFO: Process Status Bits are: 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.291335 -- INFO: Process Status Bits are: 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287066 -- INFO: Process 29 shutdown itself from outest loop
+1658847566.287109 -- INFO: Process 28 shutdown itself from outest loop
+1658847566.291604 -- INFO: Process Status Bits are: 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.291621 -- INFO: Process Status Bits are: 0 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287142 -- INFO: Process 23 shutdown itself from outest loop
+1658847566.287199 -- INFO: Process 14 shutdown itself from outest loop
+1658847566.291897 -- INFO: Process 1 shutdown itself from outest loop
+1658847566.287232 -- INFO: Process 31 shutdown itself from outest loop
+1658847566.292043 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.292098 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.292121 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.287270 -- INFO: Process 15 shutdown itself from outest loop
+1658847566.287269 -- INFO: Process 10 shutdown itself from outest loop
+1658847566.292308 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.292375 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.289929 -- INFO: Process 6 shutdown itself from outest loop
+1658847566.290706 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.292687 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.292819 -- INFO: Process 9 shutdown itself from outest loop
+1658847566.292974 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.293028 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.293449 -- INFO: Process 8 shutdown itself from outest loop
+1658847566.293499 -- INFO: Process 12 shutdown itself from outest loop
+1658847566.293618 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847566.293656 -- INFO: Process Status Bits are: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1658847568.899004 -- INFO: Iteration 85 Ends, Took 3.77 Seconds. Best Params: [13] and Score: -452.3333333333333.
+1658847568.899276 -- INFO: Iteration 86 Starts ...
+1658847569.284366 -- INFO: Iteration 86 Ends, Took 0.38 Seconds. Best Params: [18] and Score: -387.6666666666667.
+1658847569.284631 -- INFO: Bayseian Optimizer Exits ...

@@ -10,7 +10,7 @@ import re
 from config import configurations
 from transferClass import *
 from transferEnv import *
-
+from optimizer_gd import *
 
 log_FORMAT = '%(created)f -- %(levelname)s: %(message)s'
 log_file = "logs/" + datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S") + ".log"
@@ -87,28 +87,44 @@ if __name__=="__main__":
   transfer=TransferClass(configurations,log,transfer_emulation=True)
   transferEnvironment=transferEnv(transfer)
   transferEnvironment.reset()
-  done=False
-  while(not done):
-    state,score,done,_=transferEnvironment.step(6)
-    print("state:*********",state)
-    print(f"score{score}  done {done} ********")
-    time.sleep(20)
-    # state,score,done,_=transferEnvironment.step(4)
-    # print("state:*********",state)
-    # print(f"score{score}  done {done} ********")
-    # time.sleep(15)
-    # state,score,done,_=transferEnvironment.step(8)
-    # print("state:*********",state)
-    # print(f"score{score}  done {done} ********")
-    # time.sleep(15)
-    # state,score,done,_=transferEnvironment.step(16)
-    # print("state:*********",state)
-    # print(f"score{score}  done {done} ********")
-    # time.sleep(15)
-    # state,score,done,_=transferEnvironment.step(32)
-    # print("state:*********",state)
-    # print(f"score{score}  done {done} ********")
-    # time.sleep(15)
+  start_time=time.time()
+  # final_ccs=gradient_opt(transferEnvironment)
+  # final_ccs=gradient_opt_fast(transferEnvironment)
+  final_ccs=bayes_optimizer(transferEnvironment,configurations)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  # print(f"final CC is {final_ccs[-1]}")
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+
+  # done=False
+  # while(not done):
+  #   state,score,done,_=transferEnvironment.step(2)
+  #   print("state:*********",state)
+  #   print(f"score{score}  done {done} ********")
+  #   time.sleep(10)
+  #   state,score,done,_=transferEnvironment.step(4)
+  #   print("state:*********",state)
+  #   print(f"score{score}  done {done} ********")
+  #   time.sleep(10)
+  #   state,score,done,_=transferEnvironment.step(6)
+  #   print("state:*********",state)
+  #   print(f"score{score}  done {done} ********")
+  #   time.sleep(10)
+  #   state,score,done,_=transferEnvironment.step(8)
+  #   print("state:*********",state)
+  #   print(f"score{score}  done {done} ********")
+  #   time.sleep(30)
+  #   state,score,done,_=transferEnvironment.step(16)
+  #   print("state:*********",state)
+  #   print(f"score{score}  done {done} ********")
+  #   time.sleep(30)
+  #   state,score,done,_=transferEnvironment.step(32)
+  #   print("state:*********",state)
+  #   print(f"score{score}  done {done} ********")
+  #   time.sleep(30)
 
   transferEnvironment.close()
   list_main=[]
@@ -116,6 +132,7 @@ if __name__=="__main__":
     list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])
 
   df = pd.DataFrame(list_main, columns = ['curr_thrpt','goodput','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
-  mod_df=df.dropna(axis=0, how='any')
+  # mod_df=df.dropna(axis=0, how='any')
+  mod_df=df.fillna(0)
   record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"
   mod_df.to_csv(record_name, sep='\t', encoding='utf-8')

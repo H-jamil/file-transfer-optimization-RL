@@ -1,4 +1,5 @@
 import os
+import math
 import time
 import socket
 import datetime
@@ -50,7 +51,7 @@ class TransferClass:
             sock.settimeout(3)
             sock.connect((self.HOST, self.PORT))
             if self.transfer_emu_status.value ==1:
-              target, factor = 100, 10
+              target, factor = 50, 10
               max_speed = (target * 1000 * 1000)/8
               second_target, second_data_count = int(max_speed/factor), 0
             while (not q.empty()) and (self.process_status[process_id] == 1):
@@ -89,6 +90,10 @@ class TransferClass:
 
                   except Exception as e:
                     sent=0
+                    # if self.transfer_emu_status.value == 1:
+                      # to_send=0
+                    self.process_status[process_id] = 0
+                    self.log.info(f"Process {process_id} shutdown itself for socket error")
                     self.log.error("Process: {0}, Error from socket: {1}".format(process_id, str(e)))
 
                   offset += sent
@@ -144,14 +149,26 @@ class TransferClass:
         record_list.append(goodput)
         record_list.append(cc_level)
         try:
-          cwnd=np.round(np.mean(cwnd_list),1)
-          record_list.append(cwnd)
+          if len(cwnd_list)==0:
+            record_list.append(self.throughput_logs[-1][3])
+          else:
+            cwnd=np.round(np.nanmean(cwnd_list),1)
+            if math.isnan(cwnd):
+              record_list.append(self.throughput_logs[-1][3])
+            else:
+              record_list.append(cwnd)
         except:
           cwnd=0.0
           record_list.append(cwnd)
         try:
-          rtt=np.round(np.mean(rtt_list),2)
-          record_list.append(rtt)
+          if len(rtt_list)==0:
+            record_list.append(self.throughput_logs[-1][4])
+          else:
+            rtt=np.round(np.nanmean(rtt_list),2)
+            if math.isnan(rtt):
+              record_list.append(self.throughput_logs[-1][4])
+            else:
+              record_list.append(rtt)
         except:
           rtt=0.00
           record_list.append(rtt)
@@ -159,6 +176,8 @@ class TransferClass:
         lr= 0
         if sc != 0:
           lr = rc/sc if sc>rc else 0
+        if lr < 0:
+          lr=0
         plr_impact = self.B*lr
         cc_impact_nl = self.K**cc_level
         score = (curr_thrpt/cc_impact_nl) - (curr_thrpt * plr_impact)
@@ -200,7 +219,10 @@ class TransferClass:
                 if "minrtt" in entry:
                   continue
                 else:
+                  if "cwnd_gain" in entry:
+                    continue
                   if "cwnd" in entry:
+                      # cwnd_value=int(entry.split(":")[-1])
                       cwnd_list.append(int(entry.split(":")[-1]))
                   if "rtt" in entry:
                       try:
@@ -211,14 +233,14 @@ class TransferClass:
                   if "data_segs_out" in entry:
                       sent += int(entry.split(":")[-1])
                   if "bytes_retrans" in entry:
-                      pass
-                  elif "retrans" in entry:
+                      continue
+                  if "retrans" in entry:
                       retm += int(entry.split("/")[-1])
     except Exception as e:
       print(e)
 
     end = time.time()
-    # self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
+    self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
     return cwnd_list,rtt_list,sent,retm,goodput
 
   def run(self):

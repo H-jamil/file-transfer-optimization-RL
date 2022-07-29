@@ -42,9 +42,13 @@ class transferEnv(gym.Env):
 
     else:
       done=True
-      score_=0
+      score_=10 ** 10
       return np.zeros([3,7],dtype = np.float32),score_,done,info
 
+  def bayes_step(self,action):
+    params = [1 if x<1 else int(np.round(x)) for x in action]
+    _,score_b,done_b,__=self.step(params[0])
+    return score_b
 
   def close(self):
     for p in self.workers:
