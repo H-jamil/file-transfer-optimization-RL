@@ -10,9 +10,9 @@ class transferEnv(gym.Env):
   def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"):
     self.transferClassObject=transferClassObject
     self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
-    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3,6), dtype=np.float32)
+    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3*6,), dtype=np.float32)
     self.record_file_name=record_name
-    self.current_observation = np.zeros([3,6],dtype = np.float32)
+    self.current_observation = np.zeros([3,6],dtype = np.float32).flatten()
     dummy_list=[]
     df = pd.DataFrame(dummy_list, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
     df.to_csv(self.record_file_name, sep='\t', encoding='utf-8',index=False)
@@ -26,7 +26,7 @@ class transferEnv(gym.Env):
     # mod_df=df.dropna(axis=0, how='any')
     mod_df=df.fillna(0)
     mod_df.to_csv(self.record_file_name, mode='a', index=False, header=False, sep='\t', encoding='utf-8')
-    self.current_observation=self.transferClassObject.reset()
+    self.current_observation=self.transferClassObject.reset().flatten()
     self.workers,self.reporting_process=self.transferClassObject.run()
     return self.current_observation
 
@@ -45,7 +45,7 @@ class transferEnv(gym.Env):
         for i in log_list:
           del i[-1]
           score.append(i[-1])
-        log_list_array=np.array(log_list)
+        log_list_array=np.array(log_list).flatten()
         try:
           score_=np.mean(score)
         except:
@@ -55,7 +55,7 @@ class transferEnv(gym.Env):
     else:
       done=True
       score_=10 ** 10
-      return np.zeros([3,6],dtype = np.float32),score_,done,info
+      return np.zeros([3,6],dtype = np.float32).flatten(),score_,done,info
 
   def bayes_step(self,action):
     params = [1 if x<1 else int(np.round(x)) for x in action]
