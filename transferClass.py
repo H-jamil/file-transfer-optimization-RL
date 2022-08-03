@@ -5,6 +5,7 @@ import socket
 import datetime
 import numpy as np
 import logging as log
+import pandas as pd
 import multiprocessing as mp
 import re
 from config import configurations
@@ -265,5 +266,6 @@ class TransferClass:
     self.q = manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
+    self.throughput_logs=manager.list()
     return np.zeros([3,6],dtype = np.float32)#curr_thrpt,cc_level,cwnd,rtt,packet_loss_rate,score
 

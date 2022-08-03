@@ -7,13 +7,25 @@ import copy
 class transferEnv(gym.Env):
   metadata={'render.modes':  []}
 
-  def __init__(self,transferClassObject):
+  def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"):
     self.transferClassObject=transferClassObject
     self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
     self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3,6), dtype=np.float32)
+    self.record_file_name=record_name
     self.current_observation = np.zeros([3,6],dtype = np.float32)
+    dummy_list=[]
+    df = pd.DataFrame(dummy_list, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+    df.to_csv(self.record_file_name, sep='\t', encoding='utf-8',index=False)
 
   def reset(self):
+    list_main=[]
+    if len(self.transferClassObject.throughput_logs) > 0:
+      for i in range(len(self.transferClassObject.throughput_logs)):
+        list_main.append(self.transferClassObject.throughput_logs[i])
+    df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+    # mod_df=df.dropna(axis=0, how='any')
+    mod_df=df.fillna(0)
+    mod_df.to_csv(self.record_file_name, mode='a', index=False, header=False, sep='\t', encoding='utf-8')
     self.current_observation=self.transferClassObject.reset()
     self.workers,self.reporting_process=self.transferClassObject.run()
     return self.current_observation

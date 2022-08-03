@@ -86,6 +86,33 @@ configurations["cpu_count"] = mp.cpu_count()
 if __name__=="__main__":
   transfer=TransferClass(configurations,log,transfer_emulation=True)
   transferEnvironment=transferEnv(transfer)
+
+  transferEnvironment.reset()
+  start_time=time.time()
+  final_ccs=gradient_opt(transferEnvironment)
+  # final_ccs=gradient_opt_fast(transferEnvironment)
+  # final_ccs=bayes_optimizer(transferEnvironment,configurations)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  # print(f"final CC is {final_ccs[-1]}")
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+
+  transferEnvironment.reset()
+  start_time=time.time()
+  # final_ccs=gradient_opt(transferEnvironment)
+  final_ccs=gradient_opt_fast(transferEnvironment)
+  # final_ccs=bayes_optimizer(transferEnvironment,configurations)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  # print(f"final CC is {final_ccs[-1]}")
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+
   transferEnvironment.reset()
   start_time=time.time()
   # final_ccs=gradient_opt(transferEnvironment)
@@ -125,14 +152,14 @@ if __name__=="__main__":
   #   print("state:*********",state)
   #   print(f"score{score}  done {done} ********")
   #   time.sleep(30)
-
+  transferEnvironment.reset()
   transferEnvironment.close()
-  list_main=[]
-  for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
-    list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])
+  # list_main=[]
+  # for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
+  #   list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])
 
-  df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
-  # mod_df=df.dropna(axis=0, how='any')
-  mod_df=df.fillna(0)
-  record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"
-  mod_df.to_csv(record_name, sep='\t', encoding='utf-8')
+  # df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+  # # mod_df=df.dropna(axis=0, how='any')
+  # mod_df=df.fillna(0)
+  # record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"
+  # mod_df.to_csv(record_name, sep='\t', encoding='utf-8')
