@@ -2,14 +2,29 @@ import gym
 from gym import spaces
 import numpy as np
 from transferClass import *
+from transferClass_ import *
 import random
 import copy
+
+MAX_RTT=50
+MIN_RTT=0
+MAX_THROUGHPUT=1000
+MIN_THROUGHPUT=0
+MAX_CC_LEVEL=32
+MIN_CC_LEVEL=0
+MAX_CWND=1000
+MIN_CWND=0
+MAX_PLR=0.4
+MIN_PLR=0
+MAX_SCORE=1000
+MIN_SCORE=0
+
 class transferEnv(gym.Env):
   metadata={'render.modes':  []}
 
   def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"):
     self.transferClassObject=transferClassObject
-    self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
+    self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"])+1)
     self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3*6,), dtype=np.float32)
     self.record_file_name=record_name
     self.current_observation = np.zeros([3,6],dtype = np.float32).flatten()
@@ -32,10 +47,14 @@ class transferEnv(gym.Env):
 
   def step(self,action):
     info={}
+    # if action==0:
+    #   action=1
     if self.transferClassObject.file_incomplete.value != 0:
       done = False
-      self.transferClassObject.log.info(f"Changing concurrency to {action} ******")
-      self.transferClassObject.change_concurrency([action])
+      # self.transferClassObject.log.info(f"Changing concurrency to {action} ******")
+      # self.transferClassObject.change_concurrency([action])
+      self.transferClassObject.log.info(f"Changing concurrency to {np.argmax(action)} ******")
+      self.transferClassObject.change_concurrency([np.argmax(action)])
       timer3s=time.time()
       while timer3s + 3.5 > time.time():
         pass
@@ -45,7 +64,18 @@ class transferEnv(gym.Env):
         for i in log_list:
           del i[-1]
           score.append(i[-1])
-        log_list_array=np.array(log_list).flatten()
+        ##########################
+        log_list_=[]
+        for log in log_list:
+          normalized_throughput=log[0]/MAX_THROUGHPUT
+          normalized_cc=log[1]/MAX_CC_LEVEL
+          normalized_cwnd=log[2]/MAX_CWND
+          normalized_rtt=log[3]/MAX_RTT
+          normalized_lr=log[4]/MAX_PLR
+          normalized_score=log[5]/MAX_SCORE
+          log_list_.append([normalized_throughput,normalized_cc,normalized_cwnd,normalized_rtt,normalized_lr,normalized_score])
+        log_list_array=np.array(log_list_).flatten()
+        ################################
         try:
           score_=np.mean(score)
         except:
@@ -55,6 +85,7 @@ class transferEnv(gym.Env):
     else:
       done=True
       score_=10 ** 10
+      self.close()
       return np.zeros([3,6],dtype = np.float32).flatten(),score_,done,info
 
   def bayes_step(self,action):

@@ -125,6 +125,8 @@ if __name__=="__main__":
   transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
   print(f"transfer_throughput {transfer_throughput} Mbps#############")
   print(" ###########  final CCs ",final_ccs)
+  transferEnvironment.reset()
+  transferEnvironment.close()
 
   # done=False
   # while(not done):
@@ -152,8 +154,6 @@ if __name__=="__main__":
   #   print("state:*********",state)
   #   print(f"score{score}  done {done} ********")
   #   time.sleep(30)
-  transferEnvironment.reset()
-  transferEnvironment.close()
   # list_main=[]
   # for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
   #   list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])

@@ -60,7 +60,7 @@ class TransferClass:
                 file_id = q.get()
                 self.log.info(f"Process {process_id} get item {file_id} from queue and executing")
               except:
-                process_status[process_id] = 0
+                self.process_status[process_id] = 0
                 self.log.info(f"Process {process_id} shutdown itself ")
                 self.log.info(f"Process {process_id} failed to get item {file_id} from queue")
                 break
@@ -122,9 +122,7 @@ class TransferClass:
             self.process_status[process_id] = 0
             self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
             self.log.info(f"Process {process_id} shutdown itself ")
-        # if (self.process_status[process_id]==1) and (q.empty()):
-        #   self.process_status[process_id] = 0
-        #   self.log.info(f"Process {process_id} shutdown itself because nothing in queue")
+
     self.process_status[process_id] = 0
     self.log.info(f"Process {process_id} shutdown itself from outest loop")
     self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
@@ -133,12 +131,13 @@ class TransferClass:
     previous_total = 0
     previous_time = 0
     prev_sc,prev_rc=0,0
+    # timer320s=time.time()
     while self.file_incomplete.value > 0:
       t1 = time.time()
       time_since_begining = np.round(t1-start_time, 1)
       if time_since_begining >= 0.1:
         total_bytes = np.sum(self.file_offsets)
-        thrpt = np.round((total_bytes*8)/(time_since_begining*1000*1000), 2)
+        # thrpt = np.round((total_bytes*8)/(time_since_begining*1000*1000), 2)
         curr_total = total_bytes - previous_total
         curr_time_sec = np.round(time_since_begining - previous_time, 3)
         curr_thrpt = np.round((curr_total*8)/(curr_time_sec*1000*1000), 2)
@@ -191,6 +190,8 @@ class TransferClass:
             time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
+        # if (timer320s + 300 > time.time()):
+        #   self.file_incomplete.value=0
     self.transfer_status.value=1
 
   def change_concurrency(self, params):

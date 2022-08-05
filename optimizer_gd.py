@@ -10,7 +10,7 @@ def gradient_opt(transferEnvironment):
     values = []
     ccs = [2]
     theta = 0
-
+    timer320s=time.time()
     while True:
         state,score,done,_=transferEnvironment.step(ccs[-1]-1)
         values.append(score)
@@ -53,7 +53,8 @@ def gradient_opt(transferEnvironment):
         next_cc = min(max(ccs[-1] + update_cc, 2), soft_limit-1)
         transferEnvironment.transferClassObject.log.info("Gradient: {0}, Gredient Change: {1}, Theta: {2}, Previous CC: {3}, Choosen CC: {4}".format(gradient, gradient_change, theta, ccs[-1], next_cc))
         ccs.append(next_cc)
-
+        if (timer320s + 300 <= time.time()):
+            transferEnvironment.transferClassObject.file_incomplete.value=0
     return ccs
 
 
@@ -63,7 +64,7 @@ def gradient_opt_fast(transferEnvironment):
     values = []
     ccs = [1]
     theta = 0
-
+    timer320s=time.time()
     while True:
         state,score,done,_=transferEnvironment.step(ccs[-1])
         values.append(score)
@@ -106,7 +107,8 @@ def gradient_opt_fast(transferEnvironment):
             next_cc = min(max(ccs[-1] + update_cc, 2), soft_limit)
             transferEnvironment.transferClassObject.log.info("Gradient_Fast: {0}, Gredient_Fast Change: {1}, Theta: {2}, Previous CC: {3}, Choosen CC: {4}".format(gradient, gradient_change, theta, ccs[-1], next_cc))
             ccs.append(next_cc)
-
+            if (timer320s + 300 <= time.time()):
+                transferEnvironment.transferClassObject.file_incomplete.value=0
     return ccs
 
 
@@ -128,7 +130,7 @@ def bayes_optimizer(transferEnvironment,configurations):
         # acq_func_kwargs= {},
         # acq_optimizer_kwargs={}
     )
-
+    timer320s=time.time()
     while True:
         count +=1
         if len(optimizer.yi) > limit_obs:
@@ -170,7 +172,8 @@ def bayes_optimizer(transferEnvironment,configurations):
                     acq_optimizer="lbfgs",
                     model_queue_size= limit_obs
                 )
-
+        if (timer320s + 300 <= time.time()):
+            transferEnvironment.transferClassObject.file_incomplete.value=0
         if iterations == count:
             transferEnvironment.transferClassObject.log.info("Best parameters: {0} and score: {1}".format(res.x, res.fun))
             params = res.x
