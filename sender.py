@@ -12,6 +12,13 @@ from transferClass import *
 from transferEnv import *
 from optimizer_gd import *
 
+import argparse
+import gym
+import pybullet_envs
+
+from lib import model
+import numpy as np
+import torch
 log_FORMAT = '%(created)f -- %(levelname)s: %(message)s'
 log_file = "logs/" + datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S") + ".log"
 
@@ -87,79 +94,71 @@ if __name__=="__main__":
   transfer=TransferClass(configurations,log,transfer_emulation=True)
   transferEnvironment=transferEnv(transfer)
 
-  transferEnvironment.reset()
-  start_time=time.time()
-  final_ccs=gradient_opt(transferEnvironment)
-  # final_ccs=gradient_opt_fast(transferEnvironment)
-  # final_ccs=bayes_optimizer(transferEnvironment,configurations)
-  end_time=time.time()
-  total_bytes = np.sum(transfer.file_sizes)
-  # print(f"final CC is {final_ccs[-1]}")
-  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
-  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-  print(f"transfer_throughput {transfer_throughput} Mbps#############")
-  print(" ###########  final CCs ",final_ccs)
-
-  transferEnvironment.reset()
-  start_time=time.time()
+  # transferEnvironment.reset()
+  # start_time=time.time()
   # final_ccs=gradient_opt(transferEnvironment)
-  final_ccs=gradient_opt_fast(transferEnvironment)
-  # final_ccs=bayes_optimizer(transferEnvironment,configurations)
-  end_time=time.time()
-  total_bytes = np.sum(transfer.file_sizes)
-  # print(f"final CC is {final_ccs[-1]}")
-  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
-  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-  print(f"transfer_throughput {transfer_throughput} Mbps#############")
-  print(" ###########  final CCs ",final_ccs)
+  # end_time=time.time()
+  # total_bytes = np.sum(transfer.file_sizes)
+  # print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  # transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  # print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  # print(" ###########  final CCs ",final_ccs)
+  # transferEnvironment.close()
 
-  transferEnvironment.reset()
-  start_time=time.time()
-  # final_ccs=gradient_opt(transferEnvironment)
+  # # time.sleep(1)
+  # transferEnvironment.reset()
+  # start_time=time.time()
   # final_ccs=gradient_opt_fast(transferEnvironment)
-  final_ccs=bayes_optimizer(transferEnvironment,configurations)
+  # end_time=time.time()
+  # total_bytes = np.sum(transfer.file_sizes)
+  # print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  # transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  # print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  # print(" ###########  final CCs ",final_ccs)
+  # transferEnvironment.close()
+
+  # # time.sleep(1)
+  # transferEnvironment.reset()
+  # start_time=time.time()
+  # final_ccs=bayes_optimizer(transferEnvironment,configurations)
+  # end_time=time.time()
+  # total_bytes = np.sum(transfer.file_sizes)
+  # print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  # transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  # print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  # print(" ###########  final CCs ",final_ccs)
+  # transferEnvironment.close()
+
+  # # time.sleep(1)
+  # transferEnvironment.close()
+  transferEnvironment.reset()
+  transferEnvironment.change_run_type(1)
+  start_time=time.time()
+  net = model.DDPGActor(transferEnvironment.observation_space.shape[0], transferEnvironment.action_space.n)
+  net.load_state_dict(torch.load("/home/hjamil/Documents/file-transfer-optimization-RL/saves/ddpg-ddpg-rev2/best_+29.000_305.dat"))
+  obs = transferEnvironment.reset()
+  total_reward = 0.0
+  total_steps = 0
+  while True:
+    obs_v = torch.FloatTensor([obs])
+    mu_v = net(obs_v)
+    action = mu_v.squeeze(dim=0).data.numpy()
+    action = np.clip(action, -1, 1)
+    obs, reward, done, _ = transferEnvironment.step(action)
+    total_reward += reward
+    total_steps += 1
+    if done:
+      transferEnvironment.close()
+      break
+    print(obs, reward, done,transferEnvironment.transferClassObject.file_incomplete.value)
+
+  print("In %d steps we got %.3f reward" % (total_steps, total_reward))
   end_time=time.time()
   total_bytes = np.sum(transfer.file_sizes)
-  # print(f"final CC is {final_ccs[-1]}")
   print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
   transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
   print(f"transfer_throughput {transfer_throughput} Mbps#############")
-  print(" ###########  final CCs ",final_ccs)
+
   transferEnvironment.reset()
   transferEnvironment.close()
 
-  # done=False
-  # while(not done):
-  #   state,score,done,_=transferEnvironment.step(2)
-  #   print("state:*********",state)
-  #   print(f"score{score}  done {done} ********")
-  #   time.sleep(10)
-  #   state,score,done,_=transferEnvironment.step(4)
-  #   print("state:*********",state)
-  #   print(f"score{score}  done {done} ********")
-  #   time.sleep(10)
-  #   state,score,done,_=transferEnvironment.step(6)
-  #   print("state:*********",state)
-  #   print(f"score{score}  done {done} ********")
-  #   time.sleep(10)
-  #   state,score,done,_=transferEnvironment.step(8)
-  #   print("state:*********",state)
-  #   print(f"score{score}  done {done} ********")
-  #   time.sleep(30)
-  #   state,score,done,_=transferEnvironment.step(16)
-  #   print("state:*********",state)
-  #   print(f"score{score}  done {done} ********")
-  #   time.sleep(30)
-  #   state,score,done,_=transferEnvironment.step(32)
-  #   print("state:*********",state)
-  #   print(f"score{score}  done {done} ********")
-  #   time.sleep(30)
-  # list_main=[]
-  # for i in range(len(transferEnvironment.transferClassObject.throughput_logs)):
-  #   list_main.append(transferEnvironment.transferClassObject.throughput_logs[i])
-
-  # df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
-  # # mod_df=df.dropna(axis=0, how='any')
-  # mod_df=df.fillna(0)
-  # record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv"
-  # mod_df.to_csv(record_name, sep='\t', encoding='utf-8')

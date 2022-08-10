@@ -190,14 +190,15 @@ class TransferClass_:
             time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
-        if (timer320s + 100 <= time.time()):
+        if (timer320s + 20 <= time.time()):
           self.file_incomplete.value=0
+
     self.transfer_status.value=1
 
   def change_concurrency(self, params):
     self.num_workers.value = params[0]
     # self.num_workers.value=np.argmax(params)
-    for i in range(configurations["thread_limit"]):
+    for i in range(self.configurations["thread_limit"]):
       if i <params[0]:
       # if i <self.num_workers.value:
         self.process_status[i] =1
@@ -245,7 +246,7 @@ class TransferClass_:
     return cwnd_list,rtt_list,sent,retm
 
   def run(self):
-    workers = [mp.Process(target=self.worker, args=(i, self.q)) for i in range(configurations["thread_limit"])]
+    workers = [mp.Process(target=self.worker, args=(i, self.q)) for i in range(self.configurations["thread_limit"])]
     for p in workers:
       p.daemon = True
       p.start()
@@ -258,7 +259,7 @@ class TransferClass_:
   def reset(self):
     self.num_workers = mp.Value("i", 0)
     self.file_incomplete = mp.Value("i", self.file_count)
-    self.process_status = mp.Array("i", [0 for i in range(configurations["thread_limit"])])
+    self.process_status = mp.Array("i", [0 for i in range(self.configurations["thread_limit"])])
     self.file_offsets = mp.Array("d", [0.0 for i in range(self.file_count)])
     self.transfer_status=mp.Value("i", 0)
     self.transfer_throughput=0

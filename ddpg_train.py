@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 import ptan
 import time
@@ -22,7 +21,7 @@ LEARNING_RATE = 1e-4
 REPLAY_SIZE = 10000
 REPLAY_INITIAL = 100
 
-TEST_ITERS = 10
+TEST_ITERS = 5
 
 import os
 import time
@@ -34,8 +33,8 @@ import multiprocessing as mp
 import pandas as pd
 import re
 from config import configurations
-from transferClass import *
 from transferEnv import *
+from transferEnv_ import *
 from optimizer_gd import *
 
 log_FORMAT = '%(created)f -- %(levelname)s: %(message)s'
@@ -70,17 +69,21 @@ def test_net(net, env, count=1, device="cpu"):
     rewards = 0.0
     steps = 0
     for _ in range(count):
+        env.close()
         obs = env.reset()
         while True:
             obs_v = ptan.agent.float32_preprocessor([obs]).to(device)
             mu_v = net(obs_v)
             action = mu_v.squeeze(dim=0).data.cpu().numpy()
             action = np.clip(action, -1, 1)
+            print("action:",action)
             obs, reward, done, _ = env.step(action)
             rewards += reward
             steps += 1
             if done:
+                env.close()
                 break
+    time.sleep(1)
     return rewards / count, steps / count
 
 
@@ -94,7 +97,7 @@ if __name__ == "__main__":
     save_path = os.path.join("saves", "ddpg-" + args.name)
     os.makedirs(save_path, exist_ok=True)
     transfer=TransferClass_(configurations,log,transfer_emulation=True)
-    env=transferEnv(transfer)
+    env=transferEnv_(transfer)
     # env = gym.make(ENV_ID)
     # test_env = gym.make(ENV_ID)
 
@@ -115,7 +118,7 @@ if __name__ == "__main__":
     frame_idx = 0
     best_reward = None
     with ptan.common.utils.RewardTracker(writer) as tracker:
-        with ptan.common.utils.TBMeanTracker(writer, batch_size=10) as tb_tracker:
+        with ptan.common.utils.TBMeanTracker(writer, batch_size=2) as tb_tracker:
             while True:
                 frame_idx += 1
                 buffer.populate(1)
