@@ -190,7 +190,7 @@ class TransferClass:
             time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
-        if (timer320s + 200 <= time.time()):
+        if (timer320s + 100 <= time.time()):
           self.file_incomplete.value=0
           self.log.info("episode expires")
     self.transfer_status.value=1

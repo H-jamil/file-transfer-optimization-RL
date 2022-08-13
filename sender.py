@@ -11,6 +11,7 @@ from config import configurations
 from transferClass import *
 from transferEnv import *
 from optimizer_gd import *
+from optimizer_gd_ import *
 
 import argparse
 import gym
@@ -94,28 +95,50 @@ if __name__=="__main__":
   transfer=TransferClass(configurations,log,transfer_emulation=True)
   transferEnvironment=transferEnv(transfer)
 
-  # transferEnvironment.reset()
-  # start_time=time.time()
-  # final_ccs=gradient_opt(transferEnvironment)
-  # end_time=time.time()
-  # total_bytes = np.sum(transfer.file_sizes)
-  # print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
-  # transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-  # print(f"transfer_throughput {transfer_throughput} Mbps#############")
-  # print(" ###########  final CCs ",final_ccs)
-  # transferEnvironment.close()
+  transferEnvironment.reset()
+  start_time=time.time()
+  final_ccs=gradient_opt(transferEnvironment)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+  transferEnvironment.close()
+
+  transferEnvironment.reset()
+  start_time=time.time()
+  final_ccs=gradient_opt_(transferEnvironment)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+  transferEnvironment.close()
 
   # # time.sleep(1)
-  # transferEnvironment.reset()
-  # start_time=time.time()
-  # final_ccs=gradient_opt_fast(transferEnvironment)
-  # end_time=time.time()
-  # total_bytes = np.sum(transfer.file_sizes)
-  # print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
-  # transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-  # print(f"transfer_throughput {transfer_throughput} Mbps#############")
-  # print(" ###########  final CCs ",final_ccs)
-  # transferEnvironment.close()
+  transferEnvironment.reset()
+  start_time=time.time()
+  final_ccs=gradient_opt_fast(transferEnvironment)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+  transferEnvironment.close()
+
+  transferEnvironment.reset()
+  start_time=time.time()
+  final_ccs=gradient_opt_fast_(transferEnvironment)
+  end_time=time.time()
+  total_bytes = np.sum(transfer.file_sizes)
+  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  print(" ###########  final CCs ",final_ccs)
+  transferEnvironment.close()
 
   # # time.sleep(1)
   # transferEnvironment.reset()
@@ -131,33 +154,33 @@ if __name__=="__main__":
 
   # # time.sleep(1)
   # transferEnvironment.close()
-  transferEnvironment.reset()
-  transferEnvironment.change_run_type(1)
-  start_time=time.time()
-  net = model.DDPGActor(transferEnvironment.observation_space.shape[0], transferEnvironment.action_space.n)
-  net.load_state_dict(torch.load("/home/hjamil/Documents/file-transfer-optimization-RL/saves/ddpg-ddpg-rev2/best_+29.000_305.dat"))
-  obs = transferEnvironment.reset()
-  total_reward = 0.0
-  total_steps = 0
-  while True:
-    obs_v = torch.FloatTensor([obs])
-    mu_v = net(obs_v)
-    action = mu_v.squeeze(dim=0).data.numpy()
-    action = np.clip(action, -1, 1)
-    obs, reward, done, _ = transferEnvironment.step(action)
-    total_reward += reward
-    total_steps += 1
-    if done:
-      transferEnvironment.close()
-      break
-    print(obs, reward, done,transferEnvironment.transferClassObject.file_incomplete.value)
+  # transferEnvironment.reset()
+  # transferEnvironment.change_run_type(1)
+  # start_time=time.time()
+  # net = model.DDPGActor(transferEnvironment.observation_space.shape[0], transferEnvironment.action_space.n)
+  # net.load_state_dict(torch.load("/home/hjamil/Documents/file-transfer-optimization-RL/saves/ddpg-ddpg-rev2/best_+29.000_305.dat"))
+  # obs = transferEnvironment.reset()
+  # total_reward = 0.0
+  # total_steps = 0
+  # while True:
+  #   obs_v = torch.FloatTensor([obs])
+  #   mu_v = net(obs_v)
+  #   action = mu_v.squeeze(dim=0).data.numpy()
+  #   action = np.clip(action, -1, 1)
+  #   obs, reward, done, _ = transferEnvironment.step(action)
+  #   total_reward += reward
+  #   total_steps += 1
+  #   if done:
+  #     transferEnvironment.close()
+  #     break
+  #   print(obs, reward, done,transferEnvironment.transferClassObject.file_incomplete.value)
 
-  print("In %d steps we got %.3f reward" % (total_steps, total_reward))
-  end_time=time.time()
-  total_bytes = np.sum(transfer.file_sizes)
-  print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
-  transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
-  print(f"transfer_throughput {transfer_throughput} Mbps#############")
+  # print("In %d steps we got %.3f reward" % (total_steps, total_reward))
+  # end_time=time.time()
+  # total_bytes = np.sum(transfer.file_sizes)
+  # print(f"total_bytes:{total_bytes} start_time:{start_time}, end_time:{end_time} ")
+  # transfer_throughput=int((total_bytes*8)/(np.round(end_time-start_time,1)*1000*1000))
+  # print(f"transfer_throughput {transfer_throughput} Mbps#############")
 
   transferEnvironment.reset()
   transferEnvironment.close()

@@ -51,9 +51,17 @@ class transferEnv(gym.Env):
 
   def step(self,action):
     info={}
-    # if action==0:
-    #   action=1
-    if self.transferClassObject.file_incomplete.value != 0:
+
+    if self.transferClassObject.file_incomplete.value == 0:
+      done=True
+      if self.runType==0:
+        score_=10 ** 10
+      else:
+        score_=0
+      self.close()
+      return np.zeros([3,6],dtype = np.float32).flatten(),score_,done,info
+
+    elif self.transferClassObject.file_incomplete.value != 0:
       done = False
       if self.runType==0:
         self.transferClassObject.log.info(f"Changing concurrency to {action} ******")

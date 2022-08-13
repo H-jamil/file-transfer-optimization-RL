@@ -1,0 +1,1902 @@
+1660232351.256103 -- INFO: Changing concurrency to 1 ******
+1660232351.259207 -- INFO: Start Process :: 0
+1660232351.260217 -- INFO: Process 0 get item 0 from queue and executing
+1660232351.260419 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232351.260453 -- INFO: starting 0, 0, /home/hjamil/Documents/files_bash/FILE25
+1660232351.272298 -- INFO: Active CC: 1
+1660232351.310601 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232351.324131 -- INFO: Throughput @0.1s:50.0Mbps, rtt :0.98ms cwnd: 111.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232352.315642 -- INFO: Time taken to collect tcp stats: 12.0ms
+1660232352.316495 -- INFO: Throughput @1.1s:50.0Mbps, rtt :1.3ms cwnd: 272.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232353.316507 -- INFO: Time taken to collect tcp stats: 11.0ms
+1660232353.317298 -- INFO: Throughput @2.1s:50.0Mbps, rtt :2.91ms cwnd: 331.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232354.310941 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232354.311706 -- INFO: Throughput @3.1s:50.0Mbps, rtt :3.46ms cwnd: 331.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232354.773695 -- INFO: Changing concurrency to 3 ******
+1660232354.775448 -- INFO: Start Process :: 2
+1660232354.775505 -- INFO: Start Process :: 1
+1660232354.776366 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232354.776981 -- INFO: Process 2 get item 1 from queue and executing
+1660232354.777175 -- INFO: Process 1 get item 2 from queue and executing
+1660232354.777398 -- INFO: starting 1, 2, /home/hjamil/Documents/files_bash/FILE4
+1660232354.777402 -- INFO: starting 2, 1, /home/hjamil/Documents/files_bash/FILE1
+1660232354.779270 -- INFO: Active CC: 3
+1660232355.335989 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232355.337201 -- INFO: Throughput @4.1s:110.0Mbps, rtt :2.0ms cwnd: 216.7 lossRate: 0.0 CC:3 score:-104.0 
+1660232356.339298 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232356.340103 -- INFO: Throughput @5.1s:150.0Mbps, rtt :1.96ms cwnd: 319.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232357.339927 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232357.340645 -- INFO: Throughput @6.1s:150.0Mbps, rtt :4.01ms cwnd: 365.3 lossRate: 0.0 CC:3 score:-141.0 
+1660232358.280508 -- INFO: Gradient: -39.83333333333333, Gredient Change: 0.8129251700680271, Theta: 1, Previous CC: 2, Choosen CC: 4
+1660232358.280711 -- INFO: Changing concurrency to 3 ******
+1660232358.284540 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232358.287949 -- INFO: Active CC: 3
+1660232358.346618 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232358.347473 -- INFO: Throughput @7.1s:150.0Mbps, rtt :3.47ms cwnd: 365.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232359.331888 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232359.332778 -- INFO: Throughput @8.1s:150.0Mbps, rtt :3.37ms cwnd: 373.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232360.348453 -- INFO: Time taken to collect tcp stats: 38.0ms
+1660232360.349289 -- INFO: Throughput @9.1s:150.0Mbps, rtt :3.45ms cwnd: 373.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232361.359778 -- INFO: Time taken to collect tcp stats: 49.0ms
+1660232361.360570 -- INFO: Throughput @10.1s:150.0Mbps, rtt :5.74ms cwnd: 380.0 lossRate: 0.0 CC:3 score:-141.0 
+1660232361.789721 -- INFO: Changing concurrency to 5 ******
+1660232361.792973 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232361.794536 -- INFO: Active CC: 5
+1660232361.808170 -- INFO: Start Process :: 4
+1660232361.808230 -- INFO: Start Process :: 3
+1660232361.811415 -- INFO: Process 3 get item 4 from queue and executing
+1660232361.811419 -- INFO: Process 4 get item 3 from queue and executing
+1660232361.811782 -- INFO: starting 3, 4, /home/hjamil/Documents/files_bash/FILE3
+1660232361.811776 -- INFO: starting 4, 3, /home/hjamil/Documents/files_bash/FILE13
+1660232362.349823 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232362.350666 -- INFO: Throughput @11.1s:200.0Mbps, rtt :2.48ms cwnd: 292.0 lossRate: 0.0 CC:5 score:-181.0 
+1660232363.339966 -- INFO: Time taken to collect tcp stats: 28.0ms
+1660232363.340645 -- INFO: Throughput @12.1s:250.0Mbps, rtt :2.53ms cwnd: 351.6 lossRate: 0.0 CC:5 score:-226.0 
+1660232364.348035 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232364.348846 -- INFO: Throughput @13.1s:250.0Mbps, rtt :3.42ms cwnd: 387.2 lossRate: 0.0 CC:5 score:-226.0 
+1660232365.315775 -- INFO: Gradient: -35.0, Gredient Change: 0.24822695035460993, Theta: 2, Previous CC: 4, Choosen CC: 6
+1660232365.316022 -- INFO: Changing concurrency to 5 ******
+1660232365.327852 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232365.328569 -- INFO: Active CC: 5
+1660232365.348030 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232365.348743 -- INFO: Throughput @14.1s:245.0Mbps, rtt :3.82ms cwnd: 402.8 lossRate: 0.0 CC:5 score:-222.0 
+1660232366.364204 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232366.365018 -- INFO: Throughput @15.1s:240.0Mbps, rtt :3.44ms cwnd: 411.0 lossRate: 0.0 CC:5 score:-217.0 
+1660232367.341539 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232367.342400 -- INFO: Throughput @16.1s:245.0Mbps, rtt :3.68ms cwnd: 411.0 lossRate: 0.0 CC:5 score:-222.0 
+1660232368.356039 -- INFO: Time taken to collect tcp stats: 40.0ms
+1660232368.356840 -- INFO: Throughput @17.1s:245.0Mbps, rtt :5.39ms cwnd: 415.2 lossRate: 0.0 CC:5 score:-222.0 
+1660232368.829451 -- INFO: Changing concurrency to 7 ******
+1660232368.830775 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232368.839206 -- INFO: Active CC: 7
+1660232368.843847 -- INFO: Start Process :: 5
+1660232368.846704 -- INFO: Process 5 get item 5 from queue and executing
+1660232368.847078 -- INFO: starting 5, 5, /home/hjamil/Documents/files_bash/FILE24
+1660232368.861180 -- INFO: Start Process :: 6
+1660232368.865569 -- INFO: Process 6 get item 6 from queue and executing
+1660232368.879287 -- INFO: starting 6, 6, /home/hjamil/Documents/files_bash/FILE2
+1660232369.400304 -- INFO: Time taken to collect tcp stats: 84.0ms
+1660232369.401095 -- INFO: Throughput @18.1s:300.0Mbps, rtt :2.52ms cwnd: 338.9 lossRate: 0.0 CC:7 score:-261.0 
+1660232370.387899 -- INFO: Time taken to collect tcp stats: 70.0ms
+1660232370.388494 -- INFO: Throughput @19.1s:345.0Mbps, rtt :3.68ms cwnd: 375.0 lossRate: 0.0 CC:7 score:-300.0 
+1660232371.350345 -- INFO: Time taken to collect tcp stats: 31.0ms
+1660232371.351423 -- INFO: Throughput @20.1s:330.0Mbps, rtt :3.11ms cwnd: 397.7 lossRate: 0.0 CC:7 score:-287.0 
+1660232372.341090 -- INFO: Time taken to collect tcp stats: 22.0ms
+1660232372.341779 -- INFO: Throughput @21.1s:345.0Mbps, rtt :3.43ms cwnd: 403.7 lossRate: 0.0 CC:7 score:-300.0 
+1660232372.342344 -- INFO: Gradient: -37.66666666666667, Gredient Change: 0.17095310136157338, Theta: 3, Previous CC: 6, Choosen CC: 12
+1660232372.342553 -- INFO: Changing concurrency to 11 ******
+1660232372.342968 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232372.346671 -- INFO: Active CC: 11
+1660232372.356149 -- INFO: Start Process :: 9
+1660232372.359089 -- INFO: Process 9 get item 7 from queue and executing
+1660232372.359485 -- INFO: starting 9, 7, /home/hjamil/Documents/files_bash/FILE20
+1660232372.372350 -- INFO: Start Process :: 7
+1660232372.374762 -- INFO: Process 7 get item 8 from queue and executing
+1660232372.375317 -- INFO: starting 7, 8, /home/hjamil/Documents/files_bash/FILE29
+1660232372.387911 -- INFO: Start Process :: 8
+1660232372.390258 -- INFO: Process 8 get item 9 from queue and executing
+1660232372.390606 -- INFO: starting 8, 9, /home/hjamil/Documents/files_bash/FILE7
+1660232372.399656 -- INFO: Start Process :: 10
+1660232372.407344 -- INFO: Process 10 get item 10 from queue and executing
+1660232372.407686 -- INFO: starting 10, 10, /home/hjamil/Documents/files_bash/FILE31
+1660232373.356709 -- INFO: Time taken to collect tcp stats: 37.0ms
+1660232373.357629 -- INFO: Throughput @22.1s:515.0Mbps, rtt :3.58ms cwnd: 325.4 lossRate: 0.0 CC:11 score:-414.0 
+1660232374.368409 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232374.369159 -- INFO: Throughput @23.1s:520.0Mbps, rtt :2.98ms cwnd: 361.6 lossRate: 0.0 CC:11 score:-418.0 
+1660232375.371646 -- INFO: Time taken to collect tcp stats: 49.0ms
+1660232375.372577 -- INFO: Throughput @24.1s:530.0Mbps, rtt :3.24ms cwnd: 391.3 lossRate: 0.0 CC:11 score:-426.0 
+1660232375.871564 -- INFO: Changing concurrency to 13 ******
+1660232375.872159 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232375.872692 -- INFO: Active CC: 13
+1660232375.893741 -- INFO: Start Process :: 12
+1660232375.895139 -- INFO: Process 12 get item 11 from queue and executing
+1660232375.895939 -- INFO: starting 12, 11, /home/hjamil/Documents/files_bash/FILE6
+1660232375.903692 -- INFO: Start Process :: 11
+1660232375.904823 -- INFO: Process 11 get item 12 from queue and executing
+1660232375.905012 -- INFO: starting 11, 12, /home/hjamil/Documents/files_bash/FILE22
+1660232376.364646 -- INFO: Time taken to collect tcp stats: 42.0ms
+1660232376.365446 -- INFO: Throughput @25.1s:560.0Mbps, rtt :5.92ms cwnd: 364.8 lossRate: 0.0 CC:13 score:-433.0 
+1660232377.351357 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232377.354613 -- INFO: Throughput @26.1s:625.0Mbps, rtt :3.12ms cwnd: 380.5 lossRate: 0.0 CC:13 score:-483.0 
+1660232378.362340 -- INFO: Time taken to collect tcp stats: 38.0ms
+1660232378.363239 -- INFO: Throughput @27.1s:625.0Mbps, rtt :3.45ms cwnd: 400.8 lossRate: 0.0 CC:13 score:-483.0 
+1660232379.360888 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232379.361708 -- INFO: Throughput @28.1s:605.0Mbps, rtt :5.65ms cwnd: 414.9 lossRate: 0.0 CC:13 score:-468.0 
+1660232379.373515 -- INFO: Gradient: -29.333333333333343, Gredient Change: 0.06995230524642292, Theta: 4, Previous CC: 12, Choosen CC: 16
+1660232379.373764 -- INFO: Changing concurrency to 15 ******
+1660232379.374233 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232379.374683 -- INFO: Active CC: 15
+1660232379.383907 -- INFO: Start Process :: 14
+1660232379.385226 -- INFO: Process 14 get item 13 from queue and executing
+1660232379.385699 -- INFO: starting 14, 13, /home/hjamil/Documents/files_bash/FILE11
+1660232379.395918 -- INFO: Start Process :: 13
+1660232379.403390 -- INFO: Process 13 get item 14 from queue and executing
+1660232379.403712 -- INFO: starting 13, 14, /home/hjamil/Documents/files_bash/FILE30
+1660232380.368677 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232380.369498 -- INFO: Throughput @29.1s:705.0Mbps, rtt :3.91ms cwnd: 389.4 lossRate: 0.0 CC:15 score:-524.0 
+1660232381.384690 -- INFO: Time taken to collect tcp stats: 58.0ms
+1660232381.385594 -- INFO: Throughput @30.1s:705.0Mbps, rtt :6.26ms cwnd: 400.3 lossRate: 0.0 CC:15 score:-524.0 
+1660232382.392603 -- INFO: Time taken to collect tcp stats: 65.0ms
+1660232382.393422 -- INFO: Throughput @31.1s:720.0Mbps, rtt :4.64ms cwnd: 405.5 lossRate: 0.0 CC:15 score:-535.0 
+1660232382.884039 -- INFO: Changing concurrency to 17 ******
+1660232382.903475 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232382.904462 -- INFO: Active CC: 17
+1660232382.920050 -- INFO: Start Process :: 15
+1660232382.921982 -- INFO: Process 15 get item 15 from queue and executing
+1660232382.922279 -- INFO: starting 15, 15, /home/hjamil/Documents/files_bash/FILE5
+1660232382.938987 -- INFO: Start Process :: 16
+1660232382.940261 -- INFO: Process 16 get item 16 from queue and executing
+1660232382.940571 -- INFO: starting 16, 16, /home/hjamil/Documents/files_bash/FILE17
+1660232383.384845 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232383.385680 -- INFO: Throughput @32.1s:750.0Mbps, rtt :4.97ms cwnd: 378.5 lossRate: 0.0 CC:17 score:-536.0 
+1660232384.377568 -- INFO: Time taken to collect tcp stats: 49.0ms
+1660232384.378447 -- INFO: Throughput @33.1s:795.0Mbps, rtt :3.34ms cwnd: 389.5 lossRate: 0.0 CC:17 score:-568.0 
+1660232385.378003 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232385.378976 -- INFO: Throughput @34.1s:785.0Mbps, rtt :4.57ms cwnd: 397.9 lossRate: 0.0 CC:17 score:-561.0 
+1660232386.395486 -- INFO: Time taken to collect tcp stats: 65.0ms
+1660232386.396209 -- INFO: Throughput @35.1s:800.0Mbps, rtt :5.35ms cwnd: 409.3 lossRate: 0.0 CC:17 score:-571.0 
+1660232386.411344 -- INFO: Gradient: -19.5, Gredient Change: 0.03695514845230575, Theta: 5, Previous CC: 16, Choosen CC: 21
+1660232386.419234 -- INFO: Changing concurrency to 20 ******
+1660232386.427592 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232386.428145 -- INFO: Active CC: 20
+1660232386.447646 -- INFO: Start Process :: 18
+1660232386.449161 -- INFO: Process 18 get item 17 from queue and executing
+1660232386.449410 -- INFO: starting 18, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232386.468573 -- INFO: Start Process :: 17
+1660232386.471846 -- INFO: Start Process :: 19
+1660232386.476709 -- INFO: Process 17 get item 18 from queue and executing
+1660232386.476932 -- INFO: starting 17, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232386.479159 -- INFO: Process 19 get item 19 from queue and executing
+1660232386.479403 -- INFO: starting 19, 19, /home/hjamil/Documents/files_bash/FILE8
+1660232387.412873 -- INFO: Time taken to collect tcp stats: 81.0ms
+1660232387.413573 -- INFO: Throughput @36.1s:925.0Mbps, rtt :8.6ms cwnd: 368.4 lossRate: 0.0 CC:20 score:-622.0 
+1660232388.384823 -- INFO: Time taken to collect tcp stats: 53.0ms
+1660232388.385606 -- INFO: Throughput @37.1s:920.0Mbps, rtt :9.26ms cwnd: 373.9 lossRate: 0.0 CC:20 score:-619.0 
+1660232389.417030 -- INFO: Time taken to collect tcp stats: 84.0ms
+1660232389.417839 -- INFO: Throughput @38.1s:950.0Mbps, rtt :9.05ms cwnd: 375.4 lossRate: 0.0 CC:20 score:-639.0 
+1660232389.939421 -- INFO: Changing concurrency to 22 ******
+1660232389.947412 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660232389.951249 -- INFO: Active CC: 22
+1660232389.983678 -- INFO: Start Process :: 21
+1660232389.984593 -- INFO: Start Process :: 20
+1660232389.985668 -- INFO: Process 20 get item 20 from queue and executing
+1660232389.985848 -- INFO: starting 20, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232389.989560 -- INFO: Process 21 get item 21 from queue and executing
+1660232389.989941 -- INFO: starting 21, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232390.396901 -- INFO: Time taken to collect tcp stats: 63.0ms
+1660232390.397568 -- INFO: Throughput @39.1s:978.8Mbps, rtt :11.99ms cwnd: 283.4 lossRate: 0.003975719266561316 CC:22 score:-594.0 
+1660232391.389054 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232391.389914 -- INFO: Throughput @40.1s:1005.27Mbps, rtt :11.77ms cwnd: 240.5 lossRate: 0.0023728771445964245 CC:22 score:-626.0 
+1660232392.363265 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232392.368117 -- INFO: Throughput @41.1s:974.19Mbps, rtt :9.51ms cwnd: 231.0 lossRate: 0.0009773434029320303 CC:22 score:-621.0 
+1660232393.362154 -- INFO: Time taken to collect tcp stats: 26.0ms
+1660232393.362875 -- INFO: Throughput @42.1s:954.77Mbps, rtt :9.09ms cwnd: 231.0 lossRate: 0.0 CC:22 score:-618.0 
+1660232393.454659 -- INFO: Gradient: 2.5, Gredient Change: 0.00398936170212766, Theta: -1, Previous CC: 21, Choosen CC: 20
+1660232393.458225 -- INFO: Changing concurrency to 19 ******
+1660232393.462045 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232393.462590 -- INFO: Active CC: 19
+1660232394.360853 -- INFO: Time taken to collect tcp stats: 24.0ms
+1660232394.361679 -- INFO: Throughput @43.1s:901.46Mbps, rtt :8.21ms cwnd: 234.0 lossRate: 0.0015392935890502142 CC:19 score:-605.0 
+1660232395.380323 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232395.381322 -- INFO: Throughput @44.1s:884.78Mbps, rtt :8.2ms cwnd: 231.8 lossRate: 1.2266025562397272e-05 CC:19 score:-607.0 
+1660232396.368854 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232396.369669 -- INFO: Throughput @45.1s:905.74Mbps, rtt :9.19ms cwnd: 241.5 lossRate: 0.0 CC:19 score:-622.0 
+1660232396.963761 -- INFO: Changing concurrency to 21 ******
+1660232396.979432 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660232396.980069 -- INFO: Active CC: 21
+1660232396.983052 -- INFO: Start Process :: 19
+1660232396.983295 -- INFO: Start Process :: 20
+1660232396.985110 -- INFO: Process 19 get item 22 from queue and executing
+1660232396.985335 -- INFO: Process 20 get item 23 from queue and executing
+1660232396.985431 -- INFO: starting 19, 22, /home/hjamil/Documents/files_bash/FILE9
+1660232396.985778 -- INFO: starting 20, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232397.400962 -- INFO: Time taken to collect tcp stats: 61.0ms
+1660232397.401929 -- INFO: Throughput @46.1s:921.92Mbps, rtt :7.43ms cwnd: 226.4 lossRate: 0.0 CC:21 score:-608.0 
+1660232398.407026 -- INFO: Time taken to collect tcp stats: 66.0ms
+1660232398.407868 -- INFO: Throughput @47.1s:949.42Mbps, rtt :7.09ms cwnd: 231.5 lossRate: 0.0 CC:21 score:-626.0 
+1660232399.396880 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232399.397685 -- INFO: Throughput @48.1s:932.4Mbps, rtt :6.85ms cwnd: 233.9 lossRate: 0.0 CC:21 score:-615.0 
+1660232400.437154 -- INFO: Time taken to collect tcp stats: 95.0ms
+1660232400.438602 -- INFO: Throughput @49.1s:932.67Mbps, rtt :7.27ms cwnd: 234.5 lossRate: 0.0 CC:21 score:-615.0 
+1660232400.483745 -- INFO: Gradient: -3.6666666666666288, Gredient Change: 0.005997818974918149, Theta: 1, Previous CC: 20, Choosen CC: 21
+1660232400.484002 -- INFO: Changing concurrency to 20 ******
+1660232400.484690 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232400.495462 -- INFO: Active CC: 20
+1660232401.401936 -- INFO: Time taken to collect tcp stats: 58.0ms
+1660232401.402671 -- INFO: Throughput @50.1s:936.75Mbps, rtt :7.42ms cwnd: 238.2 lossRate: 0.0 CC:20 score:-630.0 
+1660232402.404828 -- INFO: Time taken to collect tcp stats: 61.0ms
+1660232402.405797 -- INFO: Throughput @51.1s:851.2Mbps, rtt :13.84ms cwnd: 204.0 lossRate: 0.0018449639863029874 CC:20 score:-557.0 
+1660232403.381057 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232403.382210 -- INFO: Throughput @52.1s:641.95Mbps, rtt :12.3ms cwnd: 152.3 lossRate: 0.0043795927820942035 CC:20 score:-404.0 
+1660232403.996556 -- INFO: Changing concurrency to 22 ******
+1660232403.997390 -- INFO: Start Process :: 20
+1660232403.997428 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660232403.997704 -- INFO: Start Process :: 21
+1660232403.998386 -- INFO: Active CC: 22
+1660232403.999588 -- INFO: Process 20 get item 24 from queue and executing
+1660232403.999783 -- INFO: starting 20, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232404.000072 -- INFO: Process 21 get item 25 from queue and executing
+1660232404.000418 -- INFO: starting 21, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232404.368815 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232404.369507 -- INFO: Throughput @53.1s:583.43Mbps, rtt :10.32ms cwnd: 127.9 lossRate: 0.0018097523282768718 CC:22 score:-367.0 
+1660232405.393842 -- INFO: Time taken to collect tcp stats: 47.0ms
+1660232405.395116 -- INFO: Throughput @54.1s:595.35Mbps, rtt :10.73ms cwnd: 119.6 lossRate: 0.0012052730696798493 CC:22 score:-378.0 
+1660232406.361136 -- INFO: Time taken to collect tcp stats: 13.0ms
+1660232406.362086 -- INFO: Throughput @55.1s:617.56Mbps, rtt :10.17ms cwnd: 117.9 lossRate: 0.0002917323064356147 CC:22 score:-398.0 
+1660232407.396949 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232407.398048 -- INFO: Throughput @56.1s:614.2Mbps, rtt :11.35ms cwnd: 112.1 lossRate: 0.0004849479613533779 CC:22 score:-394.0 
+1660232407.499682 -- INFO: Gradient: 70.16666666666669, Gredient Change: 0.13230672532998117, Theta: -1, Previous CC: 21, Choosen CC: 18
+1660232407.500053 -- INFO: Changing concurrency to 17 ******
+1660232407.501086 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232407.502663 -- INFO: Active CC: 17
+1660232408.373328 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232408.374161 -- INFO: Throughput @57.1s:524.83Mbps, rtt :9.77ms cwnd: 122.9 lossRate: 0 CC:17 score:-375.0 
+1660232409.384827 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232409.385700 -- INFO: Throughput @58.1s:530.3Mbps, rtt :8.34ms cwnd: 119.1 lossRate: 0.00034815153295471855 CC:17 score:-377.0 
+1660232410.365689 -- INFO: Time taken to collect tcp stats: 14.0ms
+1660232410.366814 -- INFO: Throughput @59.1s:530.03Mbps, rtt :8.26ms cwnd: 119.4 lossRate: 0.0 CC:17 score:-379.0 
+1660232411.003573 -- INFO: Changing concurrency to 19 ******
+1660232411.004585 -- INFO: Start Process :: 18
+1660232411.004939 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232411.006277 -- INFO: Process 18 get item 26 from queue and executing
+1660232411.006330 -- INFO: Active CC: 19
+1660232411.006748 -- INFO: starting 18, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232411.007115 -- INFO: Start Process :: 17
+1660232411.009998 -- INFO: Process 17 get item 27 from queue and executing
+1660232411.010813 -- INFO: starting 17, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232411.370369 -- INFO: Time taken to collect tcp stats: 17.0ms
+1660232411.371178 -- INFO: Throughput @60.1s:551.91Mbps, rtt :7.97ms cwnd: 107.6 lossRate: 0.0002949852507374631 CC:19 score:-377.0 
+1660232412.370202 -- INFO: Time taken to collect tcp stats: 16.0ms
+1660232412.370934 -- INFO: Throughput @61.1s:562.82Mbps, rtt :8.06ms cwnd: 108.1 lossRate: 0.0 CC:19 score:-386.0 
+1660232413.361979 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232413.363015 -- INFO: Throughput @62.1s:552.11Mbps, rtt :8.49ms cwnd: 106.2 lossRate: 2.10220942210263e-05 CC:19 score:-379.0 
+1660232414.392978 -- INFO: Time taken to collect tcp stats: 37.0ms
+1660232414.393807 -- INFO: Throughput @63.1s:563.72Mbps, rtt :8.42ms cwnd: 106.4 lossRate: 0.0 CC:19 score:-387.0 
+1660232414.507332 -- INFO: Gradient: -3.5, Gredient Change: 0.009283819628647215, Theta: 1, Previous CC: 18, Choosen CC: 19
+1660232414.507524 -- INFO: Changing concurrency to 18 ******
+1660232414.508725 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232414.510123 -- INFO: Active CC: 18
+1660232415.392544 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232415.393299 -- INFO: Throughput @64.1s:546.79Mbps, rtt :8.91ms cwnd: 110.3 lossRate: 0.0 CC:18 score:-383.0 
+1660232416.380692 -- INFO: Time taken to collect tcp stats: 22.0ms
+1660232416.381719 -- INFO: Throughput @65.1s:532.21Mbps, rtt :8.67ms cwnd: 111.3 lossRate: 0.0 CC:18 score:-373.0 
+1660232417.366741 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232417.367497 -- INFO: Throughput @66.1s:562.86Mbps, rtt :8.39ms cwnd: 111.3 lossRate: 0.0 CC:18 score:-394.0 
+1660232418.011091 -- INFO: Changing concurrency to 20 ******
+1660232418.012278 -- INFO: Start Process :: 18
+1660232418.012433 -- INFO: Start Process :: 19
+1660232418.012501 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232418.013946 -- INFO: Active CC: 20
+1660232418.015510 -- INFO: Process 19 get item 28 from queue and executing
+1660232418.015919 -- INFO: starting 19, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232418.021668 -- INFO: Process 18 get item 29 from queue and executing
+1660232418.022098 -- INFO: starting 18, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232418.409082 -- INFO: Time taken to collect tcp stats: 45.0ms
+1660232418.409819 -- INFO: Throughput @67.1s:540.88Mbps, rtt :8.98ms cwnd: 103.3 lossRate: 0.0 CC:20 score:-364.0 
+1660232419.368120 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232419.368937 -- INFO: Throughput @68.1s:557.66Mbps, rtt :8.59ms cwnd: 100.2 lossRate: 0.00026331380422618656 CC:20 score:-374.0 
+1660232420.379098 -- INFO: Time taken to collect tcp stats: 17.0ms
+1660232420.380091 -- INFO: Throughput @69.1s:556.91Mbps, rtt :8.68ms cwnd: 99.4 lossRate: 0.0001242519000186378 CC:20 score:-374.0 
+1660232421.378609 -- INFO: Time taken to collect tcp stats: 16.0ms
+1660232421.379725 -- INFO: Throughput @70.1s:544.42Mbps, rtt :8.32ms cwnd: 97.5 lossRate: 0.00020967437569454638 CC:20 score:-365.0 
+1660232421.514911 -- INFO: Gradient: 6.166666666666657, Gredient Change: 0.016086956521739106, Theta: -1, Previous CC: 19, Choosen CC: 18
+1660232421.515143 -- INFO: Changing concurrency to 17 ******
+1660232421.516363 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232421.517375 -- INFO: Active CC: 17
+1660232422.386373 -- INFO: Time taken to collect tcp stats: 22.0ms
+1660232422.387338 -- INFO: Throughput @71.1s:534.89Mbps, rtt :9.14ms cwnd: 108.8 lossRate: 0 CC:17 score:-382.0 
+1660232423.404529 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232423.405282 -- INFO: Throughput @72.1s:525.06Mbps, rtt :8.87ms cwnd: 106.1 lossRate: 0.00046998504593035676 CC:17 score:-373.0 
+1660232424.412595 -- INFO: Time taken to collect tcp stats: 47.0ms
+1660232424.413319 -- INFO: Throughput @73.1s:545.06Mbps, rtt :8.05ms cwnd: 104.8 lossRate: 0.00021437605848178876 CC:17 score:-388.0 
+1660232425.018368 -- INFO: Changing concurrency to 19 ******
+1660232425.019534 -- INFO: Start Process :: 18
+1660232425.019777 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232425.019949 -- INFO: Start Process :: 17
+1660232425.021545 -- INFO: Process 18 get item 30 from queue and executing
+1660232425.021641 -- INFO: Process 17 get item 31 from queue and executing
+1660232425.021636 -- INFO: Active CC: 19
+1660232425.021916 -- INFO: starting 18, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232425.022476 -- INFO: starting 17, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232425.400667 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232425.401439 -- INFO: Throughput @74.1s:543.78Mbps, rtt :8.53ms cwnd: 94.8 lossRate: 0.00021696680407897592 CC:19 score:-372.0 
+1660232426.401507 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232426.402367 -- INFO: Throughput @75.1s:557.31Mbps, rtt :8.28ms cwnd: 95.3 lossRate: 0.0 CC:19 score:-383.0 
+1660232427.393695 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232427.394392 -- INFO: Throughput @76.1s:556.72Mbps, rtt :8.55ms cwnd: 95.6 lossRate: 0.0 CC:19 score:-382.0 
+1660232428.400775 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232428.401663 -- INFO: Throughput @77.1s:566.24Mbps, rtt :8.32ms cwnd: 95.6 lossRate: 0.0 CC:19 score:-389.0 
+1660232428.522559 -- INFO: Gradient: -1.8333333333333428, Gredient Change: 0.004811898512685939, Theta: 1, Previous CC: 18, Choosen CC: 19
+1660232428.522774 -- INFO: Changing concurrency to 18 ******
+1660232428.523502 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232428.524852 -- INFO: Active CC: 18
+1660232429.385964 -- INFO: Time taken to collect tcp stats: 16.0ms
+1660232429.386709 -- INFO: Throughput @78.1s:540.2Mbps, rtt :8.13ms cwnd: 101.2 lossRate: 0.0 CC:18 score:-378.0 
+1660232430.416647 -- INFO: Time taken to collect tcp stats: 46.0ms
+1660232430.417502 -- INFO: Throughput @79.1s:561.52Mbps, rtt :8.36ms cwnd: 101.1 lossRate: 0.0001862120334354051 CC:18 score:-392.0 
+1660232431.427697 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232431.428451 -- INFO: Throughput @80.1s:550.12Mbps, rtt :8.22ms cwnd: 101.1 lossRate: 0.0 CC:18 score:-385.0 
+1660232432.025663 -- INFO: Changing concurrency to 20 ******
+1660232432.026913 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232432.026962 -- INFO: Start Process :: 18
+1660232432.026982 -- INFO: Start Process :: 19
+1660232432.028116 -- INFO: Active CC: 20
+1660232432.028344 -- INFO: Process 18 get item 21 from queue and executing
+1660232432.028924 -- INFO: starting 18, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232432.029057 -- INFO: Process 19 get item 20 from queue and executing
+1660232432.029459 -- INFO: starting 19, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232432.392844 -- INFO: Time taken to collect tcp stats: 20.0ms
+1660232432.393635 -- INFO: Throughput @81.1s:705.97Mbps, rtt :7.47ms cwnd: 112.0 lossRate: 0.0 CC:20 score:-475.0 
+1660232433.408868 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232433.409769 -- INFO: Throughput @82.1s:898.11Mbps, rtt :7.61ms cwnd: 114.5 lossRate: 0.0 CC:20 score:-604.0 
+1660232434.445622 -- INFO: Time taken to collect tcp stats: 65.0ms
+1660232434.446506 -- INFO: Throughput @83.1s:891.11Mbps, rtt :5.75ms cwnd: 140.8 lossRate: 0.0 CC:20 score:-600.0 
+1660232435.402255 -- INFO: Time taken to collect tcp stats: 26.0ms
+1660232435.403057 -- INFO: Throughput @84.1s:931.72Mbps, rtt :7.05ms cwnd: 149.6 lossRate: 0.0 CC:20 score:-627.0 
+1660232435.529092 -- INFO: Gradient: -112.66666666666669, Gredient Change: 0.2926406926406927, Theta: 2, Previous CC: 19, Choosen CC: 30
+1660232435.529386 -- INFO: Changing concurrency to 29 ******
+1660232435.530830 -- INFO: Start Process :: 21
+1660232435.531311 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1660232435.531490 -- INFO: Start Process :: 20
+1660232435.532312 -- INFO: Active CC: 29
+1660232435.533133 -- INFO: Process 21 get item 19 from queue and executing
+1660232435.533348 -- INFO: starting 21, 19, /home/hjamil/Documents/files_bash/FILE8
+1660232435.533562 -- INFO: Process 20 get item 23 from queue and executing
+1660232435.533853 -- INFO: starting 20, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232435.546259 -- INFO: Start Process :: 25
+1660232435.551682 -- INFO: Start Process :: 23
+1660232435.553200 -- INFO: Process 23 get item 18 from queue and executing
+1660232435.553444 -- INFO: starting 23, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232435.555627 -- INFO: Process 25 get item 25 from queue and executing
+1660232435.555852 -- INFO: starting 25, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232435.559915 -- INFO: Start Process :: 26
+1660232435.561931 -- INFO: Process 26 get item 24 from queue and executing
+1660232435.562155 -- INFO: starting 26, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232435.575996 -- INFO: Start Process :: 28
+1660232435.580830 -- INFO: Process 28 get item 22 from queue and executing
+1660232435.581217 -- INFO: starting 28, 22, /home/hjamil/Documents/files_bash/FILE9
+1660232435.595624 -- INFO: Start Process :: 22
+1660232435.598375 -- INFO: Process 22 get item 17 from queue and executing
+1660232435.598675 -- INFO: starting 22, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232435.612035 -- INFO: Start Process :: 27
+1660232435.615516 -- INFO: Process 27 get item 26 from queue and executing
+1660232435.615738 -- INFO: starting 27, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232435.627739 -- INFO: Start Process :: 24
+1660232435.629519 -- INFO: Process 24 get item 27 from queue and executing
+1660232435.629785 -- INFO: starting 24, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232436.402483 -- INFO: Time taken to collect tcp stats: 26.0ms
+1660232436.403453 -- INFO: Throughput @85.1s:1033.1Mbps, rtt :9.26ms cwnd: 110.2 lossRate: 0.0007425283088917765 CC:29 score:-574.0 
+1660232437.392849 -- INFO: Time taken to collect tcp stats: 15.0ms
+1660232437.393663 -- INFO: Throughput @86.1s:959.47Mbps, rtt :8.88ms cwnd: 94.6 lossRate: 0.0010214504596527069 CC:29 score:-530.0 
+1660232438.384985 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232438.385797 -- INFO: Throughput @87.1s:930.44Mbps, rtt :8.86ms cwnd: 93.5 lossRate: 0.00013741068305601358 CC:29 score:-523.0 
+1660232439.033619 -- INFO: Changing concurrency to 31 ******
+1660232439.034109 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+1660232439.034431 -- INFO: Active CC: 31
+1660232439.035130 -- INFO: Start Process :: 29
+1660232439.035183 -- INFO: Start Process :: 30
+1660232439.036707 -- INFO: Process 29 get item 28 from queue and executing
+1660232439.036916 -- INFO: starting 29, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232439.037239 -- INFO: Process 30 get item 29 from queue and executing
+1660232439.037457 -- INFO: starting 30, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232439.386275 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232439.387044 -- INFO: Throughput @88.1s:944.4Mbps, rtt :8.73ms cwnd: 88.8 lossRate: 0.0001244059615336767 CC:31 score:-510.0 
+1660232440.387836 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232440.388723 -- INFO: Throughput @89.1s:940.41Mbps, rtt :8.53ms cwnd: 84.9 lossRate: 0.0005967551439050165 CC:31 score:-503.0 
+1660232441.387350 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232441.388088 -- INFO: Throughput @90.1s:930.94Mbps, rtt :8.55ms cwnd: 84.1 lossRate: 0.0002490411914130597 CC:31 score:-502.0 
+1660232442.390740 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232442.391527 -- INFO: Throughput @91.1s:925.96Mbps, rtt :9.01ms cwnd: 83.6 lossRate: 0.00011189019841861853 CC:31 score:-500.0 
+1660232442.535049 -- INFO: Gradient: 20.333333333333343, Gredient Change: 0.0374923171481254, Theta: -1, Previous CC: 30, Choosen CC: 28
+1660232442.535164 -- INFO: Changing concurrency to 27 ******
+1660232442.535316 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1660232442.535469 -- INFO: Active CC: 27
+1660232443.391490 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232443.392243 -- INFO: Throughput @92.1s:921.2Mbps, rtt :8.06ms cwnd: 88.3 lossRate: 0.0 CC:27 score:-540.0 
+1660232444.390747 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232444.391449 -- INFO: Throughput @93.1s:927.47Mbps, rtt :8.02ms cwnd: 88.3 lossRate: 0.0 CC:27 score:-543.0 
+1660232445.393894 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232445.394580 -- INFO: Throughput @94.1s:931.32Mbps, rtt :8.7ms cwnd: 88.9 lossRate: 0.0 CC:27 score:-546.0 
+1660232446.036230 -- INFO: Changing concurrency to 29 ******
+1660232446.036805 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1660232446.037138 -- INFO: Start Process :: 28
+1660232446.037176 -- INFO: Active CC: 29
+1660232446.037138 -- INFO: Start Process :: 27
+1660232446.039514 -- INFO: Process 27 get item 30 from queue and executing
+1660232446.039885 -- INFO: Process 28 get item 26 from queue and executing
+1660232446.040246 -- INFO: starting 28, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232446.040236 -- INFO: starting 27, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232446.392987 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232446.393527 -- INFO: Throughput @95.1s:935.92Mbps, rtt :8.27ms cwnd: 85.3 lossRate: 0.0 CC:29 score:-527.0 
+1660232447.395172 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232447.396243 -- INFO: Throughput @96.1s:931.12Mbps, rtt :8.86ms cwnd: 85.7 lossRate: 0.0 CC:29 score:-524.0 
+1660232448.397189 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232448.398041 -- INFO: Throughput @97.1s:936.11Mbps, rtt :8.29ms cwnd: 86.0 lossRate: 0.0 CC:29 score:-527.0 
+1660232449.398317 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232449.398873 -- INFO: Throughput @98.1s:937.39Mbps, rtt :8.36ms cwnd: 84.6 lossRate: 1.2442608468439324e-05 CC:29 score:-528.0 
+1660232449.538154 -- INFO: Gradient: 8.333333333333314, Gredient Change: 0.015346838551258405, Theta: -2, Previous CC: 28, Choosen CC: 26
+1660232449.538299 -- INFO: Changing concurrency to 25 ******
+1660232449.538630 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232449.539012 -- INFO: Active CC: 25
+1660232450.405416 -- INFO: Time taken to collect tcp stats: 15.0ms
+1660232450.406417 -- INFO: Throughput @99.1s:913.16Mbps, rtt :8.08ms cwnd: 90.5 lossRate: 0 CC:25 score:-557.0 
+1660232451.391125 -- INFO: Process 27 shutdown itself from outest loop
+1660232451.391096 -- INFO: episode expires
+1660232451.391152 -- INFO: Process 29 shutdown itself from outest loop
+1660232451.391140 -- INFO: Process 30 shutdown itself from outest loop
+1660232451.391148 -- INFO: Process 26 shutdown itself from outest loop
+1660232451.391294 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232451.391148 -- INFO: Process 25 shutdown itself from outest loop
+1660232451.391424 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232451.391429 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232451.391308 -- INFO: Process 28 shutdown itself from outest loop
+1660232451.391328 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232451.391324 -- INFO: Process 31 shutdown itself from outest loop
+1660232451.391469 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232451.391606 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232451.391681 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232453.148296 -- INFO: GD Optimizer Exits ...
+1660232453.343988 -- INFO: Changing concurrency to 1 ******
+1660232453.345913 -- INFO: Start Process :: 0
+1660232453.347161 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232453.347941 -- INFO: Process 0 get item 0 from queue and executing
+1660232453.348301 -- INFO: starting 0, 0, /home/hjamil/Documents/files_bash/FILE25
+1660232453.349470 -- INFO: Active CC: 1
+1660232453.398770 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232453.400978 -- INFO: Throughput @0.1s:41.59Mbps, rtt :6.12ms cwnd: 91.6 lossRate: 0.00033050215911063015 CC:1 score:-41.0 
+1660232454.397370 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232454.398152 -- INFO: Throughput @1.1s:50.84Mbps, rtt :1.15ms cwnd: 203.0 lossRate: 0 CC:1 score:-50.0 
+1660232455.398125 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232455.398835 -- INFO: Throughput @2.1s:50.0Mbps, rtt :3.25ms cwnd: 360.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232456.399174 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232456.399932 -- INFO: Throughput @3.1s:50.0Mbps, rtt :2.72ms cwnd: 360.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232456.850954 -- INFO: Changing concurrency to 3 ******
+1660232456.853038 -- INFO: Start Process :: 1
+1660232456.853167 -- INFO: Start Process :: 2
+1660232456.854089 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232456.854149 -- INFO: Process 1 get item 1 from queue and executing
+1660232456.854367 -- INFO: Process 2 get item 2 from queue and executing
+1660232456.854411 -- INFO: starting 1, 1, /home/hjamil/Documents/files_bash/FILE1
+1660232456.854597 -- INFO: starting 2, 2, /home/hjamil/Documents/files_bash/FILE4
+1660232456.855936 -- INFO: Active CC: 3
+1660232457.419748 -- INFO: Time taken to collect tcp stats: 28.0ms
+1660232457.420491 -- INFO: Throughput @4.1s:110.0Mbps, rtt :1.85ms cwnd: 205.0 lossRate: 0.0 CC:3 score:-104.0 
+1660232458.420086 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232458.420814 -- INFO: Throughput @5.1s:150.0Mbps, rtt :2.71ms cwnd: 261.0 lossRate: 0.0 CC:3 score:-141.0 
+1660232459.429889 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232459.430692 -- INFO: Throughput @6.1s:150.0Mbps, rtt :2.78ms cwnd: 310.3 lossRate: 0.0 CC:3 score:-141.0 
+1660232460.356960 -- INFO: Gradient: -39.66666666666666, Gredient Change: 0.8040540540540538, Theta: 1, Previous CC: 2, Choosen CC: 4
+1660232460.357349 -- INFO: Changing concurrency to 3 ******
+1660232460.359524 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232460.361022 -- INFO: Active CC: 3
+1660232460.435944 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232460.436715 -- INFO: Throughput @7.1s:150.0Mbps, rtt :2.15ms cwnd: 355.0 lossRate: 0.0 CC:3 score:-141.0 
+1660232461.436964 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232461.437860 -- INFO: Throughput @8.1s:150.0Mbps, rtt :3.14ms cwnd: 368.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232462.427778 -- INFO: Time taken to collect tcp stats: 31.0ms
+1660232462.428614 -- INFO: Throughput @9.1s:150.0Mbps, rtt :3.9ms cwnd: 412.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232463.429830 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232463.430671 -- INFO: Throughput @10.1s:150.0Mbps, rtt :4.03ms cwnd: 412.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232463.862048 -- INFO: Changing concurrency to 5 ******
+1660232463.864255 -- INFO: Start Process :: 3
+1660232463.865598 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232463.866033 -- INFO: Process 3 get item 3 from queue and executing
+1660232463.866815 -- INFO: starting 3, 3, /home/hjamil/Documents/files_bash/FILE13
+1660232463.868801 -- INFO: Active CC: 5
+1660232463.871906 -- INFO: Start Process :: 4
+1660232463.873763 -- INFO: Process 4 get item 4 from queue and executing
+1660232463.874192 -- INFO: starting 4, 4, /home/hjamil/Documents/files_bash/FILE3
+1660232464.422172 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232464.422895 -- INFO: Throughput @11.1s:210.0Mbps, rtt :2.64ms cwnd: 293.2 lossRate: 0.0 CC:5 score:-190.0 
+1660232465.428020 -- INFO: Time taken to collect tcp stats: 29.0ms
+1660232465.428814 -- INFO: Throughput @12.1s:240.0Mbps, rtt :2.77ms cwnd: 328.8 lossRate: 0.0 CC:5 score:-217.0 
+1660232466.430384 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232466.431361 -- INFO: Throughput @13.1s:245.0Mbps, rtt :3.0ms cwnd: 369.6 lossRate: 0.0 CC:5 score:-222.0 
+1660232467.387993 -- INFO: Gradient: -34.33333333333333, Gredient Change: 0.24349881796690304, Theta: 2, Previous CC: 4, Choosen CC: 6
+1660232467.388129 -- INFO: Changing concurrency to 5 ******
+1660232467.403826 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232467.404020 -- INFO: Active CC: 5
+1660232467.455847 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232467.456668 -- INFO: Throughput @14.1s:245.0Mbps, rtt :3.27ms cwnd: 386.0 lossRate: 0.0 CC:5 score:-222.0 
+1660232468.432054 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232468.432854 -- INFO: Throughput @15.1s:245.0Mbps, rtt :5.05ms cwnd: 393.6 lossRate: 0.0 CC:5 score:-222.0 
+1660232469.428016 -- INFO: Time taken to collect tcp stats: 24.0ms
+1660232469.428802 -- INFO: Throughput @16.1s:250.0Mbps, rtt :3.65ms cwnd: 401.8 lossRate: 0.0 CC:5 score:-226.0 
+1660232470.459555 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232470.460449 -- INFO: Throughput @17.1s:245.0Mbps, rtt :3.96ms cwnd: 406.0 lossRate: 0.0 CC:5 score:-222.0 
+1660232470.904771 -- INFO: Changing concurrency to 7 ******
+1660232470.905571 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232470.906477 -- INFO: Active CC: 7
+1660232470.944083 -- INFO: Start Process :: 5
+1660232470.950005 -- INFO: Process 5 get item 5 from queue and executing
+1660232470.950768 -- INFO: starting 5, 5, /home/hjamil/Documents/files_bash/FILE24
+1660232470.959817 -- INFO: Start Process :: 6
+1660232470.960617 -- INFO: Process 6 get item 6 from queue and executing
+1660232470.960879 -- INFO: starting 6, 6, /home/hjamil/Documents/files_bash/FILE2
+1660232471.436025 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232471.436769 -- INFO: Throughput @18.1s:295.0Mbps, rtt :2.91ms cwnd: 329.7 lossRate: 0.0 CC:7 score:-257.0 
+1660232472.440673 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232472.441545 -- INFO: Throughput @19.1s:340.0Mbps, rtt :3.0ms cwnd: 369.7 lossRate: 0.0 CC:7 score:-296.0 
+1660232473.453013 -- INFO: Time taken to collect tcp stats: 47.0ms
+1660232473.453815 -- INFO: Throughput @20.1s:350.0Mbps, rtt :4.05ms cwnd: 399.6 lossRate: 0.0 CC:7 score:-305.0 
+1660232474.413821 -- INFO: Gradient: -12.36666666666666, Gredient Change: 0.07148362235067433, Theta: 3, Previous CC: 6, Choosen CC: 9
+1660232474.416941 -- INFO: Changing concurrency to 8 ******
+1660232474.422827 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232474.431707 -- INFO: Start Process :: 7
+1660232474.433456 -- INFO: Process 7 get item 7 from queue and executing
+1660232474.433781 -- INFO: starting 7, 7, /home/hjamil/Documents/files_bash/FILE20
+1660232474.433967 -- INFO: Active CC: 8
+1660232474.463644 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232474.464435 -- INFO: Throughput @21.1s:335.0Mbps, rtt :2.3ms cwnd: 418.9 lossRate: 0.0 CC:7 score:-292.0 
+1660232475.462331 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232475.463135 -- INFO: Throughput @22.1s:390.0Mbps, rtt :4.88ms cwnd: 390.9 lossRate: 0.0 CC:8 score:-333.0 
+1660232476.458220 -- INFO: Time taken to collect tcp stats: 50.0ms
+1660232476.459077 -- INFO: Throughput @23.1s:385.0Mbps, rtt :3.44ms cwnd: 409.9 lossRate: 0.0 CC:8 score:-329.0 
+1660232477.444315 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232477.446743 -- INFO: Throughput @24.1s:395.0Mbps, rtt :3.62ms cwnd: 417.9 lossRate: 0.0 CC:8 score:-337.0 
+1660232477.936595 -- INFO: Changing concurrency to 10 ******
+1660232477.951557 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232477.952256 -- INFO: Active CC: 10
+1660232477.967957 -- INFO: Start Process :: 9
+1660232477.969224 -- INFO: Process 9 get item 8 from queue and executing
+1660232477.969464 -- INFO: starting 9, 8, /home/hjamil/Documents/files_bash/FILE29
+1660232477.995315 -- INFO: Start Process :: 8
+1660232477.998289 -- INFO: Process 8 get item 9 from queue and executing
+1660232478.001009 -- INFO: starting 8, 9, /home/hjamil/Documents/files_bash/FILE7
+1660232478.443022 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232478.444013 -- INFO: Throughput @25.1s:435.0Mbps, rtt :4.02ms cwnd: 360.6 lossRate: 0.0 CC:10 score:-357.0 
+1660232479.472520 -- INFO: Time taken to collect tcp stats: 61.0ms
+1660232479.473318 -- INFO: Throughput @26.1s:475.0Mbps, rtt :4.43ms cwnd: 379.5 lossRate: 0.0 CC:10 score:-390.0 
+1660232480.441459 -- INFO: Time taken to collect tcp stats: 29.0ms
+1660232480.442361 -- INFO: Throughput @27.1s:485.0Mbps, rtt :3.6ms cwnd: 406.3 lossRate: 0.0 CC:10 score:-398.0 
+1660232481.444593 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232481.445725 -- INFO: Throughput @28.1s:475.0Mbps, rtt :3.56ms cwnd: 414.1 lossRate: 0.0 CC:10 score:-390.0 
+1660232481.462236 -- INFO: Gradient: -12.327777777777783, Gredient Change: 0.04664704645785161, Theta: 4, Previous CC: 9, Choosen CC: 13
+1660232481.462981 -- INFO: Changing concurrency to 12 ******
+1660232481.468405 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232481.469314 -- INFO: Active CC: 12
+1660232481.499825 -- INFO: Start Process :: 10
+1660232481.500679 -- INFO: Process 10 get item 10 from queue and executing
+1660232481.500880 -- INFO: starting 10, 10, /home/hjamil/Documents/files_bash/FILE31
+1660232481.534416 -- INFO: Start Process :: 11
+1660232481.551668 -- INFO: Process 11 get item 11 from queue and executing
+1660232481.552091 -- INFO: starting 11, 11, /home/hjamil/Documents/files_bash/FILE6
+1660232482.446823 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232482.451294 -- INFO: Throughput @29.1s:575.0Mbps, rtt :3.5ms cwnd: 376.4 lossRate: 0.0 CC:12 score:-453.0 
+1660232483.454393 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232483.455517 -- INFO: Throughput @30.1s:560.0Mbps, rtt :5.22ms cwnd: 391.8 lossRate: 0.0 CC:12 score:-442.0 
+1660232484.449916 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232484.450897 -- INFO: Throughput @31.1s:565.0Mbps, rtt :3.38ms cwnd: 405.0 lossRate: 0.0 CC:12 score:-445.0 
+1660232484.975176 -- INFO: Changing concurrency to 14 ******
+1660232484.984310 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232484.996364 -- INFO: Active CC: 14
+1660232485.005616 -- INFO: Start Process :: 13
+1660232485.008276 -- INFO: Process 13 get item 12 from queue and executing
+1660232485.008755 -- INFO: starting 13, 12, /home/hjamil/Documents/files_bash/FILE22
+1660232485.011762 -- INFO: Start Process :: 12
+1660232485.016849 -- INFO: Process 12 get item 13 from queue and executing
+1660232485.017107 -- INFO: starting 12, 13, /home/hjamil/Documents/files_bash/FILE11
+1660232485.473126 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232485.473943 -- INFO: Throughput @32.1s:590.0Mbps, rtt :4.91ms cwnd: 369.5 lossRate: 0.0 CC:14 score:-447.0 
+1660232486.457181 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232486.458036 -- INFO: Throughput @33.1s:665.0Mbps, rtt :4.27ms cwnd: 386.9 lossRate: 0.0 CC:14 score:-504.0 
+1660232487.492697 -- INFO: Time taken to collect tcp stats: 75.0ms
+1660232487.495127 -- INFO: Throughput @34.1s:670.0Mbps, rtt :3.49ms cwnd: 404.4 lossRate: 0.0 CC:14 score:-508.0 
+1660232488.468867 -- INFO: Time taken to collect tcp stats: 51.0ms
+1660232488.469615 -- INFO: Throughput @35.1s:660.0Mbps, rtt :4.96ms cwnd: 417.9 lossRate: 0.0 CC:14 score:-500.0 
+1660232488.501150 -- INFO: Gradient: -14.094444444444434, Gredient Change: 0.03869147475979866, Theta: 5, Previous CC: 13, Choosen CC: 18
+1660232488.501426 -- INFO: Changing concurrency to 17 ******
+1660232488.503623 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232488.506795 -- INFO: Active CC: 17
+1660232488.520003 -- INFO: Start Process :: 14
+1660232488.521666 -- INFO: Process 14 get item 14 from queue and executing
+1660232488.521921 -- INFO: starting 14, 14, /home/hjamil/Documents/files_bash/FILE30
+1660232488.555601 -- INFO: Start Process :: 16
+1660232488.566995 -- INFO: Start Process :: 15
+1660232488.567257 -- INFO: Process 16 get item 15 from queue and executing
+1660232488.567633 -- INFO: starting 16, 15, /home/hjamil/Documents/files_bash/FILE5
+1660232488.568408 -- INFO: Process 15 get item 16 from queue and executing
+1660232488.568832 -- INFO: starting 15, 16, /home/hjamil/Documents/files_bash/FILE17
+1660232489.466058 -- INFO: Time taken to collect tcp stats: 47.0ms
+1660232489.467057 -- INFO: Throughput @36.1s:780.0Mbps, rtt :4.44ms cwnd: 375.5 lossRate: 0.0 CC:17 score:-557.0 
+1660232490.499430 -- INFO: Time taken to collect tcp stats: 79.0ms
+1660232490.500683 -- INFO: Throughput @37.1s:815.0Mbps, rtt :3.31ms cwnd: 390.4 lossRate: 0.0 CC:17 score:-582.0 
+1660232491.476840 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232491.477698 -- INFO: Throughput @38.1s:790.0Mbps, rtt :3.51ms cwnd: 398.8 lossRate: 0.0 CC:17 score:-564.0 
+1660232492.011730 -- INFO: Changing concurrency to 19 ******
+1660232492.023746 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232492.024415 -- INFO: Active CC: 19
+1660232492.043919 -- INFO: Start Process :: 17
+1660232492.046060 -- INFO: Process 17 get item 17 from queue and executing
+1660232492.046327 -- INFO: starting 17, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232492.067599 -- INFO: Start Process :: 18
+1660232492.075302 -- INFO: Process 18 get item 18 from queue and executing
+1660232492.075684 -- INFO: starting 18, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232492.476885 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232492.477821 -- INFO: Throughput @39.1s:835.0Mbps, rtt :4.59ms cwnd: 368.5 lossRate: 0.0 CC:19 score:-573.0 
+1660232493.468135 -- INFO: Time taken to collect tcp stats: 46.0ms
+1660232493.469128 -- INFO: Throughput @40.1s:865.0Mbps, rtt :4.88ms cwnd: 383.7 lossRate: 0.0 CC:19 score:-594.0 
+1660232494.459026 -- INFO: Time taken to collect tcp stats: 37.0ms
+1660232494.460696 -- INFO: Throughput @41.1s:885.0Mbps, rtt :4.97ms cwnd: 394.6 lossRate: 0.0 CC:19 score:-607.0 
+1660232495.476696 -- INFO: Time taken to collect tcp stats: 53.0ms
+1660232495.477616 -- INFO: Throughput @42.1s:880.0Mbps, rtt :4.54ms cwnd: 402.9 lossRate: 0.0 CC:19 score:-604.0 
+1660232495.543874 -- INFO: Gradient: -14.127777777777766, Gredient Change: 0.029787981726601825, Theta: 6, Previous CC: 18, Choosen CC: 24
+1660232495.544166 -- INFO: Changing concurrency to 23 ******
+1660232495.567394 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660232495.568036 -- INFO: Active CC: 23
+1660232495.592017 -- INFO: Start Process :: 19
+1660232495.593113 -- INFO: Process 19 get item 19 from queue and executing
+1660232495.593456 -- INFO: starting 19, 19, /home/hjamil/Documents/files_bash/FILE8
+1660232495.616144 -- INFO: Start Process :: 22
+1660232495.617112 -- INFO: Start Process :: 21
+1660232495.618976 -- INFO: Process 21 get item 20 from queue and executing
+1660232495.619296 -- INFO: starting 21, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232495.620527 -- INFO: Process 22 get item 21 from queue and executing
+1660232495.620875 -- INFO: starting 22, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232495.632264 -- INFO: Start Process :: 20
+1660232495.638828 -- INFO: Process 20 get item 22 from queue and executing
+1660232495.639262 -- INFO: starting 20, 22, /home/hjamil/Documents/files_bash/FILE9
+1660232496.480667 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232496.481629 -- INFO: Throughput @43.1s:1019.35Mbps, rtt :10.05ms cwnd: 256.4 lossRate: 0.004121440152480909 CC:23 score:-604.0 
+1660232497.465781 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232497.466746 -- INFO: Throughput @44.1s:1001.15Mbps, rtt :9.39ms cwnd: 226.5 lossRate: 0.0024531891458896564 CC:23 score:-610.0 
+1660232498.481324 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232498.482336 -- INFO: Throughput @45.1s:959.89Mbps, rtt :7.28ms cwnd: 218.9 lossRate: 0.0005041190212713636 CC:23 score:-604.0 
+1660232499.069053 -- INFO: Changing concurrency to 25 ******
+1660232499.075996 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232499.076639 -- INFO: Active CC: 25
+1660232499.091868 -- INFO: Start Process :: 23
+1660232499.093119 -- INFO: Process 23 get item 23 from queue and executing
+1660232499.093446 -- INFO: starting 23, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232499.111470 -- INFO: Start Process :: 24
+1660232499.113914 -- INFO: Process 24 get item 24 from queue and executing
+1660232499.114120 -- INFO: starting 24, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232499.493219 -- INFO: Time taken to collect tcp stats: 66.0ms
+1660232499.494348 -- INFO: Throughput @46.1s:952.74Mbps, rtt :9.14ms cwnd: 200.0 lossRate: 0.000594603968981493 CC:25 score:-575.0 
+1660232500.477965 -- INFO: Time taken to collect tcp stats: 50.0ms
+1660232500.478647 -- INFO: Throughput @47.1s:924.55Mbps, rtt :7.43ms cwnd: 197.6 lossRate: 0.00031761761380239104 CC:25 score:-561.0 
+1660232501.459134 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232501.459969 -- INFO: Throughput @48.1s:950.31Mbps, rtt :7.8ms cwnd: 190.4 lossRate: 0.0005729231535683149 CC:25 score:-574.0 
+1660232502.462035 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232502.462926 -- INFO: Throughput @49.1s:879.93Mbps, rtt :11.98ms cwnd: 164.8 lossRate: 0.0012269771373260077 CC:25 score:-526.0 
+1660232502.577710 -- INFO: Gradient: -9.994444444444412, Gredient Change: 0.018284378493749306, Theta: 7, Previous CC: 24, Choosen CC: 31
+1660232502.578017 -- INFO: Changing concurrency to 30 ******
+1660232502.578460 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1660232502.578930 -- INFO: Active CC: 30
+1660232502.595917 -- INFO: Start Process :: 26
+1660232502.598276 -- INFO: Process 26 get item 25 from queue and executing
+1660232502.598577 -- INFO: starting 26, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232502.603899 -- INFO: Start Process :: 29
+1660232502.608491 -- INFO: Process 29 get item 26 from queue and executing
+1660232502.608792 -- INFO: starting 29, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232502.613675 -- INFO: Start Process :: 28
+1660232502.615629 -- INFO: Process 28 get item 27 from queue and executing
+1660232502.615889 -- INFO: starting 28, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232502.626628 -- INFO: Start Process :: 25
+1660232502.629179 -- INFO: Process 25 get item 28 from queue and executing
+1660232502.629450 -- INFO: starting 25, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232502.635714 -- INFO: Start Process :: 27
+1660232502.647402 -- INFO: Process 27 get item 29 from queue and executing
+1660232502.647688 -- INFO: starting 27, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232503.469853 -- INFO: Time taken to collect tcp stats: 40.0ms
+1660232503.470644 -- INFO: Throughput @50.1s:796.62Mbps, rtt :10.32ms cwnd: 86.6 lossRate: 0.006715372804427422 CC:30 score:-386.0 
+1660232504.439692 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232504.440572 -- INFO: Throughput @51.1s:701.89Mbps, rtt :9.21ms cwnd: 77.7 lossRate: 0.001441247460452517 CC:30 score:-377.0 
+1660232505.437807 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232505.438449 -- INFO: Throughput @52.1s:690.1Mbps, rtt :8.88ms cwnd: 67.6 lossRate: 0.001384363446052032 CC:30 score:-371.0 
+1660232506.079691 -- INFO: Changing concurrency to 32 ******
+1660232506.080108 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1660232506.080335 -- INFO: Active CC: 32
+1660232506.081392 -- INFO: Start Process :: 31
+1660232506.081527 -- INFO: Start Process :: 30
+1660232506.082931 -- INFO: Process 31 get item 30 from queue and executing
+1660232506.083140 -- INFO: starting 31, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232506.084251 -- INFO: Process 30 get item 31 from queue and executing
+1660232506.084552 -- INFO: starting 30, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232506.437644 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232506.438293 -- INFO: Throughput @53.1s:683.39Mbps, rtt :8.69ms cwnd: 62.4 lossRate: 0.0004175365344467641 CC:32 score:-360.0 
+1660232507.438810 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232507.439508 -- INFO: Throughput @54.1s:700.51Mbps, rtt :8.7ms cwnd: 60.3 lossRate: 0.00039538063623334045 CC:32 score:-369.0 
+1660232508.439507 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232508.440261 -- INFO: Throughput @55.1s:705.44Mbps, rtt :8.2ms cwnd: 56.6 lossRate: 0.0006925892945483328 CC:32 score:-369.0 
+1660232509.441896 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232509.442712 -- INFO: Throughput @56.1s:702.12Mbps, rtt :8.06ms cwnd: 55.8 lossRate: 0.00038094607128660396 CC:32 score:-370.0 
+1660232509.581193 -- INFO: Gradient: 5.494444444444497, Gredient Change: 0.01071622060895015, Theta: -1, Previous CC: 31, Choosen CC: 30
+1660232509.581321 -- INFO: Changing concurrency to 29 ******
+1660232509.581423 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1660232509.581561 -- INFO: Active CC: 29
+1660232510.443721 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232510.444496 -- INFO: Throughput @57.1s:668.74Mbps, rtt :7.74ms cwnd: 54.4 lossRate: 0.0005571877216087529 CC:29 score:-373.0 
+1660232511.444307 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232511.445309 -- INFO: Throughput @58.1s:673.38Mbps, rtt :7.55ms cwnd: 53.7 lossRate: 0.00012092733994402791 CC:29 score:-378.0 
+1660232512.444765 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232512.445545 -- INFO: Throughput @59.1s:682.78Mbps, rtt :7.42ms cwnd: 52.6 lossRate: 0.0003273378816070567 CC:29 score:-382.0 
+1660232513.082163 -- INFO: Changing concurrency to 31 ******
+1660232513.082368 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+1660232513.082607 -- INFO: Active CC: 31
+1660232513.082572 -- INFO: Start Process :: 29
+1660232513.082607 -- INFO: Start Process :: 30
+1660232513.083992 -- INFO: Process 30 get item 31 from queue and executing
+1660232513.084081 -- INFO: Process 29 get item 26 from queue and executing
+1660232513.084237 -- INFO: starting 30, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232513.084459 -- INFO: starting 29, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232513.444910 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232513.445445 -- INFO: Throughput @60.1s:679.61Mbps, rtt :7.6ms cwnd: 50.4 lossRate: 0.00010310164103445313 CC:31 score:-367.0 
+1660232514.446204 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232514.447247 -- INFO: Throughput @61.1s:675.14Mbps, rtt :7.66ms cwnd: 49.7 lossRate: 0.00013685038831297685 CC:31 score:-364.0 
+1660232515.447492 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232515.448313 -- INFO: Throughput @62.1s:671.88Mbps, rtt :7.58ms cwnd: 48.8 lossRate: 0.00020529665366454526 CC:31 score:-362.0 
+1660232516.449728 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232516.450540 -- INFO: Throughput @63.1s:687.9Mbps, rtt :7.95ms cwnd: 49.6 lossRate: 6.837606837606838e-05 CC:31 score:-372.0 
+1660232516.583623 -- INFO: Gradient: 16.422222222222217, Gredient Change: 0.037173038229376246, Theta: -2, Previous CC: 30, Choosen CC: 26
+1660232516.583749 -- INFO: Changing concurrency to 25 ******
+1660232516.583903 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232516.584133 -- INFO: Active CC: 25
+1660232517.449197 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232517.450071 -- INFO: Throughput @64.1s:618.51Mbps, rtt :5.22ms cwnd: 26.2 lossRate: 0 CC:25 score:-377.0 
+1660232518.451239 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232518.452351 -- INFO: Throughput @65.1s:668.2Mbps, rtt :5.54ms cwnd: 29.5 lossRate: 7.188555819135935e-05 CC:25 score:-407.0 
+1660232519.451899 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232519.452716 -- INFO: Throughput @66.1s:631.06Mbps, rtt :5.77ms cwnd: 30.3 lossRate: 3.597186999766183e-05 CC:25 score:-384.0 
+1660232520.085125 -- INFO: Changing concurrency to 27 ******
+1660232520.085977 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1660232520.086045 -- INFO: Start Process :: 25
+1660232520.086189 -- INFO: Start Process :: 26
+1660232520.086869 -- INFO: Active CC: 27
+1660232520.087526 -- INFO: Process 25 get item 30 from queue and executing
+1660232520.087838 -- INFO: starting 25, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232520.087841 -- INFO: Process 26 get item 25 from queue and executing
+1660232520.088199 -- INFO: starting 26, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232520.452646 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232520.453664 -- INFO: Throughput @67.1s:658.13Mbps, rtt :6.06ms cwnd: 31.4 lossRate: 0.0 CC:27 score:-386.0 
+1660232521.453583 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232521.454236 -- INFO: Throughput @68.1s:669.91Mbps, rtt :5.9ms cwnd: 29.9 lossRate: 0.0008594832576169511 CC:27 score:-387.0 
+1660232522.454306 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232522.455088 -- INFO: Throughput @69.1s:646.79Mbps, rtt :6.08ms cwnd: 31.4 lossRate: 0.0 CC:27 score:-379.0 
+1660232523.455234 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232523.455943 -- INFO: Throughput @70.1s:657.09Mbps, rtt :6.4ms cwnd: 33.5 lossRate: 0.0 CC:27 score:-385.0 
+1660232523.587921 -- INFO: Gradient: 0.06666666666666288, Gredient Change: 0.00017667844522967194, Theta: -3, Previous CC: 26, Choosen CC: 23
+1660232523.588039 -- INFO: Changing concurrency to 22 ******
+1660232523.588570 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660232523.589052 -- INFO: Active CC: 22
+1660232524.456330 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232524.457019 -- INFO: Throughput @71.1s:604.71Mbps, rtt :6.38ms cwnd: 37.2 lossRate: 0 CC:22 score:-391.0 
+1660232525.457424 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232525.458147 -- INFO: Throughput @72.1s:589.91Mbps, rtt :6.71ms cwnd: 41.8 lossRate: 0.0 CC:22 score:-382.0 
+1660232526.477154 -- INFO: Time taken to collect tcp stats: 26.0ms
+1660232526.477848 -- INFO: Throughput @73.1s:587.52Mbps, rtt :6.82ms cwnd: 45.3 lossRate: 0.0 CC:22 score:-380.0 
+1660232527.089931 -- INFO: Changing concurrency to 24 ******
+1660232527.090869 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660232527.090938 -- INFO: Start Process :: 22
+1660232527.091008 -- INFO: Start Process :: 23
+1660232527.091530 -- INFO: Active CC: 24
+1660232527.092471 -- INFO: Process 22 get item 26 from queue and executing
+1660232527.092615 -- INFO: Process 23 get item 27 from queue and executing
+1660232527.092788 -- INFO: starting 22, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232527.093171 -- INFO: starting 23, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232527.470191 -- INFO: Time taken to collect tcp stats: 18.0ms
+1660232527.470997 -- INFO: Throughput @74.1s:602.39Mbps, rtt :6.97ms cwnd: 44.9 lossRate: 0.0 CC:24 score:-375.0 
+1660232528.460584 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232528.461407 -- INFO: Throughput @75.1s:602.13Mbps, rtt :6.86ms cwnd: 45.5 lossRate: 0.0003497590548733095 CC:24 score:-372.0 
+1660232529.477382 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232529.478105 -- INFO: Throughput @76.1s:603.91Mbps, rtt :6.58ms cwnd: 47.4 lossRate: 0.0003969829297340214 CC:24 score:-373.0 
+1660232530.466643 -- INFO: Time taken to collect tcp stats: 12.0ms
+1660232530.467818 -- INFO: Throughput @77.1s:599.45Mbps, rtt :7.41ms cwnd: 49.5 lossRate: 0.00011731581417175035 CC:24 score:-372.0 
+1660232530.592553 -- INFO: Gradient: -0.1222222222222058, Gredient Change: 0.00032258064516124695, Theta: 1, Previous CC: 23, Choosen CC: 24
+1660232530.592764 -- INFO: Changing concurrency to 23 ******
+1660232530.593732 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660232530.594690 -- INFO: Active CC: 23
+1660232531.464448 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232531.465459 -- INFO: Throughput @78.1s:598.42Mbps, rtt :7.38ms cwnd: 50.9 lossRate: 0 CC:23 score:-379.0 
+1660232532.476772 -- INFO: Time taken to collect tcp stats: 20.0ms
+1660232532.477618 -- INFO: Throughput @79.1s:682.94Mbps, rtt :5.64ms cwnd: 55.0 lossRate: 0.0006889763779527559 CC:23 score:-428.0 
+1660232533.488811 -- INFO: Time taken to collect tcp stats: 31.0ms
+1660232533.489552 -- INFO: Throughput @80.1s:912.42Mbps, rtt :6.85ms cwnd: 63.1 lossRate: 0.0 CC:23 score:-579.0 
+1660232534.095536 -- INFO: Changing concurrency to 25 ******
+1660232534.095969 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232534.096167 -- INFO: Start Process :: 23
+1660232534.096435 -- INFO: Start Process :: 24
+1660232534.096819 -- INFO: Active CC: 25
+1660232534.100292 -- INFO: Process 23 get item 31 from queue and executing
+1660232534.100885 -- INFO: starting 23, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232534.102506 -- INFO: Process 24 get item 28 from queue and executing
+1660232534.102896 -- INFO: starting 24, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232534.493029 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232534.493942 -- INFO: Throughput @81.1s:915.48Mbps, rtt :6.44ms cwnd: 66.6 lossRate: 0.0 CC:25 score:-558.0 
+1660232535.518906 -- INFO: Time taken to collect tcp stats: 59.0ms
+1660232535.519841 -- INFO: Throughput @82.1s:903.1Mbps, rtt :5.77ms cwnd: 73.8 lossRate: 0.0 CC:25 score:-550.0 
+1660232536.508894 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232536.510055 -- INFO: Throughput @83.1s:929.28Mbps, rtt :6.0ms cwnd: 76.8 lossRate: 0.0 CC:25 score:-566.0 
+1660232537.483152 -- INFO: Time taken to collect tcp stats: 22.0ms
+1660232537.483833 -- INFO: Throughput @84.1s:932.48Mbps, rtt :6.68ms cwnd: 79.5 lossRate: 0.0 CC:25 score:-568.0 
+1660232537.611863 -- INFO: Gradient: -3.616666666666646, Gredient Change: 0.008499804151978017, Theta: 2, Previous CC: 24, Choosen CC: 26
+1660232537.612025 -- INFO: Changing concurrency to 25 ******
+1660232537.612890 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232537.613256 -- INFO: Active CC: 25
+1660232538.489493 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232538.490276 -- INFO: Throughput @85.1s:919.71Mbps, rtt :6.93ms cwnd: 82.4 lossRate: 0.0 CC:25 score:-561.0 
+1660232539.532904 -- INFO: Time taken to collect tcp stats: 61.0ms
+1660232539.533704 -- INFO: Throughput @86.1s:937.71Mbps, rtt :7.18ms cwnd: 79.0 lossRate: 0.0005842305445267137 CC:25 score:-566.0 
+1660232540.509548 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232540.510440 -- INFO: Throughput @87.1s:926.72Mbps, rtt :6.99ms cwnd: 73.0 lossRate: 0.0007402774764196097 CC:25 score:-558.0 
+1660232541.127845 -- INFO: Changing concurrency to 27 ******
+1660232541.128312 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0
+1660232541.128635 -- INFO: Active CC: 27
+1660232541.129012 -- INFO: Start Process :: 26
+1660232541.130272 -- INFO: Start Process :: 25
+1660232541.130861 -- INFO: Process 26 get item 29 from queue and executing
+1660232541.131318 -- INFO: Process 25 get item 24 from queue and executing
+1660232541.131552 -- INFO: starting 25, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232541.131613 -- INFO: starting 26, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232541.508107 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232541.509127 -- INFO: Throughput @88.1s:934.89Mbps, rtt :6.39ms cwnd: 61.1 lossRate: 0.0007139636254321358 CC:27 score:-541.0 
+1660232542.512023 -- INFO: Time taken to collect tcp stats: 38.0ms
+1660232542.512896 -- INFO: Throughput @89.1s:945.3Mbps, rtt :6.61ms cwnd: 55.3 lossRate: 0.001500924122703648 CC:27 score:-540.0 
+1660232543.530119 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232543.530992 -- INFO: Throughput @90.1s:958.94Mbps, rtt :6.76ms cwnd: 56.0 lossRate: 0.0 CC:27 score:-562.0 
+1660232544.521052 -- INFO: Time taken to collect tcp stats: 44.0ms
+1660232544.521871 -- INFO: Throughput @91.1s:908.77Mbps, rtt :7.03ms cwnd: 58.6 lossRate: 0.0 CC:27 score:-532.0 
+1660232544.643727 -- INFO: Gradient: -9.672222222222217, Gredient Change: 0.020106247834622927, Theta: 3, Previous CC: 26, Choosen CC: 29
+1660232544.644000 -- INFO: Changing concurrency to 28 ******
+1660232544.644459 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660232544.644631 -- INFO: Start Process :: 27
+1660232544.644851 -- INFO: Active CC: 28
+1660232544.645907 -- INFO: Process 27 get item 21 from queue and executing
+1660232544.646210 -- INFO: starting 27, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232545.517653 -- INFO: Time taken to collect tcp stats: 40.0ms
+1660232545.518432 -- INFO: Throughput @92.1s:990.63Mbps, rtt :6.48ms cwnd: 60.6 lossRate: 0.0 CC:28 score:-569.0 
+1660232546.517889 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232546.518662 -- INFO: Throughput @93.1s:957.73Mbps, rtt :7.51ms cwnd: 61.2 lossRate: 0.0 CC:28 score:-550.0 
+1660232547.532966 -- INFO: Time taken to collect tcp stats: 52.0ms
+1660232547.533674 -- INFO: Throughput @94.1s:933.12Mbps, rtt :6.86ms cwnd: 62.4 lossRate: 0.0 CC:28 score:-536.0 
+1660232548.145673 -- INFO: Changing concurrency to 30 ******
+1660232548.146200 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1660232548.146382 -- INFO: Start Process :: 29
+1660232548.146472 -- INFO: Start Process :: 28
+1660232548.146841 -- INFO: Active CC: 30
+1660232548.148760 -- INFO: Process 29 get item 23 from queue and executing
+1660232548.149035 -- INFO: starting 29, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232548.159296 -- INFO: Process 28 get item 25 from queue and executing
+1660232548.159738 -- INFO: starting 28, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232548.485363 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232548.486140 -- INFO: Throughput @95.1s:945.17Mbps, rtt :7.44ms cwnd: 60.1 lossRate: 7.709505820676895e-05 CC:30 score:-521.0 
+1660232549.488916 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232549.490036 -- INFO: Throughput @96.1s:938.9Mbps, rtt :7.27ms cwnd: 60.4 lossRate: 0.0 CC:30 score:-518.0 
+1660232550.491153 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232550.492044 -- INFO: Throughput @97.1s:928.93Mbps, rtt :7.27ms cwnd: 56.0 lossRate: 0.0010073499235160243 CC:30 score:-503.0 
+1660232551.491827 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232551.493084 -- INFO: Throughput @98.1s:945.94Mbps, rtt :7.48ms cwnd: 60.8 lossRate: 0.0 CC:30 score:-522.0 
+1660232551.647888 -- INFO: Gradient: -7.061111111111131, Gredient Change: 0.013257536247001185, Theta: 4, Previous CC: 29, Choosen CC: 32
+1660232551.648017 -- INFO: Changing concurrency to 31 ******
+1660232551.648283 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+1660232551.648468 -- INFO: Start Process :: 30
+1660232551.648537 -- INFO: Active CC: 31
+1660232551.649749 -- INFO: Process 30 get item 30 from queue and executing
+1660232551.649957 -- INFO: starting 30, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232552.491696 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232552.492503 -- INFO: Throughput @99.1s:924.12Mbps, rtt :7.55ms cwnd: 60.8 lossRate: 0.0 CC:31 score:-500.0 
+1660232553.484123 -- INFO: Process 31 shutdown itself from outest loop
+1660232553.484138 -- INFO: episode expires
+1660232553.484292 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+1660232555.290072 -- INFO: GD Optimizer Exits ...
+1660232555.503739 -- INFO: Changing concurrency to 1 ******
+1660232555.506094 -- INFO: Start Process :: 0
+1660232555.507946 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232555.508427 -- INFO: Process 0 get item 0 from queue and executing
+1660232555.508853 -- INFO: starting 0, 0, /home/hjamil/Documents/files_bash/FILE25
+1660232555.510870 -- INFO: Active CC: 1
+1660232555.559266 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232555.561629 -- INFO: Throughput @0.1s:33.48Mbps, rtt :6.26ms cwnd: 61.9 lossRate: 0.00043358420154150667 CC:1 score:-33.0 
+1660232556.563645 -- INFO: Time taken to collect tcp stats: 14.0ms
+1660232556.564355 -- INFO: Throughput @1.1s:51.65Mbps, rtt :1.27ms cwnd: 190.0 lossRate: 0 CC:1 score:-51.0 
+1660232557.557641 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232557.558436 -- INFO: Throughput @2.1s:50.0Mbps, rtt :2.32ms cwnd: 335.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232558.557300 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232558.558001 -- INFO: Throughput @3.1s:50.0Mbps, rtt :3.7ms cwnd: 376.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232559.012257 -- INFO: Changing concurrency to 2 ******
+1660232559.013417 -- INFO: Start Process :: 1
+1660232559.014622 -- INFO: Process 1 get item 1 from queue and executing
+1660232559.015380 -- INFO: starting 1, 1, /home/hjamil/Documents/files_bash/FILE1
+1660232559.015427 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232559.018256 -- INFO: Active CC: 2
+1660232559.564083 -- INFO: Time taken to collect tcp stats: 12.0ms
+1660232559.564850 -- INFO: Throughput @4.1s:80.0Mbps, rtt :2.13ms cwnd: 262.0 lossRate: 0.0 CC:2 score:-77.0 
+1660232560.591902 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232560.592647 -- INFO: Throughput @5.1s:100.0Mbps, rtt :2.22ms cwnd: 341.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232561.560616 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232561.561430 -- INFO: Throughput @6.1s:100.0Mbps, rtt :3.65ms cwnd: 370.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232562.519222 -- INFO: Gradient_Fast: -40.00000000000001, Gredient_Fast Change: 0.8053691275167787, Theta: 1, Previous CC: 2, Choosen CC: 4
+1660232562.519500 -- INFO: Changing concurrency to 4 ******
+1660232562.523237 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232562.525464 -- INFO: Active CC: 4
+1660232562.531836 -- INFO: Start Process :: 3
+1660232562.532848 -- INFO: Process 3 get item 2 from queue and executing
+1660232562.533123 -- INFO: starting 3, 2, /home/hjamil/Documents/files_bash/FILE4
+1660232562.541120 -- INFO: Start Process :: 2
+1660232562.541949 -- INFO: Process 2 get item 3 from queue and executing
+1660232562.542169 -- INFO: starting 2, 3, /home/hjamil/Documents/files_bash/FILE13
+1660232562.583446 -- INFO: Time taken to collect tcp stats: 29.0ms
+1660232562.584281 -- INFO: Throughput @7.1s:110.0Mbps, rtt :1.92ms cwnd: 223.2 lossRate: 0.0 CC:4 score:-102.0 
+1660232563.590699 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232563.591552 -- INFO: Throughput @8.1s:200.0Mbps, rtt :2.63ms cwnd: 270.5 lossRate: 0.0 CC:4 score:-185.0 
+1660232564.603311 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232564.604103 -- INFO: Throughput @9.1s:200.0Mbps, rtt :2.58ms cwnd: 284.8 lossRate: 0.0 CC:4 score:-185.0 
+1660232565.583822 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232565.584595 -- INFO: Throughput @10.1s:190.0Mbps, rtt :2.48ms cwnd: 341.8 lossRate: 0.0 CC:4 score:-176.0 
+1660232566.026306 -- INFO: Gradient_Fast: -46.166666666666664, Gredient_Fast Change: 0.5148698884758364, Theta: 2, Previous CC: 4, Choosen CC: 10
+1660232566.026504 -- INFO: Changing concurrency to 10 ******
+1660232566.030188 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232566.033135 -- INFO: Active CC: 10
+1660232566.039676 -- INFO: Start Process :: 5
+1660232566.043888 -- INFO: Process 5 get item 4 from queue and executing
+1660232566.044258 -- INFO: starting 5, 4, /home/hjamil/Documents/files_bash/FILE3
+1660232566.044408 -- INFO: Start Process :: 4
+1660232566.049342 -- INFO: Process 4 get item 5 from queue and executing
+1660232566.049563 -- INFO: starting 4, 5, /home/hjamil/Documents/files_bash/FILE24
+1660232566.059097 -- INFO: Start Process :: 9
+1660232566.059302 -- INFO: Start Process :: 6
+1660232566.059887 -- INFO: Start Process :: 7
+1660232566.060719 -- INFO: Process 9 get item 6 from queue and executing
+1660232566.060905 -- INFO: Process 6 get item 7 from queue and executing
+1660232566.060974 -- INFO: starting 9, 6, /home/hjamil/Documents/files_bash/FILE2
+1660232566.061122 -- INFO: starting 6, 7, /home/hjamil/Documents/files_bash/FILE20
+1660232566.063164 -- INFO: Process 7 get item 8 from queue and executing
+1660232566.063565 -- INFO: starting 7, 8, /home/hjamil/Documents/files_bash/FILE29
+1660232566.075798 -- INFO: Start Process :: 8
+1660232566.085289 -- INFO: Process 8 get item 9 from queue and executing
+1660232566.085662 -- INFO: starting 8, 9, /home/hjamil/Documents/files_bash/FILE7
+1660232566.594161 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232566.594875 -- INFO: Throughput @11.1s:350.0Mbps, rtt :2.74ms cwnd: 222.6 lossRate: 0.0 CC:10 score:-287.0 
+1660232567.583431 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232567.584406 -- INFO: Throughput @12.1s:490.0Mbps, rtt :2.55ms cwnd: 292.2 lossRate: 0.0 CC:10 score:-402.0 
+1660232568.600116 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232568.601014 -- INFO: Throughput @13.1s:485.0Mbps, rtt :2.27ms cwnd: 346.4 lossRate: 0.0 CC:10 score:-398.0 
+1660232569.543292 -- INFO: Gradient_Fast: -30.055555555555554, Gredient_Fast Change: 0.16514041514041514, Theta: 3, Previous CC: 10, Choosen CC: 16
+1660232569.543428 -- INFO: Changing concurrency to 16 ******
+1660232569.556695 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232569.567340 -- INFO: Active CC: 16
+1660232569.571844 -- INFO: Start Process :: 15
+1660232569.572968 -- INFO: Process 15 get item 10 from queue and executing
+1660232569.573256 -- INFO: starting 15, 10, /home/hjamil/Documents/files_bash/FILE31
+1660232569.599710 -- INFO: Start Process :: 10
+1660232569.600410 -- INFO: Process 10 get item 11 from queue and executing
+1660232569.600628 -- INFO: starting 10, 11, /home/hjamil/Documents/files_bash/FILE6
+1660232569.600688 -- INFO: Start Process :: 12
+1660232569.602495 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232569.603191 -- INFO: Throughput @14.1s:470.0Mbps, rtt :4.28ms cwnd: 343.5 lossRate: 0.0 CC:16 score:-342.0 
+1660232569.603450 -- INFO: Process 12 get item 12 from queue and executing
+1660232569.603739 -- INFO: starting 12, 12, /home/hjamil/Documents/files_bash/FILE22
+1660232569.639538 -- INFO: Start Process :: 14
+1660232569.640279 -- INFO: Start Process :: 11
+1660232569.640516 -- INFO: Process 14 get item 13 from queue and executing
+1660232569.640708 -- INFO: starting 14, 13, /home/hjamil/Documents/files_bash/FILE11
+1660232569.640970 -- INFO: Process 11 get item 14 from queue and executing
+1660232569.641147 -- INFO: starting 11, 14, /home/hjamil/Documents/files_bash/FILE30
+1660232569.644655 -- INFO: Start Process :: 13
+1660232569.645858 -- INFO: Process 13 get item 15 from queue and executing
+1660232569.646120 -- INFO: starting 13, 15, /home/hjamil/Documents/files_bash/FILE5
+1660232570.601303 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232570.602263 -- INFO: Throughput @15.1s:765.0Mbps, rtt :4.32ms cwnd: 301.8 lossRate: 0.0 CC:16 score:-557.0 
+1660232571.621205 -- INFO: Time taken to collect tcp stats: 59.0ms
+1660232571.622075 -- INFO: Throughput @16.1s:735.0Mbps, rtt :3.14ms cwnd: 328.4 lossRate: 0.0 CC:16 score:-535.0 
+1660232572.628676 -- INFO: Time taken to collect tcp stats: 66.0ms
+1660232572.629612 -- INFO: Throughput @17.1s:770.0Mbps, rtt :3.33ms cwnd: 318.2 lossRate: 0.0001055472625563547 CC:16 score:-560.0 
+1660232573.079835 -- INFO: Gradient_Fast: -31.388888888888886, Gredient_Fast Change: 0.08662986813860779, Theta: 4, Previous CC: 16, Choosen CC: 24
+1660232573.080138 -- INFO: Changing concurrency to 24 ******
+1660232573.095233 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660232573.095880 -- INFO: Active CC: 24
+1660232573.121192 -- INFO: Start Process :: 19
+1660232573.130103 -- INFO: Process 19 get item 16 from queue and executing
+1660232573.130306 -- INFO: starting 19, 16, /home/hjamil/Documents/files_bash/FILE17
+1660232573.135749 -- INFO: Start Process :: 20
+1660232573.136717 -- INFO: Process 20 get item 17 from queue and executing
+1660232573.136888 -- INFO: starting 20, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232573.166977 -- INFO: Start Process :: 18
+1660232573.170063 -- INFO: Process 18 get item 18 from queue and executing
+1660232573.170340 -- INFO: starting 18, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232573.187875 -- INFO: Start Process :: 17
+1660232573.191022 -- INFO: Process 17 get item 19 from queue and executing
+1660232573.191343 -- INFO: starting 17, 19, /home/hjamil/Documents/files_bash/FILE8
+1660232573.207567 -- INFO: Start Process :: 23
+1660232573.209835 -- INFO: Process 23 get item 20 from queue and executing
+1660232573.210056 -- INFO: starting 23, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232573.223982 -- INFO: Start Process :: 22
+1660232573.226461 -- INFO: Process 22 get item 21 from queue and executing
+1660232573.226641 -- INFO: starting 22, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232573.235260 -- INFO: Start Process :: 16
+1660232573.239375 -- INFO: Process 16 get item 22 from queue and executing
+1660232573.239685 -- INFO: starting 16, 22, /home/hjamil/Documents/files_bash/FILE9
+1660232573.244644 -- INFO: Start Process :: 21
+1660232573.248269 -- INFO: Process 21 get item 23 from queue and executing
+1660232573.248575 -- INFO: starting 21, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232573.629801 -- INFO: Time taken to collect tcp stats: 66.0ms
+1660232573.630657 -- INFO: Throughput @18.1s:905.15Mbps, rtt :8.82ms cwnd: 222.0 lossRate: 0.0017140851913836851 CC:24 score:-547.0 
+1660232574.620956 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232574.621711 -- INFO: Throughput @19.1s:1020.8Mbps, rtt :10.5ms cwnd: 200.1 lossRate: 0.0008933739336135088 CC:24 score:-626.0 
+1660232575.596835 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232575.597588 -- INFO: Throughput @20.1s:956.42Mbps, rtt :8.28ms cwnd: 184.5 lossRate: 0.0008342181101167905 CC:24 score:-587.0 
+1660232576.596863 -- INFO: Gradient_Fast: -4.5, Gredient_Fast Change: 0.008171912832929782, Theta: 5, Previous CC: 24, Choosen CC: 29
+1660232576.597141 -- INFO: Changing concurrency to 29 ******
+1660232576.597476 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0
+1660232576.597957 -- INFO: Active CC: 29
+1660232576.605219 -- INFO: Time taken to collect tcp stats: 40.0ms
+1660232576.606003 -- INFO: Throughput @21.1s:925.31Mbps, rtt :8.7ms cwnd: 186.7 lossRate: 0.0 CC:24 score:-575.0 
+1660232576.615512 -- INFO: Start Process :: 26
+1660232576.618046 -- INFO: Process 26 get item 24 from queue and executing
+1660232576.618243 -- INFO: starting 26, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232576.619834 -- INFO: Start Process :: 27
+1660232576.622570 -- INFO: Process 27 get item 25 from queue and executing
+1660232576.622806 -- INFO: starting 27, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232576.639539 -- INFO: Start Process :: 24
+1660232576.641818 -- INFO: Process 24 get item 26 from queue and executing
+1660232576.641993 -- INFO: starting 24, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232576.647210 -- INFO: Start Process :: 25
+1660232576.656709 -- INFO: Process 25 get item 27 from queue and executing
+1660232576.656973 -- INFO: starting 25, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232576.667669 -- INFO: Start Process :: 28
+1660232576.670497 -- INFO: Process 28 get item 28 from queue and executing
+1660232576.670795 -- INFO: starting 28, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232577.610392 -- INFO: Time taken to collect tcp stats: 44.0ms
+1660232577.611202 -- INFO: Throughput @22.1s:979.75Mbps, rtt :8.84ms cwnd: 132.3 lossRate: 0.0016844817122261169 CC:29 score:-535.0 
+1660232578.601127 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232578.601848 -- INFO: Throughput @23.1s:954.66Mbps, rtt :7.49ms cwnd: 72.2 lossRate: 0.005912214835418408 CC:29 score:-481.0 
+1660232579.590242 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232579.590968 -- INFO: Throughput @24.1s:932.29Mbps, rtt :7.38ms cwnd: 75.0 lossRate: 0.0 CC:29 score:-525.0 
+1660232580.098781 -- INFO: Gradient_Fast: 14.6, Gredient_Fast Change: 0.024886363636363637, Theta: -1, Previous CC: 29, Choosen CC: 28
+1660232580.098979 -- INFO: Changing concurrency to 28 ******
+1660232580.099352 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660232580.099759 -- INFO: Active CC: 28
+1660232580.577541 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232580.578460 -- INFO: Throughput @25.1s:933.64Mbps, rtt :7.35ms cwnd: 77.9 lossRate: 0 CC:28 score:-536.0 
+1660232581.608985 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232581.609775 -- INFO: Throughput @26.1s:943.53Mbps, rtt :7.87ms cwnd: 77.9 lossRate: 0.00012204349630208206 CC:28 score:-541.0 
+1660232582.587154 -- INFO: Time taken to collect tcp stats: 17.0ms
+1660232582.588343 -- INFO: Throughput @27.1s:930.83Mbps, rtt :7.68ms cwnd: 78.8 lossRate: 0.0 CC:28 score:-535.0 
+1660232583.600646 -- INFO: Gradient_Fast: 23.666666666666742, Gredient_Fast Change: 0.04607397793640508, Theta: -2, Previous CC: 28, Choosen CC: 24
+1660232583.600881 -- INFO: Changing concurrency to 24 ******
+1660232583.601358 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660232583.601992 -- INFO: Active CC: 24
+1660232583.629395 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232583.630342 -- INFO: Throughput @28.1s:918.05Mbps, rtt :6.89ms cwnd: 80.0 lossRate: 0.0 CC:28 score:-527.0 
+1660232584.620801 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232584.621613 -- INFO: Throughput @29.1s:933.04Mbps, rtt :7.1ms cwnd: 87.1 lossRate: 0 CC:24 score:-580.0 
+1660232585.612831 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232585.613513 -- INFO: Throughput @30.1s:925.13Mbps, rtt :7.26ms cwnd: 89.0 lossRate: 0.0 CC:24 score:-575.0 
+1660232586.605001 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232586.605671 -- INFO: Throughput @31.1s:904.11Mbps, rtt :7.35ms cwnd: 91.6 lossRate: 0.0 CC:24 score:-562.0 
+1660232587.111796 -- INFO: Gradient_Fast: 8.75, Gredient_Fast Change: 0.01628411910669975, Theta: -3, Previous CC: 24, Choosen CC: 21
+1660232587.111932 -- INFO: Changing concurrency to 21 ******
+1660232587.112223 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660232587.112440 -- INFO: Active CC: 21
+1660232587.616229 -- INFO: Time taken to collect tcp stats: 40.0ms
+1660232587.617047 -- INFO: Throughput @32.1s:898.68Mbps, rtt :6.65ms cwnd: 103.2 lossRate: 0 CC:21 score:-593.0 
+1660232588.624736 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232588.625571 -- INFO: Throughput @33.1s:907.78Mbps, rtt :7.79ms cwnd: 101.7 lossRate: 0.0010352222030514406 CC:21 score:-590.0 
+1660232589.620857 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232589.621623 -- INFO: Throughput @34.1s:926.52Mbps, rtt :6.45ms cwnd: 115.0 lossRate: 0.0 CC:21 score:-611.0 
+1660232590.612795 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232590.613693 -- INFO: Throughput @35.1s:940.48Mbps, rtt :6.92ms cwnd: 122.4 lossRate: 0.0 CC:21 score:-621.0 
+1660232590.615661 -- INFO: Gradient_Fast: 11.666666666666666, Gredient_Fast Change: 0.0203843913803145, Theta: -4, Previous CC: 21, Choosen CC: 17
+1660232590.631096 -- INFO: Changing concurrency to 17 ******
+1660232590.631551 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232590.632132 -- INFO: Active CC: 17
+1660232591.644552 -- INFO: Time taken to collect tcp stats: 64.0ms
+1660232591.645341 -- INFO: Throughput @36.1s:842.15Mbps, rtt :6.05ms cwnd: 162.2 lossRate: 0 CC:17 score:-601.0 
+1660232592.604640 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232592.605430 -- INFO: Throughput @37.1s:810.0Mbps, rtt :2.96ms cwnd: 195.6 lossRate: 0.0 CC:17 score:-578.0 
+1660232593.624508 -- INFO: Time taken to collect tcp stats: 44.0ms
+1660232593.625348 -- INFO: Throughput @38.1s:780.0Mbps, rtt :4.44ms cwnd: 217.1 lossRate: 0.0 CC:17 score:-557.0 
+1660232594.141235 -- INFO: Gradient_Fast: -7.166666666666686, Gredient_Fast Change: 0.011800219538968197, Theta: 1, Previous CC: 17, Choosen CC: 18
+1660232594.141691 -- INFO: Changing concurrency to 18 ******
+1660232594.148596 -- INFO: Start Process :: 17
+1660232594.149455 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232594.151534 -- INFO: Process 17 get item 29 from queue and executing
+1660232594.151857 -- INFO: starting 17, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232594.152013 -- INFO: Active CC: 18
+1660232594.616938 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232594.617839 -- INFO: Throughput @39.1s:835.0Mbps, rtt :2.32ms cwnd: 223.6 lossRate: 0.0 CC:18 score:-585.0 
+1660232595.610836 -- INFO: Time taken to collect tcp stats: 28.0ms
+1660232595.611856 -- INFO: Throughput @40.1s:835.0Mbps, rtt :3.33ms cwnd: 256.2 lossRate: 0.0 CC:18 score:-585.0 
+1660232596.638685 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232596.639689 -- INFO: Throughput @41.1s:845.0Mbps, rtt :2.58ms cwnd: 262.8 lossRate: 0.0 CC:18 score:-592.0 
+1660232597.648600 -- INFO: Time taken to collect tcp stats: 64.0ms
+1660232597.649380 -- INFO: Throughput @42.1s:860.0Mbps, rtt :2.5ms cwnd: 281.2 lossRate: 0.0 CC:18 score:-602.0 
+1660232597.663732 -- INFO: Gradient_Fast: -14.333333333333371, Gredient_Fast Change: 0.024769585253456287, Theta: 2, Previous CC: 18, Choosen CC: 20
+1660232597.671130 -- INFO: Changing concurrency to 20 ******
+1660232597.677248 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232597.677697 -- INFO: Active CC: 20
+1660232597.680997 -- INFO: Start Process :: 19
+1660232597.683298 -- INFO: Process 19 get item 30 from queue and executing
+1660232597.683697 -- INFO: starting 19, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232597.684355 -- INFO: Start Process :: 18
+1660232597.695533 -- INFO: Process 18 get item 31 from queue and executing
+1660232597.697911 -- INFO: starting 18, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232598.640705 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232598.641507 -- INFO: Throughput @43.1s:915.0Mbps, rtt :5.95ms cwnd: 269.2 lossRate: 0.0 CC:20 score:-616.0 
+1660232599.632763 -- INFO: Time taken to collect tcp stats: 46.0ms
+1660232599.633599 -- INFO: Throughput @44.1s:925.0Mbps, rtt :2.82ms cwnd: 276.2 lossRate: 0.0 CC:20 score:-622.0 
+1660232600.674409 -- INFO: Time taken to collect tcp stats: 87.0ms
+1660232600.675500 -- INFO: Throughput @45.1s:925.0Mbps, rtt :6.01ms cwnd: 277.8 lossRate: 0.0 CC:20 score:-622.0 
+1660232601.195668 -- INFO: Gradient_Fast: -13.5, Gredient_Fast Change: 0.022765598650927487, Theta: 3, Previous CC: 20, Choosen CC: 23
+1660232601.199204 -- INFO: Changing concurrency to 23 ******
+1660232601.207332 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660232601.207840 -- INFO: Start Process :: 21
+1660232601.207917 -- INFO: Active CC: 23
+1660232601.211493 -- INFO: Start Process :: 20
+1660232601.211738 -- INFO: Start Process :: 22
+1660232601.212537 -- INFO: Process 21 get item 28 from queue and executing
+1660232601.214033 -- INFO: starting 21, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232601.214703 -- INFO: Process 20 get item 26 from queue and executing
+1660232601.215080 -- INFO: starting 20, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232601.215217 -- INFO: Process 22 get item 27 from queue and executing
+1660232601.215637 -- INFO: starting 22, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232601.689734 -- INFO: Time taken to collect tcp stats: 94.0ms
+1660232601.690595 -- INFO: Throughput @46.1s:1000.0Mbps, rtt :9.6ms cwnd: 210.9 lossRate: 0.001895471392869647 CC:23 score:-615.0 
+1660232602.640898 -- INFO: Time taken to collect tcp stats: 44.0ms
+1660232602.641639 -- INFO: Throughput @47.1s:1006.16Mbps, rtt :12.02ms cwnd: 161.8 lossRate: 0.0019227311081294178 CC:23 score:-619.0 
+1660232603.633143 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232603.633901 -- INFO: Throughput @48.1s:741.64Mbps, rtt :11.03ms cwnd: 123.0 lossRate: 0.004273655211386995 CC:23 score:-439.0 
+1660232604.608701 -- INFO: Time taken to collect tcp stats: 10.0ms
+1660232604.609492 -- INFO: Throughput @49.1s:659.08Mbps, rtt :10.48ms cwnd: 110.4 lossRate: 0.0012879862614798775 CC:23 score:-409.0 
+1660232604.708990 -- INFO: Gradient_Fast: 43.666666666666664, Gredient_Fast Change: 0.07043010752688171, Theta: -1, Previous CC: 23, Choosen CC: 21
+1660232604.709173 -- INFO: Changing concurrency to 21 ******
+1660232604.710399 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660232604.711365 -- INFO: Active CC: 21
+1660232605.609024 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232605.609892 -- INFO: Throughput @50.1s:627.93Mbps, rtt :9.69ms cwnd: 102.0 lossRate: 0.0014294746680594882 CC:21 score:-405.0 
+1660232606.610032 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232606.610821 -- INFO: Throughput @51.1s:620.34Mbps, rtt :9.17ms cwnd: 98.2 lossRate: 0.00018507208557733238 CC:21 score:-408.0 
+1660232607.609565 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232607.610516 -- INFO: Throughput @52.1s:624.66Mbps, rtt :8.56ms cwnd: 89.6 lossRate: 0.0004072716501906772 CC:21 score:-410.0 
+1660232608.212239 -- INFO: Gradient_Fast: -40.66666666666666, Gredient_Fast Change: 0.08316291751874572, Theta: 1, Previous CC: 21, Choosen CC: 23
+1660232608.212392 -- INFO: Changing concurrency to 23 ******
+1660232608.213284 -- INFO: Start Process :: 21
+1660232608.213371 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660232608.213385 -- INFO: Start Process :: 22
+1660232608.214924 -- INFO: Active CC: 23
+1660232608.215157 -- INFO: Process 21 get item 25 from queue and executing
+1660232608.215201 -- INFO: Process 22 get item 24 from queue and executing
+1660232608.215510 -- INFO: starting 22, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232608.215498 -- INFO: starting 21, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232608.611552 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232608.612485 -- INFO: Throughput @53.1s:635.68Mbps, rtt :9.48ms cwnd: 81.9 lossRate: 0.00012779319409960568 CC:23 score:-402.0 
+1660232609.611536 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232609.612351 -- INFO: Throughput @54.1s:654.62Mbps, rtt :8.37ms cwnd: 77.9 lossRate: 0.0011310998599590649 CC:23 score:-408.0 
+1660232610.612021 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232610.612803 -- INFO: Throughput @55.1s:635.42Mbps, rtt :8.22ms cwnd: 68.7 lossRate: 0.0010601024166741533 CC:23 score:-396.0 
+1660232611.615788 -- INFO: Time taken to collect tcp stats: 10.0ms
+1660232611.616676 -- INFO: Throughput @56.1s:648.28Mbps, rtt :7.75ms cwnd: 67.7 lossRate: 0.00016144656118824668 CC:23 score:-410.0 
+1660232611.715842 -- INFO: Gradient_Fast: 1.5, Gredient_Fast Change: 0.003679476696647588, Theta: -1, Previous CC: 23, Choosen CC: 22
+1660232611.715983 -- INFO: Changing concurrency to 22 ******
+1660232611.716752 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660232611.717733 -- INFO: Active CC: 22
+1660232612.614841 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232612.615661 -- INFO: Throughput @57.1s:632.68Mbps, rtt :7.93ms cwnd: 69.6 lossRate: 0 CC:22 score:-409.0 
+1660232613.615460 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232613.616195 -- INFO: Throughput @58.1s:633.73Mbps, rtt :7.69ms cwnd: 69.6 lossRate: 0.0 CC:22 score:-410.0 
+1660232614.616873 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232614.617791 -- INFO: Throughput @59.1s:635.07Mbps, rtt :8.35ms cwnd: 69.3 lossRate: 0.00012738158062344186 CC:22 score:-410.0 
+1660232615.218700 -- INFO: Gradient_Fast: 5.0, Gredient_Fast Change: 0.012355848434925864, Theta: -2, Previous CC: 22, Choosen CC: 20
+1660232615.218847 -- INFO: Changing concurrency to 20 ******
+1660232615.219021 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232615.220389 -- INFO: Active CC: 20
+1660232615.617431 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232615.618204 -- INFO: Throughput @60.1s:630.13Mbps, rtt :7.97ms cwnd: 69.9 lossRate: 2.887753039360074e-05 CC:20 score:-424.0 
+1660232616.618629 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232616.619605 -- INFO: Throughput @61.1s:610.46Mbps, rtt :8.37ms cwnd: 71.2 lossRate: 0 CC:20 score:-411.0 
+1660232617.622303 -- INFO: Time taken to collect tcp stats: 10.0ms
+1660232617.623232 -- INFO: Throughput @62.1s:624.63Mbps, rtt :8.03ms cwnd: 71.2 lossRate: 0.0 CC:20 score:-420.0 
+1660232618.629744 -- INFO: Time taken to collect tcp stats: 17.0ms
+1660232618.630479 -- INFO: Throughput @63.1s:629.47Mbps, rtt :8.16ms cwnd: 72.2 lossRate: 0.0 CC:20 score:-424.0 
+1660232618.721524 -- INFO: Gradient_Fast: 4.333333333333314, Gredient_Fast Change: 0.01057770545158661, Theta: -3, Previous CC: 20, Choosen CC: 17
+1660232618.721720 -- INFO: Changing concurrency to 17 ******
+1660232618.722999 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232618.724403 -- INFO: Active CC: 17
+1660232619.623854 -- INFO: Time taken to collect tcp stats: 10.0ms
+1660232619.624699 -- INFO: Throughput @64.1s:550.21Mbps, rtt :7.56ms cwnd: 70.8 lossRate: 0 CC:17 score:-393.0 
+1660232620.623507 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232620.624566 -- INFO: Throughput @65.1s:569.96Mbps, rtt :7.41ms cwnd: 70.8 lossRate: 0.0 CC:17 score:-407.0 
+1660232621.623590 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232621.624498 -- INFO: Throughput @66.1s:569.92Mbps, rtt :7.85ms cwnd: 70.8 lossRate: 0.0 CC:17 score:-407.0 
+1660232622.225420 -- INFO: Gradient_Fast: -5.333333333333333, Gredient_Fast Change: 0.012749003984063745, Theta: 1, Previous CC: 17, Choosen CC: 18
+1660232622.225564 -- INFO: Changing concurrency to 18 ******
+1660232622.226319 -- INFO: Start Process :: 17
+1660232622.226460 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232622.227646 -- INFO: Active CC: 18
+1660232622.228003 -- INFO: Process 17 get item 21 from queue and executing
+1660232622.228194 -- INFO: starting 17, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232622.625768 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232622.626614 -- INFO: Throughput @67.1s:582.58Mbps, rtt :7.48ms cwnd: 67.4 lossRate: 1.9949328705089072e-05 CC:18 score:-408.0 
+1660232623.625024 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232623.625887 -- INFO: Throughput @68.1s:589.45Mbps, rtt :7.21ms cwnd: 71.2 lossRate: 0.0 CC:18 score:-413.0 
+1660232624.626390 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232624.627217 -- INFO: Throughput @69.1s:594.35Mbps, rtt :7.91ms cwnd: 72.2 lossRate: 0.00015592110392141577 CC:18 score:-415.0 
+1660232625.627149 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232625.627872 -- INFO: Throughput @70.1s:598.09Mbps, rtt :7.72ms cwnd: 71.4 lossRate: 0.000136404380529249 CC:18 score:-418.0 
+1660232625.728839 -- INFO: Gradient_Fast: -13.0, Gredient_Fast Change: 0.03231151615575808, Theta: 2, Previous CC: 18, Choosen CC: 20
+1660232625.729049 -- INFO: Changing concurrency to 20 ******
+1660232625.730291 -- INFO: Start Process :: 18
+1660232625.730399 -- INFO: Start Process :: 19
+1660232625.730483 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232625.731663 -- INFO: Active CC: 20
+1660232625.731921 -- INFO: Process 19 get item 20 from queue and executing
+1660232625.732142 -- INFO: starting 19, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232625.732346 -- INFO: Process 18 get item 23 from queue and executing
+1660232625.732669 -- INFO: starting 18, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232626.628264 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232626.629172 -- INFO: Throughput @71.1s:620.45Mbps, rtt :7.65ms cwnd: 69.4 lossRate: 0.0 CC:20 score:-418.0 
+1660232627.628984 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232627.629714 -- INFO: Throughput @72.1s:610.97Mbps, rtt :8.01ms cwnd: 69.6 lossRate: 0.0 CC:20 score:-411.0 
+1660232628.629635 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232628.630270 -- INFO: Throughput @73.1s:616.32Mbps, rtt :7.65ms cwnd: 67.8 lossRate: 0.00030177860766894885 CC:20 score:-413.0 
+1660232629.232532 -- INFO: Gradient_Fast: 0.6666666666666572, Gredient_Fast Change: 0.001605136436597088, Theta: -1, Previous CC: 20, Choosen CC: 19
+1660232629.232677 -- INFO: Changing concurrency to 19 ******
+1660232629.233671 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232629.235044 -- INFO: Active CC: 19
+1660232629.644871 -- INFO: Time taken to collect tcp stats: 20.0ms
+1660232629.645722 -- INFO: Throughput @74.1s:608.64Mbps, rtt :7.89ms cwnd: 70.8 lossRate: 0.0 CC:19 score:-418.0 
+1660232630.632125 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232630.632903 -- INFO: Throughput @75.1s:602.89Mbps, rtt :8.1ms cwnd: 71.3 lossRate: 0.0 CC:19 score:-414.0 
+1660232631.633571 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232631.634457 -- INFO: Throughput @76.1s:605.92Mbps, rtt :7.79ms cwnd: 71.3 lossRate: 0.0 CC:19 score:-416.0 
+1660232632.668761 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232632.669672 -- INFO: Throughput @77.1s:647.05Mbps, rtt :6.55ms cwnd: 76.7 lossRate: 0.0 CC:19 score:-444.0 
+1660232632.735882 -- INFO: Gradient_Fast: 10.666666666666686, Gredient_Fast Change: 0.025764895330112766, Theta: -2, Previous CC: 19, Choosen CC: 17
+1660232632.736145 -- INFO: Changing concurrency to 17 ******
+1660232632.737418 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232632.738667 -- INFO: Active CC: 17
+1660232633.668537 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232633.669388 -- INFO: Throughput @78.1s:848.22Mbps, rtt :5.62ms cwnd: 115.5 lossRate: 0.0 CC:17 score:-606.0 
+1660232634.656627 -- INFO: Time taken to collect tcp stats: 28.0ms
+1660232634.657623 -- INFO: Throughput @79.1s:820.3Mbps, rtt :7.79ms cwnd: 193.1 lossRate: 0.0 CC:17 score:-586.0 
+1660232635.672781 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232635.673593 -- INFO: Throughput @80.1s:790.0Mbps, rtt :6.36ms cwnd: 315.5 lossRate: 0.0 CC:17 score:-564.0 
+1660232636.251820 -- INFO: Gradient_Fast: 80.33333333333334, Gredient_Fast Change: 0.18916797488226061, Theta: -3, Previous CC: 17, Choosen CC: 5
+1660232636.252131 -- INFO: Changing concurrency to 5 ******
+1660232636.252741 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232636.253426 -- INFO: Active CC: 5
+1660232636.672132 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232636.672958 -- INFO: Throughput @81.1s:585.0Mbps, rtt :5.23ms cwnd: 466.8 lossRate: 0 CC:5 score:-530.0 
+1660232637.671965 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232637.672760 -- INFO: Throughput @82.1s:240.0Mbps, rtt :4.22ms cwnd: 468.4 lossRate: 0.0 CC:5 score:-217.0 
+1660232638.671982 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232638.672811 -- INFO: Throughput @83.1s:250.0Mbps, rtt :4.27ms cwnd: 469.8 lossRate: 0.0 CC:5 score:-226.0 
+1660232639.683972 -- INFO: Time taken to collect tcp stats: 51.0ms
+1660232639.684669 -- INFO: Throughput @84.1s:250.0Mbps, rtt :4.01ms cwnd: 471.4 lossRate: 0.0 CC:5 score:-226.0 
+1660232639.754259 -- INFO: Gradient_Fast: -30.194444444444446, Gredient_Fast Change: 0.051585041761579346, Theta: 1, Previous CC: 5, Choosen CC: 6
+1660232639.754454 -- INFO: Changing concurrency to 6 ******
+1660232639.767576 -- INFO: Start Process :: 5
+1660232639.767608 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232639.768169 -- INFO: Process 5 get item 16 from queue and executing
+1660232639.768382 -- INFO: Active CC: 6
+1660232639.768582 -- INFO: starting 5, 16, /home/hjamil/Documents/files_bash/FILE17
+1660232640.664209 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232640.665080 -- INFO: Throughput @85.1s:295.0Mbps, rtt :4.21ms cwnd: 423.8 lossRate: 0.0 CC:6 score:-262.0 
+1660232641.673244 -- INFO: Time taken to collect tcp stats: 38.0ms
+1660232641.673970 -- INFO: Throughput @86.1s:285.0Mbps, rtt :4.54ms cwnd: 451.5 lossRate: 0.0 CC:6 score:-253.0 
+1660232642.664040 -- INFO: Time taken to collect tcp stats: 28.0ms
+1660232642.664881 -- INFO: Throughput @87.1s:300.0Mbps, rtt :3.92ms cwnd: 464.7 lossRate: 0.0 CC:6 score:-266.0 
+1660232643.269309 -- INFO: Gradient_Fast: -37.333333333333314, Gredient_Fast Change: 0.1674140508221225, Theta: 2, Previous CC: 6, Choosen CC: 10
+1660232643.269656 -- INFO: Changing concurrency to 10 ******
+1660232643.271117 -- INFO: Start Process :: 7
+1660232643.271284 -- INFO: Start Process :: 8
+1660232643.271316 -- INFO: Start Process :: 6
+1660232643.272184 -- INFO: Start Process :: 9
+1660232643.272459 -- INFO: Process 8 get item 19 from queue and executing
+1660232643.272644 -- INFO: Process 6 get item 17 from queue and executing
+1660232643.272994 -- INFO: starting 8, 19, /home/hjamil/Documents/files_bash/FILE8
+1660232643.273031 -- INFO: starting 6, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232643.273511 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232643.274139 -- INFO: Process 7 get item 18 from queue and executing
+1660232643.275109 -- INFO: starting 7, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232643.275284 -- INFO: Process 9 get item 27 from queue and executing
+1660232643.275589 -- INFO: starting 9, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232643.280974 -- INFO: Active CC: 10
+1660232643.682834 -- INFO: Time taken to collect tcp stats: 47.0ms
+1660232643.683637 -- INFO: Throughput @88.1s:380.0Mbps, rtt :4.04ms cwnd: 315.8 lossRate: 0.0 CC:10 score:-312.0 
+1660232644.673052 -- INFO: Time taken to collect tcp stats: 37.0ms
+1660232644.673931 -- INFO: Throughput @89.1s:475.0Mbps, rtt :3.78ms cwnd: 359.5 lossRate: 0.0 CC:10 score:-390.0 
+1660232645.680263 -- INFO: Time taken to collect tcp stats: 42.0ms
+1660232645.680952 -- INFO: Throughput @90.1s:495.0Mbps, rtt :3.34ms cwnd: 352.6 lossRate: 0.00014239943040227838 CC:10 score:-405.0 
+1660232646.692828 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232646.696147 -- INFO: Throughput @91.1s:475.0Mbps, rtt :3.07ms cwnd: 364.1 lossRate: 0.0 CC:10 score:-390.0 
+1660232646.795632 -- INFO: Gradient_Fast: -33.66666666666667, Gredient_Fast Change: 0.12932138284250963, Theta: 3, Previous CC: 10, Choosen CC: 16
+1660232646.795905 -- INFO: Changing concurrency to 16 ******
+1660232646.796894 -- INFO: Start Process :: 11
+1660232646.796979 -- INFO: Start Process :: 14
+1660232646.796957 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232646.797096 -- INFO: Start Process :: 13
+1660232646.797269 -- INFO: Start Process :: 12
+1660232646.797543 -- INFO: Process 11 get item 28 from queue and executing
+1660232646.797625 -- INFO: Start Process :: 15
+1660232646.797706 -- INFO: Active CC: 16
+1660232646.797833 -- INFO: starting 11, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232646.797924 -- INFO: Process 14 get item 24 from queue and executing
+1660232646.798187 -- INFO: Process 13 get item 25 from queue and executing
+1660232646.798194 -- INFO: starting 14, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232646.798504 -- INFO: starting 13, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232646.798764 -- INFO: Process 15 get item 26 from queue and executing
+1660232646.799164 -- INFO: Process 12 get item 30 from queue and executing
+1660232646.799237 -- INFO: starting 15, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232646.799484 -- INFO: starting 12, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232646.800490 -- INFO: Start Process :: 10
+1660232646.801892 -- INFO: Process 10 get item 29 from queue and executing
+1660232646.803904 -- INFO: starting 10, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232647.725944 -- INFO: Time taken to collect tcp stats: 86.0ms
+1660232647.726858 -- INFO: Throughput @92.1s:725.0Mbps, rtt :5.89ms cwnd: 286.8 lossRate: 0.0 CC:16 score:-528.0 
+1660232648.708593 -- INFO: Time taken to collect tcp stats: 68.0ms
+1660232648.709399 -- INFO: Throughput @93.1s:760.0Mbps, rtt :4.09ms cwnd: 312.9 lossRate: 0.0 CC:16 score:-554.0 
+1660232649.696980 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232649.698208 -- INFO: Throughput @94.1s:735.0Mbps, rtt :4.91ms cwnd: 340.2 lossRate: 0.0 CC:16 score:-535.0 
+1660232650.310740 -- INFO: Gradient_Fast: -24.0, Gredient_Fast Change: 0.060759493670886074, Theta: 4, Previous CC: 16, Choosen CC: 20
+1660232650.311014 -- INFO: Changing concurrency to 20 ******
+1660232650.311796 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660232650.311974 -- INFO: Start Process :: 19
+1660232650.312019 -- INFO: Start Process :: 18
+1660232650.312225 -- INFO: Active CC: 20
+1660232650.312827 -- INFO: Process 18 get item 31 from queue and executing
+1660232650.313096 -- INFO: starting 18, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232650.315395 -- INFO: Start Process :: 17
+1660232650.319359 -- INFO: Process 19 get item 20 from queue and executing
+1660232650.319561 -- INFO: starting 19, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232650.320332 -- INFO: Start Process :: 16
+1660232650.324565 -- INFO: Process 17 get item 21 from queue and executing
+1660232650.324765 -- INFO: starting 17, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232650.324262 -- INFO: Process 16 get item 23 from queue and executing
+1660232650.325369 -- INFO: starting 16, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232650.693097 -- INFO: Time taken to collect tcp stats: 50.0ms
+1660232650.694042 -- INFO: Throughput @95.1s:832.65Mbps, rtt :5.07ms cwnd: 300.0 lossRate: 0.0 CC:20 score:-560.0 
+1660232651.698195 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232651.698990 -- INFO: Throughput @96.1s:922.35Mbps, rtt :9.95ms cwnd: 307.8 lossRate: 0.0 CC:20 score:-621.0 
+1660232652.713481 -- INFO: Time taken to collect tcp stats: 69.0ms
+1660232652.714331 -- INFO: Throughput @97.1s:955.0Mbps, rtt :8.34ms cwnd: 293.5 lossRate: 0.00021160859877764916 CC:20 score:-641.0 
+1660232653.712811 -- INFO: Time taken to collect tcp stats: 68.0ms
+1660232653.713626 -- INFO: Throughput @98.1s:925.0Mbps, rtt :6.53ms cwnd: 293.8 lossRate: 0.000897522591750169 CC:20 score:-614.0 
+1660232653.825988 -- INFO: Gradient_Fast: -21.583333333333343, Gredient_Fast Change: 0.04004329004329006, Theta: 5, Previous CC: 20, Choosen CC: 25
+1660232653.826128 -- INFO: Changing concurrency to 25 ******
+1660232653.839796 -- INFO: Start Process :: 20
+1660232653.839893 -- INFO: Start Process :: 21
+1660232653.840845 -- INFO: Start Process :: 24
+1660232653.840914 -- INFO: Start Process :: 22
+1660232653.841110 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232653.841557 -- INFO: Process 21 get item 4 from queue and executing
+1660232653.841724 -- INFO: Process 24 get item 14 from queue and executing
+1660232653.842281 -- INFO: starting 24, 14, /home/hjamil/Documents/files_bash/FILE30
+1660232653.842815 -- INFO: Active CC: 25
+1660232653.842836 -- INFO: starting 21, 4, /home/hjamil/Documents/files_bash/FILE3
+1660232653.844988 -- INFO: Process 22 get item 15 from queue and executing
+1660232653.845864 -- INFO: starting 22, 15, /home/hjamil/Documents/files_bash/FILE5
+1660232653.847323 -- INFO: Process 20 get item 8 from queue and executing
+1660232653.847547 -- INFO: starting 20, 8, /home/hjamil/Documents/files_bash/FILE29
+1660232653.863279 -- INFO: Start Process :: 23
+1660232653.866065 -- INFO: Process 23 get item 22 from queue and executing
+1660232653.866460 -- INFO: starting 23, 22, /home/hjamil/Documents/files_bash/FILE9
+1660232654.702914 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232654.703804 -- INFO: Throughput @99.1s:1041.49Mbps, rtt :7.52ms cwnd: 111.3 lossRate: 0.0030780923427702832 CC:25 score:-603.0 
+1660232655.646000 -- INFO: episode expires
+1660232655.646547 -- INFO: Process 30 shutdown itself from outest loop
+1660232655.646827 -- INFO: Process 28 shutdown itself from outest loop
+1660232655.646084 -- INFO: Process 31 shutdown itself from outest loop
+1660232655.646960 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232655.647080 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232655.646495 -- INFO: Process 29 shutdown itself from outest loop
+1660232655.647194 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232655.647451 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232655.647569 -- INFO: Process 25 shutdown itself from outest loop
+1660232655.647694 -- INFO: Process 27 shutdown itself from outest loop
+1660232655.647720 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232655.647862 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232655.651091 -- INFO: Process 26 shutdown itself from outest loop
+1660232655.651269 -- INFO: Process Status Bits are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232657.343647 -- INFO: Gradient_Fast: 1.2, Gredient_Fast Change: 0.0019189765458422173, Theta: -1, Previous CC: 25, Choosen CC: 24
+1660232657.481610 -- INFO: GD_Fast Optimizer Exits ...
+1660232657.672367 -- INFO: Changing concurrency to 1 ******
+1660232657.674557 -- INFO: Start Process :: 0
+1660232657.675639 -- INFO: Process 0 get item 0 from queue and executing
+1660232657.675844 -- INFO: Process Status Bits from change concurrency are: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232657.676183 -- INFO: starting 0, 0, /home/hjamil/Documents/files_bash/FILE25
+1660232657.678398 -- INFO: Active CC: 1
+1660232657.725514 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232657.739937 -- INFO: Throughput @0.1s:50.0Mbps, rtt :0.74ms cwnd: 84.0 lossRate: 0.0 CC:1 score:-49.0 
+1660232657.876600 -- INFO: Process 0 shutdown itself for socket error
+1660232657.876794 -- ERROR: Process: 0, Error from socket: [Errno 32] Broken pipe
+1660232658.725773 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232658.727072 -- INFO: Throughput @1.1s:5.0Mbps, rtt :0.74ms cwnd: 84.0 lossRate: 0 CC:0 score:-5.0 
+1660232659.725846 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232659.726846 -- INFO: Throughput @2.1s:0.0Mbps, rtt :0.74ms cwnd: 84.0 lossRate: 0 CC:0 score:-0.0 
+1660232660.727766 -- INFO: Time taken to collect tcp stats: 6.0ms
+1660232660.728887 -- INFO: Throughput @3.1s:0.0Mbps, rtt :0.74ms cwnd: 84.0 lossRate: 0 CC:0 score:-0.0 
+1660232661.179650 -- INFO: Changing concurrency to 2 ******
+1660232661.180055 -- INFO: Start Process :: 0
+1660232661.180818 -- INFO: Process 0 get item 1 from queue and executing
+1660232661.181003 -- INFO: Start Process :: 1
+1660232661.181191 -- INFO: starting 0, 1, /home/hjamil/Documents/files_bash/FILE1
+1660232661.182034 -- INFO: Process 1 get item 2 from queue and executing
+1660232661.182286 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232661.182510 -- INFO: starting 1, 2, /home/hjamil/Documents/files_bash/FILE4
+1660232661.185407 -- INFO: Active CC: 2
+1660232661.743870 -- INFO: Time taken to collect tcp stats: 22.0ms
+1660232661.744765 -- INFO: Throughput @4.1s:60.0Mbps, rtt :1.25ms cwnd: 125.5 lossRate: 0.0 CC:2 score:-58.0 
+1660232662.736759 -- INFO: Time taken to collect tcp stats: 13.0ms
+1660232662.737594 -- INFO: Throughput @5.1s:100.0Mbps, rtt :1.47ms cwnd: 216.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232663.755835 -- INFO: Time taken to collect tcp stats: 31.0ms
+1660232663.756552 -- INFO: Throughput @6.1s:100.0Mbps, rtt :2.08ms cwnd: 354.5 lossRate: 0.0 CC:2 score:-96.0 
+1660232664.686489 -- INFO: Gradient_Fast: -81.66666666666666, Gredient_Fast Change: 48.99999999999999, Theta: 1, Previous CC: 2, Choosen CC: 12
+1660232664.686639 -- INFO: Changing concurrency to 12 ******
+1660232664.688592 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232664.689739 -- INFO: Active CC: 12
+1660232664.689909 -- INFO: Start Process :: 4
+1660232664.690611 -- INFO: Start Process :: 5
+1660232664.691123 -- INFO: Process 4 get item 3 from queue and executing
+1660232664.691423 -- INFO: starting 4, 3, /home/hjamil/Documents/files_bash/FILE13
+1660232664.691505 -- INFO: Start Process :: 3
+1660232664.692105 -- INFO: Process 5 get item 4 from queue and executing
+1660232664.692418 -- INFO: starting 5, 4, /home/hjamil/Documents/files_bash/FILE3
+1660232664.693434 -- INFO: Process 3 get item 5 from queue and executing
+1660232664.693651 -- INFO: starting 3, 5, /home/hjamil/Documents/files_bash/FILE24
+1660232664.711446 -- INFO: Start Process :: 7
+1660232664.712182 -- INFO: Process 7 get item 6 from queue and executing
+1660232664.712333 -- INFO: starting 7, 6, /home/hjamil/Documents/files_bash/FILE2
+1660232664.731705 -- INFO: Start Process :: 6
+1660232664.731939 -- INFO: Start Process :: 8
+1660232664.732116 -- INFO: Start Process :: 2
+1660232664.732824 -- INFO: Process 8 get item 7 from queue and executing
+1660232664.732941 -- INFO: Process 6 get item 8 from queue and executing
+1660232664.732994 -- INFO: Process 2 get item 9 from queue and executing
+1660232664.733019 -- INFO: starting 8, 7, /home/hjamil/Documents/files_bash/FILE20
+1660232664.733123 -- INFO: starting 6, 8, /home/hjamil/Documents/files_bash/FILE29
+1660232664.733181 -- INFO: starting 2, 9, /home/hjamil/Documents/files_bash/FILE7
+1660232664.751879 -- INFO: Start Process :: 10
+1660232664.752584 -- INFO: Process 10 get item 10 from queue and executing
+1660232664.752877 -- INFO: starting 10, 10, /home/hjamil/Documents/files_bash/FILE31
+1660232664.760337 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232664.761151 -- INFO: Throughput @7.1s:120.0Mbps, rtt :1.78ms cwnd: 141.8 lossRate: 0.0 CC:12 score:-95.0 
+1660232664.795795 -- INFO: Start Process :: 9
+1660232664.796327 -- INFO: Start Process :: 11
+1660232664.796936 -- INFO: Process 9 get item 11 from queue and executing
+1660232664.797309 -- INFO: starting 9, 11, /home/hjamil/Documents/files_bash/FILE6
+1660232664.797530 -- INFO: Process 11 get item 12 from queue and executing
+1660232664.798093 -- INFO: starting 11, 12, /home/hjamil/Documents/files_bash/FILE22
+1660232665.760447 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232665.761265 -- INFO: Throughput @8.1s:575.0Mbps, rtt :2.07ms cwnd: 213.9 lossRate: 0.0 CC:12 score:-453.0 
+1660232666.776438 -- INFO: Time taken to collect tcp stats: 50.0ms
+1660232666.777145 -- INFO: Throughput @9.1s:580.0Mbps, rtt :2.88ms cwnd: 308.9 lossRate: 0.0 CC:12 score:-457.0 
+1660232667.760915 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232667.761754 -- INFO: Throughput @10.1s:560.0Mbps, rtt :2.84ms cwnd: 353.9 lossRate: 0.0 CC:12 score:-442.0 
+1660232668.212106 -- INFO: Gradient_Fast: -36.733333333333334, Gredient_Fast Change: 0.4408, Theta: 2, Previous CC: 12, Choosen CC: 22
+1660232668.219227 -- INFO: Changing concurrency to 22 ******
+1660232668.223325 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660232668.224014 -- INFO: Active CC: 22
+1660232668.235618 -- INFO: Start Process :: 16
+1660232668.243901 -- INFO: Process 16 get item 13 from queue and executing
+1660232668.244488 -- INFO: starting 16, 13, /home/hjamil/Documents/files_bash/FILE11
+1660232668.256558 -- INFO: Start Process :: 13
+1660232668.256909 -- INFO: Start Process :: 20
+1660232668.260179 -- INFO: Process 13 get item 14 from queue and executing
+1660232668.260677 -- INFO: starting 13, 14, /home/hjamil/Documents/files_bash/FILE30
+1660232668.261044 -- INFO: Process 20 get item 15 from queue and executing
+1660232668.261287 -- INFO: starting 20, 15, /home/hjamil/Documents/files_bash/FILE5
+1660232668.285543 -- INFO: Start Process :: 21
+1660232668.290964 -- INFO: Process 21 get item 16 from queue and executing
+1660232668.291438 -- INFO: starting 21, 16, /home/hjamil/Documents/files_bash/FILE17
+1660232668.303743 -- INFO: Start Process :: 18
+1660232668.304631 -- INFO: Process 18 get item 17 from queue and executing
+1660232668.304769 -- INFO: Start Process :: 12
+1660232668.304953 -- INFO: starting 18, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232668.315835 -- INFO: Start Process :: 19
+1660232668.317012 -- INFO: Process 19 get item 18 from queue and executing
+1660232668.317269 -- INFO: starting 19, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232668.319168 -- INFO: Process 12 get item 19 from queue and executing
+1660232668.319478 -- INFO: starting 12, 19, /home/hjamil/Documents/files_bash/FILE8
+1660232668.340273 -- INFO: Start Process :: 14
+1660232668.343235 -- INFO: Process 14 get item 20 from queue and executing
+1660232668.343481 -- INFO: starting 14, 20, /home/hjamil/Documents/files_bash/FILE15
+1660232668.351881 -- INFO: Start Process :: 15
+1660232668.356610 -- INFO: Process 15 get item 21 from queue and executing
+1660232668.356920 -- INFO: starting 15, 21, /home/hjamil/Documents/files_bash/FILE21
+1660232668.365654 -- INFO: Start Process :: 17
+1660232668.369257 -- INFO: Process 17 get item 22 from queue and executing
+1660232668.369546 -- INFO: starting 17, 22, /home/hjamil/Documents/files_bash/FILE9
+1660232668.829098 -- INFO: Time taken to collect tcp stats: 101.0ms
+1660232668.830137 -- INFO: Throughput @11.1s:779.56Mbps, rtt :10.59ms cwnd: 210.0 lossRate: 0.002022185425611418 CC:22 score:-488.0 
+1660232669.785102 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232669.786022 -- INFO: Throughput @12.1s:1033.05Mbps, rtt :10.15ms cwnd: 185.1 lossRate: 0.002061936907357306 CC:22 score:-647.0 
+1660232670.780967 -- INFO: Time taken to collect tcp stats: 52.0ms
+1660232670.781861 -- INFO: Throughput @13.1s:962.35Mbps, rtt :8.9ms cwnd: 170.3 lossRate: 0.001434249389228544 CC:22 score:-609.0 
+1660232671.730640 -- INFO: Gradient_Fast: -13.066666666666668, Gredient_Fast Change: 0.02899408284023669, Theta: 3, Previous CC: 22, Choosen CC: 25
+1660232671.730834 -- INFO: Changing concurrency to 25 ******
+1660232671.731391 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660232671.731678 -- INFO: Active CC: 25
+1660232671.753462 -- INFO: Start Process :: 22
+1660232671.756268 -- INFO: Process 22 get item 23 from queue and executing
+1660232671.756487 -- INFO: starting 22, 23, /home/hjamil/Documents/files_bash/FILE10
+1660232671.757181 -- INFO: Time taken to collect tcp stats: 28.0ms
+1660232671.757977 -- INFO: Throughput @14.1s:957.24Mbps, rtt :9.29ms cwnd: 155.0 lossRate: 0.0006682974806445918 CC:22 score:-613.0 
+1660232671.763631 -- INFO: Start Process :: 23
+1660232671.766331 -- INFO: Process 23 get item 24 from queue and executing
+1660232671.766630 -- INFO: starting 23, 24, /home/hjamil/Documents/files_bash/FILE12
+1660232671.766484 -- INFO: Start Process :: 24
+1660232671.769584 -- INFO: Process 24 get item 25 from queue and executing
+1660232671.769902 -- INFO: starting 24, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232672.781061 -- INFO: Time taken to collect tcp stats: 51.0ms
+1660232672.781884 -- INFO: Throughput @15.1s:986.19Mbps, rtt :8.55ms cwnd: 131.6 lossRate: 0.0007280804590608996 CC:25 score:-594.0 
+1660232673.799137 -- INFO: Time taken to collect tcp stats: 68.0ms
+1660232673.799962 -- INFO: Throughput @16.1s:929.34Mbps, rtt :9.02ms cwnd: 131.2 lossRate: 0.0005605176258422996 CC:25 score:-561.0 
+1660232674.781065 -- INFO: Time taken to collect tcp stats: 49.0ms
+1660232674.781819 -- INFO: Throughput @17.1s:941.99Mbps, rtt :7.92ms cwnd: 124.8 lossRate: 0.0003172548571718633 CC:25 score:-571.0 
+1660232675.247880 -- INFO: Gradient_Fast: 2.0, Gredient_Fast Change: 0.003440366972477064, Theta: -1, Previous CC: 25, Choosen CC: 24
+1660232675.248107 -- INFO: Changing concurrency to 24 ******
+1660232675.248800 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660232675.249283 -- INFO: Active CC: 24
+1660232675.777014 -- INFO: Time taken to collect tcp stats: 44.0ms
+1660232675.777780 -- INFO: Throughput @18.1s:916.05Mbps, rtt :8.95ms cwnd: 127.9 lossRate: 0.0 CC:24 score:-570.0 
+1660232676.757362 -- INFO: Time taken to collect tcp stats: 24.0ms
+1660232676.758107 -- INFO: Throughput @19.1s:933.68Mbps, rtt :8.49ms cwnd: 129.1 lossRate: 0.0 CC:24 score:-580.0 
+1660232677.786352 -- INFO: Time taken to collect tcp stats: 52.0ms
+1660232677.787441 -- INFO: Throughput @20.1s:930.84Mbps, rtt :9.13ms cwnd: 131.2 lossRate: 0.0 CC:24 score:-579.0 
+1660232678.750542 -- INFO: Gradient_Fast: 75.28888888888895, Gredient_Fast Change: 0.13086133642332956, Theta: -2, Previous CC: 24, Choosen CC: 16
+1660232678.750834 -- INFO: Changing concurrency to 16 ******
+1660232678.751873 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232678.753496 -- INFO: Active CC: 16
+1660232678.761459 -- INFO: Time taken to collect tcp stats: 26.0ms
+1660232678.762448 -- INFO: Throughput @21.1s:940.66Mbps, rtt :7.99ms cwnd: 131.5 lossRate: 0.0 CC:24 score:-585.0 
+1660232679.792696 -- INFO: Time taken to collect tcp stats: 56.0ms
+1660232679.793616 -- INFO: Throughput @22.1s:811.89Mbps, rtt :4.7ms cwnd: 139.5 lossRate: 0 CC:16 score:-591.0 
+1660232680.793859 -- INFO: Time taken to collect tcp stats: 57.0ms
+1660232680.794680 -- INFO: Throughput @23.1s:760.0Mbps, rtt :2.88ms cwnd: 206.8 lossRate: 0.0 CC:16 score:-554.0 
+1660232681.780598 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232681.781346 -- INFO: Throughput @24.1s:755.0Mbps, rtt :4.08ms cwnd: 214.5 lossRate: 0.0007668231611893583 CC:16 score:-544.0 
+1660232682.256766 -- INFO: Gradient_Fast: 9.708333333333329, Gredient_Fast Change: 0.016844997108154992, Theta: -3, Previous CC: 16, Choosen CC: 13
+1660232682.257425 -- INFO: Changing concurrency to 13 ******
+1660232682.259590 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232682.279777 -- INFO: Active CC: 13
+1660232682.775098 -- INFO: Time taken to collect tcp stats: 37.0ms
+1660232682.775882 -- INFO: Throughput @25.1s:695.0Mbps, rtt :1.78ms cwnd: 194.5 lossRate: 0 CC:13 score:-537.0 
+1660232683.764440 -- INFO: Time taken to collect tcp stats: 24.0ms
+1660232683.765237 -- INFO: Throughput @26.1s:615.0Mbps, rtt :2.29ms cwnd: 198.2 lossRate: 0.0 CC:13 score:-475.0 
+1660232684.788308 -- INFO: Time taken to collect tcp stats: 48.0ms
+1660232684.789034 -- INFO: Throughput @27.1s:615.0Mbps, rtt :3.32ms cwnd: 203.3 lossRate: 0.0 CC:13 score:-475.0 
+1660232685.780419 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232685.781199 -- INFO: Throughput @28.1s:630.0Mbps, rtt :2.7ms cwnd: 206.8 lossRate: 0.0 CC:13 score:-487.0 
+1660232685.781958 -- INFO: Gradient_Fast: 5.7962962962962665, Gredient_Fast Change: 0.010295375304256246, Theta: -4, Previous CC: 13, Choosen CC: 9
+1660232685.782192 -- INFO: Changing concurrency to 9 ******
+1660232685.795467 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232685.796297 -- INFO: Active CC: 9
+1660232686.768176 -- INFO: Time taken to collect tcp stats: 26.0ms
+1660232686.768924 -- INFO: Throughput @29.1s:440.0Mbps, rtt :1.8ms cwnd: 181.7 lossRate: 0 CC:9 score:-368.0 
+1660232687.776062 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232687.776877 -- INFO: Throughput @30.1s:430.0Mbps, rtt :1.45ms cwnd: 187.2 lossRate: 0.0 CC:9 score:-360.0 
+1660232688.776179 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232688.777000 -- INFO: Throughput @31.1s:440.0Mbps, rtt :1.93ms cwnd: 191.7 lossRate: 0.0 CC:9 score:-368.0 
+1660232689.302318 -- INFO: Gradient_Fast: -2.8972222222222115, Gredient_Fast Change: 0.006048480630944074, Theta: 1, Previous CC: 9, Choosen CC: 10
+1660232689.302627 -- INFO: Changing concurrency to 10 ******
+1660232689.304639 -- INFO: Start Process :: 9
+1660232689.305816 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232689.309365 -- INFO: Process 9 get item 26 from queue and executing
+1660232689.309835 -- INFO: starting 9, 26, /home/hjamil/Documents/files_bash/FILE27
+1660232689.311868 -- INFO: Active CC: 10
+1660232689.782529 -- INFO: Time taken to collect tcp stats: 38.0ms
+1660232689.783264 -- INFO: Throughput @32.1s:465.0Mbps, rtt :1.45ms cwnd: 46.6 lossRate: 0.010699001426533523 CC:10 score:-332.0 
+1660232690.796256 -- INFO: Time taken to collect tcp stats: 51.0ms
+1660232690.797003 -- INFO: Throughput @33.1s:465.0Mbps, rtt :1.06ms cwnd: 90.3 lossRate: 0.0 CC:10 score:-381.0 
+1660232691.784531 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232691.785575 -- INFO: Throughput @34.1s:480.0Mbps, rtt :1.14ms cwnd: 118.3 lossRate: 0.0 CC:10 score:-394.0 
+1660232692.808204 -- INFO: Time taken to collect tcp stats: 61.0ms
+1660232692.809054 -- INFO: Throughput @35.1s:490.0Mbps, rtt :1.7ms cwnd: 136.3 lossRate: 0.0 CC:10 score:-402.0 
+1660232692.815805 -- INFO: Gradient_Fast: 16.688888888888982, Gredient_Fast Change: 0.04568126520681291, Theta: -1, Previous CC: 10, Choosen CC: 9
+1660232692.816107 -- INFO: Changing concurrency to 9 ******
+1660232692.827878 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232692.829383 -- INFO: Active CC: 9
+1660232693.808161 -- INFO: Time taken to collect tcp stats: 60.0ms
+1660232693.808966 -- INFO: Throughput @36.1s:435.0Mbps, rtt :1.58ms cwnd: 149.7 lossRate: 0 CC:9 score:-364.0 
+1660232694.782670 -- INFO: Time taken to collect tcp stats: 34.0ms
+1660232694.783635 -- INFO: Throughput @37.1s:430.0Mbps, rtt :1.47ms cwnd: 159.8 lossRate: 0.0 CC:9 score:-360.0 
+1660232695.780535 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232695.781745 -- INFO: Throughput @38.1s:435.0Mbps, rtt :1.96ms cwnd: 170.0 lossRate: 0.0 CC:9 score:-364.0 
+1660232696.330409 -- INFO: Gradient_Fast: -23.977777777777817, Gredient_Fast Change: 0.061115831209289255, Theta: 1, Previous CC: 9, Choosen CC: 10
+1660232696.330698 -- INFO: Changing concurrency to 10 ******
+1660232696.343511 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232696.344052 -- INFO: Active CC: 10
+1660232696.350607 -- INFO: Start Process :: 9
+1660232696.351588 -- INFO: Process 9 get item 27 from queue and executing
+1660232696.351776 -- INFO: starting 9, 27, /home/hjamil/Documents/files_bash/FILE26
+1660232696.767425 -- INFO: Time taken to collect tcp stats: 16.0ms
+1660232696.767958 -- INFO: Throughput @39.1s:445.0Mbps, rtt :2.29ms cwnd: 169.3 lossRate: 0.0 CC:10 score:-365.0 
+1660232697.792202 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232697.793121 -- INFO: Throughput @40.1s:490.0Mbps, rtt :1.3ms cwnd: 144.4 lossRate: 0.00011506155793349442 CC:10 score:-401.0 
+1660232698.807020 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232698.807829 -- INFO: Throughput @41.1s:480.0Mbps, rtt :1.64ms cwnd: 152.2 lossRate: 0.0 CC:10 score:-394.0 
+1660232699.828448 -- INFO: Time taken to collect tcp stats: 69.0ms
+1660232699.829317 -- INFO: Throughput @42.1s:480.0Mbps, rtt :2.1ms cwnd: 159.7 lossRate: 0.0 CC:10 score:-394.0 
+1660232699.844898 -- INFO: Gradient_Fast: 27.311111111111074, Gredient_Fast Change: 0.0753063725490195, Theta: -1, Previous CC: 10, Choosen CC: 9
+1660232699.845025 -- INFO: Changing concurrency to 9 ******
+1660232699.851859 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232699.852456 -- INFO: Active CC: 9
+1660232700.840241 -- INFO: Time taken to collect tcp stats: 79.0ms
+1660232700.840971 -- INFO: Throughput @43.1s:430.0Mbps, rtt :1.67ms cwnd: 171.6 lossRate: 0 CC:9 score:-360.0 
+1660232701.800131 -- INFO: Time taken to collect tcp stats: 38.0ms
+1660232701.800942 -- INFO: Throughput @44.1s:440.0Mbps, rtt :1.79ms cwnd: 178.2 lossRate: 0.0 CC:9 score:-368.0 
+1660232702.819200 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232702.820083 -- INFO: Throughput @45.1s:420.0Mbps, rtt :5.62ms cwnd: 184.4 lossRate: 0.0 CC:9 score:-351.0 
+1660232703.363736 -- INFO: Gradient_Fast: -17.288888888888835, Gredient_Fast Change: 0.043622091393327594, Theta: 1, Previous CC: 9, Choosen CC: 10
+1660232703.363882 -- INFO: Changing concurrency to 10 ******
+1660232703.364478 -- INFO: Start Process :: 9
+1660232703.364950 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232703.365867 -- INFO: Active CC: 10
+1660232703.366044 -- INFO: Process 9 get item 28 from queue and executing
+1660232703.366234 -- INFO: starting 9, 28, /home/hjamil/Documents/files_bash/FILE18
+1660232703.814718 -- INFO: Time taken to collect tcp stats: 51.0ms
+1660232703.815489 -- INFO: Throughput @46.1s:470.0Mbps, rtt :12.63ms cwnd: 173.2 lossRate: 0.0 CC:10 score:-386.0 
+1660232704.800626 -- INFO: Time taken to collect tcp stats: 37.0ms
+1660232704.801427 -- INFO: Throughput @47.1s:445.0Mbps, rtt :11.25ms cwnd: 168.5 lossRate: 2.6616273189428016e-05 CC:10 score:-365.0 
+1660232705.792303 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232705.793238 -- INFO: Throughput @48.1s:460.0Mbps, rtt :9.42ms cwnd: 169.3 lossRate: 0.0 CC:10 score:-377.0 
+1660232706.795610 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232706.796430 -- INFO: Throughput @49.1s:455.0Mbps, rtt :10.46ms cwnd: 165.5 lossRate: 0.00039415598066007987 CC:10 score:-371.0 
+1660232706.879824 -- INFO: Gradient_Fast: -1.8444444444444912, Gredient_Fast Change: 0.005128205128205258, Theta: 2, Previous CC: 10, Choosen CC: 12
+1660232706.880020 -- INFO: Changing concurrency to 12 ******
+1660232706.891783 -- INFO: Start Process :: 10
+1660232706.891863 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232706.892604 -- INFO: Active CC: 12
+1660232706.894242 -- INFO: Process 10 get item 29 from queue and executing
+1660232706.894526 -- INFO: starting 10, 29, /home/hjamil/Documents/files_bash/FILE0
+1660232706.899295 -- INFO: Start Process :: 11
+1660232706.900936 -- INFO: Process 11 get item 30 from queue and executing
+1660232706.903269 -- INFO: starting 11, 30, /home/hjamil/Documents/files_bash/FILE16
+1660232707.808343 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232707.809141 -- INFO: Throughput @50.1s:517.87Mbps, rtt :9.81ms cwnd: 146.4 lossRate: 0.0 CC:12 score:-408.0 
+1660232708.801638 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232708.802537 -- INFO: Throughput @51.1s:507.91Mbps, rtt :9.74ms cwnd: 146.6 lossRate: 0.0 CC:12 score:-400.0 
+1660232709.808536 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232709.809520 -- INFO: Throughput @52.1s:503.72Mbps, rtt :9.43ms cwnd: 142.3 lossRate: 0.00032415661395262683 CC:12 score:-396.0 
+1660232710.393748 -- INFO: Gradient_Fast: 1.1777777777778056, Gredient_Fast Change: 0.0031746031746032496, Theta: -1, Previous CC: 12, Choosen CC: 11
+1660232710.394058 -- INFO: Changing concurrency to 11 ******
+1660232710.395837 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232710.397716 -- INFO: Active CC: 11
+1660232710.824280 -- INFO: Time taken to collect tcp stats: 54.0ms
+1660232710.825112 -- INFO: Throughput @53.1s:501.19Mbps, rtt :8.72ms cwnd: 145.6 lossRate: 0.0005510780464283254 CC:11 score:-400.0 
+1660232711.812311 -- INFO: Time taken to collect tcp stats: 41.0ms
+1660232711.813058 -- INFO: Throughput @54.1s:464.01Mbps, rtt :9.33ms cwnd: 144.9 lossRate: 0.0003731064845907022 CC:11 score:-371.0 
+1660232712.808402 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232712.809353 -- INFO: Throughput @55.1s:473.45Mbps, rtt :9.5ms cwnd: 142.9 lossRate: 2.5201612903225806e-05 CC:11 score:-381.0 
+1660232713.811783 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232713.812473 -- INFO: Throughput @56.1s:446.6Mbps, rtt :9.28ms cwnd: 142.9 lossRate: 0.0 CC:11 score:-359.0 
+1660232713.898542 -- INFO: Gradient_Fast: 2.8444444444443775, Gredient_Fast Change: 0.007087486157253433, Theta: -2, Previous CC: 11, Choosen CC: 9
+1660232713.898730 -- INFO: Changing concurrency to 9 ******
+1660232713.901443 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232713.903362 -- INFO: Active CC: 9
+1660232714.796877 -- INFO: Time taken to collect tcp stats: 24.0ms
+1660232714.797766 -- INFO: Throughput @57.1s:405.24Mbps, rtt :8.92ms cwnd: 148.1 lossRate: 0 CC:9 score:-339.0 
+1660232715.798235 -- INFO: Time taken to collect tcp stats: 23.0ms
+1660232715.799014 -- INFO: Throughput @58.1s:394.66Mbps, rtt :9.62ms cwnd: 148.1 lossRate: 0.0 CC:9 score:-330.0 
+1660232716.784126 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232716.784905 -- INFO: Throughput @59.1s:385.32Mbps, rtt :10.12ms cwnd: 148.1 lossRate: 0.0 CC:9 score:-322.0 
+1660232717.404471 -- INFO: Gradient_Fast: -2.4833333333333485, Gredient_Fast Change: 0.0067056705670567466, Theta: 1, Previous CC: 9, Choosen CC: 10
+1660232717.404677 -- INFO: Changing concurrency to 10 ******
+1660232717.405295 -- INFO: Start Process :: 9
+1660232717.406058 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232717.406695 -- INFO: Process 9 get item 31 from queue and executing
+1660232717.407048 -- INFO: starting 9, 31, /home/hjamil/Documents/files_bash/FILE19
+1660232717.407651 -- INFO: Active CC: 10
+1660232717.808160 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232717.808851 -- INFO: Throughput @60.1s:399.74Mbps, rtt :10.1ms cwnd: 132.8 lossRate: 2.8835894921998903e-05 CC:10 score:-328.0 
+1660232718.812272 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232718.813035 -- INFO: Throughput @61.1s:403.36Mbps, rtt :9.8ms cwnd: 132.8 lossRate: 0.0 CC:10 score:-331.0 
+1660232719.785241 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232719.785925 -- INFO: Throughput @62.1s:388.28Mbps, rtt :7.68ms cwnd: 113.6 lossRate: 0.0012868507253158633 CC:10 score:-314.0 
+1660232720.787565 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232720.788409 -- INFO: Throughput @63.1s:413.41Mbps, rtt :7.99ms cwnd: 113.6 lossRate: 0.0 CC:10 score:-339.0 
+1660232720.908678 -- INFO: Gradient_Fast: -0.08888888888884594, Gredient_Fast Change: 0.0002690884628320261, Theta: 2, Previous CC: 10, Choosen CC: 12
+1660232720.908847 -- INFO: Changing concurrency to 12 ******
+1660232720.909746 -- INFO: Start Process :: 10
+1660232720.909855 -- INFO: Start Process :: 11
+1660232720.911141 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232720.911617 -- INFO: Process 11 get item 0 from queue and executing
+1660232720.911824 -- INFO: starting 11, 0, /home/hjamil/Documents/files_bash/FILE25
+1660232720.912921 -- INFO: Active CC: 12
+1660232720.922660 -- INFO: Process 10 get item 25 from queue and executing
+1660232720.923056 -- INFO: starting 10, 25, /home/hjamil/Documents/files_bash/FILE28
+1660232721.801085 -- INFO: Time taken to collect tcp stats: 20.0ms
+1660232721.802055 -- INFO: Throughput @64.1s:411.09Mbps, rtt :8.42ms cwnd: 95.0 lossRate: 0.0001377714096770638 CC:12 score:-324.0 
+1660232722.789011 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232722.789779 -- INFO: Throughput @65.1s:412.92Mbps, rtt :8.73ms cwnd: 95.0 lossRate: 0.0 CC:12 score:-326.0 
+1660232723.790055 -- INFO: Time taken to collect tcp stats: 7.0ms
+1660232723.790939 -- INFO: Throughput @66.1s:417.81Mbps, rtt :8.26ms cwnd: 96.1 lossRate: 0.0 CC:12 score:-329.0 
+1660232724.413954 -- INFO: Gradient_Fast: 1.6444444444444173, Gredient_Fast Change: 0.005013550135501272, Theta: -1, Previous CC: 12, Choosen CC: 11
+1660232724.414096 -- INFO: Changing concurrency to 11 ******
+1660232724.415051 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232724.416276 -- INFO: Active CC: 11
+1660232724.794250 -- INFO: Time taken to collect tcp stats: 11.0ms
+1660232724.795225 -- INFO: Throughput @67.1s:416.03Mbps, rtt :8.44ms cwnd: 96.3 lossRate: 0.0006444129398118315 CC:11 score:-332.0 
+1660232725.797114 -- INFO: Time taken to collect tcp stats: 12.0ms
+1660232725.797890 -- INFO: Throughput @68.1s:395.44Mbps, rtt :8.37ms cwnd: 84.3 lossRate: 0.0003456221198156682 CC:11 score:-317.0 
+1660232726.801618 -- INFO: Time taken to collect tcp stats: 16.0ms
+1660232726.802437 -- INFO: Throughput @69.1s:404.62Mbps, rtt :7.58ms cwnd: 84.3 lossRate: 0.0 CC:11 score:-325.0 
+1660232727.795711 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232727.796566 -- INFO: Throughput @70.1s:400.27Mbps, rtt :8.33ms cwnd: 86.6 lossRate: 0.0 CC:11 score:-322.0 
+1660232727.917198 -- INFO: Gradient_Fast: -11.011111111111177, Gredient_Fast Change: 0.03374191351719462, Theta: 1, Previous CC: 11, Choosen CC: 12
+1660232727.917412 -- INFO: Changing concurrency to 12 ******
+1660232727.918213 -- INFO: Start Process :: 11
+1660232727.919565 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232727.919960 -- INFO: Process 11 get item 13 from queue and executing
+1660232727.920330 -- INFO: starting 11, 13, /home/hjamil/Documents/files_bash/FILE11
+1660232727.921263 -- INFO: Active CC: 12
+1660232728.798771 -- INFO: Time taken to collect tcp stats: 11.0ms
+1660232728.799633 -- INFO: Throughput @71.1s:409.16Mbps, rtt :7.63ms cwnd: 82.6 lossRate: 0.0 CC:12 score:-323.0 
+1660232729.797582 -- INFO: Time taken to collect tcp stats: 9.0ms
+1660232729.798545 -- INFO: Throughput @72.1s:414.68Mbps, rtt :7.97ms cwnd: 80.6 lossRate: 0.00028286142618731084 CC:12 score:-326.0 
+1660232730.814543 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232730.815332 -- INFO: Throughput @73.1s:409.6Mbps, rtt :8.14ms cwnd: 80.6 lossRate: 0.0 CC:12 score:-323.0 
+1660232731.422334 -- INFO: Gradient_Fast: 7.388888888888914, Gredient_Fast Change: 0.022994467496542267, Theta: -1, Previous CC: 12, Choosen CC: 11
+1660232731.422531 -- INFO: Changing concurrency to 11 ******
+1660232731.424712 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232731.426798 -- INFO: Active CC: 11
+1660232731.798997 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232731.799853 -- INFO: Throughput @74.1s:412.27Mbps, rtt :8.21ms cwnd: 84.5 lossRate: 0.0 CC:11 score:-332.0 
+1660232732.827944 -- INFO: Time taken to collect tcp stats: 36.0ms
+1660232732.828770 -- INFO: Throughput @75.1s:421.82Mbps, rtt :5.43ms cwnd: 93.7 lossRate: 0.0 CC:11 score:-339.0 
+1660232733.844375 -- INFO: Time taken to collect tcp stats: 52.0ms
+1660232733.845164 -- INFO: Throughput @76.1s:544.34Mbps, rtt :2.06ms cwnd: 207.3 lossRate: 0.0 CC:11 score:-438.0 
+1660232734.824679 -- INFO: Time taken to collect tcp stats: 32.0ms
+1660232734.825438 -- INFO: Throughput @77.1s:525.0Mbps, rtt :2.18ms cwnd: 242.4 lossRate: 0.0 CC:11 score:-422.0 
+1660232734.934873 -- INFO: Gradient_Fast: 1.5888888888889028, Gredient_Fast Change: 0.004903978052126243, Theta: -2, Previous CC: 11, Choosen CC: 9
+1660232734.935609 -- INFO: Changing concurrency to 9 ******
+1660232734.937329 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232734.939046 -- INFO: Active CC: 9
+1660232735.850319 -- INFO: Time taken to collect tcp stats: 55.0ms
+1660232735.851125 -- INFO: Throughput @78.1s:455.0Mbps, rtt :2.69ms cwnd: 255.1 lossRate: 0 CC:9 score:-381.0 
+1660232736.824214 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232736.825099 -- INFO: Throughput @79.1s:440.0Mbps, rtt :2.31ms cwnd: 260.0 lossRate: 0.0 CC:9 score:-368.0 
+1660232737.820679 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232737.821420 -- INFO: Throughput @80.1s:435.0Mbps, rtt :1.97ms cwnd: 263.2 lossRate: 0.0 CC:9 score:-364.0 
+1660232738.441071 -- INFO: Gradient_Fast: 1.705555555555577, Gredient_Fast Change: 0.00426744509313322, Theta: -3, Previous CC: 9, Choosen CC: 6
+1660232738.441649 -- INFO: Changing concurrency to 6 ******
+1660232738.445503 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232738.450197 -- INFO: Active CC: 6
+1660232738.825309 -- INFO: Time taken to collect tcp stats: 29.0ms
+1660232738.826107 -- INFO: Throughput @81.1s:395.0Mbps, rtt :1.52ms cwnd: 212.8 lossRate: 0 CC:6 score:-351.0 
+1660232739.840079 -- INFO: Time taken to collect tcp stats: 43.0ms
+1660232739.840907 -- INFO: Throughput @82.1s:295.0Mbps, rtt :2.3ms cwnd: 218.8 lossRate: 0.0 CC:6 score:-262.0 
+1660232740.824931 -- INFO: Time taken to collect tcp stats: 27.0ms
+1660232740.825736 -- INFO: Throughput @83.1s:290.0Mbps, rtt :1.79ms cwnd: 224.2 lossRate: 0.0 CC:6 score:-258.0 
+1660232741.824136 -- INFO: Time taken to collect tcp stats: 25.0ms
+1660232741.824944 -- INFO: Throughput @84.1s:295.0Mbps, rtt :1.55ms cwnd: 229.0 lossRate: 0.0 CC:6 score:-262.0 
+1660232741.969272 -- INFO: Gradient_Fast: 0.500000000000019, Gredient_Fast Change: 0.0013477088948787574, Theta: -4, Previous CC: 6, Choosen CC: 2
+1660232741.971287 -- INFO: Changing concurrency to 2 ******
+1660232741.977453 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232741.989445 -- INFO: Active CC: 2
+1660232742.819476 -- INFO: Time taken to collect tcp stats: 19.0ms
+1660232742.820205 -- INFO: Throughput @85.1s:135.0Mbps, rtt :2.34ms cwnd: 322.0 lossRate: 0 CC:2 score:-130.0 
+1660232743.808848 -- INFO: Time taken to collect tcp stats: 8.0ms
+1660232743.809648 -- INFO: Throughput @86.1s:100.0Mbps, rtt :2.35ms cwnd: 326.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232744.835792 -- INFO: Time taken to collect tcp stats: 33.0ms
+1660232744.836588 -- INFO: Throughput @87.1s:100.0Mbps, rtt :2.4ms cwnd: 331.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232745.495977 -- INFO: Gradient_Fast: -1.1999999999999886, Gredient_Fast Change: 0.004603580562659803, Theta: 1, Previous CC: 2, Choosen CC: 3
+1660232745.496124 -- INFO: Changing concurrency to 3 ******
+1660232745.496730 -- INFO: Start Process :: 2
+1660232745.497794 -- INFO: Process 2 get item 18 from queue and executing
+1660232745.498140 -- INFO: starting 2, 18, /home/hjamil/Documents/files_bash/FILE14
+1660232745.498102 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232745.500229 -- INFO: Active CC: 3
+1660232745.855710 -- INFO: Time taken to collect tcp stats: 53.0ms
+1660232745.856511 -- INFO: Throughput @88.1s:120.0Mbps, rtt :1.96ms cwnd: 266.7 lossRate: 0.0 CC:3 score:-113.0 
+1660232746.831876 -- INFO: Time taken to collect tcp stats: 29.0ms
+1660232746.832671 -- INFO: Throughput @89.1s:150.0Mbps, rtt :1.99ms cwnd: 321.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232747.843740 -- INFO: Time taken to collect tcp stats: 39.0ms
+1660232747.844481 -- INFO: Throughput @90.1s:150.0Mbps, rtt :2.94ms cwnd: 345.0 lossRate: 0.0 CC:3 score:-141.0 
+1660232748.855792 -- INFO: Time taken to collect tcp stats: 50.0ms
+1660232748.856488 -- INFO: Throughput @91.1s:150.0Mbps, rtt :2.72ms cwnd: 354.3 lossRate: 0.0 CC:3 score:-141.0 
+1660232749.001298 -- INFO: Gradient_Fast: 11.344444444444434, Gredient_Fast Change: 0.10569358178053821, Theta: -1, Previous CC: 3, Choosen CC: 2
+1660232749.001582 -- INFO: Changing concurrency to 2 ******
+1660232749.003749 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232749.005705 -- INFO: Active CC: 2
+1660232749.851709 -- INFO: Time taken to collect tcp stats: 45.0ms
+1660232749.852444 -- INFO: Throughput @92.1s:110.0Mbps, rtt :2.5ms cwnd: 352.0 lossRate: 0 CC:2 score:-106.0 
+1660232750.831519 -- INFO: Time taken to collect tcp stats: 24.0ms
+1660232750.832252 -- INFO: Throughput @93.1s:100.0Mbps, rtt :2.42ms cwnd: 357.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232751.828135 -- INFO: Time taken to collect tcp stats: 19.0ms
+1660232751.828937 -- INFO: Throughput @94.1s:100.0Mbps, rtt :2.65ms cwnd: 360.0 lossRate: 0.0 CC:2 score:-96.0 
+1660232752.506606 -- INFO: Gradient_Fast: -33.96666666666664, Gredient_Fast Change: 0.24089834515366412, Theta: 1, Previous CC: 2, Choosen CC: 3
+1660232752.506753 -- INFO: Changing concurrency to 3 ******
+1660232752.507175 -- INFO: Start Process :: 2
+1660232752.508043 -- INFO: Process 2 get item 17 from queue and executing
+1660232752.508255 -- INFO: starting 2, 17, /home/hjamil/Documents/files_bash/FILE23
+1660232752.509132 -- INFO: Process Status Bits from change concurrency are: 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232752.519887 -- INFO: Active CC: 3
+1660232752.843884 -- INFO: Time taken to collect tcp stats: 35.0ms
+1660232752.844686 -- INFO: Throughput @95.1s:115.0Mbps, rtt :2.19ms cwnd: 286.3 lossRate: 0.0 CC:3 score:-108.0 
+1660232753.850962 -- INFO: Time taken to collect tcp stats: 42.0ms
+1660232753.851707 -- INFO: Throughput @96.1s:150.0Mbps, rtt :2.01ms cwnd: 333.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232754.840157 -- INFO: Time taken to collect tcp stats: 30.0ms
+1660232754.840858 -- INFO: Throughput @97.1s:155.0Mbps, rtt :2.48ms cwnd: 368.3 lossRate: 0.0 CC:3 score:-146.0 
+1660232755.855829 -- INFO: Time taken to collect tcp stats: 45.0ms
+1660232755.856486 -- INFO: Throughput @98.1s:150.0Mbps, rtt :4.48ms cwnd: 369.7 lossRate: 0.0 CC:3 score:-141.0 
+1660232756.021013 -- INFO: Gradient_Fast: 36.80000000000004, Gredient_Fast Change: 0.37046979865771856, Theta: -1, Previous CC: 3, Choosen CC: 2
+1660232756.021231 -- INFO: Changing concurrency to 2 ******
+1660232756.023223 -- INFO: Process Status Bits from change concurrency are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232756.026132 -- INFO: Active CC: 2
+1660232756.828328 -- INFO: Time taken to collect tcp stats: 16.0ms
+1660232756.829140 -- INFO: Throughput @99.1s:110.0Mbps, rtt :2.84ms cwnd: 372.5 lossRate: 0 CC:2 score:-106.0 
+1660232757.811087 -- INFO: episode expires
+1660232757.811100 -- INFO: Process 22 shutdown itself from outest loop
+1660232757.811257 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.811223 -- INFO: Process 28 shutdown itself from outest loop
+1660232757.811456 -- INFO: Process 27 shutdown itself from outest loop
+1660232757.811651 -- INFO: Process 20 shutdown itself from outest loop
+1660232757.811725 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.811791 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.811675 -- INFO: Process 30 shutdown itself from outest loop
+1660232757.811851 -- INFO: Process 8 shutdown itself from outest loop
+1660232757.811971 -- INFO: Process 4 shutdown itself from outest loop
+1660232757.811393 -- INFO: Process 10 shutdown itself from outest loop
+1660232757.812316 -- INFO: Process 17 shutdown itself from outest loop
+1660232757.811527 -- INFO: Process 19 shutdown itself from outest loop
+1660232757.812500 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.812348 -- INFO: Process 25 shutdown itself from outest loop
+1660232757.812670 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.812567 -- INFO: Process 31 shutdown itself from outest loop
+1660232757.812831 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.812880 -- INFO: Process 6 shutdown itself from outest loop
+1660232757.811539 -- INFO: Process 23 shutdown itself from outest loop
+1660232757.811546 -- INFO: Process 2 shutdown itself from outest loop
+1660232757.811764 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.813006 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.811757 -- INFO: Process 5 shutdown itself from outest loop
+1660232757.811863 -- INFO: Process 15 shutdown itself from outest loop
+1660232757.813130 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.811973 -- INFO: Process 24 shutdown itself from outest loop
+1660232757.812011 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.812083 -- INFO: Process 7 shutdown itself from outest loop
+1660232757.812108 -- INFO: Process 13 shutdown itself from outest loop
+1660232757.812096 -- INFO: Process 18 shutdown itself from outest loop
+1660232757.813365 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.813401 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.813441 -- INFO: Process 21 shutdown itself from outest loop
+1660232757.813504 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.812143 -- INFO: Process 14 shutdown itself from outest loop
+1660232757.812171 -- INFO: Process 9 shutdown itself from outest loop
+1660232757.812223 -- INFO: Process 16 shutdown itself from outest loop
+1660232757.812223 -- INFO: Process 12 shutdown itself from outest loop
+1660232757.812078 -- INFO: Process 26 shutdown itself from outest loop
+1660232757.812304 -- INFO: Process 3 shutdown itself from outest loop
+1660232757.813345 -- INFO: Process 11 shutdown itself from outest loop
+1660232757.812348 -- INFO: Process 29 shutdown itself from outest loop
+1660232757.813825 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.813829 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.813850 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.812516 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.813911 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.814194 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.814239 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.814352 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.814605 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.814631 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.814947 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.815071 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.815164 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.815198 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.815303 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.815470 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232757.815606 -- INFO: Process Status Bits are: 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660232759.527021 -- INFO: Gradient_Fast: -22.73333333333335, Gredient_Fast Change: 0.15934579439252347, Theta: 1, Previous CC: 2, Choosen CC: 3
+1660232759.533900 -- INFO: GD_Fast Optimizer Exits ...
