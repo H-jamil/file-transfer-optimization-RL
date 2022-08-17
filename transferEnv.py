@@ -5,6 +5,7 @@ from transferClass import *
 from transferClass_ import *
 import random
 import copy
+# from queue import Queue
 
 MAX_RTT=50
 MIN_RTT=0
@@ -19,19 +20,32 @@ MIN_PLR=0
 MAX_SCORE=1000
 MIN_SCORE=0
 
+def get_int_cc(actionFloatValue):
+  return (np.abs(np.linspace(-1,1,num=32)-actionFloatValue).argmin())+1
+
+
+
 class transferEnv(gym.Env):
   metadata={'render.modes':  []}
 
-  def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv",runType=0):####runType=0 for non-RL run runType=!0 for RL run
+  def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv",runType=0,historyLen=3,csv_save=False):####runType=0 for non-RL run runType=!0 for RL run
     self.transferClassObject=transferClassObject
-    self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"])+1)
-    self.observation_space = spaces.Box(low=0, high=np.inf, shape=(3*6,), dtype=np.float32)
+    # self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
+    self.historyLen=historyLen
+    self.action_space=spaces.Box(low= -1,high= 1,shape=(1,), dtype=np.float32)
+    # self.action_space=spaces.Box(low= -1,high= 1,shape=(transferClassObject.configurations["thread_limit"],), dtype=np.float32)
+    self.observation_space = spaces.Box(low=-np.inf, high=np.inf, shape=(self.historyLen*5,), dtype=np.float32)
     self.record_file_name=record_name
-    self.current_observation = np.zeros([3,6],dtype = np.float32).flatten()
+    self.csv_save=csv_save
+    self.current_observation = np.zeros([self.historyLen,5],dtype = np.float32).flatten()
     self.runType=runType
     dummy_list=[]
+    self.state_q=[]
+    self.minRTT=1000
     df = pd.DataFrame(dummy_list, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
     df.to_csv(self.record_file_name, sep='\t', encoding='utf-8',index=False)
+    df = pd.DataFrame(dummy_list, columns = ['latency_gradient','latency_ratio','cwnd','packet_loss_rate','throughput'])
+    df.to_csv(self.record_file_name+'states', sep='\t', encoding='utf-8',index=False)
 
   def change_run_type(self,run_value):
     self.runType=run_value
@@ -41,13 +55,23 @@ class transferEnv(gym.Env):
     if len(self.transferClassObject.throughput_logs) > 0:
       for i in range(len(self.transferClassObject.throughput_logs)):
         list_main.append(self.transferClassObject.throughput_logs[i])
-    df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
-    # mod_df=df.dropna(axis=0, how='any')
-    mod_df=df.fillna(0)
-    mod_df.to_csv(self.record_file_name, mode='a', index=False, header=False, sep='\t', encoding='utf-8')
-    self.current_observation=self.transferClassObject.reset().flatten()
+    if self.csv_save:
+      df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
+      mod_df=df.fillna(0)
+      mod_df.to_csv(self.record_file_name, mode='a', index=False, header=False, sep='\t', encoding='utf-8')
+      df = pd.DataFrame(self.state_q, columns = ['latency_gradient','latency_ratio','cwnd','packet_loss_rate','throughput'])
+      mod_df=df.fillna(0)
+      mod_df.to_csv(self.record_file_name+'states', mode='a', index=False, header=False, sep='\t', encoding='utf-8')
+    self.transferClassObject.reset()
     self.workers,self.reporting_process=self.transferClassObject.run()
-    return self.current_observation
+    self.state_q=[]
+    self.minRTT=1000
+    # self.close()
+    if self.runType==0:
+      self.runType=0
+    else:
+      self.runType=1
+    return np.zeros([self.historyLen,5],dtype = np.float32).flatten()
 
   def step(self,action):
     info={}
@@ -59,7 +83,7 @@ class transferEnv(gym.Env):
       else:
         score_=0
       self.close()
-      return np.zeros([3,6],dtype = np.float32).flatten(),score_,done,info
+      return np.zeros([self.historyLen,5],dtype = np.float32).flatten(),float(score_),done,info
 
     elif self.transferClassObject.file_incomplete.value != 0:
       done = False
@@ -67,18 +91,21 @@ class transferEnv(gym.Env):
         self.transferClassObject.log.info(f"Changing concurrency to {action} ******")
         self.transferClassObject.change_concurrency([action])
       else:
-        if np.argmax(action)<=0:
-          self.transferClassObject.log.info(f"Changing concurrency to {1} ******")
-          self.transferClassObject.change_concurrency([1])
-        elif np.argmax(action)>self.transferClassObject.configurations["thread_limit"]:
-          self.transferClassObject.log.info(f"Changing concurrency to {1} ******")
-          self.transferClassObject.change_concurrency([1])
-        else:
-          self.transferClassObject.log.info(f"Changing concurrency to {np.argmax(action)} ******")
-          self.transferClassObject.change_concurrency([np.argmax(action)])
+        # action_t=np.argmax(action)
+        action_t=get_int_cc(action[0])
+        self.transferClassObject.log.info(f"action array from actor {action[0]} and action is {action_t} ******")
+        # if action_t<=0:
+        #   self.transferClassObject.log.info(f"action_t < 0 Changing concurrency to {1} ******")
+        #   self.transferClassObject.change_concurrency([1])
+        # elif action_t>self.transferClassObject.configurations["thread_limit"]:
+        #   self.transferClassObject.log.info(f"action_t > 32 Changing concurrency to {1} ******")
+        #   self.transferClassObject.change_concurrency([1])
+        # else:
+        self.transferClassObject.log.info(f"Changing concurrency to {action_t} ******") ###+1 because the number starts from 0 to 31 for 32 action space
+        self.transferClassObject.change_concurrency([action_t])
 
       timer3s=time.time()
-      while timer3s + 3.5 > time.time():
+      while timer3s + 3.5> time.time():
         pass
       if len(self.transferClassObject.throughput_logs)>=3:
         log_list=copy.deepcopy(self.transferClassObject.throughput_logs[-3:])
@@ -90,40 +117,58 @@ class transferEnv(gym.Env):
           log_list_array=np.array(log_list).flatten()
         ##########################
         else:
-          log_list_=[]
+          log_list_=[[],[],[],[]]
           for log in log_list:
-            normalized_throughput=log[0]/MAX_THROUGHPUT
-            normalized_cc=log[1]/MAX_CC_LEVEL
-            normalized_cwnd=log[2]/MAX_CWND
-            normalized_rtt=log[3]/MAX_RTT
-            normalized_lr=log[4]/MAX_PLR
-            normalized_score=-(log[5]/MAX_SCORE)
-            log_list_.append([normalized_throughput,normalized_cc,normalized_cwnd,normalized_rtt,normalized_lr,normalized_score])
-          log_list_array=np.array(log_list_).flatten()
+            log_list_[0].append(log[0])
+            log_list_[1].append(log[2])
+            log_list_[2].append(log[3])
+            log_list_[3].append(log[4])
+          log_list_state=[]
+          latency_gradient=np.gradient(np.array(log_list_[2],dtype=float))
+          log_list_state.append(latency_gradient)
+
+          rtt_ratio=[]
+          for rtt in log_list_[2]:
+            if rtt <=self.minRTT:
+              self.minRTT=rtt
+            rtt_r = rtt/self.minRTT if self.minRTT>0 else 0.0
+            rtt_ratio.append(rtt_r)
+          log_list_state.append(rtt_ratio)
+          cwnd_values=log_list_[1]
+          log_list_state.append(cwnd_values)
+
+          plr_values=log_list_[3]
+          log_list_state.append(plr_values)
+          throughput_values=log_list_[0]
+          log_list_state.append(throughput_values)
+          self.state_q.append(log_list_state)
+          log_list_array=np.array(log_list_state,dtype = np.float32).flatten()
           ################################
         try:
           score_=np.mean(score)
           if self.runType==1:
-            if score_<=0.5:
-              score_=-1
+            if score_<=0.2:
+              score_=-1.0
+            elif score_<=0.5:
+              score_=score_
             else:
-              score_=np.round(1+(score_-0.5)*10,1)
+              score_=np.round(1+(score_-0.5)*10,2)
         except:
-          score_=0
+          score_=0.0
       else:
-        log_list_array=np.zeros([3,6],dtype = np.float32).flatten()
-        score_=0
-
-      return log_list_array,score_,done,info
+        log_list_array=np.zeros([self.historyLen,5],dtype = np.float32).flatten()
+        score_=0.0
+      self.transferClassObject.log.info(f"score {score} ******")
+      return log_list_array,float(score_),done,info
 
     else:
       done=True
       if self.runType==0:
         score_=10 ** 10
       else:
-        score_=0
+        score_=0.0
       self.close()
-      return np.zeros([3,6],dtype = np.float32).flatten(),score_,done,info
+      return np.zeros([self.historyLen,5],dtype = np.float32).flatten(),float(score_),done,info
 
   def bayes_step(self,action):
     params = [1 if x<1 else int(np.round(x)) for x in action]

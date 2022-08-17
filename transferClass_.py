@@ -125,7 +125,7 @@ class TransferClass_:
             self.log.info(f"Process {process_id} shutdown itself ")
     self.process_status[process_id] = 0
     self.log.info(f"Process {process_id} shutdown itself from outest loop")
-    self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
+    # self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
 
   def monitor(self,start_time):
     previous_total = 0
@@ -180,7 +180,7 @@ class TransferClass_:
         plr_impact = self.B*lr
         cc_impact_nl = self.K**cc_level
         score = (curr_thrpt/cc_impact_nl) - (curr_thrpt * plr_impact)
-        score_value = np.round(score / 1000)
+        score_value = np.round(score / 1000,2)
         prev_sc,prev_rc=curr_sc,curr_rc
         record_list.append(lr)
         record_list.append(score_value)
@@ -192,7 +192,7 @@ class TransferClass_:
         time.sleep(max(0, 1 - (t2-t1)))
         if (timer320s + 20 <= time.time()):
           self.file_incomplete.value=0
-
+          self.log.info("episode expires")
     self.transfer_status.value=1
 
   def change_concurrency(self, params):
@@ -211,7 +211,7 @@ class TransferClass_:
     cwnd_list=[]
     rtt_list=[]
     sent, retm = 0, 0
-    start = time.time()
+    # start = time.time()
     try:
       data = os.popen("ss -ti").read().split("\n")
       for i in range(1,len(data)):
@@ -241,8 +241,8 @@ class TransferClass_:
     except Exception as e:
       print(e)
 
-    end = time.time()
-    self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
+    # end = time.time()
+    # self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
     return cwnd_list,rtt_list,sent,retm
 
   def run(self):

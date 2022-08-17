@@ -18,10 +18,10 @@ ENV_ID="Pendulum-v1"
 GAMMA = 0.99
 BATCH_SIZE = 64
 LEARNING_RATE = 1e-4
-REPLAY_SIZE = 10000
-REPLAY_INITIAL = 100
+REPLAY_SIZE = 100000
+REPLAY_INITIAL = 1000
 
-TEST_ITERS = 5
+TEST_ITERS = 100
 
 import os
 import time
@@ -76,14 +76,14 @@ def test_net(net, env, count=1, device="cpu"):
             mu_v = net(obs_v)
             action = mu_v.squeeze(dim=0).data.cpu().numpy()
             action = np.clip(action, -1, 1)
-            print("action:",action)
+            # print("action:",action)
             obs, reward, done, _ = env.step(action)
             rewards += reward
             steps += 1
             if done:
                 env.close()
                 break
-    time.sleep(1)
+    # time.sleep(1)
     return rewards / count, steps / count
 
 
@@ -97,12 +97,11 @@ if __name__ == "__main__":
     save_path = os.path.join("saves", "ddpg-" + args.name)
     os.makedirs(save_path, exist_ok=True)
     transfer=TransferClass_(configurations,log,transfer_emulation=True)
-    env=transferEnv_(transfer)
-    # env = gym.make(ENV_ID)
-    # test_env = gym.make(ENV_ID)
+    env=transferEnv(transfer,csv_save=True)
+    env.change_run_type(1)
 
-    act_net = model.DDPGActor(env.observation_space.shape[0], env.action_space.n).to(device)
-    crt_net = model.DDPGCritic(env.observation_space.shape[0], env.action_space.n).to(device)
+    act_net = model.DDPGActor(env.observation_space.shape[0], env.action_space.shape[0]).to(device)
+    crt_net = model.DDPGCritic(env.observation_space.shape[0], env.action_space.shape[0]).to(device)
     print(act_net)
     print(crt_net)
     tgt_act_net = ptan.agent.TargetNet(act_net)

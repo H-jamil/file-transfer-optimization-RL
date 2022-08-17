@@ -125,7 +125,6 @@ class TransferClass:
 
     self.process_status[process_id] = 0
     self.log.info(f"Process {process_id} shutdown itself from outest loop")
-    self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
 
   def monitor(self,start_time):
     previous_total = 0
@@ -209,7 +208,7 @@ class TransferClass:
     cwnd_list=[]
     rtt_list=[]
     sent, retm = 0, 0
-    start = time.time()
+    # start = time.time()
     try:
       data = os.popen("ss -ti").read().split("\n")
       for i in range(1,len(data)):
@@ -239,8 +238,8 @@ class TransferClass:
     except Exception as e:
       print(e)
 
-    end = time.time()
-    self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
+    # end = time.time()
+    # self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
     return cwnd_list,rtt_list,sent,retm
 
   def run(self):
