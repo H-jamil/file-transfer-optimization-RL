@@ -1,0 +1,2324 @@
+1660856353.899086 -- INFO: action array from actor 0.519598662853241 and action is 25 ******
+1660856353.900797 -- INFO: Changing concurrency to 25 ******
+1660856353.902650 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660856353.903494 -- INFO: Active CC: 25
+1660856353.921739 -- INFO: Start Process :: 1
+1660856353.924108 -- INFO: Process 1 get item 0 from queue and executing
+1660856353.924509 -- INFO: starting 1, 0, /home/hjamil/Documents/files_bash/FILE25
+1660856353.924990 -- INFO: Start Process :: 2
+1660856353.927878 -- INFO: Process 2 get item 1 from queue and executing
+1660856353.928063 -- INFO: Start Process :: 5
+1660856353.927772 -- INFO: Start Process :: 4
+1660856353.928905 -- INFO: starting 2, 1, /home/hjamil/Documents/files_bash/FILE1
+1660856353.931077 -- INFO: Start Process :: 7
+1660856353.931955 -- INFO: Process 4 get item 2 from queue and executing
+1660856353.932696 -- INFO: starting 4, 2, /home/hjamil/Documents/files_bash/FILE4
+1660856353.932951 -- INFO: Start Process :: 12
+1660856353.933331 -- INFO: Process 7 get item 3 from queue and executing
+1660856353.933835 -- INFO: starting 7, 3, /home/hjamil/Documents/files_bash/FILE13
+1660856353.934154 -- INFO: Start Process :: 10
+1660856353.935288 -- INFO: Start Process :: 8
+1660856353.935738 -- INFO: Process 12 get item 4 from queue and executing
+1660856353.936042 -- INFO: starting 12, 4, /home/hjamil/Documents/files_bash/FILE3
+1660856353.936520 -- INFO: Process 5 get item 5 from queue and executing
+1660856353.942571 -- INFO: starting 5, 5, /home/hjamil/Documents/files_bash/FILE24
+1660856353.943419 -- INFO: Process 8 get item 6 from queue and executing
+1660856353.943928 -- INFO: starting 8, 6, /home/hjamil/Documents/files_bash/FILE2
+1660856353.952495 -- INFO: Start Process :: 17
+1660856353.952637 -- INFO: Start Process :: 15
+1660856353.954668 -- INFO: Process 17 get item 7 from queue and executing
+1660856353.955101 -- INFO: starting 17, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856353.958431 -- INFO: Process 15 get item 8 from queue and executing
+1660856353.958716 -- INFO: starting 15, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856353.960732 -- INFO: Start Process :: 21
+1660856353.963279 -- INFO: Process 21 get item 10 from queue and executing
+1660856353.963657 -- INFO: starting 21, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856353.982601 -- INFO: Start Process :: 6
+1660856353.983171 -- INFO: Process 10 get item 9 from queue and executing
+1660856353.983535 -- INFO: Process 6 get item 11 from queue and executing
+1660856353.983839 -- INFO: starting 6, 11, /home/hjamil/Documents/files_bash/FILE6
+1660856353.986962 -- INFO: starting 10, 9, /home/hjamil/Documents/files_bash/FILE7
+1660856353.987336 -- INFO: Start Process :: 9
+1660856354.001179 -- INFO: Start Process :: 19
+1660856354.006346 -- INFO: Process 19 get item 13 from queue and executing
+1660856354.006309 -- INFO: Process 9 get item 12 from queue and executing
+1660856354.006613 -- INFO: starting 19, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856354.006731 -- INFO: starting 9, 12, /home/hjamil/Documents/files_bash/FILE22
+1660856354.006804 -- INFO: Start Process :: 11
+1660856354.009724 -- INFO: Process 11 get item 14 from queue and executing
+1660856354.010132 -- INFO: starting 11, 14, /home/hjamil/Documents/files_bash/FILE30
+1660856354.012276 -- INFO: Start Process :: 13
+1660856354.018395 -- INFO: Process 13 get item 15 from queue and executing
+1660856354.018656 -- INFO: starting 13, 15, /home/hjamil/Documents/files_bash/FILE5
+1660856354.019270 -- INFO: Start Process :: 20
+1660856354.020431 -- INFO: Process 20 get item 16 from queue and executing
+1660856354.020645 -- INFO: starting 20, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856354.064860 -- INFO: Start Process :: 18
+1660856354.067916 -- INFO: Process 18 get item 17 from queue and executing
+1660856354.068388 -- INFO: starting 18, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856354.073453 -- INFO: Start Process :: 24
+1660856354.083133 -- INFO: Start Process :: 16
+1660856354.084041 -- INFO: Process 24 get item 18 from queue and executing
+1660856354.084260 -- INFO: starting 24, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856354.086808 -- INFO: Process 16 get item 19 from queue and executing
+1660856354.087158 -- INFO: starting 16, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856354.086887 -- INFO: Start Process :: 0
+1660856354.094762 -- INFO: Process 0 get item 20 from queue and executing
+1660856354.095044 -- INFO: starting 0, 20, /home/hjamil/Documents/files_bash/FILE15
+1660856354.106782 -- INFO: Start Process :: 23
+1660856354.110994 -- INFO: Start Process :: 22
+1660856354.112177 -- INFO: Process 23 get item 21 from queue and executing
+1660856354.112499 -- INFO: starting 23, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856354.116498 -- INFO: Process 22 get item 22 from queue and executing
+1660856354.116909 -- INFO: starting 22, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856354.138723 -- INFO: Start Process :: 3
+1660856354.143745 -- INFO: Process 3 get item 23 from queue and executing
+1660856354.144079 -- INFO: starting 3, 23, /home/hjamil/Documents/files_bash/FILE10
+1660856354.150976 -- INFO: Start Process :: 14
+1660856354.155296 -- INFO: Throughput @0.1s:0.0Mbps, rtt :2.86ms cwnd: 293.9 lossRate: 7.231017013618898e-06 CC:25 score:0.0 
+1660856354.163962 -- INFO: Process 14 get item 24 from queue and executing
+1660856354.164446 -- INFO: starting 14, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856354.964466 -- INFO: Throughput @1.1s:982.73Mbps, rtt :6.0ms cwnd: 238.6 lossRate: 0.0 CC:25 score:0.6 
+1660856355.982984 -- INFO: Throughput @2.1s:936.52Mbps, rtt :5.92ms cwnd: 249.0 lossRate: 0.0 CC:25 score:0.57 
+1660856356.980959 -- INFO: Throughput @3.1s:937.2Mbps, rtt :6.81ms cwnd: 253.7 lossRate: 0.0 CC:25 score:0.57 
+1660856357.423920 -- INFO: score [0.6, 0.57, 0.57] ******
+1660856357.426597 -- INFO: action array from actor -0.19187873601913452 and action is 14 ******
+1660856357.426919 -- INFO: Changing concurrency to 14 ******
+1660856357.434541 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856357.435633 -- INFO: Active CC: 14
+1660856358.015472 -- INFO: Throughput @4.1s:819.48Mbps, rtt :3.18ms cwnd: 293.4 lossRate: 0 CC:14 score:0.62 
+1660856359.039622 -- INFO: Throughput @5.1s:615.0Mbps, rtt :2.89ms cwnd: 305.5 lossRate: 0.0 CC:14 score:0.47 
+1660856360.043976 -- INFO: Throughput @6.1s:650.0Mbps, rtt :3.03ms cwnd: 301.8 lossRate: 0.0009155043351822931 CC:14 score:0.49 
+1660856360.947239 -- INFO: score [0.62, 0.47, 0.49] ******
+1660856360.951551 -- INFO: action array from actor 0.5232946276664734 and action is 25 ******
+1660856360.972931 -- INFO: Changing concurrency to 25 ******
+1660856360.982993 -- INFO: Start Process :: 15
+1660856360.983209 -- INFO: Start Process :: 16
+1660856360.983302 -- INFO: Start Process :: 23
+1660856360.983312 -- INFO: Start Process :: 24
+1660856360.983445 -- INFO: Start Process :: 18
+1660856360.983617 -- INFO: Start Process :: 20
+1660856360.983753 -- INFO: Start Process :: 14
+1660856360.982993 -- INFO: Start Process :: 17
+1660856360.984372 -- INFO: Start Process :: 19
+1660856360.983691 -- INFO: Start Process :: 22
+1660856360.986356 -- INFO: Process 16 get item 25 from queue and executing
+1660856360.986719 -- INFO: Process 20 get item 26 from queue and executing
+1660856360.987092 -- INFO: starting 20, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856360.987361 -- INFO: Process 23 get item 27 from queue and executing
+1660856360.987763 -- INFO: Process 18 get item 28 from queue and executing
+1660856360.987816 -- INFO: Process 24 get item 29 from queue and executing
+1660856360.988285 -- INFO: starting 23, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856360.988541 -- INFO: Process 19 get item 31 from queue and executing
+1660856360.988928 -- INFO: starting 16, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856360.988531 -- INFO: Process 15 get item 30 from queue and executing
+1660856360.989789 -- INFO: Process 17 get item 22 from queue and executing
+1660856360.990208 -- INFO: starting 17, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856360.990324 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660856360.990789 -- INFO: Process 14 get item 19 from queue and executing
+1660856360.991029 -- INFO: starting 15, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856360.992413 -- INFO: Process 22 get item 13 from queue and executing
+1660856360.991678 -- INFO: starting 19, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856360.992140 -- INFO: starting 14, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856360.989144 -- INFO: Start Process :: 21
+1660856360.999696 -- INFO: starting 18, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856361.002224 -- INFO: Active CC: 25
+1660856360.999455 -- INFO: starting 24, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856360.999874 -- INFO: starting 22, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856361.018511 -- INFO: Process 21 get item 24 from queue and executing
+1660856361.024139 -- INFO: Throughput @7.1s:605.0Mbps, rtt :3.03ms cwnd: 311.0 lossRate: 0.0 CC:14 score:0.46 
+1660856361.024680 -- INFO: starting 21, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856361.998692 -- INFO: Throughput @8.1s:972.42Mbps, rtt :4.68ms cwnd: 256.8 lossRate: 3.763171098845961e-05 CC:25 score:0.59 
+1660856362.975150 -- INFO: Throughput @9.1s:945.35Mbps, rtt :5.41ms cwnd: 264.2 lossRate: 0.0 CC:25 score:0.58 
+1660856364.004600 -- INFO: Throughput @10.1s:939.54Mbps, rtt :6.39ms cwnd: 267.8 lossRate: 0.0 CC:25 score:0.57 
+1660856364.523164 -- INFO: score [0.59, 0.58, 0.57] ******
+1660856364.524627 -- INFO: action array from actor -0.02482546493411064 and action is 16 ******
+1660856364.530444 -- INFO: Changing concurrency to 16 ******
+1660856364.536172 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856364.538409 -- INFO: Active CC: 16
+1660856365.038132 -- INFO: Throughput @11.1s:891.62Mbps, rtt :3.72ms cwnd: 307.9 lossRate: 0 CC:16 score:0.65 
+1660856366.033385 -- INFO: Throughput @12.1s:685.0Mbps, rtt :4.05ms cwnd: 315.3 lossRate: 0.0 CC:16 score:0.5 
+1660856367.021004 -- INFO: Throughput @13.1s:715.0Mbps, rtt :3.05ms cwnd: 322.2 lossRate: 0.0 CC:16 score:0.52 
+1660856368.058601 -- INFO: Throughput @14.1s:730.0Mbps, rtt :3.65ms cwnd: 327.3 lossRate: 0.0 CC:16 score:0.53 
+1660856368.066184 -- INFO: score [0.5, 0.52, 0.53] ******
+1660856368.073535 -- INFO: action array from actor 0.8708832263946533 and action is 30 ******
+1660856368.073890 -- INFO: Changing concurrency to 30 ******
+1660856368.089542 -- INFO: Start Process :: 18
+1660856368.089872 -- INFO: Start Process :: 19
+1660856368.089889 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1660856368.090354 -- INFO: Start Process :: 20
+1660856368.090393 -- INFO: Start Process :: 23
+1660856368.090766 -- INFO: Active CC: 30
+1660856368.090836 -- INFO: Process 19 get item 18 from queue and executing
+1660856368.090989 -- INFO: Start Process :: 21
+1660856368.091222 -- INFO: starting 19, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856368.091483 -- INFO: Start Process :: 17
+1660856368.091567 -- INFO: Process 20 get item 7 from queue and executing
+1660856368.091892 -- INFO: starting 20, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856368.092570 -- INFO: Start Process :: 24
+1660856368.092958 -- INFO: Process 18 get item 8 from queue and executing
+1660856368.093215 -- INFO: starting 18, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856368.095092 -- INFO: Process 21 get item 10 from queue and executing
+1660856368.095334 -- INFO: Process 23 get item 21 from queue and executing
+1660856368.095433 -- INFO: starting 21, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856368.095625 -- INFO: starting 23, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856368.096223 -- INFO: Process 17 get item 17 from queue and executing
+1660856368.096520 -- INFO: starting 17, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856368.096758 -- INFO: Start Process :: 22
+1660856368.097467 -- INFO: Process 24 get item 16 from queue and executing
+1660856368.098527 -- INFO: Start Process :: 16
+1660856368.098907 -- INFO: starting 24, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856368.101254 -- INFO: Process 22 get item 22 from queue and executing
+1660856368.101607 -- INFO: starting 22, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856368.102476 -- INFO: Process 16 get item 26 from queue and executing
+1660856368.102804 -- INFO: starting 16, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856368.141327 -- INFO: Start Process :: 28
+1660856368.142802 -- INFO: Start Process :: 25
+1660856368.149038 -- INFO: Process 28 get item 25 from queue and executing
+1660856368.151101 -- INFO: starting 28, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856368.152013 -- INFO: Process 25 get item 27 from queue and executing
+1660856368.152285 -- INFO: starting 25, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856368.154520 -- INFO: Start Process :: 26
+1660856368.159946 -- INFO: Process 26 get item 31 from queue and executing
+1660856368.171360 -- INFO: starting 26, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856368.190701 -- INFO: Start Process :: 27
+1660856368.201349 -- INFO: Start Process :: 29
+1660856368.206766 -- INFO: Process 29 get item 29 from queue and executing
+1660856368.207093 -- INFO: starting 29, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856368.218466 -- INFO: Process 27 get item 24 from queue and executing
+1660856368.230439 -- INFO: starting 27, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856369.010062 -- INFO: Throughput @15.1s:1053.84Mbps, rtt :7.71ms cwnd: 245.9 lossRate: 0.0017892697626863262 CC:30 score:0.56 
+1660856370.003754 -- INFO: Throughput @16.1s:927.61Mbps, rtt :5.95ms cwnd: 207.4 lossRate: 0.001900380076015203 CC:30 score:0.49 
+1660856370.999012 -- INFO: Throughput @17.1s:949.03Mbps, rtt :5.09ms cwnd: 207.9 lossRate: 0.0002874065928573214 CC:30 score:0.52 
+1660856371.599164 -- INFO: score [0.56, 0.49, 0.52] ******
+1660856371.601104 -- INFO: action array from actor -0.187917098402977 and action is 14 ******
+1660856371.601409 -- INFO: Changing concurrency to 14 ******
+1660856371.610564 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856371.611297 -- INFO: Active CC: 14
+1660856371.991351 -- INFO: Throughput @18.1s:868.73Mbps, rtt :4.5ms cwnd: 273.6 lossRate: 0 CC:14 score:0.66 
+1660856373.042865 -- INFO: Throughput @19.1s:634.95Mbps, rtt :3.04ms cwnd: 294.1 lossRate: 0 CC:14 score:0.48 
+1660856374.020485 -- INFO: Throughput @20.1s:620.0Mbps, rtt :3.12ms cwnd: 299.0 lossRate: 0.0 CC:14 score:0.47 
+1660856375.053797 -- INFO: Throughput @21.1s:630.0Mbps, rtt :2.85ms cwnd: 303.7 lossRate: 0.0 CC:14 score:0.48 
+1660856375.134757 -- INFO: score [0.48, 0.47, 0.48] ******
+1660856375.137318 -- INFO: action array from actor 0.7315860390663147 and action is 28 ******
+1660856375.150493 -- INFO: Changing concurrency to 28 ******
+1660856375.158317 -- INFO: Start Process :: 19
+1660856375.158744 -- INFO: Start Process :: 16
+1660856375.158822 -- INFO: Start Process :: 21
+1660856375.159044 -- INFO: Start Process :: 22
+1660856375.159178 -- INFO: Start Process :: 17
+1660856375.159431 -- INFO: Start Process :: 14
+1660856375.159882 -- INFO: Start Process :: 23
+1660856375.160125 -- INFO: Start Process :: 15
+1660856375.160146 -- INFO: Start Process :: 20
+1660856375.160330 -- INFO: Process 22 get item 13 from queue and executing
+1660856375.160607 -- INFO: starting 22, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856375.160828 -- INFO: Process 19 get item 28 from queue and executing
+1660856375.161085 -- INFO: starting 19, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856375.161264 -- INFO: Start Process :: 18
+1660856375.161808 -- INFO: Process 17 get item 29 from queue and executing
+1660856375.161963 -- INFO: Start Process :: 26
+1660856375.162111 -- INFO: starting 17, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856375.162657 -- INFO: Process 16 get item 10 from queue and executing
+1660856375.162769 -- INFO: Process 21 get item 17 from queue and executing
+1660856375.162951 -- INFO: starting 16, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856375.163012 -- INFO: starting 21, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856375.163255 -- INFO: Start Process :: 24
+1660856375.163600 -- INFO: Start Process :: 25
+1660856375.163720 -- INFO: Process 15 get item 25 from queue and executing
+1660856375.164029 -- INFO: starting 15, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856375.164226 -- INFO: Process 18 get item 26 from queue and executing
+1660856375.164467 -- INFO: starting 18, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856375.161161 -- INFO: Process 14 get item 31 from queue and executing
+1660856375.164875 -- INFO: starting 14, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856375.165256 -- INFO: Process 24 get item 27 from queue and executing
+1660856375.165321 -- INFO: Process 23 get item 24 from queue and executing
+1660856375.165513 -- INFO: starting 24, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856375.165560 -- INFO: starting 23, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856375.165969 -- INFO: Process 26 get item 8 from queue and executing
+1660856375.166306 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856375.166883 -- INFO: Process 25 get item 16 from queue and executing
+1660856375.167239 -- INFO: starting 25, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856375.166875 -- INFO: starting 26, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856375.167260 -- INFO: Active CC: 28
+1660856375.174617 -- INFO: Process 20 get item 22 from queue and executing
+1660856375.178410 -- INFO: starting 20, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856375.178715 -- INFO: Start Process :: 27
+1660856375.181531 -- INFO: Process 27 get item 18 from queue and executing
+1660856375.181914 -- INFO: starting 27, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856376.017118 -- INFO: Throughput @22.1s:967.81Mbps, rtt :6.52ms cwnd: 227.9 lossRate: 0.00017218086938094356 CC:28 score:0.55 
+1660856376.974977 -- INFO: Throughput @23.1s:937.54Mbps, rtt :5.71ms cwnd: 228.3 lossRate: 0.00014039745242440873 CC:28 score:0.54 
+1660856377.970851 -- INFO: Throughput @24.1s:948.98Mbps, rtt :6.29ms cwnd: 229.8 lossRate: 0.0001987923365554258 CC:28 score:0.54 
+1660856378.688034 -- INFO: score [0.55, 0.54, 0.54] ******
+1660856378.700156 -- INFO: action array from actor -0.19257573783397675 and action is 14 ******
+1660856378.704586 -- INFO: Changing concurrency to 14 ******
+1660856378.705266 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856378.707254 -- INFO: Active CC: 14
+1660856378.998571 -- INFO: Throughput @25.1s:879.42Mbps, rtt :3.93ms cwnd: 277.9 lossRate: 0 CC:14 score:0.67 
+1660856380.017591 -- INFO: Throughput @26.1s:647.62Mbps, rtt :2.93ms cwnd: 285.6 lossRate: 0.0002563650638509237 CC:14 score:0.49 
+1660856381.007365 -- INFO: Throughput @27.1s:610.0Mbps, rtt :2.79ms cwnd: 293.2 lossRate: 0.0 CC:14 score:0.46 
+1660856381.973809 -- INFO: Throughput @28.1s:605.0Mbps, rtt :3.05ms cwnd: 298.4 lossRate: 0.0 CC:14 score:0.46 
+1660856382.215100 -- INFO: score [0.49, 0.46, 0.46] ******
+1660856382.216937 -- INFO: action array from actor 0.7224663496017456 and action is 28 ******
+1660856382.217274 -- INFO: Changing concurrency to 28 ******
+1660856382.218084 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856382.218190 -- INFO: Start Process :: 14
+1660856382.218086 -- INFO: Start Process :: 16
+1660856382.218288 -- INFO: Start Process :: 27
+1660856382.218392 -- INFO: Start Process :: 26
+1660856382.218692 -- INFO: Start Process :: 22
+1660856382.218828 -- INFO: Start Process :: 23
+1660856382.218429 -- INFO: Start Process :: 15
+1660856382.218563 -- INFO: Start Process :: 25
+1660856382.218729 -- INFO: Active CC: 28
+1660856382.219418 -- INFO: Process 14 get item 21 from queue and executing
+1660856382.219626 -- INFO: starting 14, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856382.219847 -- INFO: Process 16 get item 19 from queue and executing
+1660856382.219899 -- INFO: Process 22 get item 30 from queue and executing
+1660856382.219955 -- INFO: Process 27 get item 7 from queue and executing
+1660856382.220014 -- INFO: starting 16, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856382.220078 -- INFO: Start Process :: 24
+1660856382.219571 -- INFO: Start Process :: 18
+1660856382.219745 -- INFO: Start Process :: 17
+1660856382.220554 -- INFO: Process 15 get item 17 from queue and executing
+1660856382.220211 -- INFO: starting 27, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856382.220741 -- INFO: starting 15, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856382.220927 -- INFO: Process 23 get item 10 from queue and executing
+1660856382.220113 -- INFO: starting 22, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856382.220637 -- INFO: Process 26 get item 24 from queue and executing
+1660856382.220970 -- INFO: Process 25 get item 22 from queue and executing
+1660856382.221503 -- INFO: starting 25, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856382.221641 -- INFO: Process 24 get item 18 from queue and executing
+1660856382.221678 -- INFO: starting 26, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856382.221891 -- INFO: starting 24, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856382.222221 -- INFO: starting 23, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856382.222579 -- INFO: Process 17 get item 25 from queue and executing
+1660856382.222893 -- INFO: starting 17, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856382.223231 -- INFO: Start Process :: 20
+1660856382.223281 -- INFO: Process 18 get item 27 from queue and executing
+1660856382.223500 -- INFO: starting 18, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856382.223933 -- INFO: Start Process :: 21
+1660856382.224555 -- INFO: Start Process :: 19
+1660856382.226316 -- INFO: Process 19 get item 13 from queue and executing
+1660856382.226548 -- INFO: starting 19, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856382.227126 -- INFO: Process 21 get item 16 from queue and executing
+1660856382.227538 -- INFO: starting 21, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856382.235630 -- INFO: Process 20 get item 28 from queue and executing
+1660856382.236434 -- INFO: starting 20, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856382.988038 -- INFO: Throughput @29.1s:978.43Mbps, rtt :6.5ms cwnd: 225.2 lossRate: 3.923414940364093e-05 CC:28 score:0.56 
+1660856383.989682 -- INFO: Throughput @30.1s:970.18Mbps, rtt :6.59ms cwnd: 225.2 lossRate: 0.00012375931288829484 CC:28 score:0.56 
+1660856385.020064 -- INFO: Throughput @31.1s:939.2Mbps, rtt :6.63ms cwnd: 224.4 lossRate: 0.0001869997756002693 CC:28 score:0.54 
+1660856385.720832 -- INFO: score [0.56, 0.56, 0.54] ******
+1660856385.723000 -- INFO: action array from actor -0.1926141083240509 and action is 14 ******
+1660856385.723211 -- INFO: Changing concurrency to 14 ******
+1660856385.723849 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856385.724629 -- INFO: Active CC: 14
+1660856386.060681 -- INFO: Throughput @32.1s:874.75Mbps, rtt :4.39ms cwnd: 286.3 lossRate: 0 CC:14 score:0.66 
+1660856386.995598 -- INFO: Throughput @33.1s:677.04Mbps, rtt :2.76ms cwnd: 290.7 lossRate: 0.000348680561058721 CC:14 score:0.51 
+1660856388.130883 -- INFO: Throughput @34.1s:615.0Mbps, rtt :2.87ms cwnd: 296.4 lossRate: 0.0 CC:14 score:0.47 
+1660856389.017467 -- INFO: Throughput @35.1s:625.0Mbps, rtt :2.96ms cwnd: 301.5 lossRate: 0.0 CC:14 score:0.47 
+1660856389.243441 -- INFO: score [0.51, 0.47, 0.47] ******
+1660856389.251939 -- INFO: action array from actor 0.7224662899971008 and action is 28 ******
+1660856389.262387 -- INFO: Changing concurrency to 28 ******
+1660856389.274560 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856389.274879 -- INFO: Start Process :: 15
+1660856389.275084 -- INFO: Start Process :: 25
+1660856389.275104 -- INFO: Start Process :: 17
+1660856389.275979 -- INFO: Start Process :: 16
+1660856389.276193 -- INFO: Start Process :: 20
+1660856389.278337 -- INFO: Start Process :: 27
+1660856389.278690 -- INFO: Start Process :: 24
+1660856389.279374 -- INFO: Start Process :: 14
+1660856389.279962 -- INFO: Start Process :: 23
+1660856389.280000 -- INFO: Active CC: 28
+1660856389.279507 -- INFO: Process 25 get item 31 from queue and executing
+1660856389.280290 -- INFO: Start Process :: 21
+1660856389.280854 -- INFO: Start Process :: 26
+1660856389.279503 -- INFO: Start Process :: 19
+1660856389.281699 -- INFO: starting 25, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856389.282477 -- INFO: Process 17 get item 8 from queue and executing
+1660856389.282787 -- INFO: Process 16 get item 29 from queue and executing
+1660856389.282962 -- INFO: Process 15 get item 10 from queue and executing
+1660856389.283603 -- INFO: Process 26 get item 19 from queue and executing
+1660856389.283678 -- INFO: Process 27 get item 30 from queue and executing
+1660856389.284064 -- INFO: Process 14 get item 28 from queue and executing
+1660856389.284142 -- INFO: Process 23 get item 7 from queue and executing
+1660856389.284339 -- INFO: Process 24 get item 22 from queue and executing
+1660856389.282590 -- INFO: Process 19 get item 26 from queue and executing
+1660856389.284650 -- INFO: starting 15, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856389.284740 -- INFO: Process 21 get item 13 from queue and executing
+1660856389.284909 -- INFO: Start Process :: 18
+1660856389.283017 -- INFO: starting 16, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856389.285211 -- INFO: Process 20 get item 17 from queue and executing
+1660856389.282928 -- INFO: starting 17, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856389.285936 -- INFO: starting 27, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856389.286503 -- INFO: starting 26, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856389.286865 -- INFO: starting 23, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856389.287300 -- INFO: starting 24, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856389.288120 -- INFO: starting 14, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856389.288787 -- INFO: starting 20, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856389.289292 -- INFO: starting 21, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856389.287300 -- INFO: starting 19, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856389.290633 -- INFO: Start Process :: 22
+1660856389.293146 -- INFO: Process 18 get item 24 from queue and executing
+1660856389.294371 -- INFO: starting 18, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856389.295419 -- INFO: Process 22 get item 18 from queue and executing
+1660856389.296072 -- INFO: starting 22, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856390.064810 -- INFO: Throughput @36.1s:954.11Mbps, rtt :6.94ms cwnd: 229.5 lossRate: 0.0002846492714334124 CC:28 score:0.55 
+1660856390.995720 -- INFO: Throughput @37.1s:918.41Mbps, rtt :6.09ms cwnd: 228.9 lossRate: 3.8049819897519155e-05 CC:28 score:0.53 
+1660856392.001909 -- INFO: Throughput @38.1s:950.05Mbps, rtt :6.22ms cwnd: 225.0 lossRate: 0.0007604003139717425 CC:28 score:0.54 
+1660856392.783510 -- INFO: score [0.55, 0.53, 0.54] ******
+1660856392.785030 -- INFO: action array from actor -0.1747179925441742 and action is 14 ******
+1660856392.785242 -- INFO: Changing concurrency to 14 ******
+1660856392.785560 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856392.785917 -- INFO: Active CC: 14
+1660856393.016371 -- INFO: Throughput @39.1s:903.56Mbps, rtt :3.98ms cwnd: 272.5 lossRate: 0 CC:14 score:0.68 
+1660856394.043009 -- INFO: Throughput @40.1s:637.46Mbps, rtt :2.71ms cwnd: 287.0 lossRate: 0.0 CC:14 score:0.48 
+1660856395.053208 -- INFO: Throughput @41.1s:620.0Mbps, rtt :2.99ms cwnd: 294.3 lossRate: 0.0 CC:14 score:0.47 
+1660856396.040783 -- INFO: Throughput @42.1s:615.0Mbps, rtt :3.12ms cwnd: 299.6 lossRate: 0.0 CC:14 score:0.47 
+1660856396.295469 -- INFO: score [0.48, 0.47, 0.47] ******
+1660856396.297382 -- INFO: action array from actor 0.7228527665138245 and action is 28 ******
+1660856396.298502 -- INFO: Changing concurrency to 28 ******
+1660856396.299894 -- INFO: Start Process :: 19
+1660856396.300540 -- INFO: Start Process :: 21
+1660856396.300333 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856396.301017 -- INFO: Start Process :: 18
+1660856396.301348 -- INFO: Start Process :: 25
+1660856396.301745 -- INFO: Start Process :: 26
+1660856396.301046 -- INFO: Start Process :: 20
+1660856396.302181 -- INFO: Start Process :: 14
+1660856396.302002 -- INFO: Start Process :: 24
+1660856396.302523 -- INFO: Start Process :: 16
+1660856396.302288 -- INFO: Active CC: 28
+1660856396.303041 -- INFO: Start Process :: 15
+1660856396.303258 -- INFO: Process 18 get item 27 from queue and executing
+1660856396.303468 -- INFO: Process 21 get item 25 from queue and executing
+1660856396.303771 -- INFO: starting 21, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856396.303900 -- INFO: Process 25 get item 21 from queue and executing
+1660856396.304101 -- INFO: starting 25, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856396.304450 -- INFO: Start Process :: 17
+1660856396.303523 -- INFO: starting 18, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856396.305476 -- INFO: Process 14 get item 24 from queue and executing
+1660856396.305325 -- INFO: Process 20 get item 19 from queue and executing
+1660856396.306081 -- INFO: Process 19 get item 29 from queue and executing
+1660856396.308279 -- INFO: Process 24 get item 13 from queue and executing
+1660856396.303822 -- INFO: Start Process :: 22
+1660856396.309816 -- INFO: starting 19, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856396.304535 -- INFO: Process 26 get item 16 from queue and executing
+1660856396.303119 -- INFO: Start Process :: 27
+1660856396.305227 -- INFO: Process 16 get item 31 from queue and executing
+1660856396.310953 -- INFO: starting 16, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856396.310213 -- INFO: starting 24, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856396.312205 -- INFO: Process 22 get item 22 from queue and executing
+1660856396.313075 -- INFO: starting 22, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856396.314261 -- INFO: Process 17 get item 8 from queue and executing
+1660856396.315694 -- INFO: starting 17, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856396.309008 -- INFO: starting 14, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856396.309609 -- INFO: starting 20, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856396.309709 -- INFO: Process 15 get item 26 from queue and executing
+1660856396.310599 -- INFO: starting 26, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856396.314842 -- INFO: Start Process :: 23
+1660856396.316744 -- INFO: starting 15, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856396.315006 -- INFO: Process 27 get item 30 from queue and executing
+1660856396.323731 -- INFO: starting 27, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856396.319084 -- INFO: Process 23 get item 7 from queue and executing
+1660856396.324526 -- INFO: starting 23, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856397.006175 -- INFO: Throughput @43.1s:937.01Mbps, rtt :6.84ms cwnd: 228.8 lossRate: 0.0001660485968893563 CC:28 score:0.54 
+1660856398.027025 -- INFO: Throughput @44.1s:951.31Mbps, rtt :6.56ms cwnd: 234.5 lossRate: 0.0002243941358332502 CC:28 score:0.54 
+1660856399.007990 -- INFO: Throughput @45.1s:924.12Mbps, rtt :6.69ms cwnd: 235.6 lossRate: 0.0005734659785074925 CC:28 score:0.53 
+1660856399.803935 -- INFO: score [0.54, 0.54, 0.53] ******
+1660856399.805796 -- INFO: action array from actor -0.19261394441127777 and action is 14 ******
+1660856399.806111 -- INFO: Changing concurrency to 14 ******
+1660856399.806500 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856399.807603 -- INFO: Active CC: 14
+1660856400.038128 -- INFO: Throughput @46.1s:907.12Mbps, rtt :3.84ms cwnd: 263.2 lossRate: 0 CC:14 score:0.69 
+1660856401.073287 -- INFO: Throughput @47.1s:656.57Mbps, rtt :3.69ms cwnd: 286.5 lossRate: 0 CC:14 score:0.5 
+1660856402.040749 -- INFO: Throughput @48.1s:630.0Mbps, rtt :2.88ms cwnd: 293.4 lossRate: 0.0 CC:14 score:0.48 
+1660856403.076934 -- INFO: Throughput @49.1s:610.0Mbps, rtt :3.38ms cwnd: 299.3 lossRate: 0.0 CC:14 score:0.46 
+1660856403.367236 -- INFO: score [0.5, 0.48, 0.46] ******
+1660856403.380018 -- INFO: action array from actor 0.7224670648574829 and action is 28 ******
+1660856403.390373 -- INFO: Changing concurrency to 28 ******
+1660856403.409606 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856403.409712 -- INFO: Start Process :: 15
+1660856403.410023 -- INFO: Start Process :: 24
+1660856403.410110 -- INFO: Start Process :: 25
+1660856403.410455 -- INFO: Start Process :: 18
+1660856403.410579 -- INFO: Start Process :: 22
+1660856403.409747 -- INFO: Start Process :: 21
+1660856403.410758 -- INFO: Start Process :: 14
+1660856403.410969 -- INFO: Start Process :: 17
+1660856403.411132 -- INFO: Start Process :: 20
+1660856403.411352 -- INFO: Start Process :: 23
+1660856403.412325 -- INFO: Process 21 get item 28 from queue and executing
+1660856403.414338 -- INFO: Start Process :: 26
+1660856403.414482 -- INFO: Active CC: 28
+1660856403.414500 -- INFO: Start Process :: 27
+1660856403.415413 -- INFO: Start Process :: 16
+1660856403.415553 -- INFO: starting 21, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856403.416060 -- INFO: Process 18 get item 10 from queue and executing
+1660856403.416246 -- INFO: Process 15 get item 18 from queue and executing
+1660856403.416775 -- INFO: Process 17 get item 29 from queue and executing
+1660856403.417065 -- INFO: starting 17, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856403.417349 -- INFO: Process 25 get item 17 from queue and executing
+1660856403.417644 -- INFO: starting 25, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856403.417820 -- INFO: Process 23 get item 27 from queue and executing
+1660856403.417897 -- INFO: Process 24 get item 21 from queue and executing
+1660856403.418094 -- INFO: Process 26 get item 16 from queue and executing
+1660856403.418221 -- INFO: Process 27 get item 31 from queue and executing
+1660856403.418575 -- INFO: starting 18, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856403.416800 -- INFO: Process 22 get item 30 from queue and executing
+1660856403.418259 -- INFO: Process 14 get item 26 from queue and executing
+1660856403.417456 -- INFO: Process 20 get item 13 from queue and executing
+1660856403.418678 -- INFO: starting 15, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856403.419010 -- INFO: starting 23, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856403.419389 -- INFO: starting 27, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856403.419384 -- INFO: Process 16 get item 24 from queue and executing
+1660856403.420894 -- INFO: Start Process :: 19
+1660856403.420949 -- INFO: starting 16, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856403.421529 -- INFO: starting 24, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856403.424406 -- INFO: Process 19 get item 25 from queue and executing
+1660856403.424778 -- INFO: starting 19, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856403.426668 -- INFO: starting 22, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856403.427279 -- INFO: starting 20, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856403.427503 -- INFO: starting 14, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856403.427728 -- INFO: starting 26, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856404.032481 -- INFO: Throughput @50.1s:914.28Mbps, rtt :6.34ms cwnd: 225.4 lossRate: 0.0 CC:28 score:0.53 
+1660856405.018995 -- INFO: Throughput @51.1s:956.57Mbps, rtt :7.02ms cwnd: 228.3 lossRate: 0.00011329019913899449 CC:28 score:0.55 
+1660856406.004899 -- INFO: Throughput @52.1s:930.08Mbps, rtt :6.02ms cwnd: 230.8 lossRate: 0.0 CC:28 score:0.53 
+1660856406.916404 -- INFO: score [0.53, 0.55, 0.53] ******
+1660856406.918165 -- INFO: action array from actor -0.19261406362056732 and action is 14 ******
+1660856406.918456 -- INFO: Changing concurrency to 14 ******
+1660856406.918739 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856406.919244 -- INFO: Active CC: 14
+1660856407.020409 -- INFO: Throughput @53.1s:928.5Mbps, rtt :5.52ms cwnd: 230.8 lossRate: 0.0008464794151596768 CC:14 score:0.7 
+1660856408.078690 -- INFO: Throughput @54.1s:656.94Mbps, rtt :2.83ms cwnd: 302.9 lossRate: 0 CC:14 score:0.5 
+1660856409.082155 -- INFO: Throughput @55.1s:635.0Mbps, rtt :3.08ms cwnd: 306.3 lossRate: 0.0 CC:14 score:0.48 
+1660856409.989698 -- INFO: Throughput @56.1s:625.0Mbps, rtt :5.06ms cwnd: 309.4 lossRate: 0.0 CC:14 score:0.47 
+1660856410.439269 -- INFO: score [0.5, 0.48, 0.47] ******
+1660856410.449414 -- INFO: action array from actor 0.7246654033660889 and action is 28 ******
+1660856410.459108 -- INFO: Changing concurrency to 28 ******
+1660856410.471548 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856410.471675 -- INFO: Start Process :: 14
+1660856410.472131 -- INFO: Start Process :: 19
+1660856410.472346 -- INFO: Start Process :: 23
+1660856410.472664 -- INFO: Start Process :: 21
+1660856410.472829 -- INFO: Start Process :: 20
+1660856410.472916 -- INFO: Start Process :: 26
+1660856410.473241 -- INFO: Start Process :: 27
+1660856410.473344 -- INFO: Start Process :: 17
+1660856410.479378 -- INFO: Start Process :: 15
+1660856410.479973 -- INFO: Process 23 get item 19 from queue and executing
+1660856410.473437 -- INFO: Start Process :: 25
+1660856410.479629 -- INFO: Active CC: 28
+1660856410.480774 -- INFO: Process 19 get item 7 from queue and executing
+1660856410.481033 -- INFO: Process 14 get item 8 from queue and executing
+1660856410.481517 -- INFO: starting 14, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856410.475221 -- INFO: Start Process :: 16
+1660856410.482160 -- INFO: Process 17 get item 24 from queue and executing
+1660856410.482405 -- INFO: starting 17, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856410.482414 -- INFO: Process 21 get item 17 from queue and executing
+1660856410.479478 -- INFO: Start Process :: 22
+1660856410.482762 -- INFO: starting 21, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856410.483168 -- INFO: Process 15 get item 27 from queue and executing
+1660856410.483444 -- INFO: starting 15, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856410.483955 -- INFO: Process 27 get item 31 from queue and executing
+1660856410.475384 -- INFO: Start Process :: 24
+1660856410.478326 -- INFO: Start Process :: 18
+1660856410.484270 -- INFO: starting 27, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856410.481132 -- INFO: starting 23, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856410.481184 -- INFO: Process 26 get item 30 from queue and executing
+1660856410.481258 -- INFO: Process 20 get item 22 from queue and executing
+1660856410.484889 -- INFO: Process 25 get item 13 from queue and executing
+1660856410.481535 -- INFO: starting 19, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856410.485618 -- INFO: starting 25, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856410.485943 -- INFO: starting 20, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856410.485628 -- INFO: Process 22 get item 21 from queue and executing
+1660856410.485855 -- INFO: starting 26, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856410.486644 -- INFO: Process 16 get item 25 from queue and executing
+1660856410.487041 -- INFO: starting 22, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856410.488321 -- INFO: Process 24 get item 10 from queue and executing
+1660856410.488648 -- INFO: starting 24, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856410.488690 -- INFO: starting 16, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856410.488997 -- INFO: Process 18 get item 16 from queue and executing
+1660856410.490345 -- INFO: starting 18, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856411.049264 -- INFO: Throughput @57.1s:888.76Mbps, rtt :6.38ms cwnd: 238.5 lossRate: 0.0 CC:28 score:0.51 
+1660856412.035388 -- INFO: Throughput @58.1s:959.67Mbps, rtt :6.13ms cwnd: 245.1 lossRate: 0.00013600395647873394 CC:28 score:0.55 
+1660856413.068748 -- INFO: Throughput @59.1s:920.03Mbps, rtt :6.25ms cwnd: 247.4 lossRate: 0.00042598249820478807 CC:28 score:0.52 
+1660856413.991002 -- INFO: score [0.51, 0.55, 0.52] ******
+1660856413.992754 -- INFO: action array from actor -0.04213659092783928 and action is 16 ******
+1660856413.992899 -- INFO: Changing concurrency to 16 ******
+1660856414.006369 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856414.022391 -- INFO: Active CC: 16
+1660856414.038836 -- INFO: Throughput @60.1s:942.76Mbps, rtt :6.05ms cwnd: 245.5 lossRate: 0.0003714757836217608 CC:28 score:0.54 
+1660856415.112966 -- INFO: Throughput @61.1s:756.56Mbps, rtt :5.07ms cwnd: 302.3 lossRate: 0 CC:16 score:0.55 
+1660856416.065189 -- INFO: Throughput @62.1s:755.0Mbps, rtt :3.12ms cwnd: 307.9 lossRate: 0.0 CC:16 score:0.55 
+1660856417.082612 -- INFO: Throughput @63.1s:725.0Mbps, rtt :3.2ms cwnd: 311.6 lossRate: 0.0 CC:16 score:0.53 
+1660856417.556080 -- INFO: score [0.55, 0.55, 0.53] ******
+1660856417.557734 -- INFO: action array from actor 0.722466230392456 and action is 28 ******
+1660856417.557934 -- INFO: Changing concurrency to 28 ******
+1660856417.566298 -- INFO: Start Process :: 16
+1660856417.566355 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856417.566650 -- INFO: Start Process :: 23
+1660856417.566880 -- INFO: Start Process :: 18
+1660856417.569100 -- INFO: Start Process :: 17
+1660856417.569443 -- INFO: Process 16 get item 26 from queue and executing
+1660856417.569093 -- INFO: Process 23 get item 28 from queue and executing
+1660856417.569888 -- INFO: starting 16, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856417.570533 -- INFO: Process 18 get item 29 from queue and executing
+1660856417.571350 -- INFO: starting 23, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856417.571732 -- INFO: starting 18, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856417.570803 -- INFO: Start Process :: 19
+1660856417.570878 -- INFO: Process 17 get item 18 from queue and executing
+1660856417.570913 -- INFO: Start Process :: 26
+1660856417.571267 -- INFO: Start Process :: 27
+1660856417.572894 -- INFO: Start Process :: 22
+1660856417.573151 -- INFO: starting 17, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856417.573329 -- INFO: Start Process :: 25
+1660856417.574550 -- INFO: Process 26 get item 17 from queue and executing
+1660856417.574730 -- INFO: Process 19 get item 31 from queue and executing
+1660856417.575142 -- INFO: Start Process :: 20
+1660856417.577393 -- INFO: starting 26, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856417.577785 -- INFO: starting 19, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856417.578533 -- INFO: Process 27 get item 16 from queue and executing
+1660856417.579226 -- INFO: starting 27, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856417.579380 -- INFO: Process 25 get item 13 from queue and executing
+1660856417.580008 -- INFO: Process 20 get item 19 from queue and executing
+1660856417.580283 -- INFO: starting 25, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856417.580912 -- INFO: starting 20, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856417.582047 -- INFO: Process 22 get item 24 from queue and executing
+1660856417.582263 -- INFO: starting 22, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856417.582340 -- INFO: Active CC: 28
+1660856417.588336 -- INFO: Start Process :: 24
+1660856417.590949 -- INFO: Process 24 get item 30 from queue and executing
+1660856417.591383 -- INFO: starting 24, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856417.591459 -- INFO: Start Process :: 21
+1660856417.595606 -- INFO: Process 21 get item 22 from queue and executing
+1660856417.595851 -- INFO: starting 21, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856418.058038 -- INFO: Throughput @64.1s:919.18Mbps, rtt :5.68ms cwnd: 241.9 lossRate: 0.0006885600663266023 CC:28 score:0.52 
+1660856419.038685 -- INFO: Throughput @65.1s:931.75Mbps, rtt :7.09ms cwnd: 241.2 lossRate: 0.0004102181614767854 CC:28 score:0.53 
+1660856420.043788 -- INFO: Throughput @66.1s:940.68Mbps, rtt :5.87ms cwnd: 239.5 lossRate: 0.00041573231877850287 CC:28 score:0.54 
+1660856421.034674 -- INFO: Throughput @67.1s:929.74Mbps, rtt :6.31ms cwnd: 238.3 lossRate: 0.00047465587449099404 CC:28 score:0.53 
+1660856421.087785 -- INFO: score [0.53, 0.54, 0.53] ******
+1660856421.100462 -- INFO: action array from actor -0.19254836440086365 and action is 14 ******
+1660856421.101321 -- INFO: Changing concurrency to 14 ******
+1660856421.103029 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856421.105144 -- INFO: Active CC: 14
+1660856422.061147 -- INFO: Throughput @68.1s:688.84Mbps, rtt :3.55ms cwnd: 306.7 lossRate: 0 CC:14 score:0.52 
+1660856423.063814 -- INFO: Throughput @69.1s:620.0Mbps, rtt :3.5ms cwnd: 309.2 lossRate: 0.0 CC:14 score:0.47 
+1660856424.096665 -- INFO: Throughput @70.1s:635.0Mbps, rtt :3.22ms cwnd: 311.7 lossRate: 0.0 CC:14 score:0.48 
+1660856424.627218 -- INFO: score [0.52, 0.47, 0.48] ******
+1660856424.629223 -- INFO: action array from actor 0.7224662899971008 and action is 28 ******
+1660856424.654394 -- INFO: Changing concurrency to 28 ******
+1660856424.674753 -- INFO: Start Process :: 14
+1660856424.678680 -- INFO: Process 14 get item 10 from queue and executing
+1660856424.679129 -- INFO: starting 14, 10, /home/hjamil/Documents/files_bash/FILE31
+1660856424.679394 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856424.679626 -- INFO: Start Process :: 15
+1660856424.679695 -- INFO: Start Process :: 23
+1660856424.680565 -- INFO: Start Process :: 21
+1660856424.680851 -- INFO: Start Process :: 18
+1660856424.681206 -- INFO: Start Process :: 27
+1660856424.682451 -- INFO: Start Process :: 22
+1660856424.681352 -- INFO: Start Process :: 17
+1660856424.682693 -- INFO: Start Process :: 24
+1660856424.683109 -- INFO: Start Process :: 19
+1660856424.684351 -- INFO: Process 15 get item 7 from queue and executing
+1660856424.684662 -- INFO: Process 23 get item 25 from queue and executing
+1660856424.684723 -- INFO: Start Process :: 26
+1660856424.686360 -- INFO: Active CC: 28
+1660856424.686434 -- INFO: Start Process :: 16
+1660856424.686520 -- INFO: Process 22 get item 21 from queue and executing
+1660856424.687029 -- INFO: Process 18 get item 22 from queue and executing
+1660856424.687279 -- INFO: Process 21 get item 29 from queue and executing
+1660856424.687928 -- INFO: Process 27 get item 16 from queue and executing
+1660856424.685098 -- INFO: Start Process :: 20
+1660856424.688970 -- INFO: Process 19 get item 28 from queue and executing
+1660856424.689362 -- INFO: starting 27, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856424.689902 -- INFO: starting 22, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856424.689953 -- INFO: starting 21, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856424.690292 -- INFO: Process 26 get item 18 from queue and executing
+1660856424.690581 -- INFO: starting 26, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856424.685365 -- INFO: starting 15, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856424.688564 -- INFO: starting 23, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856424.691175 -- INFO: starting 19, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856424.689501 -- INFO: Process 17 get item 13 from queue and executing
+1660856424.689512 -- INFO: Process 24 get item 24 from queue and executing
+1660856424.688870 -- INFO: starting 18, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856424.691950 -- INFO: starting 17, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856424.692160 -- INFO: starting 24, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856424.693019 -- INFO: Process 20 get item 30 from queue and executing
+1660856424.693263 -- INFO: starting 20, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856424.694083 -- INFO: Start Process :: 25
+1660856424.694805 -- INFO: Process 16 get item 26 from queue and executing
+1660856424.700343 -- INFO: Process 25 get item 17 from queue and executing
+1660856424.700730 -- INFO: starting 25, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856424.702613 -- INFO: starting 16, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856425.063511 -- INFO: Throughput @71.1s:785.25Mbps, rtt :6.74ms cwnd: 234.4 lossRate: 0.0 CC:28 score:0.45 
+1660856426.045331 -- INFO: Throughput @72.1s:1006.42Mbps, rtt :7.02ms cwnd: 236.3 lossRate: 0.00034033327451029824 CC:28 score:0.57 
+1660856427.023462 -- INFO: Throughput @73.1s:743.62Mbps, rtt :7.44ms cwnd: 223.0 lossRate: 0.002226326725815495 CC:28 score:0.41 
+1660856428.025933 -- INFO: Throughput @74.1s:699.89Mbps, rtt :7.17ms cwnd: 219.3 lossRate: 0.0007620941020543406 CC:28 score:0.4 
+1660856428.190614 -- INFO: score [0.57, 0.41, 0.4] ******
+1660856428.192706 -- INFO: action array from actor -0.12056545913219452 and action is 15 ******
+1660856428.193040 -- INFO: Changing concurrency to 15 ******
+1660856428.193870 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856428.194479 -- INFO: Active CC: 15
+1660856429.026855 -- INFO: Throughput @75.1s:503.8Mbps, rtt :5.82ms cwnd: 280.6 lossRate: 0 CC:15 score:0.37 
+1660856430.038144 -- INFO: Throughput @76.1s:457.19Mbps, rtt :5.81ms cwnd: 279.8 lossRate: 0.00028546959748786756 CC:15 score:0.34 
+1660856431.025333 -- INFO: Throughput @77.1s:434.21Mbps, rtt :5.72ms cwnd: 278.9 lossRate: 0.0004953076120959332 CC:15 score:0.32 
+1660856431.695666 -- INFO: score [0.37, 0.34, 0.32] ******
+1660856431.698414 -- INFO: action array from actor 0.8754133582115173 and action is 30 ******
+1660856431.698886 -- INFO: Changing concurrency to 30 ******
+1660856431.704260 -- INFO: Start Process :: 18
+1660856431.704741 -- INFO: Start Process :: 15
+1660856431.706112 -- INFO: Start Process :: 20
+1660856431.706589 -- INFO: Process 15 get item 31 from queue and executing
+1660856431.706758 -- INFO: Start Process :: 22
+1660856431.706762 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1660856431.706978 -- INFO: starting 15, 31, /home/hjamil/Documents/files_bash/FILE19
+1660856431.706499 -- INFO: Start Process :: 17
+1660856431.707232 -- INFO: Start Process :: 23
+1660856431.706876 -- INFO: Start Process :: 26
+1660856431.707713 -- INFO: Start Process :: 24
+1660856431.708086 -- INFO: Process 22 get item 27 from queue and executing
+1660856431.708075 -- INFO: Start Process :: 21
+1660856431.707850 -- INFO: Start Process :: 25
+1660856431.708943 -- INFO: Start Process :: 28
+1660856431.708295 -- INFO: Start Process :: 19
+1660856431.709394 -- INFO: Process 17 get item 19 from queue and executing
+1660856431.710055 -- INFO: Start Process :: 16
+1660856431.710474 -- INFO: Process 20 get item 18 from queue and executing
+1660856431.709190 -- INFO: Start Process :: 29
+1660856431.710393 -- INFO: Process 18 get item 8 from queue and executing
+1660856431.710250 -- INFO: starting 22, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856431.711828 -- INFO: Active CC: 30
+1660856431.710996 -- INFO: Process 26 get item 30 from queue and executing
+1660856431.711072 -- INFO: Start Process :: 27
+1660856431.711581 -- INFO: Process 24 get item 26 from queue and executing
+1660856431.711841 -- INFO: Process 21 get item 16 from queue and executing
+1660856431.712114 -- INFO: Process 25 get item 24 from queue and executing
+1660856431.712455 -- INFO: starting 17, 19, /home/hjamil/Documents/files_bash/FILE8
+1660856431.712473 -- INFO: starting 24, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856431.712511 -- INFO: starting 20, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856431.713183 -- INFO: Process 28 get item 21 from queue and executing
+1660856431.713319 -- INFO: starting 26, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856431.713646 -- INFO: starting 21, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856431.714017 -- INFO: starting 18, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856431.714802 -- INFO: starting 25, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856431.715381 -- INFO: starting 28, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856431.715398 -- INFO: Process 29 get item 13 from queue and executing
+1660856431.715741 -- INFO: Process 27 get item 25 from queue and executing
+1660856431.716104 -- INFO: starting 29, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856431.716218 -- INFO: Process 16 get item 22 from queue and executing
+1660856431.716127 -- INFO: starting 27, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856431.717201 -- INFO: Process 19 get item 17 from queue and executing
+1660856431.717373 -- INFO: Process 23 get item 7 from queue and executing
+1660856431.718578 -- INFO: starting 16, 22, /home/hjamil/Documents/files_bash/FILE9
+1660856431.718957 -- INFO: starting 23, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856431.718630 -- INFO: starting 19, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856432.059438 -- INFO: Throughput @78.1s:568.93Mbps, rtt :6.46ms cwnd: 202.9 lossRate: 0.00021436686745696586 CC:30 score:0.31 
+1660856433.010700 -- INFO: Throughput @79.1s:728.45Mbps, rtt :6.31ms cwnd: 201.8 lossRate: 0.00025071034598027743 CC:30 score:0.4 
+1660856434.008251 -- INFO: Throughput @80.1s:710.02Mbps, rtt :6.3ms cwnd: 201.9 lossRate: 0.0 CC:30 score:0.39 
+1660856435.008012 -- INFO: Throughput @81.1s:721.09Mbps, rtt :6.21ms cwnd: 201.6 lossRate: 8.089044198537501e-05 CC:30 score:0.4 
+1660856435.214198 -- INFO: score [0.4, 0.39, 0.4] ******
+1660856435.216786 -- INFO: action array from actor 0.08319665491580963 and action is 18 ******
+1660856435.216960 -- INFO: Changing concurrency to 18 ******
+1660856435.217500 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856435.217911 -- INFO: Active CC: 18
+1660856436.030808 -- INFO: Throughput @82.1s:561.91Mbps, rtt :5.62ms cwnd: 258.6 lossRate: 0 CC:18 score:0.39 
+1660856437.042956 -- INFO: Throughput @83.1s:514.39Mbps, rtt :5.65ms cwnd: 260.0 lossRate: 0.0 CC:18 score:0.36 
+1660856438.033944 -- INFO: Throughput @84.1s:509.13Mbps, rtt :5.51ms cwnd: 261.8 lossRate: 0.0 CC:18 score:0.36 
+1660856438.721522 -- INFO: score [0.39, 0.36, 0.36] ******
+1660856438.722940 -- INFO: action array from actor 0.7224674820899963 and action is 28 ******
+1660856438.723068 -- INFO: Changing concurrency to 28 ******
+1660856438.734894 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856438.734996 -- INFO: Start Process :: 21
+1660856438.735199 -- INFO: Start Process :: 26
+1660856438.735288 -- INFO: Active CC: 28
+1660856438.736592 -- INFO: Start Process :: 20
+1660856438.735461 -- INFO: Start Process :: 23
+1660856438.735522 -- INFO: Start Process :: 24
+1660856438.735737 -- INFO: Start Process :: 25
+1660856438.737174 -- INFO: Start Process :: 19
+1660856438.737809 -- INFO: Process 21 get item 29 from queue and executing
+1660856438.738220 -- INFO: starting 21, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856438.738753 -- INFO: Process 23 get item 28 from queue and executing
+1660856438.739175 -- INFO: Process 19 get item 8 from queue and executing
+1660856438.739522 -- INFO: starting 19, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856438.739794 -- INFO: starting 23, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856438.740272 -- INFO: Process 24 get item 17 from queue and executing
+1660856438.740610 -- INFO: starting 24, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856438.740690 -- INFO: Process 25 get item 7 from queue and executing
+1660856438.740933 -- INFO: starting 25, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856438.741316 -- INFO: Process 20 get item 16 from queue and executing
+1660856438.741646 -- INFO: starting 20, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856438.741962 -- INFO: Start Process :: 22
+1660856438.742073 -- INFO: Start Process :: 18
+1660856438.743929 -- INFO: Process 26 get item 18 from queue and executing
+1660856438.744854 -- INFO: Process 18 get item 27 from queue and executing
+1660856438.745170 -- INFO: Start Process :: 27
+1660856438.745753 -- INFO: starting 18, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856438.744814 -- INFO: starting 26, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856438.746719 -- INFO: Process 22 get item 21 from queue and executing
+1660856438.746956 -- INFO: starting 22, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856438.755619 -- INFO: Process 27 get item 13 from queue and executing
+1660856438.755888 -- INFO: starting 27, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856439.037173 -- INFO: Throughput @85.1s:576.08Mbps, rtt :6.42ms cwnd: 212.5 lossRate: 0.0004322410670179483 CC:28 score:0.33 
+1660856440.032392 -- INFO: Throughput @86.1s:680.56Mbps, rtt :6.19ms cwnd: 213.2 lossRate: 0.00013892265481193344 CC:28 score:0.39 
+1660856441.035103 -- INFO: Throughput @87.1s:684.47Mbps, rtt :6.25ms cwnd: 212.8 lossRate: 0.00020407469133702934 CC:28 score:0.39 
+1660856442.046975 -- INFO: Throughput @88.1s:673.29Mbps, rtt :6.11ms cwnd: 212.6 lossRate: 1.6838702072844224e-05 CC:28 score:0.39 
+1660856442.239058 -- INFO: score [0.39, 0.39, 0.39] ******
+1660856442.240566 -- INFO: action array from actor 0.0876922458410263 and action is 18 ******
+1660856442.240700 -- INFO: Changing concurrency to 18 ******
+1660856442.250758 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856442.254576 -- INFO: Active CC: 18
+1660856443.061056 -- INFO: Throughput @89.1s:561.98Mbps, rtt :5.56ms cwnd: 260.1 lossRate: 0 CC:18 score:0.39 
+1660856444.066286 -- INFO: Throughput @90.1s:508.85Mbps, rtt :5.36ms cwnd: 260.2 lossRate: 0.0 CC:18 score:0.36 
+1660856445.065515 -- INFO: Throughput @91.1s:503.3Mbps, rtt :5.65ms cwnd: 262.6 lossRate: 0.0 CC:18 score:0.35 
+1660856445.755958 -- INFO: score [0.39, 0.36, 0.35] ******
+1660856445.758185 -- INFO: action array from actor 0.7224668264389038 and action is 28 ******
+1660856445.758583 -- INFO: Changing concurrency to 28 ******
+1660856445.762652 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856445.762912 -- INFO: Start Process :: 21
+1660856445.763065 -- INFO: Active CC: 28
+1660856445.764249 -- INFO: Start Process :: 27
+1660856445.763972 -- INFO: Start Process :: 19
+1660856445.763819 -- INFO: Start Process :: 24
+1660856445.764679 -- INFO: Start Process :: 20
+1660856445.763715 -- INFO: Start Process :: 26
+1660856445.764669 -- INFO: Start Process :: 22
+1660856445.764811 -- INFO: Start Process :: 25
+1660856445.764016 -- INFO: Start Process :: 18
+1660856445.765256 -- INFO: Process 21 get item 26 from queue and executing
+1660856445.766634 -- INFO: starting 21, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856445.767083 -- INFO: Process 24 get item 24 from queue and executing
+1660856445.766772 -- INFO: Start Process :: 23
+1660856445.767437 -- INFO: Process 25 get item 25 from queue and executing
+1660856445.767850 -- INFO: starting 25, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856445.768593 -- INFO: Process 19 get item 30 from queue and executing
+1660856445.769411 -- INFO: Process 20 get item 17 from queue and executing
+1660856445.769509 -- INFO: starting 24, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856445.770495 -- INFO: Process 26 get item 21 from queue and executing
+1660856445.769816 -- INFO: starting 19, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856445.771554 -- INFO: Process 18 get item 27 from queue and executing
+1660856445.771831 -- INFO: Process 27 get item 8 from queue and executing
+1660856445.776825 -- INFO: Process 23 get item 29 from queue and executing
+1660856445.775798 -- INFO: starting 20, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856445.779940 -- INFO: starting 26, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856445.781382 -- INFO: starting 18, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856445.781817 -- INFO: starting 27, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856445.780947 -- INFO: Process 22 get item 18 from queue and executing
+1660856445.783964 -- INFO: starting 22, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856445.782585 -- INFO: starting 23, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856446.039434 -- INFO: Throughput @92.1s:580.69Mbps, rtt :6.24ms cwnd: 213.9 lossRate: 0.0 CC:28 score:0.33 
+1660856447.061327 -- INFO: Throughput @93.1s:721.0Mbps, rtt :6.47ms cwnd: 212.8 lossRate: 0.00034745776733566074 CC:28 score:0.41 
+1660856448.038006 -- INFO: Throughput @94.1s:697.72Mbps, rtt :6.28ms cwnd: 212.9 lossRate: 0.0 CC:28 score:0.4 
+1660856449.041665 -- INFO: Throughput @95.1s:700.56Mbps, rtt :6.47ms cwnd: 213.2 lossRate: 0.0 CC:28 score:0.4 
+1660856449.264241 -- INFO: score [0.41, 0.4, 0.4] ******
+1660856449.266215 -- INFO: action array from actor 0.08892972767353058 and action is 18 ******
+1660856449.266498 -- INFO: Changing concurrency to 18 ******
+1660856449.266830 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856449.267302 -- INFO: Active CC: 18
+1660856450.052048 -- INFO: Throughput @96.1s:566.26Mbps, rtt :5.8ms cwnd: 260.7 lossRate: 0 CC:18 score:0.4 
+1660856451.045722 -- INFO: Throughput @97.1s:501.09Mbps, rtt :5.57ms cwnd: 261.7 lossRate: 0.0 CC:18 score:0.35 
+1660856452.065539 -- INFO: Throughput @98.1s:508.62Mbps, rtt :5.64ms cwnd: 261.7 lossRate: 0.0 CC:18 score:0.36 
+1660856452.770794 -- INFO: score [0.4, 0.35, 0.36] ******
+1660856452.787501 -- INFO: action array from actor 0.7224663496017456 and action is 28 ******
+1660856452.794086 -- INFO: Changing concurrency to 28 ******
+1660856452.794791 -- INFO: Start Process :: 20
+1660856452.795015 -- INFO: Start Process :: 24
+1660856452.795463 -- INFO: Start Process :: 23
+1660856452.795640 -- INFO: Start Process :: 21
+1660856452.795681 -- INFO: Start Process :: 27
+1660856452.796241 -- INFO: Start Process :: 19
+1660856452.796373 -- INFO: Process 20 get item 28 from queue and executing
+1660856452.796970 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856452.797167 -- INFO: Process 24 get item 7 from queue and executing
+1660856452.797834 -- INFO: starting 20, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856452.798074 -- INFO: Process 21 get item 13 from queue and executing
+1660856452.798515 -- INFO: Start Process :: 22
+1660856452.798883 -- INFO: starting 21, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856452.799092 -- INFO: Start Process :: 25
+1660856452.799326 -- INFO: Process 23 get item 16 from queue and executing
+1660856452.799232 -- INFO: Start Process :: 26
+1660856452.799731 -- INFO: Start Process :: 18
+1660856452.799881 -- INFO: starting 24, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856452.800541 -- INFO: starting 23, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856452.802291 -- INFO: Process 18 get item 30 from queue and executing
+1660856452.802406 -- INFO: Active CC: 28
+1660856452.802752 -- INFO: starting 18, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856452.803378 -- INFO: Process 25 get item 8 from queue and executing
+1660856452.803690 -- INFO: Process 26 get item 29 from queue and executing
+1660856452.804154 -- INFO: starting 25, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856452.804857 -- INFO: starting 26, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856452.805032 -- INFO: Process 19 get item 24 from queue and executing
+1660856452.805913 -- INFO: Process 27 get item 26 from queue and executing
+1660856452.806797 -- INFO: starting 19, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856452.807882 -- INFO: starting 27, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856452.808013 -- INFO: Process 22 get item 17 from queue and executing
+1660856452.808481 -- INFO: starting 22, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856453.059710 -- INFO: Throughput @99.1s:591.07Mbps, rtt :6.62ms cwnd: 217.5 lossRate: 0.0 CC:28 score:0.34 
+1660856454.036873 -- INFO: Throughput @100.1s:718.47Mbps, rtt :6.58ms cwnd: 216.6 lossRate: 0.0003579220070902645 CC:28 score:0.41 
+1660856455.048244 -- INFO: Throughput @101.1s:698.55Mbps, rtt :6.33ms cwnd: 214.8 lossRate: 0.00044751628462035703 CC:28 score:0.4 
+1660856456.032176 -- INFO: Throughput @102.1s:692.71Mbps, rtt :6.26ms cwnd: 212.5 lossRate: 0.0006809785661996289 CC:28 score:0.39 
+1660856456.303576 -- INFO: score [0.41, 0.4, 0.39] ******
+1660856456.305395 -- INFO: action array from actor 0.09638094902038574 and action is 18 ******
+1660856456.305642 -- INFO: Changing concurrency to 18 ******
+1660856456.306924 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856456.307666 -- INFO: Active CC: 18
+1660856457.051966 -- INFO: Throughput @103.1s:566.92Mbps, rtt :5.75ms cwnd: 256.4 lossRate: 0 CC:18 score:0.4 
+1660856458.054881 -- INFO: Throughput @104.1s:523.91Mbps, rtt :6.31ms cwnd: 258.5 lossRate: 0.0 CC:18 score:0.37 
+1660856459.067966 -- INFO: Throughput @105.1s:503.92Mbps, rtt :5.39ms cwnd: 260.6 lossRate: 0.0 CC:18 score:0.35 
+1660856459.818331 -- INFO: score [0.4, 0.37, 0.35] ******
+1660856459.838680 -- INFO: action array from actor 0.7224679589271545 and action is 28 ******
+1660856459.842942 -- INFO: Changing concurrency to 28 ******
+1660856459.849691 -- INFO: Start Process :: 18
+1660856459.850030 -- INFO: Start Process :: 25
+1660856459.850108 -- INFO: Start Process :: 22
+1660856459.850393 -- INFO: Start Process :: 20
+1660856459.850617 -- INFO: Start Process :: 21
+1660856459.850805 -- INFO: Start Process :: 24
+1660856459.851234 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856459.851629 -- INFO: Start Process :: 27
+1660856459.852364 -- INFO: Start Process :: 23
+1660856459.852093 -- INFO: Start Process :: 26
+1660856459.853300 -- INFO: Process 18 get item 21 from queue and executing
+1660856459.853621 -- INFO: Start Process :: 19
+1660856459.855387 -- INFO: Process 22 get item 18 from queue and executing
+1660856459.855849 -- INFO: Process 24 get item 27 from queue and executing
+1660856459.855878 -- INFO: starting 22, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856459.855960 -- INFO: Process 25 get item 25 from queue and executing
+1660856459.856304 -- INFO: starting 24, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856459.856362 -- INFO: Active CC: 28
+1660856459.856736 -- INFO: starting 25, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856459.857542 -- INFO: Process 21 get item 8 from queue and executing
+1660856459.857903 -- INFO: Process 20 get item 17 from queue and executing
+1660856459.858147 -- INFO: Process 27 get item 13 from queue and executing
+1660856459.858306 -- INFO: Process 23 get item 28 from queue and executing
+1660856459.859498 -- INFO: starting 18, 21, /home/hjamil/Documents/files_bash/FILE21
+1660856459.858789 -- INFO: Process 19 get item 24 from queue and executing
+1660856459.858992 -- INFO: Process 26 get item 7 from queue and executing
+1660856459.859518 -- INFO: starting 23, 28, /home/hjamil/Documents/files_bash/FILE18
+1660856459.860240 -- INFO: starting 27, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856459.860673 -- INFO: starting 26, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856459.860885 -- INFO: starting 19, 24, /home/hjamil/Documents/files_bash/FILE12
+1660856459.860243 -- INFO: starting 21, 8, /home/hjamil/Documents/files_bash/FILE29
+1660856459.860244 -- INFO: starting 20, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856460.113704 -- INFO: Throughput @106.1s:571.51Mbps, rtt :6.35ms cwnd: 213.9 lossRate: 0.0 CC:28 score:0.33 
+1660856461.066600 -- INFO: Throughput @107.1s:745.59Mbps, rtt :6.35ms cwnd: 211.0 lossRate: 0.00013647917839534605 CC:28 score:0.43 
+1660856462.044707 -- INFO: Throughput @108.2s:651.3Mbps, rtt :6.27ms cwnd: 211.3 lossRate: 0.0 CC:28 score:0.37 
+1660856463.034948 -- INFO: Throughput @109.2s:704.73Mbps, rtt :6.16ms cwnd: 211.5 lossRate: 0.0 CC:28 score:0.4 
+1660856463.361806 -- INFO: score [0.43, 0.37, 0.4] ******
+1660856463.364255 -- INFO: action array from actor 0.4713185727596283 and action is 24 ******
+1660856463.364657 -- INFO: Changing concurrency to 24 ******
+1660856463.365380 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660856463.365787 -- INFO: Active CC: 24
+1660856464.052228 -- INFO: Throughput @110.2s:682.16Mbps, rtt :5.68ms cwnd: 225.6 lossRate: 0.000638901090124985 CC:24 score:0.42 
+1660856465.055082 -- INFO: Throughput @111.2s:666.03Mbps, rtt :5.9ms cwnd: 226.1 lossRate: 0.0 CC:24 score:0.41 
+1660856466.051114 -- INFO: Throughput @112.2s:670.4Mbps, rtt :5.77ms cwnd: 226.3 lossRate: 0.0001205151160388403 CC:24 score:0.42 
+1660856466.866951 -- INFO: score [0.42, 0.41, 0.42] ******
+1660856466.868867 -- INFO: action array from actor 0.4697357416152954 and action is 24 ******
+1660856466.869136 -- INFO: Changing concurrency to 24 ******
+1660856466.870181 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660856466.871153 -- INFO: Active CC: 24
+1660856467.072185 -- INFO: Throughput @113.2s:692.68Mbps, rtt :6.02ms cwnd: 226.7 lossRate: 0.0 CC:24 score:0.43 
+1660856468.051011 -- INFO: Throughput @114.2s:663.9Mbps, rtt :5.84ms cwnd: 227.0 lossRate: 0.0 CC:24 score:0.41 
+1660856469.054302 -- INFO: Throughput @115.2s:686.19Mbps, rtt :6.03ms cwnd: 227.6 lossRate: 0.0 CC:24 score:0.43 
+1660856470.059210 -- INFO: Throughput @116.2s:672.91Mbps, rtt :5.95ms cwnd: 227.6 lossRate: 0.0 CC:24 score:0.42 
+1660856470.372402 -- INFO: score [0.41, 0.43, 0.42] ******
+1660856470.374700 -- INFO: action array from actor 0.08944983780384064 and action is 18 ******
+1660856470.375019 -- INFO: Changing concurrency to 18 ******
+1660856470.375905 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660856470.376423 -- INFO: Active CC: 18
+1660856471.082492 -- INFO: Throughput @117.2s:557.77Mbps, rtt :5.32ms cwnd: 256.3 lossRate: 0 CC:18 score:0.39 
+1660856472.071529 -- INFO: Throughput @118.2s:527.94Mbps, rtt :5.15ms cwnd: 256.7 lossRate: 0.0 CC:18 score:0.37 
+1660856473.057181 -- INFO: Throughput @119.2s:506.93Mbps, rtt :5.69ms cwnd: 258.8 lossRate: 0.0 CC:18 score:0.35 
+1660856473.877405 -- INFO: score [0.39, 0.37, 0.35] ******
+1660856473.879183 -- INFO: action array from actor 0.7227281332015991 and action is 28 ******
+1660856473.879497 -- INFO: Changing concurrency to 28 ******
+1660856473.881437 -- INFO: Start Process :: 18
+1660856473.882222 -- INFO: Start Process :: 19
+1660856473.882363 -- INFO: Start Process :: 23
+1660856473.882405 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0
+1660856473.882666 -- INFO: Start Process :: 26
+1660856473.882676 -- INFO: Start Process :: 22
+1660856473.882979 -- INFO: Start Process :: 21
+1660856473.883083 -- INFO: Start Process :: 25
+1660856473.883645 -- INFO: Process 19 get item 29 from queue and executing
+1660856473.883846 -- INFO: starting 19, 29, /home/hjamil/Documents/files_bash/FILE0
+1660856473.884574 -- INFO: Active CC: 28
+1660856473.884741 -- INFO: Process 21 get item 26 from queue and executing
+1660856473.884506 -- INFO: Process 18 get item 16 from queue and executing
+1660856473.885257 -- INFO: starting 18, 16, /home/hjamil/Documents/files_bash/FILE17
+1660856473.885257 -- INFO: starting 21, 26, /home/hjamil/Documents/files_bash/FILE27
+1660856473.885707 -- INFO: Process 26 get item 30 from queue and executing
+1660856473.885921 -- INFO: starting 26, 30, /home/hjamil/Documents/files_bash/FILE16
+1660856473.886931 -- INFO: Start Process :: 20
+1660856473.887829 -- INFO: Process 25 get item 25 from queue and executing
+1660856473.888494 -- INFO: Process 22 get item 7 from queue and executing
+1660856473.888819 -- INFO: starting 22, 7, /home/hjamil/Documents/files_bash/FILE20
+1660856473.888874 -- INFO: Process 23 get item 13 from queue and executing
+1660856473.889140 -- INFO: starting 23, 13, /home/hjamil/Documents/files_bash/FILE11
+1660856473.889422 -- INFO: Start Process :: 27
+1660856473.889556 -- INFO: starting 25, 25, /home/hjamil/Documents/files_bash/FILE28
+1660856473.890306 -- INFO: Start Process :: 24
+1660856473.890487 -- INFO: Process 20 get item 27 from queue and executing
+1660856473.890846 -- INFO: starting 20, 27, /home/hjamil/Documents/files_bash/FILE26
+1660856473.892265 -- INFO: Process 24 get item 18 from queue and executing
+1660856473.893130 -- INFO: starting 24, 18, /home/hjamil/Documents/files_bash/FILE14
+1660856473.894389 -- INFO: Process 27 get item 17 from queue and executing
+1660856473.894763 -- INFO: starting 27, 17, /home/hjamil/Documents/files_bash/FILE23
+1660856474.084237 -- INFO: Throughput @120.2s:567.96Mbps, rtt :5.89ms cwnd: 208.0 lossRate: 0.00012584156546907444 CC:28 score:0.33 
+1660856474.550205 -- INFO: Process 2 shutdown itself for socket error
+1660856474.550599 -- ERROR: Process: 2, Error from socket: [Errno 32] Broken pipe
+1660856474.551774 -- INFO: Process 23 shutdown itself for socket error
+1660856474.552023 -- ERROR: Process: 23, Error from socket: [Errno 104] Connection reset by peer
+1660856474.552377 -- INFO: Process 8 shutdown itself for socket error
+1660856474.552502 -- ERROR: Process: 8, Error from socket: [Errno 32] Broken pipe
+1660856474.553814 -- INFO: Process 14 shutdown itself for socket error
+1660856474.553819 -- INFO: Process 18 shutdown itself for socket error
+1660856474.553991 -- ERROR: Process: 18, Error from socket: [Errno 104] Connection reset by peer
+1660856474.553989 -- ERROR: Process: 14, Error from socket: [Errno 104] Connection reset by peer
+1660856474.554607 -- INFO: Process 1 shutdown itself for socket error
+1660856474.554825 -- INFO: Process 22 shutdown itself for socket error
+1660856474.554961 -- ERROR: Process: 1, Error from socket: [Errno 104] Connection reset by peer
+1660856474.554985 -- ERROR: Process: 22, Error from socket: [Errno 104] Connection reset by peer
+1660856474.556964 -- INFO: Process 13 shutdown itself for socket error
+1660856474.557202 -- ERROR: Process: 13, Error from socket: [Errno 104] Connection reset by peer
+1660856474.557445 -- INFO: Process 3 shutdown itself for socket error
+1660856474.557604 -- ERROR: Process: 3, Error from socket: [Errno 104] Connection reset by peer
+1660856474.558007 -- INFO: Process 26 shutdown itself for socket error
+1660856474.558251 -- ERROR: Process: 26, Error from socket: [Errno 104] Connection reset by peer
+1660856474.558280 -- INFO: Process 10 shutdown itself for socket error
+1660856474.558470 -- ERROR: Process: 10, Error from socket: [Errno 32] Broken pipe
+1660856474.559154 -- INFO: Process 4 shutdown itself for socket error
+1660856474.559309 -- ERROR: Process: 4, Error from socket: [Errno 32] Broken pipe
+1660856474.559552 -- INFO: Process 15 shutdown itself for socket error
+1660856474.559700 -- ERROR: Process: 15, Error from socket: [Errno 32] Broken pipe
+1660856474.559947 -- INFO: Process 5 shutdown itself for socket error
+1660856474.560092 -- ERROR: Process: 5, Error from socket: [Errno 104] Connection reset by peer
+1660856474.561498 -- INFO: Process 6 shutdown itself for socket error
+1660856474.561828 -- INFO: Process 25 shutdown itself for socket error
+1660856474.561995 -- INFO: Process 19 shutdown itself for socket error
+1660856474.562292 -- INFO: Process 20 shutdown itself for socket error
+1660856474.562567 -- ERROR: Process: 19, Error from socket: [Errno 104] Connection reset by peer
+1660856474.562754 -- ERROR: Process: 25, Error from socket: [Errno 104] Connection reset by peer
+1660856474.562922 -- ERROR: Process: 6, Error from socket: [Errno 104] Connection reset by peer
+1660856474.563157 -- ERROR: Process: 20, Error from socket: [Errno 104] Connection reset by peer
+1660856474.563264 -- INFO: Process 7 shutdown itself for socket error
+1660856474.563592 -- INFO: Process 0 shutdown itself for socket error
+1660856474.563948 -- INFO: Process 17 shutdown itself for socket error
+1660856474.564138 -- ERROR: Process: 7, Error from socket: [Errno 104] Connection reset by peer
+1660856474.564155 -- ERROR: Process: 17, Error from socket: [Errno 104] Connection reset by peer
+1660856474.564337 -- ERROR: Process: 0, Error from socket: [Errno 104] Connection reset by peer
+1660856474.566501 -- INFO: Process 11 shutdown itself for socket error
+1660856474.566730 -- ERROR: Process: 11, Error from socket: [Errno 32] Broken pipe
+1660856474.567944 -- INFO: Process 16 shutdown itself for socket error
+1660856474.568233 -- ERROR: Process: 16, Error from socket: [Errno 104] Connection reset by peer
+1660856474.568841 -- INFO: Process 21 shutdown itself for socket error
+1660856474.568985 -- ERROR: Process: 21, Error from socket: [Errno 104] Connection reset by peer
+1660856474.569730 -- INFO: Process 24 shutdown itself for socket error
+1660856474.569936 -- ERROR: Process: 24, Error from socket: [Errno 104] Connection reset by peer
+1660856474.571088 -- INFO: Process 27 shutdown itself for socket error
+1660856474.571262 -- ERROR: Process: 27, Error from socket: [Errno 104] Connection reset by peer
+1660856474.599910 -- INFO: Process 12 shutdown itself for socket error
+1660856474.601539 -- ERROR: Process: 12, Error from socket: [Errno 32] Broken pipe
+1660856474.600391 -- INFO: Process 9 shutdown itself for socket error
+1660856474.604473 -- ERROR: Process: 9, Error from socket: [Errno 104] Connection reset by peer
+1660856475.056597 -- INFO: Throughput @121.2s:398.72Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.4 
+1660856476.065331 -- INFO: Throughput @122.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856477.063092 -- INFO: Throughput @123.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856477.388167 -- INFO: score [0.4, 0.0, 0.0] ******
+1660856477.395275 -- INFO: action array from actor 0.29612964391708374 and action is 21 ******
+1660856477.395651 -- INFO: Changing concurrency to 21 ******
+1660856477.397155 -- INFO: Start Process :: 0
+1660856477.397499 -- INFO: Start Process :: 3
+1660856477.397311 -- INFO: Start Process :: 11
+1660856477.397665 -- INFO: Start Process :: 18
+1660856477.397472 -- INFO: Start Process :: 14
+1660856477.397207 -- INFO: Start Process :: 4
+1660856477.398092 -- INFO: Start Process :: 6
+1660856477.398166 -- INFO: Start Process :: 8
+1660856477.398498 -- INFO: Start Process :: 15
+1660856477.398649 -- INFO: Process 8 had error to send file 
+1660856477.397682 -- INFO: Start Process :: 16
+1660856477.397680 -- INFO: Start Process :: 12
+1660856477.399435 -- INFO: Process 0 had error to send file 
+1660856477.399451 -- INFO: Process 11 had error to send file 
+1660856477.397850 -- INFO: Start Process :: 10
+1660856477.397855 -- INFO: Start Process :: 5
+1660856477.397954 -- INFO: Start Process :: 13
+1660856477.400784 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856477.397974 -- INFO: Start Process :: 7
+1660856477.397850 -- INFO: Start Process :: 1
+1660856477.401005 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856477.397987 -- INFO: Start Process :: 2
+1660856477.398199 -- INFO: Start Process :: 9
+1660856477.398642 -- INFO: Start Process :: 19
+1660856477.398672 -- INFO: Start Process :: 17
+1660856477.398821 -- INFO: Process 3 had error to send file 
+1660856477.399012 -- INFO: Start Process :: 20
+1660856477.399292 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660856477.399350 -- INFO: Process 14 had error to send file 
+1660856477.399661 -- INFO: Process 6 had error to send file 
+1660856477.402198 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856477.402299 -- INFO: Process 20 had error to send file 
+1660856477.402440 -- INFO: Process 19 had error to send file 
+1660856477.402554 -- INFO: Process 9 had error to send file 
+1660856477.402587 -- INFO: Process 5 had error to send file 
+1660856477.402663 -- INFO: Process 6 shutdown itself 
+1660856477.399695 -- INFO: Process 15 had error to send file 
+1660856477.402719 -- INFO: Process 1 had error to send file 
+1660856477.402867 -- INFO: Process 2 had error to send file 
+1660856477.402919 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856477.403055 -- INFO: Process 15 shutdown itself 
+1660856477.403121 -- INFO: Process 17 had error to send file 
+1660856477.399824 -- INFO: Process 4 had error to send file 
+1660856477.399936 -- INFO: Process 18 had error to send file 
+1660856477.400271 -- INFO: Process 12 had error to send file 
+1660856477.400311 -- INFO: Process 16 had error to send file 
+1660856477.400465 -- INFO: Process 10 had error to send file 
+1660856477.403601 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856477.403624 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856477.403618 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856477.403719 -- INFO: Process 20 shutdown itself 
+1660856477.400809 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856477.401174 -- INFO: Process 8 shutdown itself 
+1660856477.401207 -- INFO: Process 13 had error to send file 
+1660856477.403960 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856477.402262 -- INFO: Process 7 had error to send file 
+1660856477.404043 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856477.402733 -- INFO: Active CC: 16
+1660856477.402808 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856477.402932 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856477.403092 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856477.404526 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856477.404607 -- INFO: Process 11 shutdown itself 
+1660856477.404687 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856477.404805 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856477.404840 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856477.405061 -- INFO: Process 1 shutdown itself 
+1660856477.405082 -- INFO: Process 12 shutdown itself 
+1660856477.403213 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856477.405555 -- INFO: Process 19 shutdown itself 
+1660856477.403489 -- INFO: Process 0 shutdown itself 
+1660856477.403708 -- INFO: Process 10 shutdown itself 
+1660856477.405850 -- INFO: Process 2 shutdown itself 
+1660856477.405878 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856477.405895 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856477.406019 -- INFO: Process 13 shutdown itself 
+1660856477.406109 -- INFO: Process 7 shutdown itself 
+1660856477.406359 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856477.406604 -- INFO: Process 17 shutdown itself 
+1660856477.407053 -- INFO: Process 9 shutdown itself 
+1660856477.407510 -- INFO: Process 14 shutdown itself 
+1660856477.407538 -- INFO: Process 16 shutdown itself 
+1660856477.407982 -- INFO: Process 3 shutdown itself 
+1660856477.412044 -- INFO: Process 18 shutdown itself 
+1660856477.412533 -- INFO: Process 4 shutdown itself 
+1660856477.414670 -- INFO: Process 5 shutdown itself 
+1660856478.062792 -- INFO: Throughput @124.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856479.085494 -- INFO: Throughput @125.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856480.061912 -- INFO: Throughput @126.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856480.907517 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856480.909554 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856480.909906 -- INFO: Changing concurrency to 23 ******
+1660856480.910428 -- INFO: Start Process :: 0
+1660856480.911904 -- INFO: Start Process :: 15
+1660856480.911921 -- INFO: Start Process :: 11
+1660856480.912019 -- INFO: Start Process :: 9
+1660856480.910810 -- INFO: Start Process :: 4
+1660856480.911064 -- INFO: Start Process :: 3
+1660856480.911081 -- INFO: Start Process :: 1
+1660856480.913790 -- INFO: Process 0 had error to send file 
+1660856480.911394 -- INFO: Start Process :: 2
+1660856480.911551 -- INFO: Start Process :: 10
+1660856480.914181 -- INFO: Process 11 had error to send file 
+1660856480.911700 -- INFO: Start Process :: 20
+1660856480.911762 -- INFO: Start Process :: 5
+1660856480.912147 -- INFO: Start Process :: 16
+1660856480.912223 -- INFO: Start Process :: 7
+1660856480.912291 -- INFO: Start Process :: 8
+1660856480.912302 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856480.912456 -- INFO: Start Process :: 14
+1660856480.912470 -- INFO: Start Process :: 6
+1660856480.912582 -- INFO: Start Process :: 18
+1660856480.915333 -- INFO: Process 2 had error to send file 
+1660856480.915478 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856480.912585 -- INFO: Start Process :: 12
+1660856480.915776 -- INFO: Process 8 had error to send file 
+1660856480.915880 -- INFO: Process 5 had error to send file 
+1660856480.915937 -- INFO: Process 6 had error to send file 
+1660856480.916020 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856480.912608 -- INFO: Process 15 had error to send file 
+1660856480.916363 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856480.916619 -- INFO: Process 20 had error to send file 
+1660856480.912605 -- INFO: Start Process :: 17
+1660856480.917220 -- INFO: Process 11 shutdown itself 
+1660856480.917248 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856480.912632 -- INFO: Start Process :: 13
+1660856480.912711 -- INFO: Start Process :: 21
+1660856480.912833 -- INFO: Start Process :: 22
+1660856480.912951 -- INFO: Start Process :: 19
+1660856480.913966 -- INFO: Process 3 had error to send file 
+1660856480.916025 -- INFO: Active CC: 21
+1660856480.918041 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856480.916066 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856480.918278 -- INFO: Process 22 had error to send file 
+1660856480.918461 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856480.918478 -- INFO: Process 21 had error to send file 
+1660856480.916145 -- INFO: Process 5 shutdown itself 
+1660856480.918736 -- INFO: Process 20 shutdown itself 
+1660856480.916137 -- INFO: Process 16 had error to send file 
+1660856480.916234 -- INFO: Process 18 had error to send file 
+1660856480.916257 -- INFO: Process 7 had error to send file 
+1660856480.926631 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856480.916369 -- INFO: Process 9 had error to send file 
+1660856480.916492 -- INFO: Process 14 had error to send file 
+1660856480.926871 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856480.926969 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856480.916520 -- INFO: Process 1 had error to send file 
+1660856480.927133 -- INFO: Process 7 shutdown itself 
+1660856480.916664 -- INFO: Process 10 had error to send file 
+1660856480.916906 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856480.916925 -- INFO: Process 2 shutdown itself 
+1660856480.927661 -- INFO: Process 15 shutdown itself 
+1660856480.916926 -- INFO: Process 4 had error to send file 
+1660856480.927787 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856480.916980 -- INFO: Process 12 had error to send file 
+1660856480.917116 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856480.917196 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856480.928200 -- INFO: Process 0 shutdown itself 
+1660856480.928240 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856480.918055 -- INFO: Process 13 had error to send file 
+1660856480.918053 -- INFO: Process 17 had error to send file 
+1660856480.928383 -- INFO: Process 8 shutdown itself 
+1660856480.918191 -- INFO: Process 3 shutdown itself 
+1660856480.918550 -- INFO: Process 22 shutdown itself 
+1660856480.928621 -- INFO: Process 12 shutdown itself 
+1660856480.918586 -- INFO: Process 6 shutdown itself 
+1660856480.928739 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856480.918703 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856480.918876 -- INFO: Process 19 had error to send file 
+1660856480.926719 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856480.928976 -- INFO: Process 10 shutdown itself 
+1660856480.927159 -- INFO: Process 18 shutdown itself 
+1660856480.927243 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856480.927288 -- INFO: Process 9 shutdown itself 
+1660856480.927366 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856480.927893 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856480.935009 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856480.935233 -- INFO: Process 17 shutdown itself 
+1660856480.935615 -- INFO: Process 16 shutdown itself 
+1660856480.935645 -- INFO: Process 21 shutdown itself 
+1660856480.935843 -- INFO: Process 13 shutdown itself 
+1660856480.935867 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856480.936613 -- INFO: Process 1 shutdown itself 
+1660856480.937809 -- INFO: Process 14 shutdown itself 
+1660856480.938310 -- INFO: Process 4 shutdown itself 
+1660856480.938878 -- INFO: Process 19 shutdown itself 
+1660856481.063110 -- INFO: Throughput @127.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856482.074682 -- INFO: Throughput @128.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856483.077970 -- INFO: Throughput @129.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856484.074605 -- INFO: Throughput @130.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856484.419671 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856484.422572 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856484.422926 -- INFO: Changing concurrency to 23 ******
+1660856484.424260 -- INFO: Start Process :: 0
+1660856484.424969 -- INFO: Start Process :: 1
+1660856484.425472 -- INFO: Process 0 had error to send file 
+1660856484.425001 -- INFO: Start Process :: 8
+1660856484.425120 -- INFO: Start Process :: 6
+1660856484.426066 -- INFO: Start Process :: 14
+1660856484.425228 -- INFO: Start Process :: 5
+1660856484.425291 -- INFO: Start Process :: 4
+1660856484.427209 -- INFO: Start Process :: 18
+1660856484.425430 -- INFO: Start Process :: 7
+1660856484.424876 -- INFO: Start Process :: 3
+1660856484.425659 -- INFO: Start Process :: 9
+1660856484.425680 -- INFO: Start Process :: 2
+1660856484.426216 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856484.426250 -- INFO: Start Process :: 11
+1660856484.425774 -- INFO: Start Process :: 10
+1660856484.428557 -- INFO: Process 8 had error to send file 
+1660856484.426392 -- INFO: Start Process :: 13
+1660856484.426581 -- INFO: Start Process :: 21
+1660856484.426613 -- INFO: Start Process :: 16
+1660856484.426668 -- INFO: Start Process :: 22
+1660856484.429075 -- INFO: Process 7 had error to send file 
+1660856484.426763 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856484.429316 -- INFO: Process 0 shutdown itself 
+1660856484.426908 -- INFO: Start Process :: 15
+1660856484.425523 -- INFO: Start Process :: 12
+1660856484.427119 -- INFO: Start Process :: 19
+1660856484.427549 -- INFO: Start Process :: 20
+1660856484.427594 -- INFO: Start Process :: 17
+1660856484.427653 -- INFO: Process 6 had error to send file 
+1660856484.427805 -- INFO: Process 4 had error to send file 
+1660856484.430102 -- INFO: Process 2 had error to send file 
+1660856484.430551 -- INFO: Process 3 had error to send file 
+1660856484.427812 -- INFO: Process 1 had error to send file 
+1660856484.427978 -- INFO: Process 14 had error to send file 
+1660856484.427802 -- INFO: Process 5 had error to send file 
+1660856484.429076 -- INFO: Process 10 had error to send file 
+1660856484.432372 -- INFO: Process 20 had error to send file 
+1660856484.429347 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856484.433193 -- INFO: Process 8 shutdown itself 
+1660856484.430099 -- INFO: Process 15 had error to send file 
+1660856484.433491 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856484.430230 -- INFO: Process 12 had error to send file 
+1660856484.430948 -- INFO: Active CC: 21
+1660856484.431278 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856484.433733 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856484.431381 -- INFO: Process 16 had error to send file 
+1660856484.431543 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856484.431675 -- INFO: Process 17 had error to send file 
+1660856484.434093 -- INFO: Process 6 shutdown itself 
+1660856484.434141 -- INFO: Process 15 shutdown itself 
+1660856484.431628 -- INFO: Process 21 had error to send file 
+1660856484.431730 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856484.431781 -- INFO: Process 13 had error to send file 
+1660856484.431859 -- INFO: Process 11 had error to send file 
+1660856484.431892 -- INFO: Process 19 had error to send file 
+1660856484.432042 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856484.432054 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856484.434574 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856484.434685 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856484.434706 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856484.434793 -- INFO: Process 16 shutdown itself 
+1660856484.434731 -- INFO: Process 17 shutdown itself 
+1660856484.434772 -- INFO: Process 4 shutdown itself 
+1660856484.434953 -- INFO: Process 21 shutdown itself 
+1660856484.432051 -- INFO: Process 22 had error to send file 
+1660856484.432556 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856484.432556 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856484.432700 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856484.432785 -- INFO: Process 9 had error to send file 
+1660856484.435424 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856484.433326 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856484.433438 -- INFO: Process 18 had error to send file 
+1660856484.433879 -- INFO: Process 7 shutdown itself 
+1660856484.433980 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856484.434583 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856484.434873 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856484.434442 -- INFO: Process 1 shutdown itself 
+1660856484.438768 -- INFO: Process 2 shutdown itself 
+1660856484.438835 -- INFO: Process 5 shutdown itself 
+1660856484.438958 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856484.439169 -- INFO: Process 3 shutdown itself 
+1660856484.439314 -- INFO: Process 22 shutdown itself 
+1660856484.439536 -- INFO: Process 14 shutdown itself 
+1660856484.439945 -- INFO: Process 10 shutdown itself 
+1660856484.440270 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856484.440989 -- INFO: Process 20 shutdown itself 
+1660856484.442166 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856484.441000 -- INFO: Process 11 shutdown itself 
+1660856484.441381 -- INFO: Process 13 shutdown itself 
+1660856484.441568 -- INFO: Process 19 shutdown itself 
+1660856484.441772 -- INFO: Process 12 shutdown itself 
+1660856484.443190 -- INFO: Process 18 shutdown itself 
+1660856484.444148 -- INFO: Process 9 shutdown itself 
+1660856485.065255 -- INFO: Throughput @131.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856486.073581 -- INFO: Throughput @132.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856487.097734 -- INFO: Throughput @133.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856487.937505 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856487.940114 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856487.942005 -- INFO: Changing concurrency to 23 ******
+1660856487.943485 -- INFO: Start Process :: 1
+1660856487.943573 -- INFO: Start Process :: 0
+1660856487.944067 -- INFO: Start Process :: 2
+1660856487.944910 -- INFO: Start Process :: 3
+1660856487.946223 -- INFO: Start Process :: 6
+1660856487.944961 -- INFO: Start Process :: 8
+1660856487.945318 -- INFO: Start Process :: 4
+1660856487.945508 -- INFO: Start Process :: 13
+1660856487.948075 -- INFO: Process 2 had error to send file 
+1660856487.948283 -- INFO: Process 13 had error to send file 
+1660856487.948298 -- INFO: Process 8 had error to send file 
+1660856487.945545 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856487.945658 -- INFO: Start Process :: 14
+1660856487.945774 -- INFO: Start Process :: 18
+1660856487.945956 -- INFO: Start Process :: 15
+1660856487.946250 -- INFO: Start Process :: 5
+1660856487.948697 -- INFO: Process 4 had error to send file 
+1660856487.946266 -- INFO: Start Process :: 9
+1660856487.946403 -- INFO: Start Process :: 10
+1660856487.946518 -- INFO: Start Process :: 11
+1660856487.949038 -- INFO: Process 1 had error to send file 
+1660856487.946597 -- INFO: Start Process :: 17
+1660856487.949401 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856487.949447 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856487.946614 -- INFO: Start Process :: 22
+1660856487.949763 -- INFO: Process 9 had error to send file 
+1660856487.949399 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856487.946716 -- INFO: Start Process :: 16
+1660856487.946792 -- INFO: Start Process :: 20
+1660856487.950599 -- INFO: Process 8 shutdown itself 
+1660856487.946241 -- INFO: Start Process :: 21
+1660856487.950816 -- INFO: Active CC: 20
+1660856487.947031 -- INFO: Start Process :: 7
+1660856487.951054 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856487.951174 -- INFO: Process 4 shutdown itself 
+1660856487.950763 -- INFO: Process 13 shutdown itself 
+1660856487.951459 -- INFO: Process 20 had error to send file 
+1660856487.951587 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856487.951669 -- INFO: Process 20 shutdown itself 
+1660856487.946821 -- INFO: Start Process :: 19
+1660856487.952539 -- INFO: Process 16 had error to send file 
+1660856487.947218 -- INFO: Start Process :: 12
+1660856487.952955 -- INFO: Process 19 had error to send file 
+1660856487.947444 -- INFO: Process 0 had error to send file 
+1660856487.953783 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856487.954396 -- INFO: Process 12 had error to send file 
+1660856487.954620 -- INFO: Process 16 shutdown itself 
+1660856487.954886 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856487.955001 -- INFO: Process 19 shutdown itself 
+1660856487.955220 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856487.955328 -- INFO: Process 0 shutdown itself 
+1660856487.947757 -- INFO: Process 3 had error to send file 
+1660856487.956043 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856487.956147 -- INFO: Process 3 shutdown itself 
+1660856487.948367 -- INFO: Process 6 had error to send file 
+1660856487.949047 -- INFO: Process 14 had error to send file 
+1660856487.956480 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856487.956515 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856487.949076 -- INFO: Process 18 had error to send file 
+1660856487.949211 -- INFO: Process 15 had error to send file 
+1660856487.956699 -- INFO: Process 6 shutdown itself 
+1660856487.949270 -- INFO: Process 5 had error to send file 
+1660856487.956705 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856487.956795 -- INFO: Process 18 shutdown itself 
+1660856487.956799 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856487.956854 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856487.949776 -- INFO: Process 10 had error to send file 
+1660856487.956907 -- INFO: Process 15 shutdown itself 
+1660856487.956952 -- INFO: Process 5 shutdown itself 
+1660856487.957037 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856487.957396 -- INFO: Process 10 shutdown itself 
+1660856487.949988 -- INFO: Process 11 had error to send file 
+1660856487.950154 -- INFO: Process 22 had error to send file 
+1660856487.950167 -- INFO: Process 17 had error to send file 
+1660856487.959262 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856487.950275 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856487.951745 -- INFO: Process 7 had error to send file 
+1660856487.959581 -- INFO: Process 11 shutdown itself 
+1660856487.959701 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856487.951788 -- INFO: Process 21 had error to send file 
+1660856487.952134 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856487.960088 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856487.960696 -- INFO: Process 1 shutdown itself 
+1660856487.960923 -- INFO: Process 14 shutdown itself 
+1660856487.961148 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856487.961368 -- INFO: Process 17 shutdown itself 
+1660856487.961688 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856487.953929 -- INFO: Process 2 shutdown itself 
+1660856487.962387 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856487.962079 -- INFO: Process 22 shutdown itself 
+1660856487.962561 -- INFO: Process 7 shutdown itself 
+1660856487.962406 -- INFO: Process 9 shutdown itself 
+1660856487.964321 -- INFO: Process 21 shutdown itself 
+1660856487.966313 -- INFO: Process 12 shutdown itself 
+1660856488.064307 -- INFO: Throughput @134.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856489.066031 -- INFO: Throughput @135.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856490.056710 -- INFO: Throughput @136.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856491.072997 -- INFO: Throughput @137.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856491.452574 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856491.454658 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856491.454811 -- INFO: Changing concurrency to 23 ******
+1660856491.455701 -- INFO: Start Process :: 1
+1660856491.456013 -- INFO: Start Process :: 5
+1660856491.455650 -- INFO: Start Process :: 2
+1660856491.456098 -- INFO: Start Process :: 6
+1660856491.456224 -- INFO: Start Process :: 4
+1660856491.456560 -- INFO: Start Process :: 3
+1660856491.457066 -- INFO: Start Process :: 11
+1660856491.457098 -- INFO: Start Process :: 9
+1660856491.457191 -- INFO: Process 5 had error to send file 
+1660856491.457230 -- INFO: Start Process :: 15
+1660856491.455804 -- INFO: Start Process :: 0
+1660856491.456285 -- INFO: Start Process :: 7
+1660856491.457140 -- INFO: Start Process :: 10
+1660856491.457605 -- INFO: Process 11 had error to send file 
+1660856491.457608 -- INFO: Process 1 had error to send file 
+1660856491.457602 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856491.457843 -- INFO: Process 15 had error to send file 
+1660856491.457925 -- INFO: Process 6 had error to send file 
+1660856491.458090 -- INFO: Start Process :: 8
+1660856491.458334 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856491.458340 -- INFO: Process 10 had error to send file 
+1660856491.458340 -- INFO: Process 4 had error to send file 
+1660856491.458522 -- INFO: Process 7 had error to send file 
+1660856491.458622 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856491.458719 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856491.457935 -- INFO: Process 9 had error to send file 
+1660856491.458949 -- INFO: Start Process :: 14
+1660856491.457925 -- INFO: Start Process :: 17
+1660856491.458147 -- INFO: Process 5 shutdown itself 
+1660856491.458199 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856491.459637 -- INFO: Start Process :: 22
+1660856491.458947 -- INFO: Start Process :: 21
+1660856491.458552 -- INFO: Start Process :: 12
+1660856491.458187 -- INFO: Process 3 had error to send file 
+1660856491.458285 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856491.459633 -- INFO: Start Process :: 19
+1660856491.459840 -- INFO: Process 14 had error to send file 
+1660856491.459839 -- INFO: Process 8 had error to send file 
+1660856491.458323 -- INFO: Process 0 had error to send file 
+1660856491.458325 -- INFO: Start Process :: 16
+1660856491.458780 -- INFO: Process 10 shutdown itself 
+1660856491.458878 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856491.460664 -- INFO: Process 19 had error to send file 
+1660856491.458896 -- INFO: Process 11 shutdown itself 
+1660856491.460799 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856491.460860 -- INFO: Process 4 shutdown itself 
+1660856491.459017 -- INFO: Start Process :: 18
+1660856491.459033 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856491.461015 -- INFO: Process 12 had error to send file 
+1660856491.461150 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856491.459073 -- INFO: Start Process :: 20
+1660856491.459139 -- INFO: Process 2 had error to send file 
+1660856491.461565 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856491.459217 -- INFO: Process 1 shutdown itself 
+1660856491.462098 -- INFO: Process 20 had error to send file 
+1660856491.459241 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856491.462222 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856491.462340 -- INFO: Process 20 shutdown itself 
+1660856491.462344 -- INFO: Process 7 shutdown itself 
+1660856491.459314 -- INFO: Process Status Bits from change concurrency are: 1 0 1 1 0 0 0 1 1 0 0 0 1 1 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856491.459594 -- INFO: Start Process :: 13
+1660856491.459970 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856491.459987 -- INFO: Process 15 shutdown itself 
+1660856491.460067 -- INFO: Process 17 had error to send file 
+1660856491.463403 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856491.460418 -- INFO: Process 21 had error to send file 
+1660856491.463496 -- INFO: Process 14 shutdown itself 
+1660856491.460430 -- INFO: Process 22 had error to send file 
+1660856491.460474 -- INFO: Process 6 shutdown itself 
+1660856491.460909 -- INFO: Process 3 shutdown itself 
+1660856491.461196 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856491.461304 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856491.461396 -- INFO: Process 9 shutdown itself 
+1660856491.461464 -- INFO: Process 16 had error to send file 
+1660856491.463917 -- INFO: Process 13 had error to send file 
+1660856491.464073 -- INFO: Process 17 shutdown itself 
+1660856491.464258 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856491.465699 -- INFO: Process 0 shutdown itself 
+1660856491.466281 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856491.461663 -- INFO: Process 18 had error to send file 
+1660856491.461718 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856491.465883 -- INFO: Process 16 shutdown itself 
+1660856491.461842 -- INFO: Process 19 shutdown itself 
+1660856491.461944 -- INFO: Process 12 shutdown itself 
+1660856491.465109 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856491.465722 -- INFO: Active CC: 4
+1660856491.466122 -- INFO: Process 8 shutdown itself 
+1660856491.466582 -- INFO: Process 21 shutdown itself 
+1660856491.466633 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856491.467710 -- INFO: Process 22 shutdown itself 
+1660856491.466633 -- INFO: Process 2 shutdown itself 
+1660856491.466522 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856491.468526 -- INFO: Process 18 shutdown itself 
+1660856491.468564 -- INFO: Process 13 shutdown itself 
+1660856492.081946 -- INFO: Throughput @138.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856493.091764 -- INFO: Throughput @139.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856494.078477 -- INFO: Throughput @140.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856494.969376 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856494.971365 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856494.971526 -- INFO: Changing concurrency to 23 ******
+1660856494.972543 -- INFO: Start Process :: 3
+1660856494.972682 -- INFO: Start Process :: 7
+1660856494.973196 -- INFO: Start Process :: 11
+1660856494.973306 -- INFO: Start Process :: 4
+1660856494.973895 -- INFO: Process 11 had error to send file 
+1660856494.974046 -- INFO: Start Process :: 6
+1660856494.974199 -- INFO: Process 4 had error to send file 
+1660856494.974712 -- INFO: Start Process :: 15
+1660856494.974868 -- INFO: Start Process :: 16
+1660856494.974869 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856494.975131 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856494.975776 -- INFO: Process 4 shutdown itself 
+1660856494.973506 -- INFO: Process 7 had error to send file 
+1660856494.976648 -- INFO: Start Process :: 5
+1660856494.976961 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856494.977127 -- INFO: Start Process :: 17
+1660856494.975119 -- INFO: Start Process :: 22
+1660856494.975273 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856494.975410 -- INFO: Start Process :: 8
+1660856494.975580 -- INFO: Process 6 had error to send file 
+1660856494.975728 -- INFO: Start Process :: 19
+1660856494.975901 -- INFO: Process 15 had error to send file 
+1660856494.978848 -- INFO: Process 7 shutdown itself 
+1660856494.977877 -- INFO: Start Process :: 9
+1660856494.976042 -- INFO: Start Process :: 20
+1660856494.976677 -- INFO: Start Process :: 21
+1660856494.977161 -- INFO: Active CC: 20
+1660856494.972746 -- INFO: Start Process :: 0
+1660856494.976683 -- INFO: Start Process :: 13
+1660856494.976932 -- INFO: Start Process :: 10
+1660856494.979579 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856494.979845 -- INFO: Process 6 shutdown itself 
+1660856494.979953 -- INFO: Process 19 had error to send file 
+1660856494.980257 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856494.980358 -- INFO: Process 20 had error to send file 
+1660856494.980501 -- INFO: Process 9 had error to send file 
+1660856494.977448 -- INFO: Process 3 had error to send file 
+1660856494.973734 -- INFO: Start Process :: 1
+1660856494.976894 -- INFO: Start Process :: 12
+1660856494.977851 -- INFO: Start Process :: 14
+1660856494.977953 -- INFO: Start Process :: 18
+1660856494.978084 -- INFO: Process 16 had error to send file 
+1660856494.973025 -- INFO: Start Process :: 2
+1660856494.979192 -- INFO: Process 11 shutdown itself 
+1660856494.979698 -- INFO: Process 21 had error to send file 
+1660856494.979805 -- INFO: Process 0 had error to send file 
+1660856494.979699 -- INFO: Process 17 had error to send file 
+1660856494.981769 -- INFO: Process 22 had error to send file 
+1660856494.980588 -- INFO: Process 19 shutdown itself 
+1660856494.982322 -- INFO: Process 13 had error to send file 
+1660856494.982415 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856494.980634 -- INFO: Process 8 had error to send file 
+1660856494.980927 -- INFO: Process 5 had error to send file 
+1660856494.981894 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856494.983030 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856494.983120 -- INFO: Process 5 shutdown itself 
+1660856494.983140 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856494.983017 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856494.983247 -- INFO: Process 8 shutdown itself 
+1660856494.983448 -- INFO: Process 1 had error to send file 
+1660856494.983937 -- INFO: Process 9 shutdown itself 
+1660856494.981894 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856494.987130 -- INFO: Process 15 shutdown itself 
+1660856494.983069 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856494.983436 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856494.987463 -- INFO: Process 22 shutdown itself 
+1660856494.982965 -- INFO: Process 10 had error to send file 
+1660856494.987647 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856494.987463 -- INFO: Process 13 shutdown itself 
+1660856494.987938 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856494.988001 -- INFO: Process 12 had error to send file 
+1660856494.988070 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856494.989393 -- INFO: Process 18 had error to send file 
+1660856494.988103 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856494.989605 -- INFO: Process 10 shutdown itself 
+1660856494.989630 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856494.989722 -- INFO: Process 0 shutdown itself 
+1660856494.988324 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856494.990098 -- INFO: Process 17 shutdown itself 
+1660856494.988355 -- INFO: Process 2 had error to send file 
+1660856494.988553 -- INFO: Process 21 shutdown itself 
+1660856494.988662 -- INFO: Process 14 had error to send file 
+1660856494.988787 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856494.988495 -- INFO: Process 20 shutdown itself 
+1660856494.988989 -- INFO: Process 3 shutdown itself 
+1660856494.989852 -- INFO: Process 12 shutdown itself 
+1660856494.991209 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856494.991610 -- INFO: Process 2 shutdown itself 
+1660856494.991534 -- INFO: Process 16 shutdown itself 
+1660856494.991814 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856494.991979 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856494.992146 -- INFO: Process 14 shutdown itself 
+1660856494.992115 -- INFO: Process 18 shutdown itself 
+1660856494.992920 -- INFO: Process 1 shutdown itself 
+1660856495.094303 -- INFO: Throughput @141.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856496.067300 -- INFO: Throughput @142.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856497.087830 -- INFO: Throughput @143.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856498.083888 -- INFO: Throughput @144.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856498.483398 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856498.485500 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856498.485736 -- INFO: Changing concurrency to 23 ******
+1660856498.486307 -- INFO: Start Process :: 4
+1660856498.486441 -- INFO: Start Process :: 2
+1660856498.486524 -- INFO: Start Process :: 0
+1660856498.487103 -- INFO: Start Process :: 3
+1660856498.487456 -- INFO: Process 2 had error to send file 
+1660856498.487096 -- INFO: Start Process :: 1
+1660856498.487680 -- INFO: Start Process :: 20
+1660856498.487750 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856498.488200 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856498.488248 -- INFO: Process 1 had error to send file 
+1660856498.488375 -- INFO: Start Process :: 21
+1660856498.488488 -- INFO: Process 2 shutdown itself 
+1660856498.488590 -- INFO: Start Process :: 22
+1660856498.487136 -- INFO: Start Process :: 9
+1660856498.487160 -- INFO: Process 4 had error to send file 
+1660856498.487299 -- INFO: Process 0 had error to send file 
+1660856498.487378 -- INFO: Start Process :: 5
+1660856498.487480 -- INFO: Start Process :: 6
+1660856498.487907 -- INFO: Start Process :: 13
+1660856498.487942 -- INFO: Start Process :: 12
+1660856498.487965 -- INFO: Start Process :: 7
+1660856498.488091 -- INFO: Start Process :: 15
+1660856498.488138 -- INFO: Start Process :: 16
+1660856498.489810 -- INFO: Start Process :: 10
+1660856498.489984 -- INFO: Start Process :: 19
+1660856498.490617 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856498.490619 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856498.490719 -- INFO: Process 0 shutdown itself 
+1660856498.491384 -- INFO: Process 9 had error to send file 
+1660856498.491524 -- INFO: Process 16 had error to send file 
+1660856498.492012 -- INFO: Process 22 had error to send file 
+1660856498.488642 -- INFO: Process 3 had error to send file 
+1660856498.492224 -- INFO: Process 10 had error to send file 
+1660856498.488642 -- INFO: Process 20 had error to send file 
+1660856498.492367 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856498.492463 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856498.488838 -- INFO: Start Process :: 8
+1660856498.488899 -- INFO: Start Process :: 17
+1660856498.489055 -- INFO: Active CC: 22
+1660856498.489273 -- INFO: Start Process :: 11
+1660856498.489361 -- INFO: Start Process :: 18
+1660856498.489572 -- INFO: Start Process :: 14
+1660856498.489991 -- INFO: Process 21 had error to send file 
+1660856498.490719 -- INFO: Process 4 shutdown itself 
+1660856498.491539 -- INFO: Process 15 had error to send file 
+1660856498.491686 -- INFO: Process 7 had error to send file 
+1660856498.491815 -- INFO: Process 13 had error to send file 
+1660856498.491915 -- INFO: Process 6 had error to send file 
+1660856498.491990 -- INFO: Process 12 had error to send file 
+1660856498.492204 -- INFO: Process 5 had error to send file 
+1660856498.494442 -- INFO: Process 9 shutdown itself 
+1660856498.492487 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856498.494458 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856498.492498 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856498.492586 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856498.492882 -- INFO: Process 19 had error to send file 
+1660856498.494869 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856498.494996 -- INFO: Process 16 shutdown itself 
+1660856498.495136 -- INFO: Process 10 shutdown itself 
+1660856498.495621 -- INFO: Process 8 had error to send file 
+1660856498.495835 -- INFO: Process 17 had error to send file 
+1660856498.496024 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856498.496144 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856498.496387 -- INFO: Process 7 shutdown itself 
+1660856498.496427 -- INFO: Process 18 had error to send file 
+1660856498.496572 -- INFO: Process 11 had error to send file 
+1660856498.496743 -- INFO: Process 14 had error to send file 
+1660856498.496919 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856498.497014 -- INFO: Process 8 shutdown itself 
+1660856498.497025 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856498.497122 -- INFO: Process 13 shutdown itself 
+1660856498.497054 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856498.497381 -- INFO: Process 12 shutdown itself 
+1660856498.497715 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856498.494980 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856498.497833 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856498.500764 -- INFO: Process 20 shutdown itself 
+1660856498.500813 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856498.500922 -- INFO: Process 3 shutdown itself 
+1660856498.501002 -- INFO: Process 6 shutdown itself 
+1660856498.498050 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856498.501434 -- INFO: Process 1 shutdown itself 
+1660856498.501962 -- INFO: Process 15 shutdown itself 
+1660856498.502149 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856498.501457 -- INFO: Process 22 shutdown itself 
+1660856498.502501 -- INFO: Process 17 shutdown itself 
+1660856498.503375 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856498.503654 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856498.503871 -- INFO: Process 14 shutdown itself 
+1660856498.504075 -- INFO: Process 18 shutdown itself 
+1660856498.504632 -- INFO: Process 21 shutdown itself 
+1660856498.504900 -- INFO: Process 11 shutdown itself 
+1660856498.505232 -- INFO: Process 5 shutdown itself 
+1660856498.505404 -- INFO: Process 19 shutdown itself 
+1660856499.114502 -- INFO: Throughput @145.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856500.086397 -- INFO: Throughput @146.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856501.141303 -- INFO: Throughput @147.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856501.997599 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856501.999649 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856502.000434 -- INFO: Changing concurrency to 23 ******
+1660856502.001664 -- INFO: Start Process :: 1
+1660856502.001760 -- INFO: Start Process :: 0
+1660856502.002064 -- INFO: Start Process :: 8
+1660856502.002134 -- INFO: Start Process :: 5
+1660856502.002200 -- INFO: Start Process :: 14
+1660856502.002277 -- INFO: Start Process :: 18
+1660856502.002424 -- INFO: Start Process :: 7
+1660856502.002509 -- INFO: Start Process :: 9
+1660856502.002542 -- INFO: Start Process :: 13
+1660856502.002637 -- INFO: Start Process :: 11
+1660856502.003336 -- INFO: Start Process :: 20
+1660856502.003399 -- INFO: Start Process :: 21
+1660856502.003561 -- INFO: Start Process :: 4
+1660856502.003611 -- INFO: Start Process :: 16
+1660856502.002747 -- INFO: Start Process :: 12
+1660856502.005366 -- INFO: Process 14 had error to send file 
+1660856502.002822 -- INFO: Start Process :: 19
+1660856502.002874 -- INFO: Start Process :: 6
+1660856502.002949 -- INFO: Start Process :: 2
+1660856502.005550 -- INFO: Process 11 had error to send file 
+1660856502.002956 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856502.003175 -- INFO: Start Process :: 17
+1660856502.003841 -- INFO: Start Process :: 3
+1660856502.003929 -- INFO: Start Process :: 22
+1660856502.004352 -- INFO: Start Process :: 10
+1660856502.004411 -- INFO: Start Process :: 15
+1660856502.004571 -- INFO: Process 8 had error to send file 
+1660856502.004859 -- INFO: Process 0 had error to send file 
+1660856502.006107 -- INFO: Process 13 had error to send file 
+1660856502.004986 -- INFO: Process 7 had error to send file 
+1660856502.006326 -- INFO: Process 21 had error to send file 
+1660856502.006371 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856502.006518 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856502.005180 -- INFO: Process 5 had error to send file 
+1660856502.005262 -- INFO: Process 9 had error to send file 
+1660856502.008370 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856502.008418 -- INFO: Process 10 had error to send file 
+1660856502.008471 -- INFO: Process 5 shutdown itself 
+1660856502.005279 -- INFO: Process 1 had error to send file 
+1660856502.008551 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856502.005683 -- INFO: Process 20 had error to send file 
+1660856502.008650 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856502.006674 -- INFO: Process 18 had error to send file 
+1660856502.006808 -- INFO: Process 14 shutdown itself 
+1660856502.008888 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856502.006778 -- INFO: Process 12 had error to send file 
+1660856502.006886 -- INFO: Process 6 had error to send file 
+1660856502.006987 -- INFO: Process 4 had error to send file 
+1660856502.009168 -- INFO: Process 9 shutdown itself 
+1660856502.007134 -- INFO: Process 22 had error to send file 
+1660856502.007306 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856502.007438 -- INFO: Process 16 had error to send file 
+1660856502.007443 -- INFO: Process 3 had error to send file 
+1660856502.007479 -- INFO: Active CC: 20
+1660856502.007671 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856502.007673 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856502.007582 -- INFO: Process 19 had error to send file 
+1660856502.009888 -- INFO: Process 8 shutdown itself 
+1660856502.009880 -- INFO: Process 13 shutdown itself 
+1660856502.009938 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856502.007796 -- INFO: Process 17 had error to send file 
+1660856502.007926 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856502.007957 -- INFO: Process 2 had error to send file 
+1660856502.008066 -- INFO: Process 7 shutdown itself 
+1660856502.008129 -- INFO: Process 15 had error to send file 
+1660856502.010731 -- INFO: Process 19 shutdown itself 
+1660856502.011568 -- INFO: Process 10 shutdown itself 
+1660856502.008629 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856502.008985 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856502.009172 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856502.009232 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856502.014596 -- INFO: Process 18 shutdown itself 
+1660856502.010045 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856502.010049 -- INFO: Process 1 shutdown itself 
+1660856502.010081 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856502.010171 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856502.014939 -- INFO: Process 21 shutdown itself 
+1660856502.010725 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856502.010844 -- INFO: Process 11 shutdown itself 
+1660856502.010851 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856502.010926 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856502.011066 -- INFO: Process 0 shutdown itself 
+1660856502.015620 -- INFO: Process 3 shutdown itself 
+1660856502.015784 -- INFO: Process 17 shutdown itself 
+1660856502.011213 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856502.011471 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856502.016295 -- INFO: Process 15 shutdown itself 
+1660856502.016365 -- INFO: Process 22 shutdown itself 
+1660856502.016529 -- INFO: Process 2 shutdown itself 
+1660856502.014613 -- INFO: Process 4 shutdown itself 
+1660856502.014617 -- INFO: Process 20 shutdown itself 
+1660856502.014952 -- INFO: Process 16 shutdown itself 
+1660856502.015093 -- INFO: Process 6 shutdown itself 
+1660856502.015179 -- INFO: Process 12 shutdown itself 
+1660856502.091137 -- INFO: Throughput @148.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856503.092539 -- INFO: Throughput @149.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856504.118943 -- INFO: Throughput @150.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856505.106967 -- INFO: Throughput @151.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856505.511064 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856505.513230 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856505.513386 -- INFO: Changing concurrency to 23 ******
+1660856505.514078 -- INFO: Start Process :: 0
+1660856505.514297 -- INFO: Start Process :: 1
+1660856505.514446 -- INFO: Start Process :: 3
+1660856505.514840 -- INFO: Process 0 had error to send file 
+1660856505.515037 -- INFO: Process 3 had error to send file 
+1660856505.515203 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856505.515225 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856505.515299 -- INFO: Process 3 shutdown itself 
+1660856505.515430 -- INFO: Process 0 shutdown itself 
+1660856505.516375 -- INFO: Start Process :: 2
+1660856505.516480 -- INFO: Process 1 had error to send file 
+1660856505.516950 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856505.516977 -- INFO: Start Process :: 4
+1660856505.517070 -- INFO: Start Process :: 10
+1660856505.517184 -- INFO: Process 1 shutdown itself 
+1660856505.517810 -- INFO: Start Process :: 6
+1660856505.518226 -- INFO: Start Process :: 11
+1660856505.518399 -- INFO: Start Process :: 5
+1660856505.518658 -- INFO: Start Process :: 14
+1660856505.518659 -- INFO: Start Process :: 15
+1660856505.518744 -- INFO: Start Process :: 9
+1660856505.518776 -- INFO: Process 2 had error to send file 
+1660856505.519314 -- INFO: Start Process :: 12
+1660856505.519736 -- INFO: Process Status Bits from change concurrency are: 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856505.519773 -- INFO: Start Process :: 13
+1660856505.520084 -- INFO: Start Process :: 17
+1660856505.520213 -- INFO: Start Process :: 18
+1660856505.519345 -- INFO: Start Process :: 8
+1660856505.520693 -- INFO: Start Process :: 20
+1660856505.519417 -- INFO: Start Process :: 16
+1660856505.519819 -- INFO: Start Process :: 21
+1660856505.521355 -- INFO: Process 6 had error to send file 
+1660856505.520108 -- INFO: Start Process :: 22
+1660856505.521482 -- INFO: Process 4 had error to send file 
+1660856505.520258 -- INFO: Start Process :: 19
+1660856505.520904 -- INFO: Process 18 had error to send file 
+1660856505.521065 -- INFO: Process 10 had error to send file 
+1660856505.522262 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856505.522371 -- INFO: Process 11 had error to send file 
+1660856505.522371 -- INFO: Process 9 had error to send file 
+1660856505.522582 -- INFO: Process 20 had error to send file 
+1660856505.522731 -- INFO: Process 2 shutdown itself 
+1660856505.523204 -- INFO: Process 5 had error to send file 
+1660856505.523389 -- INFO: Process 12 had error to send file 
+1660856505.523764 -- INFO: Process 17 had error to send file 
+1660856505.524004 -- INFO: Process 8 had error to send file 
+1660856505.521611 -- INFO: Start Process :: 7
+1660856505.522385 -- INFO: Process 14 had error to send file 
+1660856505.524472 -- INFO: Active CC: 19
+1660856505.522736 -- INFO: Process 15 had error to send file 
+1660856505.523482 -- INFO: Process 13 had error to send file 
+1660856505.525055 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856505.525302 -- INFO: Process 15 shutdown itself 
+1660856505.523546 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856505.525420 -- INFO: Process 21 had error to send file 
+1660856505.525830 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856505.525884 -- INFO: Process 5 shutdown itself 
+1660856505.525968 -- INFO: Process 21 shutdown itself 
+1660856505.524354 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856505.526068 -- INFO: Process 12 shutdown itself 
+1660856505.526662 -- INFO: Process 22 had error to send file 
+1660856505.526771 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856505.528905 -- INFO: Process 6 shutdown itself 
+1660856505.526940 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856505.527159 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856505.529233 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856505.531678 -- INFO: Process 22 shutdown itself 
+1660856505.527204 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856505.534454 -- INFO: Process 10 shutdown itself 
+1660856505.527515 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856505.527543 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856505.527655 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856505.527711 -- INFO: Process 16 had error to send file 
+1660856505.527787 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856505.527856 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856505.528026 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856505.528324 -- INFO: Process 7 had error to send file 
+1660856505.528702 -- INFO: Process 19 had error to send file 
+1660856505.529064 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856505.535293 -- INFO: Process 17 shutdown itself 
+1660856505.535485 -- INFO: Process 9 shutdown itself 
+1660856505.529492 -- INFO: Process 4 shutdown itself 
+1660856505.529640 -- INFO: Process 18 shutdown itself 
+1660856505.535809 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856505.535819 -- INFO: Process 8 shutdown itself 
+1660856505.535819 -- INFO: Process 20 shutdown itself 
+1660856505.535829 -- INFO: Process 14 shutdown itself 
+1660856505.535351 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856505.535525 -- INFO: Process 13 shutdown itself 
+1660856505.536029 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856505.536263 -- INFO: Process 11 shutdown itself 
+1660856505.536632 -- INFO: Process 19 shutdown itself 
+1660856505.536655 -- INFO: Process 7 shutdown itself 
+1660856505.536838 -- INFO: Process 16 shutdown itself 
+1660856506.126848 -- INFO: Throughput @152.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856507.127115 -- INFO: Throughput @153.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856508.097652 -- INFO: Throughput @154.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856509.028799 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856509.030910 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856509.031219 -- INFO: Changing concurrency to 23 ******
+1660856509.031928 -- INFO: Start Process :: 3
+1660856509.032123 -- INFO: Start Process :: 7
+1660856509.032921 -- INFO: Start Process :: 2
+1660856509.033026 -- INFO: Start Process :: 6
+1660856509.033231 -- INFO: Start Process :: 5
+1660856509.032449 -- INFO: Start Process :: 9
+1660856509.032210 -- INFO: Start Process :: 10
+1660856509.034067 -- INFO: Start Process :: 18
+1660856509.032119 -- INFO: Start Process :: 14
+1660856509.032440 -- INFO: Start Process :: 1
+1660856509.032444 -- INFO: Start Process :: 19
+1660856509.032561 -- INFO: Start Process :: 21
+1660856509.034886 -- INFO: Process 18 had error to send file 
+1660856509.032652 -- INFO: Start Process :: 11
+1660856509.032672 -- INFO: Start Process :: 13
+1660856509.032789 -- INFO: Start Process :: 17
+1660856509.033157 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856509.033268 -- INFO: Start Process :: 12
+1660856509.035312 -- INFO: Process 2 had error to send file 
+1660856509.033622 -- INFO: Start Process :: 16
+1660856509.036972 -- INFO: Process 12 had error to send file 
+1660856509.033684 -- INFO: Start Process :: 4
+1660856509.033695 -- INFO: Start Process :: 22
+1660856509.037297 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856509.033736 -- INFO: Start Process :: 0
+1660856509.033840 -- INFO: Start Process :: 15
+1660856509.033942 -- INFO: Start Process :: 20
+1660856509.033967 -- INFO: Start Process :: 8
+1660856509.037993 -- INFO: Process 4 had error to send file 
+1660856509.038216 -- INFO: Process 20 had error to send file 
+1660856509.038255 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856509.038359 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856509.038449 -- INFO: Process 8 had error to send file 
+1660856509.038487 -- INFO: Process 20 shutdown itself 
+1660856509.038507 -- INFO: Process 15 had error to send file 
+1660856509.038513 -- INFO: Process 4 shutdown itself 
+1660856509.038636 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856509.038741 -- INFO: Process 15 shutdown itself 
+1660856509.033962 -- INFO: Process 7 had error to send file 
+1660856509.034107 -- INFO: Process 3 had error to send file 
+1660856509.034877 -- INFO: Process 19 had error to send file 
+1660856509.039105 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856509.035156 -- INFO: Process 21 had error to send file 
+1660856509.039321 -- INFO: Process 7 shutdown itself 
+1660856509.039415 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856509.039150 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856509.035485 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856509.035103 -- INFO: Process 6 had error to send file 
+1660856509.042103 -- INFO: Process 18 shutdown itself 
+1660856509.035906 -- INFO: Process 9 had error to send file 
+1660856509.036155 -- INFO: Process 14 had error to send file 
+1660856509.036294 -- INFO: Process 5 had error to send file 
+1660856509.036410 -- INFO: Process 10 had error to send file 
+1660856509.036501 -- INFO: Process 11 had error to send file 
+1660856509.036654 -- INFO: Process 13 had error to send file 
+1660856509.036699 -- INFO: Process 1 had error to send file 
+1660856509.042650 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856509.042642 -- INFO: Process 21 shutdown itself 
+1660856509.042719 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856509.042766 -- INFO: Process 1 shutdown itself 
+1660856509.036769 -- INFO: Process 17 had error to send file 
+1660856509.042835 -- INFO: Process 6 shutdown itself 
+1660856509.042824 -- INFO: Process 19 shutdown itself 
+1660856509.037163 -- INFO: Active CC: 22
+1660856509.043034 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856509.037509 -- INFO: Process 16 had error to send file 
+1660856509.043327 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856509.037639 -- INFO: Process 2 shutdown itself 
+1660856509.038568 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856509.043511 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856509.039725 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856509.043736 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856509.043766 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856509.043894 -- INFO: Process 10 shutdown itself 
+1660856509.044054 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856509.044211 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856509.044270 -- INFO: Process 14 shutdown itself 
+1660856509.044381 -- INFO: Process 9 shutdown itself 
+1660856509.039974 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856509.045036 -- INFO: Process 0 had error to send file 
+1660856509.045720 -- INFO: Process 12 shutdown itself 
+1660856509.040195 -- INFO: Process 22 had error to send file 
+1660856509.044383 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856509.047484 -- INFO: Process 16 shutdown itself 
+1660856509.047798 -- INFO: Process 8 shutdown itself 
+1660856509.048235 -- INFO: Process 3 shutdown itself 
+1660856509.048464 -- INFO: Process 5 shutdown itself 
+1660856509.048682 -- INFO: Process 11 shutdown itself 
+1660856509.048969 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856509.049314 -- INFO: Process 17 shutdown itself 
+1660856509.049396 -- INFO: Process 13 shutdown itself 
+1660856509.049603 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856509.050847 -- INFO: Process 0 shutdown itself 
+1660856509.051204 -- INFO: Process 22 shutdown itself 
+1660856509.091653 -- INFO: Throughput @155.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856510.110160 -- INFO: Throughput @156.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856511.100888 -- INFO: Throughput @157.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856512.115668 -- INFO: Throughput @158.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856512.544428 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856512.546962 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856512.547214 -- INFO: Changing concurrency to 23 ******
+1660856512.547972 -- INFO: Start Process :: 0
+1660856512.548364 -- INFO: Start Process :: 1
+1660856512.548394 -- INFO: Start Process :: 2
+1660856512.548932 -- INFO: Start Process :: 6
+1660856512.549007 -- INFO: Start Process :: 7
+1660856512.549146 -- INFO: Start Process :: 5
+1660856512.549225 -- INFO: Start Process :: 10
+1660856512.549370 -- INFO: Start Process :: 9
+1660856512.549737 -- INFO: Process 5 had error to send file 
+1660856512.549935 -- INFO: Process 10 had error to send file 
+1660856512.549935 -- INFO: Start Process :: 3
+1660856512.549948 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856512.550062 -- INFO: Process 7 had error to send file 
+1660856512.550100 -- INFO: Process 9 had error to send file 
+1660856512.550129 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856512.550265 -- INFO: Process 6 had error to send file 
+1660856512.549747 -- INFO: Start Process :: 4
+1660856512.550183 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856512.550440 -- INFO: Process 7 shutdown itself 
+1660856512.550412 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856512.550609 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856512.550732 -- INFO: Process 6 shutdown itself 
+1660856512.550811 -- INFO: Start Process :: 22
+1660856512.550691 -- INFO: Process 9 shutdown itself 
+1660856512.551381 -- INFO: Start Process :: 18
+1660856512.551386 -- INFO: Start Process :: 14
+1660856512.550540 -- INFO: Start Process :: 13
+1660856512.551536 -- INFO: Start Process :: 16
+1660856512.550870 -- INFO: Start Process :: 19
+1660856512.550945 -- INFO: Start Process :: 17
+1660856512.551005 -- INFO: Start Process :: 12
+1660856512.550621 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 0 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856512.552262 -- INFO: Process 16 had error to send file 
+1660856512.552255 -- INFO: Start Process :: 8
+1660856512.551071 -- INFO: Start Process :: 11
+1660856512.551146 -- INFO: Start Process :: 20
+1660856512.552414 -- INFO: Process 0 had error to send file 
+1660856512.550961 -- INFO: Start Process :: 21
+1660856512.551241 -- INFO: Start Process :: 15
+1660856512.551657 -- INFO: Process 1 had error to send file 
+1660856512.553834 -- INFO: Process 14 had error to send file 
+1660856512.553866 -- INFO: Process 13 had error to send file 
+1660856512.554024 -- INFO: Process 20 had error to send file 
+1660856512.552557 -- INFO: Process 19 had error to send file 
+1660856512.552614 -- INFO: Process 22 had error to send file 
+1660856512.552706 -- INFO: Process 17 had error to send file 
+1660856512.552473 -- INFO: Process 12 had error to send file 
+1660856512.554840 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856512.554997 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856512.555063 -- INFO: Process 1 shutdown itself 
+1660856512.555156 -- INFO: Process 21 had error to send file 
+1660856512.552625 -- INFO: Process 2 had error to send file 
+1660856512.552875 -- INFO: Process 5 shutdown itself 
+1660856512.552964 -- INFO: Active CC: 18
+1660856512.552975 -- INFO: Process 10 shutdown itself 
+1660856512.553154 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856512.553247 -- INFO: Process 8 had error to send file 
+1660856512.552842 -- INFO: Process 4 had error to send file 
+1660856512.554187 -- INFO: Process 18 had error to send file 
+1660856512.557712 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856512.553158 -- INFO: Process 3 had error to send file 
+1660856512.555186 -- INFO: Process 11 had error to send file 
+1660856512.555368 -- INFO: Process 15 had error to send file 
+1660856512.558941 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856512.559318 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856512.559597 -- INFO: Process 3 shutdown itself 
+1660856512.559881 -- INFO: Process 11 shutdown itself 
+1660856512.560545 -- INFO: Process 2 shutdown itself 
+1660856512.555640 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856512.555766 -- INFO: Process 0 shutdown itself 
+1660856512.556067 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856512.556122 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856512.556257 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856512.556390 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856512.556407 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856512.556422 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856512.557574 -- INFO: Process 16 shutdown itself 
+1660856512.557867 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856512.562966 -- INFO: Process 22 shutdown itself 
+1660856512.566585 -- INFO: Process 14 shutdown itself 
+1660856512.566739 -- INFO: Process 18 shutdown itself 
+1660856512.557879 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856512.558017 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856512.558174 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856512.559525 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856512.567323 -- INFO: Process 19 shutdown itself 
+1660856512.567381 -- INFO: Process 21 shutdown itself 
+1660856512.567799 -- INFO: Process 20 shutdown itself 
+1660856512.567828 -- INFO: Process 17 shutdown itself 
+1660856512.568098 -- INFO: Process 12 shutdown itself 
+1660856512.568358 -- INFO: Process 13 shutdown itself 
+1660856512.572213 -- INFO: Process 8 shutdown itself 
+1660856512.572697 -- INFO: Process 4 shutdown itself 
+1660856512.573107 -- INFO: Process 15 shutdown itself 
+1660856513.107112 -- INFO: Throughput @159.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856514.084199 -- INFO: Throughput @160.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856515.158385 -- INFO: Throughput @161.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856516.058950 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856516.061017 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856516.061200 -- INFO: Changing concurrency to 23 ******
+1660856516.062368 -- INFO: Start Process :: 1
+1660856516.062439 -- INFO: Start Process :: 7
+1660856516.062764 -- INFO: Start Process :: 15
+1660856516.062840 -- INFO: Start Process :: 4
+1660856516.062354 -- INFO: Start Process :: 5
+1660856516.062859 -- INFO: Start Process :: 12
+1660856516.063210 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856516.063495 -- INFO: Process 1 had error to send file 
+1660856516.063581 -- INFO: Process 15 had error to send file 
+1660856516.063789 -- INFO: Start Process :: 2
+1660856516.064310 -- INFO: Start Process :: 0
+1660856516.064094 -- INFO: Start Process :: 8
+1660856516.064382 -- INFO: Start Process :: 6
+1660856516.064102 -- INFO: Start Process :: 9
+1660856516.065068 -- INFO: Process 12 had error to send file 
+1660856516.064199 -- INFO: Start Process :: 21
+1660856516.065093 -- INFO: Start Process :: 14
+1660856516.064568 -- INFO: Start Process :: 16
+1660856516.063631 -- INFO: Start Process :: 3
+1660856516.064021 -- INFO: Start Process :: 11
+1660856516.065365 -- INFO: Start Process :: 17
+1660856516.064708 -- INFO: Start Process :: 10
+1660856516.064825 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856516.064835 -- INFO: Start Process :: 19
+1660856516.063926 -- INFO: Start Process :: 13
+1660856516.064888 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856516.064983 -- INFO: Start Process :: 20
+1660856516.065957 -- INFO: Process 2 had error to send file 
+1660856516.065027 -- INFO: Process 5 had error to send file 
+1660856516.065064 -- INFO: Process 7 had error to send file 
+1660856516.066291 -- INFO: Process 0 had error to send file 
+1660856516.064652 -- INFO: Start Process :: 22
+1660856516.066643 -- INFO: Process 6 had error to send file 
+1660856516.066273 -- INFO: Process 4 had error to send file 
+1660856516.065561 -- INFO: Process 8 had error to send file 
+1660856516.066767 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856516.065607 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856516.066892 -- INFO: Process 17 had error to send file 
+1660856516.066951 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856516.067069 -- INFO: Process 5 shutdown itself 
+1660856516.066130 -- INFO: Active CC: 20
+1660856516.066453 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856516.067158 -- INFO: Process 16 had error to send file 
+1660856516.067228 -- INFO: Process 22 had error to send file 
+1660856516.067350 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856516.067459 -- INFO: Process 2 shutdown itself 
+1660856516.067518 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856516.067730 -- INFO: Process 21 had error to send file 
+1660856516.066177 -- INFO: Start Process :: 18
+1660856516.067916 -- INFO: Process 11 had error to send file 
+1660856516.069692 -- INFO: Process 6 shutdown itself 
+1660856516.067998 -- INFO: Process 14 had error to send file 
+1660856516.069996 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856516.068012 -- INFO: Process 9 had error to send file 
+1660856516.068073 -- INFO: Process 1 shutdown itself 
+1660856516.068389 -- INFO: Process 15 shutdown itself 
+1660856516.069027 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856516.069106 -- INFO: Process 19 had error to send file 
+1660856516.069145 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856516.069221 -- INFO: Process 4 shutdown itself 
+1660856516.069246 -- INFO: Process 13 had error to send file 
+1660856516.069314 -- INFO: Process 10 had error to send file 
+1660856516.069333 -- INFO: Process 20 had error to send file 
+1660856516.069379 -- INFO: Process 12 shutdown itself 
+1660856516.070858 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856516.070966 -- INFO: Process 18 had error to send file 
+1660856516.072036 -- INFO: Process 0 shutdown itself 
+1660856516.072042 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856516.072412 -- INFO: Process 20 shutdown itself 
+1660856516.069418 -- INFO: Process 3 had error to send file 
+1660856516.069594 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856516.072506 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856516.069711 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856516.069856 -- INFO: Process 7 shutdown itself 
+1660856516.070472 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856516.071017 -- INFO: Process 22 shutdown itself 
+1660856516.071135 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856516.071330 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856516.071708 -- INFO: Process 11 shutdown itself 
+1660856516.071824 -- INFO: Process 8 shutdown itself 
+1660856516.072810 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856516.071984 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856516.072303 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856516.073190 -- INFO: Process 13 shutdown itself 
+1660856516.073296 -- INFO: Process 17 shutdown itself 
+1660856516.073470 -- INFO: Process 21 shutdown itself 
+1660856516.073144 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856516.076152 -- INFO: Process 14 shutdown itself 
+1660856516.077283 -- INFO: Process 19 shutdown itself 
+1660856516.077293 -- INFO: Process 16 shutdown itself 
+1660856516.077273 -- INFO: Process 9 shutdown itself 
+1660856516.077520 -- INFO: Process 18 shutdown itself 
+1660856516.085005 -- INFO: Process 10 shutdown itself 
+1660856516.078072 -- INFO: Process 3 shutdown itself 
+1660856516.117476 -- INFO: Throughput @162.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:15 score:0.0 
+1660856517.103114 -- INFO: Throughput @163.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856518.105405 -- INFO: Throughput @164.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856519.102815 -- INFO: Throughput @165.2s:0.0Mbps, rtt :4.01ms cwnd: 451.2 lossRate: 0 CC:0 score:0.0 
+1660856519.570643 -- INFO: score [0.0, 0.0, 0.0] ******
+1660856519.572503 -- INFO: action array from actor 0.4204897880554199 and action is 23 ******
+1660856519.572838 -- INFO: Changing concurrency to 23 ******
+1660856519.574408 -- INFO: Start Process :: 1
+1660856519.574680 -- INFO: Start Process :: 0
+1660856519.574944 -- INFO: Start Process :: 2
+1660856519.574982 -- INFO: Start Process :: 9
+1660856519.575159 -- INFO: Start Process :: 16
+1660856519.575232 -- INFO: Start Process :: 11
+1660856519.575253 -- INFO: Start Process :: 22
+1660856519.575195 -- INFO: Start Process :: 3
+1660856519.575403 -- INFO: Start Process :: 12
+1660856519.574958 -- INFO: Start Process :: 7
+1660856519.575455 -- INFO: Start Process :: 10
+1660856519.575476 -- INFO: Start Process :: 17
+1660856519.574972 -- INFO: Start Process :: 13
+1660856519.575278 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1660856519.575671 -- INFO: Start Process :: 20
+1660856519.575869 -- INFO: Start Process :: 4
+1660856519.576308 -- INFO: Start Process :: 5
+1660856519.575906 -- INFO: Start Process :: 19
+1660856519.576718 -- INFO: Process 9 had error to send file 
+1660856519.576151 -- INFO: Start Process :: 14
+1660856519.577198 -- INFO: Start Process :: 21
+1660856519.576340 -- INFO: Start Process :: 6
+1660856519.576497 -- INFO: Start Process :: 18
+1660856519.577673 -- INFO: Process 2 had error to send file 
+1660856519.576496 -- INFO: Start Process :: 15
+1660856519.578035 -- INFO: Process 19 had error to send file 
+1660856519.578267 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660856519.578568 -- INFO: Process 19 shutdown itself 
+1660856519.576967 -- INFO: Process 1 had error to send file 
+1660856519.578765 -- INFO: Process 16 had error to send file 
+1660856519.578805 -- INFO: Process 12 had error to send file 
+1660856519.577093 -- INFO: Start Process :: 8
+1660856519.579822 -- INFO: Process 5 had error to send file 
+1660856519.579958 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660856519.580045 -- INFO: Process 5 shutdown itself 
+1660856519.580239 -- INFO: Process 14 had error to send file 
+1660856519.577322 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660856519.577532 -- INFO: Process 0 had error to send file 
+1660856519.578225 -- INFO: Process 4 had error to send file 
+1660856519.578335 -- INFO: Process 11 had error to send file 
+1660856519.578395 -- INFO: Process 22 had error to send file 
+1660856519.578990 -- INFO: Process 7 had error to send file 
+1660856519.579001 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660856519.579030 -- INFO: Process 3 had error to send file 
+1660856519.579313 -- INFO: Process 10 had error to send file 
+1660856519.579320 -- INFO: Process 17 had error to send file 
+1660856519.579461 -- INFO: Active CC: 20
+1660856519.579573 -- INFO: Process 13 had error to send file 
+1660856519.581804 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660856519.579682 -- INFO: Process 20 had error to send file 
+1660856519.582925 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660856519.582952 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660856519.583051 -- INFO: Process 22 shutdown itself 
+1660856519.583050 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660856519.580396 -- INFO: Process 21 had error to send file 
+1660856519.580571 -- INFO: Process 6 had error to send file 
+1660856519.580677 -- INFO: Process 8 had error to send file 
+1660856519.580717 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660856519.580835 -- INFO: Process 18 had error to send file 
+1660856519.583203 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660856519.580927 -- INFO: Process 15 had error to send file 
+1660856519.581228 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660856519.581241 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660856519.581538 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660856519.581846 -- INFO: Process 1 shutdown itself 
+1660856519.582111 -- INFO: Process 17 shutdown itself 
+1660856519.582412 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660856519.582541 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660856519.582652 -- INFO: Process 9 shutdown itself 
+1660856519.583361 -- INFO: Process 4 shutdown itself 
+1660856519.594718 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660856519.595067 -- INFO: Process 16 shutdown itself 
+1660856519.595114 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660856519.595114 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660856519.595026 -- INFO: Process 20 shutdown itself 
+1660856519.595311 -- INFO: Process 13 shutdown itself 
+1660856519.595590 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660856519.595637 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660856519.595793 -- INFO: Process 2 shutdown itself 
+1660856519.595823 -- INFO: Process 11 shutdown itself 
+1660856519.595868 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660856519.596025 -- INFO: Process 0 shutdown itself 
+1660856519.595932 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660856519.596065 -- INFO: Process 8 shutdown itself 
+1660856519.596288 -- INFO: Process 18 shutdown itself 
+1660856519.596127 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660856519.596738 -- INFO: Process 7 shutdown itself 
+1660856519.596833 -- INFO: Process 12 shutdown itself 
+1660856519.596991 -- INFO: Process 14 shutdown itself 
+1660856519.597295 -- INFO: Process 10 shutdown itself 
+1660856519.597452 -- INFO: Process 15 shutdown itself 
+1660856519.599588 -- INFO: Process 3 shutdown itself 
+1660856519.599795 -- INFO: Process 21 shutdown itself 
+1660856519.600310 -- INFO: Process 6 shutdown itself 

@@ -1,0 +1,432 @@
+1660858869.536460 -- INFO: action array from actor 0.519598662853241 and action is 25 ******
+1660858869.536945 -- INFO: Changing concurrency to 25 ******
+1660858869.540728 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660858869.540754 -- INFO: Start Process :: 2
+1660858869.541947 -- INFO: Start Process :: 1
+1660858869.542177 -- INFO: Start Process :: 0
+1660858869.541862 -- INFO: Start Process :: 3
+1660858869.542804 -- INFO: Active CC: 25
+1660858869.542268 -- INFO: Start Process :: 4
+1660858869.544430 -- INFO: Process 1 had error to send file 
+1660858869.544487 -- INFO: Process 2 had error to send file 
+1660858869.544547 -- INFO: Process 0 had error to send file 
+1660858869.544608 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660858869.544725 -- INFO: Process 1 shutdown itself 
+1660858869.544750 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660858869.544778 -- INFO: Process 3 had error to send file 
+1660858869.544916 -- INFO: Process 4 had error to send file 
+1660858869.545085 -- INFO: Process 2 shutdown itself 
+1660858869.545133 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660858869.544698 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660858869.545228 -- INFO: Process 3 shutdown itself 
+1660858869.545269 -- INFO: Process 0 shutdown itself 
+1660858869.545569 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660858869.545692 -- INFO: Process 4 shutdown itself 
+1660858869.548748 -- INFO: Start Process :: 5
+1660858869.549595 -- INFO: Process 5 had error to send file 
+1660858869.549728 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660858869.549811 -- INFO: Process 5 shutdown itself 
+1660858869.550158 -- INFO: Start Process :: 8
+1660858869.550277 -- INFO: Start Process :: 7
+1660858869.550691 -- INFO: Start Process :: 10
+1660858869.551087 -- INFO: Process 7 had error to send file 
+1660858869.551229 -- INFO: Process 8 had error to send file 
+1660858869.551254 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660858869.551446 -- INFO: Process 10 had error to send file 
+1660858869.551577 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660858869.551579 -- INFO: Process 7 shutdown itself 
+1660858869.551651 -- INFO: Process 10 shutdown itself 
+1660858869.551915 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660858869.552110 -- INFO: Process 8 shutdown itself 
+1660858869.552752 -- INFO: Start Process :: 9
+1660858869.553771 -- INFO: Process 9 had error to send file 
+1660858869.553983 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660858869.554123 -- INFO: Process 9 shutdown itself 
+1660858869.554739 -- INFO: Start Process :: 13
+1660858869.555122 -- INFO: Start Process :: 6
+1660858869.555514 -- INFO: Process 13 had error to send file 
+1660858869.555822 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660858869.555905 -- INFO: Process 13 shutdown itself 
+1660858869.556101 -- INFO: Process 6 had error to send file 
+1660858869.555902 -- INFO: Start Process :: 15
+1660858869.556523 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660858869.556635 -- INFO: Process 6 shutdown itself 
+1660858869.556837 -- INFO: Process 15 had error to send file 
+1660858869.556599 -- INFO: Start Process :: 12
+1660858869.557218 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660858869.556983 -- INFO: Start Process :: 11
+1660858869.557405 -- INFO: Process 15 shutdown itself 
+1660858869.557843 -- INFO: Process 12 had error to send file 
+1660858869.558061 -- INFO: Process 11 had error to send file 
+1660858869.558306 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660858869.558313 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660858869.558455 -- INFO: Process 11 shutdown itself 
+1660858869.558469 -- INFO: Process 12 shutdown itself 
+1660858869.559435 -- INFO: Start Process :: 16
+1660858869.560477 -- INFO: Process 16 had error to send file 
+1660858869.560273 -- INFO: Start Process :: 14
+1660858869.560823 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660858869.560776 -- INFO: Start Process :: 18
+1660858869.561356 -- INFO: Process 14 had error to send file 
+1660858869.561215 -- INFO: Start Process :: 17
+1660858869.561688 -- INFO: Process 16 shutdown itself 
+1660858869.562015 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660858869.562124 -- INFO: Process 14 shutdown itself 
+1660858869.562273 -- INFO: Process 18 had error to send file 
+1660858869.562680 -- INFO: Process 17 had error to send file 
+1660858869.562725 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660858869.562842 -- INFO: Process 18 shutdown itself 
+1660858869.563098 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660858869.563282 -- INFO: Process 17 shutdown itself 
+1660858869.563123 -- INFO: Start Process :: 24
+1660858869.563989 -- INFO: Process 24 had error to send file 
+1660858869.564155 -- ERROR: Process: 24, Error: [Errno 111] Connection refused
+1660858869.564353 -- INFO: Process 24 shutdown itself 
+1660858869.564134 -- INFO: Start Process :: 23
+1660858869.565036 -- INFO: Process 23 had error to send file 
+1660858869.565164 -- ERROR: Process: 23, Error: [Errno 111] Connection refused
+1660858869.565234 -- INFO: Process 23 shutdown itself 
+1660858869.565287 -- INFO: Start Process :: 22
+1660858869.566321 -- INFO: Process 22 had error to send file 
+1660858869.566525 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660858869.566686 -- INFO: Process 22 shutdown itself 
+1660858869.566508 -- INFO: Start Process :: 21
+1660858869.567139 -- INFO: Start Process :: 19
+1660858869.567423 -- INFO: Start Process :: 20
+1660858869.567977 -- INFO: Process 19 had error to send file 
+1660858869.567860 -- INFO: Process 21 had error to send file 
+1660858869.568095 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660858869.568165 -- INFO: Process 19 shutdown itself 
+1660858869.568168 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660858869.568310 -- INFO: Process 21 shutdown itself 
+1660858869.568428 -- INFO: Process 20 had error to send file 
+1660858869.568542 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660858869.568625 -- INFO: Process 20 shutdown itself 
+1660858869.586587 -- INFO: Throughput @0.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:13 score:0.0 
+1660858870.565783 -- INFO: Throughput @1.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858871.566724 -- INFO: Throughput @2.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858872.567439 -- INFO: Throughput @3.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858873.044170 -- INFO: score [0.0, 0.0, 0.0] ******
+1660858873.045768 -- INFO: action array from actor 0.519598662853241 and action is 25 ******
+1660858873.045879 -- INFO: Changing concurrency to 25 ******
+1660858873.046763 -- INFO: Start Process :: 0
+1660858873.046931 -- INFO: Start Process :: 2
+1660858873.047117 -- INFO: Start Process :: 3
+1660858873.047277 -- INFO: Start Process :: 4
+1660858873.047431 -- INFO: Start Process :: 1
+1660858873.047625 -- INFO: Start Process :: 6
+1660858873.047786 -- INFO: Start Process :: 8
+1660858873.048025 -- INFO: Process 0 had error to send file 
+1660858873.048056 -- INFO: Start Process :: 7
+1660858873.048379 -- INFO: Start Process :: 16
+1660858873.048599 -- INFO: Start Process :: 11
+1660858873.048082 -- INFO: Process 2 had error to send file 
+1660858873.048609 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660858873.048661 -- INFO: Start Process :: 13
+1660858873.048584 -- INFO: Start Process :: 9
+1660858873.048201 -- INFO: Start Process :: 5
+1660858873.048223 -- INFO: Start Process :: 14
+1660858873.048912 -- INFO: Start Process :: 17
+1660858873.048960 -- INFO: Process 3 had error to send file 
+1660858873.048990 -- INFO: Process 1 had error to send file 
+1660858873.049074 -- INFO: Start Process :: 23
+1660858873.049132 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660858873.049272 -- INFO: Start Process :: 20
+1660858873.048223 -- INFO: Start Process :: 12
+1660858873.049536 -- INFO: Start Process :: 24
+1660858873.049554 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660858873.049110 -- INFO: Start Process :: 19
+1660858873.048468 -- INFO: Start Process :: 15
+1660858873.049956 -- INFO: Process 23 had error to send file 
+1660858873.050128 -- ERROR: Process: 23, Error: [Errno 111] Connection refused
+1660858873.050112 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660858873.048860 -- INFO: Start Process :: 18
+1660858873.048893 -- INFO: Start Process :: 10
+1660858873.050231 -- INFO: Active CC: 21
+1660858873.048938 -- INFO: Process 4 had error to send file 
+1660858873.050216 -- INFO: Process 23 shutdown itself 
+1660858873.050344 -- INFO: Process 11 had error to send file 
+1660858873.049383 -- INFO: Start Process :: 22
+1660858873.050481 -- INFO: Process 14 had error to send file 
+1660858873.050481 -- INFO: Process 6 had error to send file 
+1660858873.049413 -- INFO: Process 1 shutdown itself 
+1660858873.048838 -- INFO: Start Process :: 21
+1660858873.049415 -- INFO: Process 7 had error to send file 
+1660858873.050717 -- INFO: Process 9 had error to send file 
+1660858873.050738 -- INFO: Process 13 had error to send file 
+1660858873.049848 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660858873.050640 -- INFO: Process 12 had error to send file 
+1660858873.050867 -- INFO: Process 17 had error to send file 
+1660858873.050957 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660858873.050965 -- INFO: Process 24 had error to send file 
+1660858873.051032 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660858873.051045 -- INFO: Process 12 shutdown itself 
+1660858873.050632 -- INFO: Process 8 had error to send file 
+1660858873.051198 -- ERROR: Process: 24, Error: [Errno 111] Connection refused
+1660858873.051189 -- INFO: Process 16 had error to send file 
+1660858873.051310 -- INFO: Process 24 shutdown itself 
+1660858873.051321 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660858873.050889 -- INFO: Process 15 had error to send file 
+1660858873.050903 -- INFO: Process 0 shutdown itself 
+1660858873.051131 -- INFO: Process 17 shutdown itself 
+1660858873.051517 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660858873.051606 -- INFO: Process 16 shutdown itself 
+1660858873.051672 -- INFO: Process 3 shutdown itself 
+1660858873.051829 -- INFO: Process 5 had error to send file 
+1660858873.051866 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660858873.051991 -- INFO: Process 4 shutdown itself 
+1660858873.051994 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660858873.052018 -- INFO: Process 20 had error to send file 
+1660858873.052199 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660858873.052237 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660858873.052341 -- INFO: Process 14 shutdown itself 
+1660858873.052331 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660858873.052361 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660858873.052563 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660858873.052625 -- INFO: Process 5 shutdown itself 
+1660858873.052386 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660858873.052659 -- INFO: Process 13 shutdown itself 
+1660858873.052434 -- INFO: Process 7 shutdown itself 
+1660858873.052757 -- INFO: Process 9 shutdown itself 
+1660858873.052470 -- INFO: Process 10 had error to send file 
+1660858873.052547 -- INFO: Process 2 shutdown itself 
+1660858873.052765 -- INFO: Process 6 shutdown itself 
+1660858873.052981 -- INFO: Process 21 had error to send file 
+1660858873.053072 -- INFO: Process 8 shutdown itself 
+1660858873.053118 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660858873.053196 -- INFO: Process 19 had error to send file 
+1660858873.053319 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660858873.053323 -- INFO: Process 18 had error to send file 
+1660858873.053246 -- INFO: Process 21 shutdown itself 
+1660858873.053347 -- INFO: Process 11 shutdown itself 
+1660858873.053713 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660858873.053411 -- INFO: Process 20 shutdown itself 
+1660858873.053723 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660858873.053396 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660858873.053827 -- INFO: Process 18 shutdown itself 
+1660858873.053866 -- INFO: Process 15 shutdown itself 
+1660858873.053535 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660858873.053559 -- INFO: Process 22 had error to send file 
+1660858873.053841 -- INFO: Process 19 shutdown itself 
+1660858873.054033 -- INFO: Process 10 shutdown itself 
+1660858873.054241 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660858873.054354 -- INFO: Process 22 shutdown itself 
+1660858873.567446 -- INFO: Throughput @4.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858874.568774 -- INFO: Throughput @5.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858875.569232 -- INFO: Throughput @6.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858876.552567 -- INFO: score [0.0, 0.0, 0.0] ******
+1660858876.554156 -- INFO: action array from actor 0.519598662853241 and action is 25 ******
+1660858876.554284 -- INFO: Changing concurrency to 25 ******
+1660858876.554911 -- INFO: Start Process :: 2
+1660858876.554960 -- INFO: Start Process :: 0
+1660858876.555061 -- INFO: Start Process :: 1
+1660858876.555365 -- INFO: Start Process :: 3
+1660858876.555434 -- INFO: Start Process :: 6
+1660858876.555483 -- INFO: Start Process :: 4
+1660858876.555660 -- INFO: Process 2 had error to send file 
+1660858876.555790 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660858876.555842 -- INFO: Process 1 had error to send file 
+1660858876.555741 -- INFO: Start Process :: 7
+1660858876.555879 -- INFO: Process 2 shutdown itself 
+1660858876.556007 -- INFO: Start Process :: 11
+1660858876.556007 -- INFO: Process 0 had error to send file 
+1660858876.556048 -- INFO: Start Process :: 8
+1660858876.556167 -- INFO: Start Process :: 13
+1660858876.556195 -- INFO: Process Status Bits from change concurrency are: 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660858876.556195 -- INFO: Start Process :: 16
+1660858876.556176 -- INFO: Start Process :: 18
+1660858876.556287 -- INFO: Process 4 had error to send file 
+1660858876.556362 -- INFO: Start Process :: 24
+1660858876.556349 -- INFO: Start Process :: 12
+1660858876.556405 -- INFO: Process 6 had error to send file 
+1660858876.556440 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660858876.556555 -- INFO: Start Process :: 14
+1660858876.556591 -- INFO: Start Process :: 20
+1660858876.556685 -- INFO: Start Process :: 10
+1660858876.556684 -- INFO: Start Process :: 17
+1660858876.556729 -- INFO: Process 3 had error to send file 
+1660858876.556801 -- INFO: Process 24 had error to send file 
+1660858876.556823 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660858876.556811 -- INFO: Start Process :: 22
+1660858876.556921 -- INFO: Start Process :: 23
+1660858876.557091 -- INFO: Start Process :: 15
+1660858876.557101 -- INFO: Start Process :: 9
+1660858876.557184 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660858876.557270 -- INFO: Start Process :: 5
+1660858876.556943 -- INFO: Start Process :: 21
+1660858876.557011 -- INFO: Process 6 shutdown itself 
+1660858876.557322 -- INFO: Start Process :: 19
+1660858876.557438 -- INFO: Process 11 had error to send file 
+1660858876.557749 -- INFO: Process 23 had error to send file 
+1660858876.557836 -- INFO: Process 15 had error to send file 
+1660858876.557968 -- ERROR: Process: 23, Error: [Errno 111] Connection refused
+1660858876.557985 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660858876.558067 -- INFO: Process 8 had error to send file 
+1660858876.558103 -- INFO: Process 18 had error to send file 
+1660858876.558091 -- INFO: Process 7 had error to send file 
+1660858876.558245 -- INFO: Process 16 had error to send file 
+1660858876.558254 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660858876.558361 -- INFO: Process 23 shutdown itself 
+1660858876.558264 -- INFO: Process 13 had error to send file 
+1660858876.558459 -- INFO: Process 12 had error to send file 
+1660858876.558520 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660858876.558508 -- INFO: Process 1 shutdown itself 
+1660858876.558610 -- INFO: Process 13 shutdown itself 
+1660858876.558627 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660858876.558724 -- INFO: Process 12 shutdown itself 
+1660858876.558721 -- INFO: Active CC: 20
+1660858876.559045 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660858876.559113 -- ERROR: Process: 24, Error: [Errno 111] Connection refused
+1660858876.559101 -- INFO: Process 0 shutdown itself 
+1660858876.559217 -- INFO: Process 24 shutdown itself 
+1660858876.559316 -- INFO: Process 10 had error to send file 
+1660858876.559327 -- INFO: Process 17 had error to send file 
+1660858876.559479 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660858876.559482 -- INFO: Process 9 had error to send file 
+1660858876.559509 -- INFO: Process 22 had error to send file 
+1660858876.559547 -- INFO: Process 10 shutdown itself 
+1660858876.559656 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660858876.559690 -- INFO: Process 14 had error to send file 
+1660858876.559669 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660858876.559693 -- INFO: Process 21 had error to send file 
+1660858876.559718 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660858876.559242 -- INFO: Process 3 shutdown itself 
+1660858876.559817 -- INFO: Process 5 had error to send file 
+1660858876.559845 -- INFO: Process 20 had error to send file 
+1660858876.559867 -- INFO: Process 19 had error to send file 
+1660858876.560266 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660858876.560025 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660858876.560039 -- INFO: Process 15 shutdown itself 
+1660858876.560069 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660858876.560246 -- INFO: Process 4 shutdown itself 
+1660858876.560255 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660858876.560267 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660858876.560293 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660858876.560948 -- INFO: Process 8 shutdown itself 
+1660858876.560317 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660858876.560311 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660858876.560355 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660858876.560445 -- INFO: Process 9 shutdown itself 
+1660858876.561211 -- INFO: Process 20 shutdown itself 
+1660858876.560508 -- INFO: Process 22 shutdown itself 
+1660858876.560511 -- INFO: Process 17 shutdown itself 
+1660858876.560613 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660858876.561394 -- INFO: Process 5 shutdown itself 
+1660858876.560906 -- INFO: Process 18 shutdown itself 
+1660858876.560908 -- INFO: Process 14 shutdown itself 
+1660858876.561421 -- INFO: Process 21 shutdown itself 
+1660858876.560923 -- INFO: Process 11 shutdown itself 
+1660858876.561390 -- INFO: Process 19 shutdown itself 
+1660858876.561417 -- INFO: Process 7 shutdown itself 
+1660858876.561423 -- INFO: Process 16 shutdown itself 
+1660858876.571338 -- INFO: Throughput @7.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858877.571657 -- INFO: Throughput @8.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858878.572520 -- INFO: Throughput @9.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858879.574175 -- INFO: Throughput @10.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858880.059682 -- INFO: score [0.0, 0.0, 0.0] ******
+1660858880.061361 -- INFO: action array from actor 0.519598662853241 and action is 25 ******
+1660858880.061486 -- INFO: Changing concurrency to 25 ******
+1660858880.061859 -- INFO: Start Process :: 0
+1660858880.062199 -- INFO: Start Process :: 1
+1660858880.062390 -- INFO: Start Process :: 2
+1660858880.062433 -- INFO: Process 0 had error to send file 
+1660858880.062544 -- INFO: Start Process :: 4
+1660858880.062575 -- INFO: Process 1 had error to send file 
+1660858880.062859 -- ERROR: Process: 0, Error: [Errno 111] Connection refused
+1660858880.062903 -- ERROR: Process: 1, Error: [Errno 111] Connection refused
+1660858880.062969 -- INFO: Process 0 shutdown itself 
+1660858880.063003 -- INFO: Process 1 shutdown itself 
+1660858880.063088 -- INFO: Start Process :: 3
+1660858880.063206 -- INFO: Process 2 had error to send file 
+1660858880.063203 -- INFO: Start Process :: 5
+1660858880.063220 -- INFO: Process 4 had error to send file 
+1660858880.063331 -- ERROR: Process: 2, Error: [Errno 111] Connection refused
+1660858880.063422 -- INFO: Process 2 shutdown itself 
+1660858880.063442 -- ERROR: Process: 4, Error: [Errno 111] Connection refused
+1660858880.063538 -- INFO: Process 4 shutdown itself 
+1660858880.063571 -- INFO: Start Process :: 6
+1660858880.063582 -- INFO: Process 3 had error to send file 
+1660858880.063691 -- ERROR: Process: 3, Error: [Errno 111] Connection refused
+1660858880.063776 -- INFO: Process 3 shutdown itself 
+1660858880.063806 -- INFO: Process 5 had error to send file 
+1660858880.063939 -- INFO: Start Process :: 9
+1660858880.064020 -- INFO: Start Process :: 7
+1660858880.064117 -- ERROR: Process: 5, Error: [Errno 111] Connection refused
+1660858880.064222 -- INFO: Process 5 shutdown itself 
+1660858880.064120 -- INFO: Start Process :: 8
+1660858880.064238 -- INFO: Process 6 had error to send file 
+1660858880.064397 -- INFO: Start Process :: 11
+1660858880.064537 -- INFO: Start Process :: 10
+1660858880.064704 -- INFO: Process 7 had error to send file 
+1660858880.064762 -- INFO: Process 9 had error to send file 
+1660858880.064913 -- ERROR: Process: 7, Error: [Errno 111] Connection refused
+1660858880.064913 -- INFO: Process 11 had error to send file 
+1660858880.064978 -- ERROR: Process: 9, Error: [Errno 111] Connection refused
+1660858880.064995 -- INFO: Process 7 shutdown itself 
+1660858880.065119 -- INFO: Start Process :: 14
+1660858880.065124 -- INFO: Start Process :: 13
+1660858880.065317 -- INFO: Start Process :: 17
+1660858880.065340 -- INFO: Start Process :: 21
+1660858880.065333 -- ERROR: Process: 6, Error: [Errno 111] Connection refused
+1660858880.065468 -- INFO: Start Process :: 24
+1660858880.065481 -- INFO: Start Process :: 23
+1660858880.065651 -- INFO: Start Process :: 15
+1660858880.065006 -- ERROR: Process: 11, Error: [Errno 111] Connection refused
+1660858880.065746 -- INFO: Process Status Bits from change concurrency are: 0 0 0 0 0 0 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660858880.064996 -- INFO: Process 10 had error to send file 
+1660858880.065780 -- INFO: Start Process :: 16
+1660858880.065708 -- INFO: Process 8 had error to send file 
+1660858880.065564 -- INFO: Start Process :: 20
+1660858880.065917 -- INFO: Start Process :: 12
+1660858880.066024 -- INFO: Process 17 had error to send file 
+1660858880.066030 -- INFO: Start Process :: 22
+1660858880.066082 -- ERROR: Process: 8, Error: [Errno 111] Connection refused
+1660858880.066137 -- ERROR: Process: 17, Error: [Errno 111] Connection refused
+1660858880.066180 -- INFO: Process 8 shutdown itself 
+1660858880.066227 -- INFO: Process 17 shutdown itself 
+1660858880.066263 -- INFO: Start Process :: 19
+1660858880.066293 -- INFO: Process 14 had error to send file 
+1660858880.066388 -- INFO: Process 23 had error to send file 
+1660858880.066328 -- INFO: Process 9 shutdown itself 
+1660858880.066501 -- ERROR: Process: 14, Error: [Errno 111] Connection refused
+1660858880.066590 -- ERROR: Process: 23, Error: [Errno 111] Connection refused
+1660858880.066595 -- INFO: Process 22 had error to send file 
+1660858880.066595 -- INFO: Process 20 had error to send file 
+1660858880.066628 -- INFO: Process 14 shutdown itself 
+1660858880.066682 -- INFO: Process 23 shutdown itself 
+1660858880.066755 -- INFO: Start Process :: 18
+1660858880.066813 -- INFO: Process 19 had error to send file 
+1660858880.066857 -- ERROR: Process: 22, Error: [Errno 111] Connection refused
+1660858880.066912 -- ERROR: Process: 19, Error: [Errno 111] Connection refused
+1660858880.067044 -- INFO: Process 22 shutdown itself 
+1660858880.067049 -- INFO: Process 24 had error to send file 
+1660858880.067169 -- ERROR: Process: 24, Error: [Errno 111] Connection refused
+1660858880.067271 -- INFO: Process 24 shutdown itself 
+1660858880.067506 -- INFO: Process 12 had error to send file 
+1660858880.067605 -- ERROR: Process: 12, Error: [Errno 111] Connection refused
+1660858880.067693 -- INFO: Process 12 shutdown itself 
+1660858880.068006 -- INFO: Process 6 shutdown itself 
+1660858880.068118 -- INFO: Process 18 had error to send file 
+1660858880.068047 -- INFO: Process 11 shutdown itself 
+1660858880.068367 -- INFO: Process 15 had error to send file 
+1660858880.068495 -- ERROR: Process: 10, Error: [Errno 111] Connection refused
+1660858880.068578 -- ERROR: Process: 18, Error: [Errno 111] Connection refused
+1660858880.068509 -- INFO: Process 19 shutdown itself 
+1660858880.068578 -- INFO: Process 21 had error to send file 
+1660858880.068551 -- ERROR: Process: 15, Error: [Errno 111] Connection refused
+1660858880.068757 -- INFO: Process 16 had error to send file 
+1660858880.068789 -- INFO: Process 10 shutdown itself 
+1660858880.068542 -- ERROR: Process: 20, Error: [Errno 111] Connection refused
+1660858880.068685 -- INFO: Process 18 shutdown itself 
+1660858880.068789 -- INFO: Process 15 shutdown itself 
+1660858880.068829 -- ERROR: Process: 21, Error: [Errno 111] Connection refused
+1660858880.068890 -- ERROR: Process: 16, Error: [Errno 111] Connection refused
+1660858880.068934 -- INFO: Process 13 had error to send file 
+1660858880.069082 -- INFO: Process 16 shutdown itself 
+1660858880.069084 -- INFO: Process 21 shutdown itself 
+1660858880.068962 -- INFO: Process 20 shutdown itself 
+1660858880.069218 -- ERROR: Process: 13, Error: [Errno 111] Connection refused
+1660858880.069293 -- INFO: Process 13 shutdown itself 
+1660858880.071461 -- INFO: Active CC: 1
+1660858880.574705 -- INFO: Throughput @11.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 
+1660858881.574794 -- INFO: Throughput @12.1s:0.0Mbps, rtt :0.0ms cwnd: 0.0 lossRate: 0 CC:0 score:0.0 

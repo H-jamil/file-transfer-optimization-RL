@@ -1,0 +1,763 @@
+1660936996.150805 -- INFO: action array from actor 0.4798644185066223 and action is 24 ******
+1660936996.151480 -- INFO: Changing concurrency to 24 ******
+1660936996.154672 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660936996.155622 -- INFO: Active CC: 24
+1660936996.167898 -- INFO: Start Process :: 3
+1660936996.168313 -- INFO: Start Process :: 2
+1660936996.169624 -- INFO: Process 3 get item 0 from queue and executing
+1660936996.169839 -- INFO: starting 3, 0, /home/hjamil/Documents/files_bash/FILE25
+1660936996.171908 -- INFO: Process 2 get item 1 from queue and executing
+1660936996.172149 -- INFO: starting 2, 1, /home/hjamil/Documents/files_bash/FILE1
+1660936996.173831 -- INFO: Start Process :: 5
+1660936996.183212 -- INFO: Process 5 get item 2 from queue and executing
+1660936996.183435 -- INFO: starting 5, 2, /home/hjamil/Documents/files_bash/FILE4
+1660936996.183663 -- INFO: Start Process :: 0
+1660936996.184481 -- INFO: Start Process :: 1
+1660936996.185891 -- INFO: Process 0 get item 3 from queue and executing
+1660936996.186358 -- INFO: Process 1 get item 4 from queue and executing
+1660936996.186144 -- INFO: starting 0, 3, /home/hjamil/Documents/files_bash/FILE13
+1660936996.186713 -- INFO: starting 1, 4, /home/hjamil/Documents/files_bash/FILE3
+1660936996.189011 -- INFO: Start Process :: 7
+1660936996.190773 -- INFO: Process 7 get item 5 from queue and executing
+1660936996.191060 -- INFO: starting 7, 5, /home/hjamil/Documents/files_bash/FILE24
+1660936996.243417 -- INFO: Start Process :: 6
+1660936996.244538 -- INFO: Process 6 get item 6 from queue and executing
+1660936996.244704 -- INFO: starting 6, 6, /home/hjamil/Documents/files_bash/FILE2
+1660936996.247318 -- INFO: Start Process :: 4
+1660936996.250144 -- INFO: Process 4 get item 7 from queue and executing
+1660936996.250355 -- INFO: starting 4, 7, /home/hjamil/Documents/files_bash/FILE20
+1660936996.287591 -- INFO: Start Process :: 12
+1660936996.288880 -- INFO: Start Process :: 8
+1660936996.289441 -- INFO: Process 12 get item 8 from queue and executing
+1660936996.290203 -- INFO: starting 12, 8, /home/hjamil/Documents/files_bash/FILE29
+1660936996.290261 -- INFO: Process 8 get item 9 from queue and executing
+1660936996.290426 -- INFO: starting 8, 9, /home/hjamil/Documents/files_bash/FILE7
+1660936996.303451 -- INFO: Start Process :: 11
+1660936996.305138 -- INFO: Start Process :: 13
+1660936996.318911 -- INFO: Process 11 get item 10 from queue and executing
+1660936996.319172 -- INFO: starting 11, 10, /home/hjamil/Documents/files_bash/FILE31
+1660936996.319350 -- INFO: Process 13 get item 11 from queue and executing
+1660936996.319554 -- INFO: starting 13, 11, /home/hjamil/Documents/files_bash/FILE6
+1660936996.320037 -- INFO: Start Process :: 9
+1660936996.322701 -- INFO: Process 9 get item 12 from queue and executing
+1660936996.323005 -- INFO: starting 9, 12, /home/hjamil/Documents/files_bash/FILE22
+1660936996.366834 -- INFO: Start Process :: 15
+1660936996.374884 -- INFO: Process 15 get item 13 from queue and executing
+1660936996.375148 -- INFO: starting 15, 13, /home/hjamil/Documents/files_bash/FILE11
+1660936996.379583 -- INFO: Start Process :: 14
+1660936996.381112 -- INFO: Start Process :: 16
+1660936996.382547 -- INFO: Process 16 get item 14 from queue and executing
+1660936996.382768 -- INFO: starting 16, 14, /home/hjamil/Documents/files_bash/FILE30
+1660936996.382851 -- INFO: Process 14 get item 15 from queue and executing
+1660936996.383165 -- INFO: starting 14, 15, /home/hjamil/Documents/files_bash/FILE5
+1660936996.387558 -- INFO: Start Process :: 10
+1660936996.388838 -- INFO: Process 10 get item 16 from queue and executing
+1660936996.389046 -- INFO: starting 10, 16, /home/hjamil/Documents/files_bash/FILE17
+1660936996.407380 -- INFO: Start Process :: 18
+1660936996.410298 -- INFO: Process 18 get item 17 from queue and executing
+1660936996.410754 -- INFO: starting 18, 17, /home/hjamil/Documents/files_bash/FILE23
+1660936996.411800 -- INFO: Start Process :: 17
+1660936996.426872 -- INFO: Process 17 get item 18 from queue and executing
+1660936996.427160 -- INFO: starting 17, 18, /home/hjamil/Documents/files_bash/FILE14
+1660936996.443292 -- INFO: Start Process :: 19
+1660936996.446456 -- INFO: Process 19 get item 19 from queue and executing
+1660936996.446768 -- INFO: starting 19, 19, /home/hjamil/Documents/files_bash/FILE8
+1660936996.449223 -- INFO: Start Process :: 20
+1660936996.450856 -- INFO: Process 20 get item 20 from queue and executing
+1660936996.451066 -- INFO: starting 20, 20, /home/hjamil/Documents/files_bash/FILE15
+1660936996.451397 -- INFO: Start Process :: 21
+1660936996.454221 -- INFO: Process 21 get item 21 from queue and executing
+1660936996.454484 -- INFO: starting 21, 21, /home/hjamil/Documents/files_bash/FILE21
+1660936996.471539 -- INFO: Start Process :: 22
+1660936996.472822 -- INFO: Process 22 get item 22 from queue and executing
+1660936996.473022 -- INFO: starting 22, 22, /home/hjamil/Documents/files_bash/FILE9
+1660936996.473534 -- INFO: Start Process :: 23
+1660936996.477019 -- INFO: Process 23 get item 23 from queue and executing
+1660936996.477373 -- INFO: starting 23, 23, /home/hjamil/Documents/files_bash/FILE10
+1660936996.498451 -- INFO: Throughput @0.1s:97.73Mbps, rtt :0.79ms cwnd: 55.4 lossRate: 0.0 CC:24 score:0.06 
+1660936997.229677 -- INFO: Throughput @1.1s:904.92Mbps, rtt :6.69ms cwnd: 96.0 lossRate: 0.0 CC:24 score:0.56 
+1660936998.219426 -- INFO: Throughput @2.1s:920.69Mbps, rtt :6.3ms cwnd: 115.6 lossRate: 0.0 CC:24 score:0.57 
+1660936999.220810 -- INFO: Throughput @3.1s:953.36Mbps, rtt :8.32ms cwnd: 126.1 lossRate: 0.0 CC:24 score:0.59 
+1660936999.667843 -- INFO: score [0.56, 0.57, 0.59] ******
+1660936999.669626 -- INFO: action array from actor 0.15624308586120605 and action is 19 ******
+1660936999.669935 -- INFO: Changing concurrency to 19 ******
+1660936999.670417 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660936999.670940 -- INFO: Active CC: 19
+1660937000.242487 -- INFO: Throughput @4.1s:914.73Mbps, rtt :7.35ms cwnd: 136.8 lossRate: 0.0 CC:19 score:0.63 
+1660937001.232841 -- INFO: Throughput @5.1s:876.05Mbps, rtt :3.88ms cwnd: 174.3 lossRate: 0.0 CC:19 score:0.6 
+1660937002.257632 -- INFO: Throughput @6.1s:895.0Mbps, rtt :3.46ms cwnd: 209.8 lossRate: 0.0 CC:19 score:0.61 
+1660937003.187497 -- INFO: score [0.63, 0.6, 0.61] ******
+1660937003.195979 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937003.199371 -- INFO: Changing concurrency to 19 ******
+1660937003.210582 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937003.211172 -- INFO: Active CC: 19
+1660937003.237810 -- INFO: Throughput @7.1s:875.0Mbps, rtt :4.14ms cwnd: 231.6 lossRate: 0.0 CC:19 score:0.6 
+1660937004.229764 -- INFO: Throughput @8.1s:870.0Mbps, rtt :4.46ms cwnd: 253.8 lossRate: 0.0 CC:19 score:0.6 
+1660937005.271796 -- INFO: Throughput @9.1s:875.0Mbps, rtt :3.87ms cwnd: 283.6 lossRate: 0.0 CC:19 score:0.6 
+1660937006.257684 -- INFO: Throughput @10.1s:900.0Mbps, rtt :4.68ms cwnd: 305.5 lossRate: 0.0 CC:19 score:0.62 
+1660937006.727382 -- INFO: score [0.6, 0.6, 0.62] ******
+1660937006.728901 -- INFO: action array from actor 0.5913077592849731 and action is 26 ******
+1660937006.729029 -- INFO: Changing concurrency to 26 ******
+1660937006.743327 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0
+1660937006.743665 -- INFO: Start Process :: 21
+1660937006.743814 -- INFO: Start Process :: 23
+1660937006.743874 -- INFO: Start Process :: 19
+1660937006.744213 -- INFO: Start Process :: 20
+1660937006.744778 -- INFO: Active CC: 26
+1660937006.745403 -- INFO: Process 19 get item 24 from queue and executing
+1660937006.745694 -- INFO: starting 19, 24, /home/hjamil/Documents/files_bash/FILE12
+1660937006.747508 -- INFO: Process 20 get item 25 from queue and executing
+1660937006.747508 -- INFO: Start Process :: 22
+1660937006.747988 -- INFO: starting 20, 25, /home/hjamil/Documents/files_bash/FILE28
+1660937006.748300 -- INFO: Process 23 get item 26 from queue and executing
+1660937006.748693 -- INFO: starting 23, 26, /home/hjamil/Documents/files_bash/FILE27
+1660937006.749609 -- INFO: Process 21 get item 27 from queue and executing
+1660937006.749986 -- INFO: starting 21, 27, /home/hjamil/Documents/files_bash/FILE26
+1660937006.752010 -- INFO: Process 22 get item 28 from queue and executing
+1660937006.752419 -- INFO: starting 22, 28, /home/hjamil/Documents/files_bash/FILE18
+1660937006.787131 -- INFO: Start Process :: 25
+1660937006.788499 -- INFO: Start Process :: 24
+1660937006.789756 -- INFO: Process 25 get item 29 from queue and executing
+1660937006.789977 -- INFO: starting 25, 29, /home/hjamil/Documents/files_bash/FILE0
+1660937006.793170 -- INFO: Process 24 get item 30 from queue and executing
+1660937006.802747 -- INFO: starting 24, 30, /home/hjamil/Documents/files_bash/FILE16
+1660937007.258042 -- INFO: Throughput @11.1s:1004.55Mbps, rtt :10.21ms cwnd: 202.0 lossRate: 0.001626200741244989 CC:26 score:0.58 
+1660937008.224301 -- INFO: Throughput @12.1s:1030.07Mbps, rtt :9.84ms cwnd: 182.3 lossRate: 0.0019212899012984405 CC:26 score:0.6 
+1660937009.219808 -- INFO: Throughput @13.1s:948.76Mbps, rtt :9.24ms cwnd: 174.3 lossRate: 0.0011047117819373417 CC:26 score:0.56 
+1660937010.247765 -- INFO: score [0.58, 0.6, 0.56] ******
+1660937010.250034 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937010.250438 -- INFO: Changing concurrency to 19 ******
+1660937010.251641 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937010.253586 -- INFO: Throughput @14.1s:919.8Mbps, rtt :11.89ms cwnd: 169.0 lossRate: 0.0005128267744416903 CC:26 score:0.54 
+1660937010.254026 -- INFO: Active CC: 19
+1660937011.236385 -- INFO: Throughput @15.1s:849.04Mbps, rtt :5.24ms cwnd: 189.4 lossRate: 0 CC:19 score:0.58 
+1660937012.287483 -- INFO: Throughput @16.1s:915.58Mbps, rtt :5.7ms cwnd: 197.7 lossRate: 0.0 CC:19 score:0.63 
+1660937013.232791 -- INFO: Throughput @17.1s:895.0Mbps, rtt :7.21ms cwnd: 204.7 lossRate: 0.0 CC:19 score:0.61 
+1660937013.775321 -- INFO: score [0.58, 0.63, 0.61] ******
+1660937013.776750 -- INFO: action array from actor 0.156192809343338 and action is 19 ******
+1660937013.776910 -- INFO: Changing concurrency to 19 ******
+1660937013.782843 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937013.783329 -- INFO: Active CC: 19
+1660937014.256971 -- INFO: Throughput @18.1s:875.0Mbps, rtt :4.09ms cwnd: 210.1 lossRate: 0.0 CC:19 score:0.6 
+1660937015.260375 -- INFO: Throughput @19.1s:870.0Mbps, rtt :4.8ms cwnd: 216.7 lossRate: 0.0 CC:19 score:0.6 
+1660937016.268820 -- INFO: Throughput @20.1s:860.0Mbps, rtt :4.17ms cwnd: 220.4 lossRate: 0.0 CC:19 score:0.59 
+1660937017.222616 -- INFO: Throughput @21.1s:895.0Mbps, rtt :3.9ms cwnd: 225.8 lossRate: 0.0 CC:19 score:0.61 
+1660937017.297280 -- INFO: score [0.6, 0.59, 0.61] ******
+1660937017.298860 -- INFO: action array from actor 0.19372233748435974 and action is 20 ******
+1660937017.302833 -- INFO: Changing concurrency to 20 ******
+1660937017.324694 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660937017.325736 -- INFO: Active CC: 20
+1660937017.330589 -- INFO: Start Process :: 19
+1660937017.332790 -- INFO: Process 19 get item 31 from queue and executing
+1660937017.333273 -- INFO: starting 19, 31, /home/hjamil/Documents/files_bash/FILE19
+1660937018.250338 -- INFO: Throughput @22.1s:910.0Mbps, rtt :4.69ms cwnd: 222.6 lossRate: 0.0 CC:20 score:0.61 
+1660937019.265312 -- INFO: Throughput @23.1s:930.0Mbps, rtt :4.07ms cwnd: 227.0 lossRate: 0.0 CC:20 score:0.63 
+1660937020.256726 -- INFO: Throughput @24.1s:940.0Mbps, rtt :3.21ms cwnd: 230.8 lossRate: 0.0 CC:20 score:0.63 
+1660937020.863253 -- INFO: score [0.61, 0.63, 0.63] ******
+1660937020.864710 -- INFO: action array from actor 0.15620699524879456 and action is 19 ******
+1660937020.864937 -- INFO: Changing concurrency to 19 ******
+1660937020.882850 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937020.883439 -- INFO: Active CC: 19
+1660937021.245672 -- INFO: Throughput @25.1s:870.0Mbps, rtt :2.54ms cwnd: 237.3 lossRate: 0.0 CC:19 score:0.6 
+1660937022.299853 -- INFO: Throughput @26.1s:870.0Mbps, rtt :3.78ms cwnd: 241.7 lossRate: 0.0 CC:19 score:0.6 
+1660937023.261021 -- INFO: Throughput @27.1s:880.0Mbps, rtt :3.71ms cwnd: 244.6 lossRate: 0.0 CC:19 score:0.6 
+1660937024.253068 -- INFO: Throughput @28.1s:875.0Mbps, rtt :3.58ms cwnd: 247.2 lossRate: 0.0 CC:19 score:0.6 
+1660937024.391322 -- INFO: score [0.6, 0.6, 0.6] ******
+1660937024.403979 -- INFO: action array from actor 0.356453537940979 and action is 22 ******
+1660937024.404312 -- INFO: Changing concurrency to 22 ******
+1660937024.410806 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660937024.411058 -- INFO: Start Process :: 19
+1660937024.411330 -- INFO: Start Process :: 20
+1660937024.411633 -- INFO: Active CC: 22
+1660937024.414553 -- INFO: Process 19 get item 23 from queue and executing
+1660937024.414776 -- INFO: starting 19, 23, /home/hjamil/Documents/files_bash/FILE10
+1660937024.415047 -- INFO: Process 20 get item 21 from queue and executing
+1660937024.415046 -- INFO: Start Process :: 21
+1660937024.415241 -- INFO: starting 20, 21, /home/hjamil/Documents/files_bash/FILE21
+1660937024.417684 -- INFO: Process 21 get item 22 from queue and executing
+1660937024.418798 -- INFO: starting 21, 22, /home/hjamil/Documents/files_bash/FILE9
+1660937025.281064 -- INFO: Throughput @29.1s:990.0Mbps, rtt :8.21ms cwnd: 230.4 lossRate: 0.0 CC:22 score:0.64 
+1660937026.261201 -- INFO: Throughput @30.1s:984.85Mbps, rtt :9.65ms cwnd: 235.5 lossRate: 0.0 CC:22 score:0.64 
+1660937027.250685 -- INFO: Throughput @31.1s:949.93Mbps, rtt :9.63ms cwnd: 238.7 lossRate: 0.0 CC:22 score:0.61 
+1660937027.912864 -- INFO: score [0.64, 0.64, 0.61] ******
+1660937027.924253 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937027.934789 -- INFO: Changing concurrency to 19 ******
+1660937027.935542 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937027.936208 -- INFO: Active CC: 19
+1660937028.253153 -- INFO: Throughput @32.1s:940.14Mbps, rtt :9.17ms cwnd: 241.8 lossRate: 0.0011704119850187266 CC:19 score:0.63 
+1660937029.241136 -- INFO: Throughput @33.1s:905.08Mbps, rtt :7.33ms cwnd: 242.1 lossRate: 0.0 CC:19 score:0.62 
+1660937030.266176 -- INFO: Throughput @34.1s:900.0Mbps, rtt :7.63ms cwnd: 243.2 lossRate: 0.0 CC:19 score:0.62 
+1660937031.265004 -- INFO: Throughput @35.1s:880.0Mbps, rtt :9.69ms cwnd: 246.7 lossRate: 0.0 CC:19 score:0.6 
+1660937031.463238 -- INFO: score [0.62, 0.62, 0.6] ******
+1660937031.464571 -- INFO: action array from actor 0.2732453942298889 and action is 21 ******
+1660937031.464722 -- INFO: Changing concurrency to 21 ******
+1660937031.478846 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660937031.479340 -- INFO: Active CC: 21
+1660937031.479543 -- INFO: Start Process :: 20
+1660937031.480887 -- INFO: Process 20 get item 19 from queue and executing
+1660937031.481281 -- INFO: starting 20, 19, /home/hjamil/Documents/files_bash/FILE8
+1660937031.483014 -- INFO: Start Process :: 19
+1660937031.484472 -- INFO: Process 19 get item 20 from queue and executing
+1660937031.486675 -- INFO: starting 19, 20, /home/hjamil/Documents/files_bash/FILE15
+1660937032.288915 -- INFO: Throughput @36.1s:950.0Mbps, rtt :6.82ms cwnd: 252.0 lossRate: 0.0 CC:21 score:0.63 
+1660937033.260943 -- INFO: Throughput @37.1s:979.54Mbps, rtt :5.15ms cwnd: 248.5 lossRate: 0.0005041656688387805 CC:21 score:0.64 
+1660937034.276653 -- INFO: Throughput @38.1s:970.14Mbps, rtt :8.51ms cwnd: 240.5 lossRate: 0.0003074123260046235 CC:21 score:0.64 
+1660937034.991250 -- INFO: score [0.63, 0.64, 0.64] ******
+1660937034.993608 -- INFO: action array from actor 0.15677043795585632 and action is 19 ******
+1660937034.993741 -- INFO: Changing concurrency to 19 ******
+1660937034.999719 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937035.001003 -- INFO: Active CC: 19
+1660937035.244302 -- INFO: Throughput @39.1s:925.32Mbps, rtt :7.91ms cwnd: 247.3 lossRate: 0.0 CC:19 score:0.64 
+1660937036.272893 -- INFO: Throughput @40.1s:900.0Mbps, rtt :5.63ms cwnd: 249.5 lossRate: 0.0 CC:19 score:0.62 
+1660937037.252843 -- INFO: Throughput @41.1s:875.0Mbps, rtt :5.9ms cwnd: 253.4 lossRate: 0.0 CC:19 score:0.6 
+1660937038.267685 -- INFO: Throughput @42.1s:885.0Mbps, rtt :3.82ms cwnd: 266.7 lossRate: 0.0 CC:19 score:0.61 
+1660937038.511303 -- INFO: score [0.62, 0.6, 0.61] ******
+1660937038.512977 -- INFO: action array from actor 0.5592008829116821 and action is 25 ******
+1660937038.513301 -- INFO: Changing concurrency to 25 ******
+1660937038.513748 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660937038.514151 -- INFO: Start Process :: 22
+1660937038.514243 -- INFO: Start Process :: 21
+1660937038.514347 -- INFO: Start Process :: 19
+1660937038.514669 -- INFO: Start Process :: 20
+1660937038.514889 -- INFO: Start Process :: 24
+1660937038.514934 -- INFO: Active CC: 25
+1660937038.515507 -- INFO: Start Process :: 23
+1660937038.517023 -- INFO: Process 22 get item 27 from queue and executing
+1660937038.517321 -- INFO: starting 22, 27, /home/hjamil/Documents/files_bash/FILE26
+1660937038.517597 -- INFO: Process 21 get item 28 from queue and executing
+1660937038.517815 -- INFO: Process 19 get item 29 from queue and executing
+1660937038.518092 -- INFO: starting 19, 29, /home/hjamil/Documents/files_bash/FILE0
+1660937038.518108 -- INFO: starting 21, 28, /home/hjamil/Documents/files_bash/FILE18
+1660937038.518245 -- INFO: Process 20 get item 26 from queue and executing
+1660937038.520359 -- INFO: Process 23 get item 24 from queue and executing
+1660937038.520685 -- INFO: starting 23, 24, /home/hjamil/Documents/files_bash/FILE12
+1660937038.520706 -- INFO: starting 20, 26, /home/hjamil/Documents/files_bash/FILE27
+1660937038.522733 -- INFO: Process 24 get item 30 from queue and executing
+1660937038.523517 -- INFO: starting 24, 30, /home/hjamil/Documents/files_bash/FILE16
+1660937039.260664 -- INFO: Throughput @43.1s:1073.14Mbps, rtt :9.77ms cwnd: 211.9 lossRate: 0.0005012782595618828 CC:25 score:0.65 
+1660937040.281207 -- INFO: Throughput @44.1s:992.9Mbps, rtt :8.81ms cwnd: 202.1 lossRate: 0.0011419546862661727 CC:25 score:0.59 
+1660937041.245224 -- INFO: Throughput @45.1s:921.5Mbps, rtt :8.25ms cwnd: 190.9 lossRate: 0.0008629238952642222 CC:25 score:0.55 
+1660937042.025846 -- INFO: score [0.65, 0.59, 0.55] ******
+1660937042.027978 -- INFO: action array from actor 0.1578686237335205 and action is 19 ******
+1660937042.028321 -- INFO: Changing concurrency to 19 ******
+1660937042.050698 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937042.051203 -- INFO: Active CC: 19
+1660937042.246148 -- INFO: Throughput @46.1s:909.24Mbps, rtt :9.3ms cwnd: 208.8 lossRate: 0.01684836471754212 CC:19 score:0.47 
+1660937043.249965 -- INFO: Throughput @47.1s:885.56Mbps, rtt :5.1ms cwnd: 209.6 lossRate: 0.00016121031746031746 CC:19 score:0.61 
+1660937044.259947 -- INFO: Throughput @48.1s:915.01Mbps, rtt :5.85ms cwnd: 213.5 lossRate: 0.0 CC:19 score:0.63 
+1660937045.292986 -- INFO: Throughput @49.1s:885.0Mbps, rtt :5.0ms cwnd: 217.7 lossRate: 0.0 CC:19 score:0.61 
+1660937045.567413 -- INFO: score [0.61, 0.63, 0.61] ******
+1660937045.569033 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937045.569275 -- INFO: Changing concurrency to 19 ******
+1660937045.579250 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937045.586819 -- INFO: Active CC: 19
+1660937046.291684 -- INFO: Throughput @50.1s:870.0Mbps, rtt :4.41ms cwnd: 224.1 lossRate: 0.0 CC:19 score:0.6 
+1660937047.264464 -- INFO: Throughput @51.1s:890.0Mbps, rtt :4.46ms cwnd: 225.7 lossRate: 0.0 CC:19 score:0.61 
+1660937048.269855 -- INFO: Throughput @52.1s:850.0Mbps, rtt :2.77ms cwnd: 228.1 lossRate: 0.0 CC:19 score:0.58 
+1660937049.095427 -- INFO: score [0.6, 0.61, 0.58] ******
+1660937049.096988 -- INFO: action array from actor 0.15620645880699158 and action is 19 ******
+1660937049.102598 -- INFO: Changing concurrency to 19 ******
+1660937049.114677 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937049.122884 -- INFO: Active CC: 19
+1660937049.255705 -- INFO: Throughput @53.1s:880.0Mbps, rtt :2.56ms cwnd: 229.7 lossRate: 0.0 CC:19 score:0.6 
+1660937050.288765 -- INFO: Throughput @54.1s:875.0Mbps, rtt :6.17ms cwnd: 232.4 lossRate: 0.0 CC:19 score:0.6 
+1660937051.280803 -- INFO: Throughput @55.1s:885.0Mbps, rtt :4.01ms cwnd: 235.3 lossRate: 0.0 CC:19 score:0.61 
+1660937052.266761 -- INFO: Throughput @56.1s:890.0Mbps, rtt :3.14ms cwnd: 238.4 lossRate: 0.0 CC:19 score:0.61 
+1660937052.631923 -- INFO: score [0.6, 0.61, 0.61] ******
+1660937052.642756 -- INFO: action array from actor 0.2881373167037964 and action is 21 ******
+1660937052.643129 -- INFO: Changing concurrency to 21 ******
+1660937052.643543 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660937052.643962 -- INFO: Active CC: 21
+1660937052.646792 -- INFO: Start Process :: 20
+1660937052.648527 -- INFO: Start Process :: 19
+1660937052.649570 -- INFO: Process 20 get item 25 from queue and executing
+1660937052.649925 -- INFO: starting 20, 25, /home/hjamil/Documents/files_bash/FILE28
+1660937052.651238 -- INFO: Process 19 get item 31 from queue and executing
+1660937052.651445 -- INFO: starting 19, 31, /home/hjamil/Documents/files_bash/FILE19
+1660937053.292167 -- INFO: Throughput @57.1s:925.0Mbps, rtt :6.78ms cwnd: 225.6 lossRate: 0.0 CC:21 score:0.61 
+1660937054.294224 -- INFO: Throughput @58.1s:990.0Mbps, rtt :6.99ms cwnd: 231.7 lossRate: 0.0 CC:21 score:0.65 
+1660937055.285006 -- INFO: Throughput @59.1s:955.0Mbps, rtt :5.54ms cwnd: 233.4 lossRate: 0.00021257440104036413 CC:21 score:0.63 
+1660937056.159574 -- INFO: score [0.61, 0.65, 0.63] ******
+1660937056.161321 -- INFO: action array from actor 0.15619328618049622 and action is 19 ******
+1660937056.161497 -- INFO: Changing concurrency to 19 ******
+1660937056.170541 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937056.182760 -- INFO: Active CC: 19
+1660937056.277108 -- INFO: Throughput @60.1s:944.54Mbps, rtt :6.81ms cwnd: 238.4 lossRate: 0.0 CC:19 score:0.65 
+1660937057.285543 -- INFO: Throughput @61.1s:905.46Mbps, rtt :4.91ms cwnd: 239.4 lossRate: 0.0 CC:19 score:0.62 
+1660937058.280738 -- INFO: Throughput @62.1s:880.0Mbps, rtt :8.03ms cwnd: 239.9 lossRate: 0.0 CC:19 score:0.6 
+1660937059.301560 -- INFO: Throughput @63.1s:885.0Mbps, rtt :5.29ms cwnd: 298.1 lossRate: 0.0 CC:19 score:0.61 
+1660937059.687486 -- INFO: score [0.62, 0.6, 0.61] ******
+1660937059.696181 -- INFO: action array from actor 0.2858451306819916 and action is 21 ******
+1660937059.702852 -- INFO: Changing concurrency to 21 ******
+1660937059.703668 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660937059.703875 -- INFO: Start Process :: 20
+1660937059.703876 -- INFO: Start Process :: 19
+1660937059.704496 -- INFO: Active CC: 21
+1660937059.704935 -- INFO: Process 19 get item 22 from queue and executing
+1660937059.705084 -- INFO: Process 20 get item 23 from queue and executing
+1660937059.705263 -- INFO: starting 20, 23, /home/hjamil/Documents/files_bash/FILE10
+1660937059.705275 -- INFO: starting 19, 22, /home/hjamil/Documents/files_bash/FILE9
+1660937060.297177 -- INFO: Throughput @64.1s:920.0Mbps, rtt :8.54ms cwnd: 261.3 lossRate: 0.0009765253452714614 CC:21 score:0.6 
+1660937061.278201 -- INFO: Throughput @65.1s:960.0Mbps, rtt :7.91ms cwnd: 251.6 lossRate: 0.0005733015940276929 CC:21 score:0.63 
+1660937062.292862 -- INFO: Throughput @66.1s:970.0Mbps, rtt :7.53ms cwnd: 246.2 lossRate: 0.00029295444558371175 CC:21 score:0.64 
+1660937063.211601 -- INFO: score [0.6, 0.63, 0.64] ******
+1660937063.213560 -- INFO: action array from actor 0.3669019341468811 and action is 22 ******
+1660937063.222782 -- INFO: Changing concurrency to 22 ******
+1660937063.231227 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660937063.231892 -- INFO: Start Process :: 21
+1660937063.232424 -- INFO: Active CC: 22
+1660937063.237251 -- INFO: Process 21 get item 21 from queue and executing
+1660937063.237537 -- INFO: starting 21, 21, /home/hjamil/Documents/files_bash/FILE21
+1660937063.289485 -- INFO: Throughput @67.1s:950.0Mbps, rtt :11.43ms cwnd: 235.1 lossRate: 0.0004052787557942197 CC:22 score:0.61 
+1660937064.267183 -- INFO: Throughput @68.1s:950.0Mbps, rtt :7.76ms cwnd: 234.9 lossRate: 0.000261418381446764 CC:22 score:0.61 
+1660937065.286853 -- INFO: Throughput @69.1s:934.98Mbps, rtt :7.58ms cwnd: 236.0 lossRate: 0.0 CC:22 score:0.6 
+1660937066.293184 -- INFO: Throughput @70.1s:925.02Mbps, rtt :8.38ms cwnd: 236.5 lossRate: 0.0 CC:22 score:0.6 
+1660937066.743203 -- INFO: score [0.61, 0.6, 0.6] ******
+1660937066.746384 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937066.746512 -- INFO: Changing concurrency to 19 ******
+1660937066.747315 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937066.747979 -- INFO: Active CC: 19
+1660937067.267477 -- INFO: Throughput @71.1s:795.0Mbps, rtt :12.51ms cwnd: 178.0 lossRate: 0 CC:19 score:0.55 
+1660937068.302535 -- INFO: Throughput @72.1s:619.45Mbps, rtt :11.46ms cwnd: 144.4 lossRate: 0.0036401558380229036 CC:19 score:0.4 
+1660937069.272532 -- INFO: Throughput @73.1s:575.28Mbps, rtt :11.13ms cwnd: 128.9 lossRate: 0.0018196856906534326 CC:19 score:0.38 
+1660937070.249034 -- INFO: score [0.55, 0.4, 0.38] ******
+1660937070.250724 -- INFO: action array from actor 0.4618440568447113 and action is 24 ******
+1660937070.251110 -- INFO: Changing concurrency to 24 ******
+1660937070.258518 -- INFO: Start Process :: 20
+1660937070.258599 -- INFO: Start Process :: 23
+1660937070.258779 -- INFO: Start Process :: 19
+1660937070.258574 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1660937070.259063 -- INFO: Start Process :: 22
+1660937070.259275 -- INFO: Start Process :: 21
+1660937070.259916 -- INFO: Active CC: 24
+1660937070.260454 -- INFO: Throughput @74.1s:584.94Mbps, rtt :10.33ms cwnd: 120.6 lossRate: 0.0010990576598213014 CC:19 score:0.4 
+1660937070.260604 -- INFO: Process 23 get item 19 from queue and executing
+1660937070.260820 -- INFO: starting 23, 19, /home/hjamil/Documents/files_bash/FILE8
+1660937070.261528 -- INFO: Process 21 get item 20 from queue and executing
+1660937070.261888 -- INFO: Process 22 get item 26 from queue and executing
+1660937070.261971 -- INFO: starting 21, 20, /home/hjamil/Documents/files_bash/FILE15
+1660937070.262222 -- INFO: starting 22, 26, /home/hjamil/Documents/files_bash/FILE27
+1660937070.263624 -- INFO: Process 20 get item 30 from queue and executing
+1660937070.263955 -- INFO: starting 20, 30, /home/hjamil/Documents/files_bash/FILE16
+1660937070.264409 -- INFO: Process 19 get item 24 from queue and executing
+1660937070.264635 -- INFO: starting 19, 24, /home/hjamil/Documents/files_bash/FILE12
+1660937071.270952 -- INFO: Throughput @75.1s:660.89Mbps, rtt :9.04ms cwnd: 83.0 lossRate: 0.002338905609747253 CC:24 score:0.4 
+1660937072.249875 -- INFO: Throughput @76.1s:635.93Mbps, rtt :9.01ms cwnd: 75.4 lossRate: 0.001315270288044193 CC:24 score:0.39 
+1660937073.253678 -- INFO: Throughput @77.1s:615.87Mbps, rtt :8.46ms cwnd: 75.0 lossRate: 9.163215188945497e-05 CC:24 score:0.38 
+1660937073.761197 -- INFO: score [0.4, 0.39, 0.38] ******
+1660937073.762920 -- INFO: action array from actor 0.15619295835494995 and action is 19 ******
+1660937073.763145 -- INFO: Changing concurrency to 19 ******
+1660937073.763977 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937073.764671 -- INFO: Active CC: 19
+1660937074.254908 -- INFO: Throughput @78.1s:606.42Mbps, rtt :8.58ms cwnd: 83.6 lossRate: 0 CC:19 score:0.42 
+1660937075.252286 -- INFO: Throughput @79.1s:569.88Mbps, rtt :8.68ms cwnd: 82.3 lossRate: 0.00022315994481863182 CC:19 score:0.39 
+1660937076.252980 -- INFO: Throughput @80.1s:580.15Mbps, rtt :8.87ms cwnd: 82.7 lossRate: 0.0 CC:19 score:0.4 
+1660937077.265612 -- INFO: score [0.42, 0.39, 0.4] ******
+1660937077.267191 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937077.267526 -- INFO: Changing concurrency to 19 ******
+1660937077.267648 -- INFO: Throughput @81.1s:575.06Mbps, rtt :7.85ms cwnd: 82.7 lossRate: 0.0 CC:19 score:0.39 
+1660937077.269443 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937077.270985 -- INFO: Active CC: 19
+1660937078.254894 -- INFO: Throughput @82.1s:565.2Mbps, rtt :8.39ms cwnd: 81.2 lossRate: 0.00022478339055092365 CC:19 score:0.39 
+1660937079.264185 -- INFO: Throughput @83.1s:569.44Mbps, rtt :8.23ms cwnd: 79.5 lossRate: 0.0002603905858788182 CC:19 score:0.39 
+1660937080.257014 -- INFO: Throughput @84.1s:585.16Mbps, rtt :7.79ms cwnd: 78.6 lossRate: 0.00014228220659376396 CC:19 score:0.4 
+1660937080.772346 -- INFO: score [0.39, 0.39, 0.4] ******
+1660937080.774620 -- INFO: action array from actor 0.15619343519210815 and action is 19 ******
+1660937080.774876 -- INFO: Changing concurrency to 19 ******
+1660937080.777837 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937080.779045 -- INFO: Active CC: 19
+1660937081.257595 -- INFO: Throughput @85.1s:575.0Mbps, rtt :8.05ms cwnd: 79.3 lossRate: 0.0 CC:19 score:0.39 
+1660937082.264318 -- INFO: Throughput @86.1s:564.71Mbps, rtt :8.24ms cwnd: 78.7 lossRate: 0.0001205521287496735 CC:19 score:0.39 
+1660937083.259757 -- INFO: Throughput @87.1s:570.06Mbps, rtt :8.71ms cwnd: 78.7 lossRate: 0.0 CC:19 score:0.39 
+1660937084.276678 -- INFO: Throughput @88.1s:590.53Mbps, rtt :7.84ms cwnd: 78.7 lossRate: 0.0 CC:19 score:0.41 
+1660937084.280181 -- INFO: score [0.39, 0.39, 0.41] ******
+1660937084.281960 -- INFO: action array from actor 0.15619373321533203 and action is 19 ******
+1660937084.282102 -- INFO: Changing concurrency to 19 ******
+1660937084.284539 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937084.285558 -- INFO: Active CC: 19
+1660937085.272636 -- INFO: Throughput @89.1s:559.71Mbps, rtt :8.13ms cwnd: 78.7 lossRate: 0.0 CC:19 score:0.38 
+1660937086.262395 -- INFO: Throughput @90.1s:579.63Mbps, rtt :7.72ms cwnd: 78.7 lossRate: 0.0 CC:19 score:0.4 
+1660937087.263679 -- INFO: Throughput @91.1s:569.96Mbps, rtt :7.55ms cwnd: 78.8 lossRate: 0.00012112403100775194 CC:19 score:0.39 
+1660937087.786623 -- INFO: score [0.38, 0.4, 0.39] ******
+1660937087.788409 -- INFO: action array from actor 0.15753063559532166 and action is 19 ******
+1660937087.788571 -- INFO: Changing concurrency to 19 ******
+1660937087.790413 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937087.792025 -- INFO: Active CC: 19
+1660937088.264619 -- INFO: Throughput @92.1s:585.33Mbps, rtt :7.4ms cwnd: 78.8 lossRate: 0.0 CC:19 score:0.4 
+1660937089.283985 -- INFO: Throughput @93.1s:565.51Mbps, rtt :8.61ms cwnd: 78.8 lossRate: 0.0 CC:19 score:0.39 
+1660937090.267325 -- INFO: Throughput @94.1s:574.5Mbps, rtt :8.12ms cwnd: 78.8 lossRate: 0.0 CC:19 score:0.39 
+1660937091.268121 -- INFO: Throughput @95.1s:569.86Mbps, rtt :8.4ms cwnd: 76.4 lossRate: 0.0003232715076574938 CC:19 score:0.39 
+1660937091.293147 -- INFO: score [0.39, 0.39, 0.39] ******
+1660937091.294928 -- INFO: action array from actor 0.15626674890518188 and action is 19 ******
+1660937091.295087 -- INFO: Changing concurrency to 19 ******
+1660937091.297245 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937091.298707 -- INFO: Active CC: 19
+1660937092.271018 -- INFO: Throughput @96.1s:580.3Mbps, rtt :7.96ms cwnd: 74.2 lossRate: 0.00030226700251889167 CC:19 score:0.4 
+1660937093.269344 -- INFO: Throughput @97.1s:569.65Mbps, rtt :7.73ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.39 
+1660937094.274134 -- INFO: Throughput @98.1s:570.48Mbps, rtt :8.33ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.39 
+1660937094.799755 -- INFO: score [0.4, 0.39, 0.39] ******
+1660937094.801351 -- INFO: action array from actor 0.15619394183158875 and action is 19 ******
+1660937094.801487 -- INFO: Changing concurrency to 19 ******
+1660937094.803607 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937094.804755 -- INFO: Active CC: 19
+1660937095.296212 -- INFO: Throughput @99.1s:569.96Mbps, rtt :7.81ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.39 
+1660937096.276044 -- INFO: Throughput @100.1s:584.93Mbps, rtt :7.91ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.4 
+1660937097.273960 -- INFO: Throughput @101.1s:569.66Mbps, rtt :7.64ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.39 
+1660937098.274597 -- INFO: Throughput @102.1s:570.14Mbps, rtt :7.54ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.39 
+1660937098.306085 -- INFO: score [0.4, 0.39, 0.39] ******
+1660937098.308381 -- INFO: action array from actor 0.15619318187236786 and action is 19 ******
+1660937098.308560 -- INFO: Changing concurrency to 19 ******
+1660937098.310301 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937098.311471 -- INFO: Active CC: 19
+1660937099.280839 -- INFO: Throughput @103.1s:570.23Mbps, rtt :7.97ms cwnd: 74.2 lossRate: 0.0 CC:19 score:0.39 
+1660937100.304921 -- INFO: Throughput @104.1s:589.78Mbps, rtt :7.2ms cwnd: 73.7 lossRate: 5.969792848188168e-05 CC:19 score:0.4 
+1660937101.277733 -- INFO: Throughput @105.1s:559.92Mbps, rtt :7.9ms cwnd: 74.5 lossRate: 0.0 CC:19 score:0.38 
+1660937101.812632 -- INFO: score [0.39, 0.4, 0.38] ******
+1660937101.815632 -- INFO: action array from actor 0.1972188949584961 and action is 20 ******
+1660937101.815817 -- INFO: Changing concurrency to 20 ******
+1660937101.816819 -- INFO: Start Process :: 19
+1660937101.816934 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660937101.817951 -- INFO: Active CC: 20
+1660937101.818437 -- INFO: Process 19 get item 28 from queue and executing
+1660937101.818767 -- INFO: starting 19, 28, /home/hjamil/Documents/files_bash/FILE18
+1660937102.288181 -- INFO: Throughput @106.1s:587.48Mbps, rtt :7.78ms cwnd: 72.6 lossRate: 0.0 CC:20 score:0.4 
+1660937103.282946 -- INFO: Throughput @107.1s:578.68Mbps, rtt :8.17ms cwnd: 72.1 lossRate: 0.00011986575035959726 CC:20 score:0.39 
+1660937104.282345 -- INFO: Throughput @108.1s:577.07Mbps, rtt :7.99ms cwnd: 70.6 lossRate: 1.981924845409862e-05 CC:20 score:0.39 
+1660937105.288096 -- INFO: Throughput @109.1s:599.2Mbps, rtt :7.66ms cwnd: 70.1 lossRate: 0.00011825456265520911 CC:20 score:0.4 
+1660937105.318981 -- INFO: score [0.39, 0.39, 0.4] ******
+1660937105.320672 -- INFO: action array from actor 0.1562008410692215 and action is 19 ******
+1660937105.320814 -- INFO: Changing concurrency to 19 ******
+1660937105.322307 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937105.323970 -- INFO: Active CC: 19
+1660937106.283136 -- INFO: Throughput @110.1s:572.82Mbps, rtt :7.36ms cwnd: 71.6 lossRate: 0.0 CC:19 score:0.39 
+1660937107.284099 -- INFO: Throughput @111.1s:559.53Mbps, rtt :7.73ms cwnd: 70.0 lossRate: 2.0221629054436625e-05 CC:19 score:0.38 
+1660937108.284893 -- INFO: Throughput @112.1s:575.2Mbps, rtt :7.92ms cwnd: 70.0 lossRate: 0.0 CC:19 score:0.39 
+1660937108.825098 -- INFO: score [0.39, 0.38, 0.39] ******
+1660937108.827480 -- INFO: action array from actor 0.15619289875030518 and action is 19 ******
+1660937108.827670 -- INFO: Changing concurrency to 19 ******
+1660937108.829206 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937108.830715 -- INFO: Active CC: 19
+1660937109.302640 -- INFO: Throughput @113.1s:590.35Mbps, rtt :7.69ms cwnd: 70.0 lossRate: 0.0 CC:19 score:0.41 
+1660937110.287271 -- INFO: Throughput @114.1s:559.89Mbps, rtt :6.68ms cwnd: 54.6 lossRate: 0.0020359059781602813 CC:19 score:0.37 
+1660937111.298609 -- INFO: Throughput @115.2s:522.69Mbps, rtt :6.47ms cwnd: 55.6 lossRate: 0.0 CC:19 score:0.36 
+1660937112.290192 -- INFO: Throughput @116.2s:574.96Mbps, rtt :7.05ms cwnd: 55.7 lossRate: 0.0 CC:19 score:0.39 
+1660937112.331623 -- INFO: score [0.37, 0.36, 0.39] ******
+1660937112.333279 -- INFO: action array from actor 0.1561926156282425 and action is 19 ******
+1660937112.333433 -- INFO: Changing concurrency to 19 ******
+1660937112.335757 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937112.336967 -- INFO: Active CC: 19
+1660937113.296801 -- INFO: Throughput @117.2s:570.0Mbps, rtt :6.49ms cwnd: 55.1 lossRate: 0.00010023655827753498 CC:19 score:0.39 
+1660937114.320365 -- INFO: Throughput @118.2s:575.12Mbps, rtt :6.98ms cwnd: 55.3 lossRate: 0.0 CC:19 score:0.39 
+1660937115.292129 -- INFO: Throughput @119.2s:574.64Mbps, rtt :6.81ms cwnd: 56.9 lossRate: 0.0 CC:19 score:0.39 
+1660937115.838002 -- INFO: score [0.39, 0.39, 0.39] ******
+1660937115.839685 -- INFO: action array from actor 0.21277940273284912 and action is 20 ******
+1660937115.839808 -- INFO: Changing concurrency to 20 ******
+1660937115.841930 -- INFO: Start Process :: 19
+1660937115.842589 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660937115.843543 -- INFO: Process 19 get item 27 from queue and executing
+1660937115.843773 -- INFO: starting 19, 27, /home/hjamil/Documents/files_bash/FILE26
+1660937115.844141 -- INFO: Active CC: 20
+1660937116.300576 -- INFO: Throughput @120.2s:574.81Mbps, rtt :7.29ms cwnd: 58.0 lossRate: 0.0 CC:20 score:0.39 
+1660937117.333095 -- INFO: Throughput @121.2s:745.88Mbps, rtt :5.35ms cwnd: 71.1 lossRate: 0.0 CC:20 score:0.5 
+1660937118.327610 -- INFO: Throughput @122.2s:850.0Mbps, rtt :4.62ms cwnd: 122.0 lossRate: 0.0 CC:20 score:0.57 
+1660937119.348948 -- INFO: Throughput @123.2s:945.0Mbps, rtt :6.09ms cwnd: 129.9 lossRate: 0.0 CC:20 score:0.64 
+1660937119.359344 -- INFO: score [0.5, 0.57, 0.64] ******
+1660937119.360708 -- INFO: action array from actor 0.14224132895469666 and action is 19 ******
+1660937119.360829 -- INFO: Changing concurrency to 19 ******
+1660937119.376733 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937119.380851 -- INFO: Active CC: 19
+1660937120.342451 -- INFO: Throughput @124.2s:920.0Mbps, rtt :7.59ms cwnd: 139.8 lossRate: 0.0 CC:19 score:0.63 
+1660937121.332761 -- INFO: Throughput @125.2s:915.0Mbps, rtt :5.19ms cwnd: 144.0 lossRate: 0.0 CC:19 score:0.63 
+1660937122.335653 -- INFO: Throughput @126.2s:850.0Mbps, rtt :5.68ms cwnd: 155.5 lossRate: 0.0 CC:19 score:0.58 
+1660937122.883446 -- INFO: score [0.63, 0.63, 0.58] ******
+1660937122.885471 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937122.885879 -- INFO: Changing concurrency to 19 ******
+1660937122.894958 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937122.895933 -- INFO: Active CC: 19
+1660937123.381417 -- INFO: Throughput @127.2s:885.0Mbps, rtt :4.17ms cwnd: 250.7 lossRate: 0.0 CC:19 score:0.61 
+1660937124.338007 -- INFO: Throughput @128.2s:865.0Mbps, rtt :6.21ms cwnd: 271.4 lossRate: 0.0 CC:19 score:0.59 
+1660937125.354003 -- INFO: Throughput @129.2s:880.0Mbps, rtt :3.72ms cwnd: 280.6 lossRate: 0.0 CC:19 score:0.6 
+1660937126.361591 -- INFO: Throughput @130.2s:870.0Mbps, rtt :5.58ms cwnd: 298.3 lossRate: 0.0 CC:19 score:0.6 
+1660937126.398478 -- INFO: score [0.59, 0.6, 0.6] ******
+1660937126.401366 -- INFO: action array from actor 0.9015495777130127 and action is 30 ******
+1660937126.418820 -- INFO: Changing concurrency to 30 ******
+1660937126.433881 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0
+1660937126.434160 -- INFO: Start Process :: 20
+1660937126.434542 -- INFO: Start Process :: 25
+1660937126.434578 -- INFO: Start Process :: 23
+1660937126.434787 -- INFO: Start Process :: 21
+1660937126.434797 -- INFO: Start Process :: 24
+1660937126.434810 -- INFO: Active CC: 30
+1660937126.435274 -- INFO: Process 25 get item 29 from queue and executing
+1660937126.435486 -- INFO: Start Process :: 19
+1660937126.435589 -- INFO: starting 25, 29, /home/hjamil/Documents/files_bash/FILE0
+1660937126.435707 -- INFO: Process 23 get item 25 from queue and executing
+1660937126.435926 -- INFO: starting 23, 25, /home/hjamil/Documents/files_bash/FILE28
+1660937126.436283 -- INFO: Process 20 get item 31 from queue and executing
+1660937126.436493 -- INFO: starting 20, 31, /home/hjamil/Documents/files_bash/FILE19
+1660937126.436874 -- INFO: Process 24 get item 22 from queue and executing
+1660937126.437247 -- INFO: starting 24, 22, /home/hjamil/Documents/files_bash/FILE9
+1660937126.437681 -- INFO: Start Process :: 22
+1660937126.442562 -- INFO: Process 21 get item 23 from queue and executing
+1660937126.442650 -- INFO: Process 19 get item 21 from queue and executing
+1660937126.442830 -- INFO: starting 21, 23, /home/hjamil/Documents/files_bash/FILE10
+1660937126.442899 -- INFO: starting 19, 21, /home/hjamil/Documents/files_bash/FILE21
+1660937126.443701 -- INFO: Process 22 get item 26 from queue and executing
+1660937126.444020 -- INFO: starting 22, 26, /home/hjamil/Documents/files_bash/FILE27
+1660937126.471008 -- INFO: Start Process :: 26
+1660937126.473727 -- INFO: Process 26 get item 20 from queue and executing
+1660937126.473896 -- INFO: starting 26, 20, /home/hjamil/Documents/files_bash/FILE15
+1660937126.495088 -- INFO: Start Process :: 28
+1660937126.497670 -- INFO: Process 28 get item 30 from queue and executing
+1660937126.497851 -- INFO: starting 28, 30, /home/hjamil/Documents/files_bash/FILE16
+1660937126.497621 -- INFO: Start Process :: 27
+1660937126.510765 -- INFO: Process 27 get item 24 from queue and executing
+1660937126.510979 -- INFO: starting 27, 24, /home/hjamil/Documents/files_bash/FILE12
+1660937126.531095 -- INFO: Start Process :: 29
+1660937126.534342 -- INFO: Process 29 get item 19 from queue and executing
+1660937126.534536 -- INFO: starting 29, 19, /home/hjamil/Documents/files_bash/FILE8
+1660937127.342952 -- INFO: Throughput @131.2s:1190.5Mbps, rtt :9.94ms cwnd: 129.7 lossRate: 0.004261713553727152 CC:30 score:0.61 
+1660937128.301307 -- INFO: Throughput @132.2s:968.72Mbps, rtt :9.78ms cwnd: 105.5 lossRate: 0.0017208808839893383 CC:30 score:0.52 
+1660937129.303624 -- INFO: Throughput @133.2s:936.28Mbps, rtt :9.36ms cwnd: 95.4 lossRate: 0.0008931672703815809 CC:30 score:0.51 
+1660937129.935821 -- INFO: score [0.61, 0.52, 0.51] ******
+1660937129.936950 -- INFO: action array from actor 0.15620389580726624 and action is 19 ******
+1660937129.937039 -- INFO: Changing concurrency to 19 ******
+1660937129.937418 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937129.937694 -- INFO: Active CC: 19
+1660937130.325583 -- INFO: Throughput @134.2s:896.25Mbps, rtt :6.81ms cwnd: 107.6 lossRate: 0 CC:19 score:0.62 
+1660937131.391557 -- INFO: Throughput @135.2s:820.01Mbps, rtt :3.41ms cwnd: 117.2 lossRate: 0.0 CC:19 score:0.56 
+1660937132.340418 -- INFO: Throughput @136.2s:915.0Mbps, rtt :8.25ms cwnd: 123.2 lossRate: 0.0 CC:19 score:0.63 
+1660937133.369553 -- INFO: Throughput @137.2s:895.0Mbps, rtt :3.37ms cwnd: 127.2 lossRate: 0.0 CC:19 score:0.61 
+1660937133.463208 -- INFO: score [0.56, 0.63, 0.61] ******
+1660937133.464710 -- INFO: action array from actor 0.22667934000492096 and action is 20 ******
+1660937133.465014 -- INFO: Changing concurrency to 20 ******
+1660937133.470816 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660937133.471414 -- INFO: Active CC: 20
+1660937133.474248 -- INFO: Start Process :: 19
+1660937133.476286 -- INFO: Process 19 get item 28 from queue and executing
+1660937133.476505 -- INFO: starting 19, 28, /home/hjamil/Documents/files_bash/FILE18
+1660937134.385086 -- INFO: Throughput @138.2s:900.0Mbps, rtt :3.59ms cwnd: 130.1 lossRate: 0.0 CC:20 score:0.61 
+1660937135.354650 -- INFO: Throughput @139.2s:920.0Mbps, rtt :4.43ms cwnd: 134.8 lossRate: 0.0 CC:20 score:0.62 
+1660937136.342821 -- INFO: Throughput @140.2s:910.0Mbps, rtt :6.67ms cwnd: 138.7 lossRate: 0.0 CC:20 score:0.61 
+1660937136.973955 -- INFO: score [0.61, 0.62, 0.61] ******
+1660937136.976724 -- INFO: action array from actor 0.1561926305294037 and action is 19 ******
+1660937136.986839 -- INFO: Changing concurrency to 19 ******
+1660937136.999473 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937137.000898 -- INFO: Active CC: 19
+1660937137.342275 -- INFO: Throughput @141.2s:900.0Mbps, rtt :3.48ms cwnd: 141.6 lossRate: 0.0 CC:19 score:0.62 
+1660937138.364815 -- INFO: Throughput @142.2s:865.0Mbps, rtt :3.14ms cwnd: 145.6 lossRate: 0.0 CC:19 score:0.59 
+1660937139.371626 -- INFO: Throughput @143.2s:885.0Mbps, rtt :2.71ms cwnd: 149.6 lossRate: 0.0 CC:19 score:0.61 
+1660937140.381196 -- INFO: Throughput @144.2s:855.0Mbps, rtt :3.94ms cwnd: 153.7 lossRate: 0.0 CC:19 score:0.59 
+1660937140.507442 -- INFO: score [0.59, 0.61, 0.59] ******
+1660937140.509060 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937140.509390 -- INFO: Changing concurrency to 19 ******
+1660937140.534870 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937140.535605 -- INFO: Active CC: 19
+1660937141.361237 -- INFO: Throughput @145.2s:880.0Mbps, rtt :4.94ms cwnd: 158.0 lossRate: 0.0 CC:19 score:0.6 
+1660937142.373108 -- INFO: Throughput @146.2s:880.0Mbps, rtt :2.95ms cwnd: 162.4 lossRate: 0.0 CC:19 score:0.6 
+1660937143.373310 -- INFO: Throughput @147.2s:885.0Mbps, rtt :2.35ms cwnd: 168.3 lossRate: 0.0 CC:19 score:0.61 
+1660937144.043236 -- INFO: score [0.6, 0.6, 0.61] ******
+1660937144.045674 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937144.050905 -- INFO: Changing concurrency to 19 ******
+1660937144.062721 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937144.063358 -- INFO: Active CC: 19
+1660937144.371269 -- INFO: Throughput @148.2s:870.0Mbps, rtt :5.42ms cwnd: 172.8 lossRate: 0.0 CC:19 score:0.6 
+1660937145.364931 -- INFO: Throughput @149.2s:885.0Mbps, rtt :3.58ms cwnd: 176.7 lossRate: 0.0 CC:19 score:0.61 
+1660937146.382084 -- INFO: Throughput @150.2s:885.0Mbps, rtt :4.66ms cwnd: 180.9 lossRate: 0.0 CC:19 score:0.61 
+1660937147.356693 -- INFO: Throughput @151.2s:870.0Mbps, rtt :4.54ms cwnd: 184.9 lossRate: 0.0 CC:19 score:0.6 
+1660937147.573568 -- INFO: score [0.61, 0.61, 0.6] ******
+1660937147.578284 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937147.581187 -- INFO: Changing concurrency to 19 ******
+1660937147.584891 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937147.588327 -- INFO: Active CC: 19
+1660937148.384743 -- INFO: Throughput @152.2s:880.0Mbps, rtt :3.78ms cwnd: 191.6 lossRate: 0.0 CC:19 score:0.6 
+1660937149.377023 -- INFO: Throughput @153.2s:895.0Mbps, rtt :3.52ms cwnd: 194.2 lossRate: 0.0 CC:19 score:0.61 
+1660937150.408904 -- INFO: Throughput @154.2s:865.0Mbps, rtt :4.49ms cwnd: 201.0 lossRate: 0.0 CC:19 score:0.59 
+1660937151.111351 -- INFO: score [0.6, 0.61, 0.59] ******
+1660937151.112998 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937151.113154 -- INFO: Changing concurrency to 19 ******
+1660937151.127074 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937151.127773 -- INFO: Active CC: 19
+1660937151.374241 -- INFO: Throughput @155.2s:880.0Mbps, rtt :4.11ms cwnd: 208.4 lossRate: 0.0 CC:19 score:0.6 
+1660937152.376597 -- INFO: Throughput @156.2s:875.0Mbps, rtt :2.93ms cwnd: 215.3 lossRate: 0.0 CC:19 score:0.6 
+1660937153.344566 -- INFO: Throughput @157.2s:880.0Mbps, rtt :4.09ms cwnd: 218.8 lossRate: 0.0 CC:19 score:0.6 
+1660937154.377221 -- INFO: Throughput @158.2s:890.0Mbps, rtt :4.18ms cwnd: 223.4 lossRate: 0.0 CC:19 score:0.61 
+1660937154.643353 -- INFO: score [0.6, 0.6, 0.61] ******
+1660937154.644872 -- INFO: action array from actor 0.1562119722366333 and action is 19 ******
+1660937154.645186 -- INFO: Changing concurrency to 19 ******
+1660937154.645560 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937154.645979 -- INFO: Active CC: 19
+1660937155.373088 -- INFO: Throughput @159.2s:880.0Mbps, rtt :4.18ms cwnd: 227.5 lossRate: 0.0 CC:19 score:0.6 
+1660937156.362024 -- INFO: Throughput @160.2s:860.0Mbps, rtt :2.83ms cwnd: 244.6 lossRate: 0.0 CC:19 score:0.59 
+1660937157.368840 -- INFO: Throughput @161.2s:880.0Mbps, rtt :7.67ms cwnd: 249.1 lossRate: 0.0 CC:19 score:0.6 
+1660937158.167067 -- INFO: score [0.6, 0.59, 0.6] ******
+1660937158.168918 -- INFO: action array from actor 0.338342547416687 and action is 22 ******
+1660937158.169237 -- INFO: Changing concurrency to 22 ******
+1660937158.182907 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660937158.183036 -- INFO: Start Process :: 19
+1660937158.183248 -- INFO: Start Process :: 20
+1660937158.183354 -- INFO: Start Process :: 21
+1660937158.183894 -- INFO: Active CC: 22
+1660937158.185153 -- INFO: Process 21 get item 27 from queue and executing
+1660937158.185276 -- INFO: Process 20 get item 31 from queue and executing
+1660937158.185364 -- INFO: starting 21, 27, /home/hjamil/Documents/files_bash/FILE26
+1660937158.185483 -- INFO: starting 20, 31, /home/hjamil/Documents/files_bash/FILE19
+1660937158.194697 -- INFO: Process 19 get item 23 from queue and executing
+1660937158.195012 -- INFO: starting 19, 23, /home/hjamil/Documents/files_bash/FILE10
+1660937158.369581 -- INFO: Throughput @162.2s:902.11Mbps, rtt :12.09ms cwnd: 232.5 lossRate: 0.0 CC:22 score:0.58 
+1660937159.369016 -- INFO: Throughput @163.2s:1009.62Mbps, rtt :8.97ms cwnd: 192.8 lossRate: 0.0029545370609742588 CC:22 score:0.62 
+1660937160.372925 -- INFO: Throughput @164.2s:973.27Mbps, rtt :8.23ms cwnd: 190.5 lossRate: 0.00041362713393998645 CC:22 score:0.63 
+1660937161.357192 -- INFO: Throughput @165.2s:942.28Mbps, rtt :9.37ms cwnd: 191.4 lossRate: 1.237057288123013e-05 CC:22 score:0.61 
+1660937161.695351 -- INFO: score [0.62, 0.63, 0.61] ******
+1660937161.697025 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937161.710805 -- INFO: Changing concurrency to 19 ******
+1660937161.711422 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937161.711991 -- INFO: Active CC: 19
+1660937162.353926 -- INFO: Throughput @166.2s:929.63Mbps, rtt :5.77ms cwnd: 193.8 lossRate: 0.00033010004570616016 CC:19 score:0.64 
+1660937163.417143 -- INFO: Throughput @167.2s:945.0Mbps, rtt :4.29ms cwnd: 197.7 lossRate: 0.0 CC:19 score:0.65 
+1660937164.377703 -- INFO: Throughput @168.2s:915.0Mbps, rtt :6.93ms cwnd: 200.0 lossRate: 0.0 CC:19 score:0.63 
+1660937165.219230 -- INFO: score [0.64, 0.65, 0.63] ******
+1660937165.220772 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937165.221040 -- INFO: Changing concurrency to 19 ******
+1660937165.230934 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937165.231446 -- INFO: Active CC: 19
+1660937165.384739 -- INFO: Throughput @169.2s:900.0Mbps, rtt :4.65ms cwnd: 201.4 lossRate: 0.0 CC:19 score:0.62 
+1660937166.382154 -- INFO: Throughput @170.2s:870.0Mbps, rtt :6.34ms cwnd: 204.7 lossRate: 0.0 CC:19 score:0.6 
+1660937167.366998 -- INFO: Throughput @171.2s:890.0Mbps, rtt :7.74ms cwnd: 211.1 lossRate: 0.0 CC:19 score:0.61 
+1660937168.404744 -- INFO: Throughput @172.2s:880.0Mbps, rtt :3.36ms cwnd: 215.3 lossRate: 0.0 CC:19 score:0.6 
+1660937168.566644 -- INFO: Process 2 finished on working on file 1 
+1660937168.567413 -- INFO: Process 2 get item 19 from queue and executing
+1660937168.567950 -- INFO: starting 2, 19, /home/hjamil/Documents/files_bash/FILE8
+1660937168.755193 -- INFO: score [0.6, 0.61, 0.6] ******
+1660937168.756680 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937168.756975 -- INFO: Changing concurrency to 19 ******
+1660937168.757535 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937168.758186 -- INFO: Active CC: 19
+1660937168.962556 -- INFO: Process 8 finished on working on file 9 
+1660937168.963075 -- INFO: Process 8 get item 21 from queue and executing
+1660937168.974713 -- INFO: starting 8, 21, /home/hjamil/Documents/files_bash/FILE21
+1660937169.384654 -- INFO: Throughput @173.2s:870.0Mbps, rtt :2.93ms cwnd: 219.3 lossRate: 0.0 CC:19 score:0.6 
+1660937170.377134 -- INFO: Throughput @174.2s:885.0Mbps, rtt :3.32ms cwnd: 222.1 lossRate: 0.0 CC:19 score:0.61 
+1660937171.388768 -- INFO: Throughput @175.2s:880.0Mbps, rtt :5.62ms cwnd: 224.0 lossRate: 0.0 CC:19 score:0.6 
+1660937172.263728 -- INFO: score [0.6, 0.61, 0.6] ******
+1660937172.266057 -- INFO: action array from actor 0.15622684359550476 and action is 19 ******
+1660937172.269905 -- INFO: Changing concurrency to 19 ******
+1660937172.271771 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937172.287363 -- INFO: Active CC: 19
+1660937172.388753 -- INFO: Throughput @176.2s:900.0Mbps, rtt :6.59ms cwnd: 229.1 lossRate: 0.0 CC:19 score:0.62 
+1660937173.385028 -- INFO: Throughput @177.2s:875.0Mbps, rtt :4.19ms cwnd: 231.9 lossRate: 0.0 CC:19 score:0.6 
+1660937174.372937 -- INFO: Throughput @178.2s:875.0Mbps, rtt :6.28ms cwnd: 234.3 lossRate: 0.0 CC:19 score:0.6 
+1660937175.392788 -- INFO: Throughput @179.2s:870.0Mbps, rtt :4.93ms cwnd: 236.3 lossRate: 0.0 CC:19 score:0.6 
+1660937175.795561 -- INFO: score [0.6, 0.6, 0.6] ******
+1660937175.797548 -- INFO: action array from actor 0.2793262004852295 and action is 21 ******
+1660937175.798649 -- INFO: Changing concurrency to 21 ******
+1660937175.815209 -- INFO: Start Process :: 19
+1660937175.815201 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1660937175.816389 -- INFO: Active CC: 21
+1660937175.823098 -- INFO: Process 19 get item 22 from queue and executing
+1660937175.823316 -- INFO: starting 19, 22, /home/hjamil/Documents/files_bash/FILE9
+1660937175.824357 -- INFO: Start Process :: 20
+1660937175.827338 -- INFO: Process 20 get item 29 from queue and executing
+1660937175.827558 -- INFO: starting 20, 29, /home/hjamil/Documents/files_bash/FILE0
+1660937176.414262 -- INFO: Throughput @180.2s:935.0Mbps, rtt :8.74ms cwnd: 226.4 lossRate: 0.0 CC:21 score:0.62 
+1660937177.316132 -- INFO: Process 7 finished on working on file 5 
+1660937177.324919 -- INFO: Process 7 get item 26 from queue and executing
+1660937177.327060 -- INFO: starting 7, 26, /home/hjamil/Documents/files_bash/FILE27
+1660937177.397084 -- INFO: Throughput @181.2s:994.9Mbps, rtt :6.72ms cwnd: 228.3 lossRate: 0.0 CC:21 score:0.66 
+1660937177.994565 -- INFO: Process 16 finished on working on file 14 
+1660937178.002728 -- INFO: Process 16 get item 30 from queue and executing
+1660937178.003228 -- INFO: starting 16, 30, /home/hjamil/Documents/files_bash/FILE16
+1660937178.066664 -- INFO: Process 13 finished on working on file 11 
+1660937178.075105 -- INFO: Process 13 get item 20 from queue and executing
+1660937178.075639 -- INFO: starting 13, 20, /home/hjamil/Documents/files_bash/FILE15
+1660937178.110551 -- INFO: Process 5 finished on working on file 2 
+1660937178.114672 -- INFO: Process 5 get item 25 from queue and executing
+1660937178.115088 -- INFO: starting 5, 25, /home/hjamil/Documents/files_bash/FILE28
+1660937178.381742 -- INFO: Throughput @182.2s:957.74Mbps, rtt :11.48ms cwnd: 227.4 lossRate: 0.0002467825722147502 CC:21 score:0.63 
+1660937179.340411 -- INFO: score [0.62, 0.66, 0.63] ******
+1660937179.348252 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937179.350033 -- INFO: Changing concurrency to 19 ******
+1660937179.355177 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937179.356040 -- INFO: Active CC: 19
+1660937179.381898 -- INFO: Throughput @183.2s:952.35Mbps, rtt :4.8ms cwnd: 223.1 lossRate: 0.0003821923043730197 CC:21 score:0.62 
+1660937180.422120 -- INFO: Throughput @184.2s:910.0Mbps, rtt :4.71ms cwnd: 230.3 lossRate: 0.0 CC:19 score:0.62 
+1660937181.389650 -- INFO: Throughput @185.2s:865.0Mbps, rtt :5.96ms cwnd: 230.4 lossRate: 0.0 CC:19 score:0.59 
+1660937182.409047 -- INFO: Throughput @186.2s:875.0Mbps, rtt :4.97ms cwnd: 240.2 lossRate: 0.0 CC:19 score:0.6 
+1660937182.867455 -- INFO: score [0.62, 0.59, 0.6] ******
+1660937182.872293 -- INFO: action array from actor 0.25664448738098145 and action is 20 ******
+1660937182.872608 -- INFO: Changing concurrency to 20 ******
+1660937182.887798 -- INFO: Start Process :: 19
+1660937182.889379 -- INFO: Process 19 get item 24 from queue and executing
+1660937182.889733 -- INFO: starting 19, 24, /home/hjamil/Documents/files_bash/FILE12
+1660937182.889979 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1660937182.894827 -- INFO: Active CC: 20
+1660937183.347482 -- INFO: Process 12 finished on working on file 8 
+1660937183.358174 -- INFO: Process 12 get item 28 from queue and executing
+1660937183.359957 -- INFO: starting 12, 28, /home/hjamil/Documents/files_bash/FILE18
+1660937183.429258 -- INFO: Throughput @187.2s:920.0Mbps, rtt :4.58ms cwnd: 247.8 lossRate: 0.0 CC:20 score:0.62 
+1660937183.450576 -- INFO: Process 10 finished on working on file 16 
+1660937183.462735 -- INFO: Process 10 get item 31 from queue and executing
+1660937183.463244 -- INFO: starting 10, 31, /home/hjamil/Documents/files_bash/FILE19
+1660937183.570569 -- INFO: Process 18 finished on working on file 17 
+1660937183.573008 -- INFO: Process 18 get item 27 from queue and executing
+1660937183.573490 -- INFO: starting 18, 27, /home/hjamil/Documents/files_bash/FILE26
+1660937184.405247 -- INFO: Throughput @188.2s:910.0Mbps, rtt :5.7ms cwnd: 255.2 lossRate: 0.0 CC:20 score:0.61 
+1660937184.550582 -- INFO: Process 6 finished on working on file 6 
+1660937184.554816 -- INFO: Process 6 get item 23 from queue and executing
+1660937184.555447 -- INFO: starting 6, 23, /home/hjamil/Documents/files_bash/FILE10
+1660937185.362078 -- INFO: Throughput @189.2s:915.0Mbps, rtt :3.51ms cwnd: 271.6 lossRate: 0.0 CC:20 score:0.62 
+1660937186.408955 -- INFO: Throughput @190.2s:920.0Mbps, rtt :5.36ms cwnd: 274.4 lossRate: 0.0 CC:20 score:0.62 
+1660937186.423616 -- INFO: score [0.61, 0.62, 0.62] ******
+1660937186.425627 -- INFO: action array from actor 0.3677251935005188 and action is 22 ******
+1660937186.425882 -- INFO: Changing concurrency to 22 ******
+1660937186.438822 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1660937186.438983 -- INFO: Start Process :: 20
+1660937186.439268 -- INFO: Start Process :: 21
+1660937186.439593 -- INFO: Active CC: 22
+1660937186.441853 -- INFO: Process 20 get item 22 from queue and executing
+1660937186.442034 -- INFO: starting 20, 22, /home/hjamil/Documents/files_bash/FILE9
+1660937186.443099 -- INFO: Process 21 get item 29 from queue and executing
+1660937186.443319 -- INFO: starting 21, 29, /home/hjamil/Documents/files_bash/FILE0
+1660937187.432935 -- INFO: Throughput @191.2s:1000.0Mbps, rtt :11.91ms cwnd: 244.4 lossRate: 0.000989482170997178 CC:22 score:0.64 
+1660937188.385083 -- INFO: Throughput @192.2s:990.0Mbps, rtt :8.95ms cwnd: 236.8 lossRate: 0.0009853981904505958 CC:22 score:0.63 
+1660937189.384866 -- INFO: Throughput @193.2s:935.0Mbps, rtt :7.16ms cwnd: 236.9 lossRate: 0.00017672751142417127 CC:22 score:0.6 
+1660937189.962967 -- INFO: score [0.64, 0.63, 0.6] ******
+1660937189.964456 -- INFO: action array from actor 0.1561926007270813 and action is 19 ******
+1660937189.964625 -- INFO: Changing concurrency to 19 ******
+1660937189.970658 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1660937189.971017 -- INFO: Active CC: 19
+1660937190.373739 -- INFO: Throughput @194.2s:935.0Mbps, rtt :8.25ms cwnd: 238.6 lossRate: 0.0016566137116642596 CC:19 score:0.63 
+1660937191.405544 -- INFO: Throughput @195.2s:925.0Mbps, rtt :11.4ms cwnd: 242.3 lossRate: 0.0 CC:19 score:0.63 
+1660937192.408551 -- INFO: Throughput @196.2s:880.0Mbps, rtt :9.57ms cwnd: 244.9 lossRate: 0.0 CC:19 score:0.6 
+1660937193.402300 -- INFO: Throughput @197.2s:875.0Mbps, rtt :5.37ms cwnd: 246.6 lossRate: 0.0 CC:19 score:0.6 
+1660937193.495265 -- INFO: score [0.63, 0.6, 0.6] ******
+1660937193.496598 -- INFO: action array from actor 0.5416065454483032 and action is 25 ******
+1660937193.496712 -- INFO: Changing concurrency to 25 ******
+1660937193.506849 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+1660937193.507001 -- INFO: Start Process :: 19
+1660937193.507142 -- INFO: Start Process :: 24
+1660937193.507173 -- INFO: Start Process :: 21
+1660937193.507545 -- INFO: Active CC: 25
+1660937193.507716 -- INFO: Start Process :: 22
+1660937193.507925 -- INFO: Process 19 get item 22 from queue and executing
+1660937193.507916 -- INFO: Start Process :: 20
+1660937193.508116 -- INFO: starting 19, 22, /home/hjamil/Documents/files_bash/FILE9
+1660937193.508571 -- INFO: Start Process :: 23
+1660937193.508699 -- INFO: Process 24 get item 29 from queue and executing
+1660937193.509807 -- INFO: Process 21 get item 24 from queue and executing
+1660937193.510933 -- INFO: starting 24, 29, /home/hjamil/Documents/files_bash/FILE0
+1660937193.511173 -- INFO: starting 21, 24, /home/hjamil/Documents/files_bash/FILE12
+1660937194.428954 -- INFO: Throughput @198.2s:1005.0Mbps, rtt :8.01ms cwnd: 235.9 lossRate: 0.0001827930782354375 CC:25 score:0.61 
+1660937195.412884 -- INFO: Throughput @199.2s:975.0Mbps, rtt :5.35ms cwnd: 236.8 lossRate: 0.0002139602789035165 CC:25 score:0.59 
+1660937196.346545 -- INFO: episode expires
+1660937196.346699 -- INFO: Process 23 shutdown itself from outest loop
+1660937196.346699 -- INFO: Process 20 shutdown itself from outest loop
+1660937196.347087 -- INFO: Process 22 shutdown itself from outest loop
+1660937196.347416 -- INFO: Process 29 shutdown itself from outest loop
+1660937196.347692 -- INFO: Process 27 shutdown itself from outest loop
+1660937196.347328 -- INFO: Process 31 shutdown itself from outest loop
+1660937196.347345 -- INFO: Process 30 shutdown itself from outest loop
+1660937196.348073 -- INFO: Process 26 shutdown itself from outest loop
+1660937196.348547 -- INFO: Process 25 shutdown itself from outest loop
+1660937196.348643 -- INFO: Process 28 shutdown itself from outest loop
+1660937197.019225 -- INFO: score [0.6, 0.61, 0.59] ******

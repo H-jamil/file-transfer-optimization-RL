@@ -86,6 +86,17 @@ class TransferClass_:
                       block_size = min(self.chunk_size, second_target-second_data_count)
                       data_to_send = bytearray(int(block_size))
                       sent = sock.send(data_to_send)
+                      # send_=0
+                      # retry=5
+                      # while send_ < len(data_to_send):
+                      #   sent = sock.send(data_to_send[send_:])
+                      #   send_ +=sent
+                      #   if sent == 0:
+                      #     retry-=1
+                      #     self.log.info(f"Process {process_id} sent == 1")
+                      #   if retry==0:
+                      #     break
+                      # sent=data_to_send
                     else:
                       block_size = int(min(self.chunk_size, to_send))
                       sent = sock.sendfile(file=file, offset=int(offset), count=block_size)
@@ -190,7 +201,7 @@ class TransferClass_:
             time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
-        if (timer320s + 20 <= time.time()):
+        if (timer320s + 200 <= time.time()):
           self.file_incomplete.value=0
           self.log.info("episode expires")
     self.transfer_status.value=1
