@@ -39,6 +39,7 @@ class transferEnv(gym.Env):
     self.csv_save=csv_save
     self.current_observation = np.zeros([self.historyLen,5],dtype = np.float32).flatten()
     self.runType=runType
+    self.episode_time=None
     dummy_list=[]
     self.state_q=[]
     self.minRTT=1000
@@ -71,21 +72,34 @@ class transferEnv(gym.Env):
       self.runType=0
     else:
       self.runType=1
+    self.episode_time=time.time()
     return np.zeros([self.historyLen,5],dtype = np.float32).flatten()
 
   def step(self,action):
     info={}
 
-    if self.transferClassObject.file_incomplete.value == 0:
+    if (self.episode_time + 200 <= time.time()):
+      self.transferClassObject.file_incomplete.value=0
+      self.transferClassObject.log.info("episode expires")
       done=True
       if self.runType==0:
         score_=10 ** 10
       else:
         score_=0
+      # self.reset()
       self.close()
       return np.zeros([self.historyLen,5],dtype = np.float32).flatten(),float(score_),done,info
 
-    elif self.transferClassObject.file_incomplete.value != 0:
+    # if self.transferClassObject.file_incomplete.value == 0:
+    #   done=True
+    #   if self.runType==0:
+    #     score_=10 ** 10
+    #   else:
+    #     score_=0
+    #   self.close()
+    #   return np.zeros([self.historyLen,5],dtype = np.float32).flatten(),float(score_),done,info
+
+    if self.transferClassObject.file_incomplete.value != 0:
       done = False
       if self.runType==0:
         self.transferClassObject.log.info(f"Changing concurrency to {action} ******")
@@ -94,13 +108,6 @@ class transferEnv(gym.Env):
         # action_t=np.argmax(action)
         action_t=get_int_cc(action[0])
         self.transferClassObject.log.info(f"action array from actor {action[0]} and action is {action_t} ******")
-        # if action_t<=0:
-        #   self.transferClassObject.log.info(f"action_t < 0 Changing concurrency to {1} ******")
-        #   self.transferClassObject.change_concurrency([1])
-        # elif action_t>self.transferClassObject.configurations["thread_limit"]:
-        #   self.transferClassObject.log.info(f"action_t > 32 Changing concurrency to {1} ******")
-        #   self.transferClassObject.change_concurrency([1])
-        # else:
         self.transferClassObject.log.info(f"Changing concurrency to {action_t} ******") ###+1 because the number starts from 0 to 31 for 32 action space
         self.transferClassObject.change_concurrency([action_t])
 
@@ -161,14 +168,14 @@ class transferEnv(gym.Env):
       self.transferClassObject.log.info(f"score {score} ******")
       return log_list_array,float(score_),done,info
 
-    else:
-      done=True
-      if self.runType==0:
-        score_=10 ** 10
-      else:
-        score_=0.0
-      self.close()
-      return np.zeros([self.historyLen,5],dtype = np.float32).flatten(),float(score_),done,info
+    # else:
+    #   done=True
+    #   if self.runType==0:
+    #     score_=10 ** 10
+    #   else:
+    #     score_=0.0
+    #   self.close()
+    #   return np.zeros([self.historyLen,5],dtype = np.float32).flatten(),float(score_),done,info
 
   def bayes_step(self,action):
     params = [1 if x<1 else int(np.round(x)) for x in action]

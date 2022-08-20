@@ -85,18 +85,18 @@ class TransferClass_:
                     if self.transfer_emu_status.value==1:
                       block_size = min(self.chunk_size, second_target-second_data_count)
                       data_to_send = bytearray(int(block_size))
-                      sent = sock.send(data_to_send)
-                      # send_=0
-                      # retry=5
-                      # while send_ < len(data_to_send):
-                      #   sent = sock.send(data_to_send[send_:])
-                      #   send_ +=sent
-                      #   if sent == 0:
-                      #     retry-=1
-                      #     self.log.info(f"Process {process_id} sent == 1")
-                      #   if retry==0:
-                      #     break
-                      # sent=data_to_send
+                      # sent = sock.send(data_to_send)
+                      send_=0
+                      retry=5
+                      while send_ < len(data_to_send):
+                        sent = sock.send(data_to_send[send_:])
+                        send_ +=sent
+                        if sent == 0:
+                          retry-=1
+                          self.log.info(f"Process {process_id} sent == 1")
+                        if retry==0:
+                          break
+                      sent=send_
                     else:
                       block_size = int(min(self.chunk_size, to_send))
                       sent = sock.sendfile(file=file, offset=int(offset), count=block_size)
@@ -142,7 +142,7 @@ class TransferClass_:
     previous_total = 0
     previous_time = 0
     prev_sc,prev_rc=0,0
-    timer320s=time.time()
+    # timer320s=time.time()
     while self.file_incomplete.value > 0:
       t1 = time.time()
       time_since_begining = np.round(t1-start_time, 1)
@@ -183,11 +183,11 @@ class TransferClass_:
           rtt=0.00
           record_list.append(rtt)
         sc, rc = curr_sc - prev_sc, curr_rc - prev_rc
-        lr= 0
+        lr = 0
         if sc != 0:
           lr = rc/sc if sc>rc else 0
         if lr < 0:
-          lr=0
+          lr = 0
         plr_impact = self.B*lr
         cc_impact_nl = self.K**cc_level
         score = (curr_thrpt/cc_impact_nl) - (curr_thrpt * plr_impact)
@@ -201,9 +201,10 @@ class TransferClass_:
             time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
-        if (timer320s + 200 <= time.time()):
-          self.file_incomplete.value=0
-          self.log.info("episode expires")
+        # if (timer320s + 200 <= time.time()):
+        #   self.file_incomplete.value=0
+        #   self.log.info("episode expires")
+        #   break
     self.transfer_status.value=1
 
   def change_concurrency(self, params):

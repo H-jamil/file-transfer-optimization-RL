@@ -60,8 +60,8 @@ if __name__ == "__main__":
   transfer=TransferClass_(configurations,log,transfer_emulation=True)
   env=transferEnv(transfer,csv_save=True)
   env.change_run_type(1)
-  models_dir = "models/transferEnv3-1660866684.4436047"
-  model_path = f"{models_dir}/4000"
+  models_dir = "models/transferEnv4-1660943053.4673474"
+  model_path = f"{models_dir}/0"
   best_model = PPO.load(model_path, env=env)
   total_reward=0
   obs = env.reset()
