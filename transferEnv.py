@@ -3,6 +3,7 @@ from gym import spaces
 import numpy as np
 from transferClass import *
 from transferClass_ import *
+from transferClass_dummy import *
 import random
 import copy
 # from queue import Queue
@@ -41,12 +42,12 @@ class transferEnv(gym.Env):
     self.runType=runType
     self.episode_time=None
     dummy_list=[]
-    self.state_q=[]
+    # self.state_q=[]
     self.minRTT=1000
     df = pd.DataFrame(dummy_list, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
     df.to_csv(self.record_file_name, sep='\t', encoding='utf-8',index=False)
-    df = pd.DataFrame(dummy_list, columns = ['latency_gradient','latency_ratio','cwnd','packet_loss_rate','throughput'])
-    df.to_csv(self.record_file_name+'states', sep='\t', encoding='utf-8',index=False)
+    # df = pd.DataFrame(dummy_list, columns = ['latency_gradient','latency_ratio','cwnd','packet_loss_rate','throughput'])
+    # df.to_csv(self.record_file_name+'states', sep='\t', encoding='utf-8',index=False)
 
   def change_run_type(self,run_value):
     self.runType=run_value
@@ -60,12 +61,12 @@ class transferEnv(gym.Env):
       df = pd.DataFrame(list_main, columns = ['curr_thrpt','cc_level','cwnd','rtt','packet_loss_rate','score','date_time'])
       mod_df=df.fillna(0)
       mod_df.to_csv(self.record_file_name, mode='a', index=False, header=False, sep='\t', encoding='utf-8')
-      df = pd.DataFrame(self.state_q, columns = ['latency_gradient','latency_ratio','cwnd','packet_loss_rate','throughput'])
-      mod_df=df.fillna(0)
-      mod_df.to_csv(self.record_file_name+'states', mode='a', index=False, header=False, sep='\t', encoding='utf-8')
+      # df = pd.DataFrame(self.state_q, columns = ['latency_gradient','latency_ratio','cwnd','packet_loss_rate','throughput'])
+      # mod_df=df.fillna(0)
+      # mod_df.to_csv(self.record_file_name+'states', mode='a', index=False, header=False, sep='\t', encoding='utf-8')
     self.transferClassObject.reset()
     self.workers,self.reporting_process=self.transferClassObject.run()
-    self.state_q=[]
+    # self.state_q=[]
     self.minRTT=1000
     # self.close()
     if self.runType==0:
@@ -78,7 +79,7 @@ class transferEnv(gym.Env):
   def step(self,action):
     info={}
 
-    if (self.episode_time + 200 <= time.time()):
+    if (self.episode_time + 20 <= time.time()):
       self.transferClassObject.file_incomplete.value=0
       self.transferClassObject.log.info("episode expires")
       done=True
@@ -108,7 +109,7 @@ class transferEnv(gym.Env):
         # action_t=np.argmax(action)
         action_t=get_int_cc(action[0])
         self.transferClassObject.log.info(f"action array from actor {action[0]} and action is {action_t} ******")
-        self.transferClassObject.log.info(f"Changing concurrency to {action_t} ******") ###+1 because the number starts from 0 to 31 for 32 action space
+        # self.transferClassObject.log.info(f"Changing concurrency to {action_t} ******") ###+1 because the number starts from 0 to 31 for 32 action space
         self.transferClassObject.change_concurrency([action_t])
 
       timer3s=time.time()
@@ -148,16 +149,16 @@ class transferEnv(gym.Env):
           log_list_state.append(plr_values)
           throughput_values=log_list_[0]
           log_list_state.append(throughput_values)
-          self.state_q.append(log_list_state)
+          # self.state_q.append(log_list_state)
           log_list_array=np.array(log_list_state,dtype = np.float32).flatten()
           ################################
         try:
           score_=np.mean(score)
           if self.runType==1:
-            if score_<=0.2:
+            if score_<=0.5:
               score_=-1.0
-            elif score_<=0.5:
-              score_=score_
+            # elif score_<=0.5:
+            #   score_=score_
             else:
               score_=np.round(1+(score_-0.5)*10,2)
         except:

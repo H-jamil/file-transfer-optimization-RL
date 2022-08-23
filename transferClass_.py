@@ -26,24 +26,25 @@ class TransferClass_:
     self.num_workers = mp.Value("i", 0)
     self.file_incomplete = mp.Value("i", self.file_count)
     self.process_status = mp.Array("i", [0 for i in range(configurations["thread_limit"])])
-    self.file_offsets = mp.Array("d", [0.0 for i in range(self.file_count)])
+    self.file_offsets = mp.Array("i", [0 for i in range(self.file_count)])
     self.transfer_status=mp.Value("i", 0)
-    manager=mp.Manager()
-    self.q = manager.Queue(maxsize=self.file_count)
+    self.manager=mp.Manager()
+    self.manager.start()
+    self.q = self.manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
-    self.throughput_logs=manager.list()
-    self.transfer_throughput=mp.Value("i", 0)
+    self.throughput_logs=self.manager.list()
+    # self.transfer_throughput=mp.Value("i", 0)
     if transfer_emulation ==True:
       self.transfer_emu_status=mp.Value("i",1)
     else:
       self.transfer_emu_status=mp.Value("i",0)
 
-  def worker(self,process_id,q):
+  def worker(self,process_id):
     while self.file_incomplete.value > 0:
         if (self.process_status[process_id] == 0):
           pass
-        elif (self.process_status[process_id]==1) and (q.empty()):
+        elif (self.process_status[process_id]==1) and (self.q.empty()):
           pass
         else:
           self.log.info(f"Start Process :: {process_id}")
@@ -55,9 +56,10 @@ class TransferClass_:
               target, factor = 50, 10
               max_speed = (target * 1000 * 1000)/8
               second_target, second_data_count = int(max_speed/factor), 0
-            while (not q.empty()) and (self.process_status[process_id] == 1):
+            while (not self.q.empty()) and (self.process_status[process_id] == 1):
               try:
-                file_id = q.get()
+                self.log.info(f"Process {process_id} found Queue Empty : {self.q.empty()}")
+                file_id = self.q.get()
                 self.log.info(f"Process {process_id} get item {file_id} from queue and executing")
               except:
                 self.process_status[process_id] = 0
@@ -91,9 +93,9 @@ class TransferClass_:
                       while send_ < len(data_to_send):
                         sent = sock.send(data_to_send[send_:])
                         send_ +=sent
-                        if sent == 0:
+                        if sent < 1:
                           retry-=1
-                          self.log.info(f"Process {process_id} sent == 1")
+                          self.log.info(f"Process {process_id} sent < 1")
                         if retry==0:
                           break
                       sent=send_
@@ -106,12 +108,12 @@ class TransferClass_:
                     # if self.transfer_emu_status.value == 1:
                       # to_send=0
                     self.process_status[process_id] = 0
-                    self.log.info(f"Process {process_id} shutdown itself for socket error")
+                    # self.log.info(f"Process {process_id} shutdown itself for socket error")
                     self.log.error("Process: {0}, Error from socket: {1}".format(process_id, str(e)))
 
                   offset += sent
                   to_send -= sent
-                  self.file_offsets[file_id] = offset
+                  self.file_offsets[file_id] = int(offset)
 
                   if self.transfer_emu_status.value == 1:
                     second_data_count += sent
@@ -122,7 +124,8 @@ class TransferClass_:
                       timer100ms = time.time()
 
               if to_send>0:
-                q.put(file_id)
+                self.log.info(f"Process {process_id} found Queue Full : {self.q.full()}")
+                self.q.put(file_id)
               else:
                 self.file_incomplete.value =self.file_incomplete.value - 1
                 self.log.info(f"Process {process_id} finished on working on file {file_id} ")
@@ -132,8 +135,8 @@ class TransferClass_:
           except Exception as e:
             self.log.info(f"Process {process_id} had error to send file ")
             self.process_status[process_id] = 0
-            self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
-            self.log.info(f"Process {process_id} shutdown itself ")
+            # self.log.error("Process: {0}, Error: {1}".format(process_id, str(e)))
+            # self.log.info(f"Process {process_id} shutdown itself ")
     self.process_status[process_id] = 0
     self.log.info(f"Process {process_id} shutdown itself from outest loop")
     # self.log.info("Process Status Bits are: {}".format(' '.join(map(str, self.process_status[:]))))
@@ -150,6 +153,7 @@ class TransferClass_:
         total_bytes = np.sum(self.file_offsets)
         # thrpt = np.round((total_bytes*8)/(time_since_begining*1000*1000), 2)
         curr_total = total_bytes - previous_total
+        previous_total_=previous_total
         curr_time_sec = np.round(time_since_begining - previous_time, 3)
         curr_thrpt = np.round((curr_total*8)/(curr_time_sec*1000*1000), 2)
         previous_time, previous_total = time_since_begining, total_bytes
@@ -197,8 +201,8 @@ class TransferClass_:
         record_list.append(score_value)
         record_list.append(datetime.datetime.now())
         self.throughput_logs.append(record_list)
-        self.log.info("Throughput @{0}s:{1}Mbps, rtt :{2}ms cwnd: {3} lossRate: {4} CC:{5} score:{6} ".format(
-            time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value))
+        self.log.info("Throughput @{0}s:{1}Mbps, rtt :{2}ms cwnd: {3} lossRate: {4} CC:{5} score:{6} previous_total {7} bytes and current_total {8} bytes".format(
+            time_since_begining, curr_thrpt,rtt,cwnd,lr,cc_level,score_value,previous_total_,previous_total))
         t2 = time.time()
         time.sleep(max(0, 1 - (t2-t1)))
         # if (timer320s + 200 <= time.time()):
@@ -251,14 +255,15 @@ class TransferClass_:
                   if "retrans" in entry:
                       retm += int(entry.split("/")[-1])
     except Exception as e:
-      print(e)
+      self.log.info(f" {e}  ")
+
 
     # end = time.time()
     # self.log.info("Time taken to collect tcp stats: {0}ms".format(np.round((end-start)*1000)))
     return cwnd_list,rtt_list,sent,retm
 
   def run(self):
-    workers = [mp.Process(target=self.worker, args=(i, self.q)) for i in range(self.configurations["thread_limit"])]
+    workers = [mp.Process(target=self.worker, args=(i,)) for i in range(self.configurations["thread_limit"])]
     for p in workers:
       p.daemon = True
       p.start()
@@ -269,16 +274,18 @@ class TransferClass_:
     return workers,reporting_process
 
   def reset(self):
+    # self.q.close()
+    self.manager.shutdown()
     self.num_workers = mp.Value("i", 0)
     self.file_incomplete = mp.Value("i", self.file_count)
     self.process_status = mp.Array("i", [0 for i in range(self.configurations["thread_limit"])])
-    self.file_offsets = mp.Array("d", [0.0 for i in range(self.file_count)])
+    self.file_offsets = mp.Array("i", [0 for i in range(self.file_count)])
     self.transfer_status=mp.Value("i", 0)
-    self.transfer_throughput=0
-    manager=mp.Manager()
-    self.q = manager.Queue(maxsize=self.file_count)
+    self.manager=mp.Manager()
+    self.manager.start()
+    self.q = self.manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
-    self.throughput_logs=manager.list()
+    self.throughput_logs=self.manager.list()
     return np.zeros([3,6],dtype = np.float32)#curr_thrpt,cc_level,cwnd,rtt,packet_loss_rate,score
 

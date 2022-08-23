@@ -65,11 +65,13 @@ def worker(sock, process_num):
                     os.close(fd)
                 else:
                     chunk = client.recv(chunk_size.value)
+                    total += len(chunk)
                     while chunk:
                         chunk = client.recv(chunk_size.value)
-                log.info(f"{process_num} is out of chunk loop")
+                        total += len(chunk)
+                log.info(f"{process_num} is out of chunking loop")
                 d = client.recv(1).decode()
-            log.info(f"{process_num} is out of d loop")
+            log.info(f"{process_num} is out of decode loop")
             total = np.round(total/(1024*1024))
             log.info("{u} exited. total received {d} MB".format(u=address, d=total))
             client.close()
