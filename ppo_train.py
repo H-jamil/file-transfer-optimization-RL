@@ -49,8 +49,8 @@ configurations["cpu_count"] = mp.cpu_count()
 
 if __name__ == "__main__":
 
-  models_dir = f"models/transferPPO_no_error-{time.time()}"
-  logdir = f"logs/transferPPO_no_error-{time.time()}"
+  models_dir = f"models/transferPPO_queue_mod-{time.time()}"
+  logdir = f"logs/transferPPO_queue_mod-{time.time()}"
 
   if not os.path.exists(models_dir):
       os.makedirs(models_dir)
@@ -89,7 +89,7 @@ if __name__ == "__main__":
   callback = SaveOnBestTrainingRewardCallback(check_freq=100, log_dir=models_dir)
   TIMESTEPS = 2000
   for i in range(10):
-    model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="PPO_FixedOffset_no_error",callback=callback)
+    model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="PPO_q_modified",callback=callback)
     model.save(f"{models_dir}/{TIMESTEPS*i}")
 
 

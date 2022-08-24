@@ -29,7 +29,7 @@ class TransferClass_:
     self.file_offsets = mp.Array("i", [0 for i in range(self.file_count)])
     self.transfer_status=mp.Value("i", 0)
     self.manager=mp.Manager()
-    self.manager.start()
+    # self.manager.start()
     self.q = self.manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
@@ -275,14 +275,14 @@ class TransferClass_:
 
   def reset(self):
     # self.q.close()
-    self.manager.shutdown()
+    # self.manager.shutdown()
     self.num_workers = mp.Value("i", 0)
     self.file_incomplete = mp.Value("i", self.file_count)
     self.process_status = mp.Array("i", [0 for i in range(self.configurations["thread_limit"])])
     self.file_offsets = mp.Array("i", [0 for i in range(self.file_count)])
     self.transfer_status=mp.Value("i", 0)
     self.manager=mp.Manager()
-    self.manager.start()
+    # self.manager.start()
     self.q = self.manager.Queue(maxsize=self.file_count)
     for i in range(self.file_count):
       self.q.put(i)
