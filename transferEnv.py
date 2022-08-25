@@ -79,7 +79,7 @@ class transferEnv(gym.Env):
   def step(self,action):
     info={}
 
-    if (self.episode_time + 20 <= time.time()):
+    if (self.episode_time + 200 <= time.time()):
       self.transferClassObject.file_incomplete.value=0
       self.transferClassObject.log.info("episode expires")
       done=True
