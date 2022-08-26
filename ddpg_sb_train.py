@@ -79,10 +79,10 @@ if __name__ == "__main__":
     verbose=1,
     tensorboard_log=logdir
     )
-  
+
   callback = SaveOnBestTrainingRewardCallback(check_freq=100, log_dir=models_dir)
   TIMESTEPS = 1000
-  for i in range(14):
+  for i in range(5):
     model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="DDPG-0",callback=callback)
     model.save(f"{models_dir}/{TIMESTEPS*i}")
 

@@ -49,17 +49,17 @@ configurations["cpu_count"] = mp.cpu_count()
 
 if __name__ == "__main__":
 
-  models_dir = f"models/transferPPO_queue_mod-{time.time()}"
-  logdir = f"logs/transferPPO_queue_mod-{time.time()}"
+  models_dir = f"models/transferPPO_-{time.time()}"
+  logdir = f"logs/transferPPO_-{time.time()}"
 
   if not os.path.exists(models_dir):
       os.makedirs(models_dir)
 
   if not os.path.exists(logdir):
       os.makedirs(logdir)
-
+  csv_name="ppo_8_26_2022.csv"
   transfer=TransferClass_(configurations,log,transfer_emulation=True)
-  env=transferEnv(transfer,csv_save=True)
+  env=transferEnv(transfer,record_name=csv_name,csv_save=True)
   env.change_run_type(1)
   # The learning agent and hyperparameters
   env = Monitor(env, models_dir)
@@ -86,11 +86,19 @@ if __name__ == "__main__":
   # model_path = f"{models_dir_}/1000"
   # model = PPO.load(model_path, env=env,
   #   tensorboard_log=logdir)
-  callback = SaveOnBestTrainingRewardCallback(check_freq=100, log_dir=models_dir)
+  callback = SaveOnBestTrainingRewardCallback(check_freq=10, log_dir=models_dir)
   TIMESTEPS = 2000
-  for i in range(10):
-    model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="PPO_q_modified",callback=callback)
-    model.save(f"{models_dir}/{TIMESTEPS*i}")
+  for i in range(20):
+    model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="PPO_",callback=callback)
+    model_path=f"{models_dir}/{TIMESTEPS*i}"
+    model.save(model_path)
+    env.close()
+    time.sleep(0.1)
+    del model
+    transfer=TransferClass_(configurations,log,transfer_emulation=True)
+    env=transferEnv(transfer,record_name=csv_name,csv_save=True)
+    env.change_run_type(1)
+    model = PPO.load(model_path, env=env,tensorboard_log=logdir)
 
 
 

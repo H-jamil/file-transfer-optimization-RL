@@ -79,7 +79,7 @@ class transferEnv(gym.Env):
   def step(self,action):
     info={}
 
-    if (self.episode_time + 200 <= time.time()):
+    if (self.episode_time + 20 <= time.time()):
       self.transferClassObject.file_incomplete.value=0
       self.transferClassObject.log.info("episode expires")
       done=True
@@ -113,7 +113,7 @@ class transferEnv(gym.Env):
         self.transferClassObject.change_concurrency([action_t])
 
       timer3s=time.time()
-      while timer3s + 3.5> time.time():
+      while timer3s + 3.2> time.time():
         pass
       if len(self.transferClassObject.throughput_logs)>=3:
         log_list=copy.deepcopy(self.transferClassObject.throughput_logs[-3:])
@@ -156,7 +156,7 @@ class transferEnv(gym.Env):
           score_=np.mean(score)
           if self.runType==1:
             if score_<=0.5:
-              score_=-1.0
+              score_=(-1.0)*score_
             # elif score_<=0.5:
             #   score_=score_
             else:
