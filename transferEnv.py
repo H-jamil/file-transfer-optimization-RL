@@ -29,7 +29,7 @@ def get_int_cc(actionFloatValue):
 class transferEnv(gym.Env):
   metadata={'render.modes':  []}
 
-  def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv",runType=0,historyLen=3,csv_save=False):####runType=0 for non-RL run runType=!0 for RL run
+  def __init__(self,transferClassObject,record_name="record_"+datetime.datetime.now().strftime("%m_%d_%Y_%H_%M_%S")+".csv",runType=0,historyLen=3,csv_save=False,start_cc=10):####runType=0 for non-RL run runType=!0 for RL run
     self.transferClassObject=transferClassObject
     # self.action_space = spaces.Discrete(int(transferClassObject.configurations["thread_limit"]))
     self.historyLen=historyLen
@@ -41,6 +41,7 @@ class transferEnv(gym.Env):
     self.current_observation = np.zeros([self.historyLen,5],dtype = np.float32).flatten()
     self.runType=runType
     self.episode_time=None
+    self.start_cc=start_cc
     dummy_list=[]
     # self.state_q=[]
     self.minRTT=1000

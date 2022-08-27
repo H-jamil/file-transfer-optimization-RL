@@ -1,0 +1,797 @@
+1661630247.720992 -- INFO: action is  3 for action array 0.39272069931030273 and Changing concurrency to 9******
+1661630247.723768 -- INFO: Start Process :: 0
+1661630247.725320 -- INFO: Process 0 found Queue Empty : False
+1661630247.725735 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630247.726049 -- INFO: Start Process :: 8
+1661630247.727365 -- INFO: Active CC: 9
+1661630247.730122 -- INFO: Process 0 get item 0 from queue and executing
+1661630247.730480 -- INFO: starting 0, 0, /home/hjamil/Documents/files_bash/FILE25
+1661630247.731332 -- INFO: Process 8 found Queue Empty : False
+1661630247.732146 -- INFO: Start Process :: 2
+1661630247.732254 -- INFO: Start Process :: 6
+1661630247.733443 -- INFO: Start Process :: 3
+1661630247.733755 -- INFO: Process 8 get item 1 from queue and executing
+1661630247.734157 -- INFO: starting 8, 1, /home/hjamil/Documents/files_bash/FILE1
+1661630247.736015 -- INFO: Start Process :: 5
+1661630247.736497 -- INFO: Start Process :: 1
+1661630247.736588 -- INFO: Start Process :: 7
+1661630247.737383 -- INFO: Start Process :: 4
+1661630247.741660 -- INFO: Process 2 found Queue Empty : False
+1661630247.741846 -- INFO: Process 5 found Queue Empty : False
+1661630247.742015 -- INFO: Process 2 get item 2 from queue and executing
+1661630247.742075 -- INFO: Process 1 found Queue Empty : False
+1661630247.742276 -- INFO: Process 3 found Queue Empty : False
+1661630247.742587 -- INFO: starting 2, 2, /home/hjamil/Documents/files_bash/FILE4
+1661630247.742793 -- INFO: Process 5 get item 4 from queue and executing
+1661630247.742755 -- INFO: Process 7 found Queue Empty : False
+1661630247.743011 -- INFO: starting 5, 4, /home/hjamil/Documents/files_bash/FILE3
+1661630247.742815 -- INFO: Process 6 found Queue Empty : False
+1661630247.742731 -- INFO: Process 4 found Queue Empty : False
+1661630247.743724 -- INFO: Process 1 get item 5 from queue and executing
+1661630247.744360 -- INFO: Process 3 get item 3 from queue and executing
+1661630247.744933 -- INFO: starting 3, 3, /home/hjamil/Documents/files_bash/FILE13
+1661630247.745867 -- INFO: starting 1, 5, /home/hjamil/Documents/files_bash/FILE24
+1661630247.745985 -- INFO: Process 6 get item 7 from queue and executing
+1661630247.746356 -- INFO: starting 6, 7, /home/hjamil/Documents/files_bash/FILE20
+1661630247.746871 -- INFO: Process 7 get item 6 from queue and executing
+1661630247.748909 -- INFO: Process 4 get item 8 from queue and executing
+1661630247.750147 -- INFO: starting 4, 8, /home/hjamil/Documents/files_bash/FILE29
+1661630247.752393 -- INFO: starting 7, 6, /home/hjamil/Documents/files_bash/FILE2
+1661630247.818835 -- INFO: Throughput @0.1s:50.0Mbps, rtt :1.45ms cwnd: 57.1 lossRate: 0.0 CC:9 score:0.04 previous_total 0 bytes and current_total 625000 bytes
+1661630248.831958 -- INFO: Throughput @1.1s:445.0Mbps, rtt :1.64ms cwnd: 163.4 lossRate: 0.0 CC:9 score:0.37 previous_total 625000 bytes and current_total 56250000 bytes
+1661630249.832120 -- INFO: Throughput @2.1s:445.0Mbps, rtt :2.44ms cwnd: 243.7 lossRate: 0.0 CC:9 score:0.37 previous_total 56250000 bytes and current_total 111875000 bytes
+1661630250.778996 -- INFO: Throughput @3.1s:450.0Mbps, rtt :2.75ms cwnd: 311.6 lossRate: 0.0 CC:9 score:0.38 previous_total 111875000 bytes and current_total 168125000 bytes
+1661630250.928931 -- INFO: score [0.37, 0.37, 0.38] old_score 0.37333333333333335 reward 3.73******
+1661630250.930549 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 14******
+1661630250.942152 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630250.942847 -- INFO: Active CC: 14
+1661630250.954849 -- INFO: Start Process :: 12
+1661630250.956766 -- INFO: Process 12 found Queue Empty : False
+1661630250.957035 -- INFO: Process 12 get item 9 from queue and executing
+1661630250.957241 -- INFO: starting 12, 9, /home/hjamil/Documents/files_bash/FILE7
+1661630250.963142 -- INFO: Start Process :: 9
+1661630250.964300 -- INFO: Process 9 found Queue Empty : False
+1661630250.964534 -- INFO: Process 9 get item 10 from queue and executing
+1661630250.964726 -- INFO: starting 9, 10, /home/hjamil/Documents/files_bash/FILE31
+1661630250.978822 -- INFO: Start Process :: 13
+1661630250.979929 -- INFO: Process 13 found Queue Empty : False
+1661630250.980152 -- INFO: Process 13 get item 11 from queue and executing
+1661630250.980458 -- INFO: starting 13, 11, /home/hjamil/Documents/files_bash/FILE6
+1661630251.000380 -- INFO: Start Process :: 10
+1661630251.001624 -- INFO: Process 10 found Queue Empty : False
+1661630251.001923 -- INFO: Process 10 get item 12 from queue and executing
+1661630251.002116 -- INFO: starting 10, 12, /home/hjamil/Documents/files_bash/FILE22
+1661630251.018398 -- INFO: Start Process :: 11
+1661630251.019549 -- INFO: Process 11 found Queue Empty : False
+1661630251.019954 -- INFO: Process 11 get item 13 from queue and executing
+1661630251.020176 -- INFO: starting 11, 13, /home/hjamil/Documents/files_bash/FILE11
+1661630251.792001 -- INFO: Throughput @4.1s:610.0Mbps, rtt :2.61ms cwnd: 290.6 lossRate: 0.0 CC:14 score:0.46 previous_total 168125000 bytes and current_total 244375000 bytes
+1661630252.811855 -- INFO: Throughput @5.1s:675.0Mbps, rtt :2.67ms cwnd: 336.3 lossRate: 0.0 CC:14 score:0.51 previous_total 244375000 bytes and current_total 328750000 bytes
+1661630253.787044 -- INFO: Throughput @6.1s:665.0Mbps, rtt :3.68ms cwnd: 361.3 lossRate: 0.0 CC:14 score:0.5 previous_total 328750000 bytes and current_total 411875000 bytes
+1661630254.154419 -- INFO: score [0.46, 0.51, 0.5] old_score 0.49 reward 1.17******
+1661630254.160161 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 19******
+1661630254.168660 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630254.186692 -- INFO: Active CC: 19
+1661630254.207711 -- INFO: Start Process :: 16
+1661630254.210168 -- INFO: Process 16 found Queue Empty : False
+1661630254.210684 -- INFO: Process 16 get item 14 from queue and executing
+1661630254.211203 -- INFO: starting 16, 14, /home/hjamil/Documents/files_bash/FILE30
+1661630254.222718 -- INFO: Start Process :: 17
+1661630254.223894 -- INFO: Process 17 found Queue Empty : False
+1661630254.224231 -- INFO: Process 17 get item 15 from queue and executing
+1661630254.224468 -- INFO: starting 17, 15, /home/hjamil/Documents/files_bash/FILE5
+1661630254.228240 -- INFO: Start Process :: 18
+1661630254.234372 -- INFO: Process 18 found Queue Empty : False
+1661630254.234730 -- INFO: Process 18 get item 16 from queue and executing
+1661630254.234988 -- INFO: starting 18, 16, /home/hjamil/Documents/files_bash/FILE17
+1661630254.250582 -- INFO: Start Process :: 15
+1661630254.251683 -- INFO: Process 15 found Queue Empty : False
+1661630254.251927 -- INFO: Process 15 get item 17 from queue and executing
+1661630254.252132 -- INFO: starting 15, 17, /home/hjamil/Documents/files_bash/FILE23
+1661630254.258764 -- INFO: Start Process :: 14
+1661630254.259780 -- INFO: Process 14 found Queue Empty : False
+1661630254.260017 -- INFO: Process 14 get item 18 from queue and executing
+1661630254.260260 -- INFO: starting 14, 18, /home/hjamil/Documents/files_bash/FILE14
+1661630254.800318 -- INFO: Throughput @7.1s:780.0Mbps, rtt :4.98ms cwnd: 320.2 lossRate: 0.0 CC:19 score:0.54 previous_total 411875000 bytes and current_total 509375000 bytes
+1661630255.792984 -- INFO: Throughput @8.1s:880.0Mbps, rtt :6.04ms cwnd: 340.3 lossRate: 0.0 CC:19 score:0.6 previous_total 509375000 bytes and current_total 619375000 bytes
+1661630256.816895 -- INFO: Throughput @9.1s:895.0Mbps, rtt :5.32ms cwnd: 342.5 lossRate: 0.0 CC:19 score:0.61 previous_total 619375000 bytes and current_total 731250000 bytes
+1661630257.408741 -- INFO: score [0.54, 0.6, 0.61] old_score 0.5833333333333334 reward 0.93******
+1661630257.410577 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 24******
+1661630257.422202 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0
+1661630257.430413 -- INFO: Active CC: 24
+1661630257.446731 -- INFO: Start Process :: 22
+1661630257.448125 -- INFO: Start Process :: 21
+1661630257.448683 -- INFO: Process 22 found Queue Empty : False
+1661630257.449018 -- INFO: Process 22 get item 19 from queue and executing
+1661630257.449199 -- INFO: starting 22, 19, /home/hjamil/Documents/files_bash/FILE8
+1661630257.449472 -- INFO: Process 21 found Queue Empty : False
+1661630257.449772 -- INFO: Process 21 get item 20 from queue and executing
+1661630257.449968 -- INFO: starting 21, 20, /home/hjamil/Documents/files_bash/FILE15
+1661630257.474818 -- INFO: Start Process :: 20
+1661630257.477483 -- INFO: Process 20 found Queue Empty : False
+1661630257.477821 -- INFO: Process 20 get item 21 from queue and executing
+1661630257.478185 -- INFO: starting 20, 21, /home/hjamil/Documents/files_bash/FILE21
+1661630257.482594 -- INFO: Start Process :: 19
+1661630257.483760 -- INFO: Process 19 found Queue Empty : False
+1661630257.483989 -- INFO: Process 19 get item 22 from queue and executing
+1661630257.484235 -- INFO: starting 19, 22, /home/hjamil/Documents/files_bash/FILE9
+1661630257.511110 -- INFO: Start Process :: 23
+1661630257.514471 -- INFO: Process 23 found Queue Empty : False
+1661630257.514885 -- INFO: Process 23 get item 23 from queue and executing
+1661630257.515158 -- INFO: starting 23, 23, /home/hjamil/Documents/files_bash/FILE10
+1661630257.789372 -- INFO: Throughput @10.1s:945.0Mbps, rtt :13.44ms cwnd: 285.9 lossRate: 0.0003464336579545017 CC:24 score:0.58 previous_total 731250000 bytes and current_total 849375000 bytes
+1661630258.807246 -- INFO: Throughput @11.1s:1055.0Mbps, rtt :11.77ms cwnd: 210.2 lossRate: 0.0035223017314893776 CC:24 score:0.62 previous_total 849375000 bytes and current_total 981250000 bytes
+1661630259.813333 -- INFO: Throughput @12.1s:975.0Mbps, rtt :11.15ms cwnd: 186.2 lossRate: 0.0012243759925325186 CC:24 score:0.59 previous_total 981250000 bytes and current_total 1103125000 bytes
+1661630260.637643 -- INFO: score [0.58, 0.62, 0.59] old_score 0.5966666666666667 reward 0.13******
+1661630260.639196 -- INFO: action is  4 for action array 1.0 and Changing concurrency to 22******
+1661630260.654453 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1661630260.655286 -- INFO: Active CC: 22
+1661630260.687505 -- INFO: Process 23 found Queue Full : False
+1661630260.787670 -- INFO: Throughput @13.1s:945.0Mbps, rtt :10.2ms cwnd: 159.0 lossRate: 0.000963936533194608 CC:22 score:0.6 previous_total 1103125000 bytes and current_total 1221250000 bytes
+1661630260.835942 -- INFO: Process 22 found Queue Full : False
+1661630261.797465 -- INFO: Throughput @14.1s:930.0Mbps, rtt :8.08ms cwnd: 149.5 lossRate: 0.0022886134587015564 CC:22 score:0.58 previous_total 1221250000 bytes and current_total 1337500000 bytes
+1661630262.780491 -- INFO: Throughput @15.1s:930.0Mbps, rtt :9.01ms cwnd: 146.5 lossRate: 0.0003280964098681305 CC:22 score:0.6 previous_total 1337500000 bytes and current_total 1453750000 bytes
+1661630263.800551 -- INFO: Throughput @16.1s:935.0Mbps, rtt :6.69ms cwnd: 147.0 lossRate: 0.0 CC:22 score:0.6 previous_total 1453750000 bytes and current_total 1570625000 bytes
+1661630263.868675 -- INFO: score [0.58, 0.6, 0.6] old_score 0.5933333333333333 reward -0.03******
+1661630263.871367 -- INFO: action is  3 for action array 0.25869664549827576 and Changing concurrency to 21******
+1661630263.882219 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1661630263.886438 -- INFO: Active CC: 21
+1661630263.916265 -- INFO: Process 21 found Queue Full : False
+1661630264.784533 -- INFO: Throughput @17.1s:920.0Mbps, rtt :7.88ms cwnd: 152.9 lossRate: 0.0 CC:21 score:0.61 previous_total 1570625000 bytes and current_total 1685625000 bytes
+1661630265.786021 -- INFO: Throughput @18.1s:945.0Mbps, rtt :8.64ms cwnd: 155.6 lossRate: 0.0 CC:21 score:0.62 previous_total 1685625000 bytes and current_total 1803750000 bytes
+1661630266.806077 -- INFO: Throughput @19.1s:925.0Mbps, rtt :10.78ms cwnd: 154.0 lossRate: 1.2214933978281847e-05 CC:21 score:0.61 previous_total 1803750000 bytes and current_total 1919375000 bytes
+1661630267.102831 -- INFO: score [0.61, 0.62, 0.61] old_score 0.6133333333333333 reward 0.2******
+1661630267.104585 -- INFO: action is  3 for action array 0.2586606442928314 and Changing concurrency to 20******
+1661630267.105172 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1661630267.105580 -- INFO: Active CC: 20
+1661630267.136580 -- INFO: Process 20 found Queue Full : False
+1661630267.813966 -- INFO: Throughput @20.1s:930.0Mbps, rtt :9.63ms cwnd: 159.0 lossRate: 0.0 CC:20 score:0.63 previous_total 1919375000 bytes and current_total 2035625000 bytes
+1661630268.824344 -- INFO: Throughput @21.1s:945.0Mbps, rtt :8.19ms cwnd: 159.4 lossRate: 0.0 CC:20 score:0.64 previous_total 2035625000 bytes and current_total 2153750000 bytes
+1661630269.804811 -- INFO: Throughput @22.1s:920.0Mbps, rtt :7.75ms cwnd: 160.2 lossRate: 0.0 CC:20 score:0.62 previous_total 2153750000 bytes and current_total 2268750000 bytes
+1661630270.317060 -- INFO: score [0.63, 0.64, 0.62] old_score 0.63 reward 0.17******
+1661630270.319603 -- INFO: action is  3 for action array 0.2586974501609802 and Changing concurrency to 19******
+1661630270.330719 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630270.331993 -- INFO: Active CC: 19
+1661630270.338172 -- INFO: Process 19 found Queue Full : False
+1661630270.792875 -- INFO: Throughput @23.1s:935.0Mbps, rtt :7.58ms cwnd: 159.8 lossRate: 0.0 CC:19 score:0.64 previous_total 2268750000 bytes and current_total 2385625000 bytes
+1661630271.817802 -- INFO: Throughput @24.1s:900.0Mbps, rtt :5.52ms cwnd: 167.1 lossRate: 0.0 CC:19 score:0.62 previous_total 2385625000 bytes and current_total 2498125000 bytes
+1661630272.796110 -- INFO: Throughput @25.1s:890.0Mbps, rtt :9.12ms cwnd: 168.0 lossRate: 0.0002405185072661907 CC:19 score:0.61 previous_total 2498125000 bytes and current_total 2609375000 bytes
+1661630273.542528 -- INFO: score [0.64, 0.62, 0.61] old_score 0.6233333333333334 reward -0.07******
+1661630273.559858 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 18******
+1661630273.566235 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630273.574149 -- INFO: Active CC: 18
+1661630273.666250 -- INFO: Process 18 found Queue Full : False
+1661630273.828405 -- INFO: Throughput @26.1s:935.0Mbps, rtt :5.75ms cwnd: 184.8 lossRate: 0 CC:18 score:0.65 previous_total 2609375000 bytes and current_total 2726250000 bytes
+1661630274.834468 -- INFO: Throughput @27.1s:830.0Mbps, rtt :5.01ms cwnd: 198.7 lossRate: 0.0 CC:18 score:0.58 previous_total 2726250000 bytes and current_total 2830000000 bytes
+1661630275.808533 -- INFO: Throughput @28.1s:840.0Mbps, rtt :2.91ms cwnd: 257.7 lossRate: 0.0 CC:18 score:0.59 previous_total 2830000000 bytes and current_total 2935000000 bytes
+1661630276.790915 -- INFO: score [0.65, 0.58, 0.59] old_score 0.6066666666666666 reward -0.17******
+1661630276.792295 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 17******
+1661630276.802229 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630276.803700 -- INFO: Active CC: 17
+1661630276.816192 -- INFO: Throughput @29.1s:830.0Mbps, rtt :4.35ms cwnd: 266.4 lossRate: 0.0 CC:18 score:0.58 previous_total 2935000000 bytes and current_total 3038750000 bytes
+1661630276.893103 -- INFO: Process 17 found Queue Full : False
+1661630277.817032 -- INFO: Throughput @30.1s:785.0Mbps, rtt :4.63ms cwnd: 278.6 lossRate: 0 CC:17 score:0.56 previous_total 3038750000 bytes and current_total 3136875000 bytes
+1661630278.816037 -- INFO: Throughput @31.1s:795.0Mbps, rtt :3.22ms cwnd: 291.6 lossRate: 0.0 CC:17 score:0.57 previous_total 3136875000 bytes and current_total 3236250000 bytes
+1661630279.827229 -- INFO: Throughput @32.1s:795.0Mbps, rtt :3.73ms cwnd: 293.9 lossRate: 0.0 CC:17 score:0.57 previous_total 3236250000 bytes and current_total 3335625000 bytes
+1661630280.047038 -- INFO: score [0.56, 0.57, 0.57] old_score 0.5666666666666665 reward -0.4******
+1661630280.049392 -- INFO: action is  3 for action array 0.5126082897186279 and Changing concurrency to 16******
+1661630280.058451 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630280.078168 -- INFO: Active CC: 16
+1661630280.110022 -- INFO: Process 16 found Queue Full : False
+1661630280.836575 -- INFO: Throughput @33.1s:750.0Mbps, rtt :14.13ms cwnd: 217.4 lossRate: 0 CC:16 score:0.55 previous_total 3335625000 bytes and current_total 3429375000 bytes
+1661630281.800828 -- INFO: Throughput @34.1s:660.0Mbps, rtt :12.74ms cwnd: 207.3 lossRate: 0.0008342022940563086 CC:16 score:0.48 previous_total 3429375000 bytes and current_total 3511875000 bytes
+1661630282.810683 -- INFO: Throughput @35.1s:605.0Mbps, rtt :11.42ms cwnd: 153.4 lossRate: 0.003952408942578592 CC:16 score:0.42 previous_total 3511875000 bytes and current_total 3587500000 bytes
+1661630283.279527 -- INFO: score [0.55, 0.48, 0.42] old_score 0.48333333333333334 reward -0.83******
+1661630283.281581 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 15******
+1661630283.283218 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630283.284993 -- INFO: Active CC: 15
+1661630283.386767 -- INFO: Process 15 found Queue Full : False
+1661630283.808647 -- INFO: Throughput @36.1s:555.0Mbps, rtt :10.89ms cwnd: 145.4 lossRate: 0 CC:15 score:0.41 previous_total 3587500000 bytes and current_total 3656875000 bytes
+1661630284.809446 -- INFO: Throughput @37.1s:550.0Mbps, rtt :10.94ms cwnd: 142.6 lossRate: 0.0002867735922489195 CC:15 score:0.41 previous_total 3656875000 bytes and current_total 3725625000 bytes
+1661630285.787520 -- INFO: Throughput @38.1s:565.0Mbps, rtt :9.74ms cwnd: 129.1 lossRate: 0.001098738563610624 CC:15 score:0.41 previous_total 3725625000 bytes and current_total 3796250000 bytes
+1661630286.486545 -- INFO: score [0.41, 0.41, 0.41] old_score 0.41 reward -0.73******
+1661630286.488405 -- INFO: action is  3 for action array 0.6271936297416687 and Changing concurrency to 14******
+1661630286.490008 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630286.492355 -- INFO: Active CC: 14
+1661630286.575770 -- INFO: Process 14 found Queue Full : False
+1661630286.783471 -- INFO: Throughput @39.1s:565.0Mbps, rtt :10.27ms cwnd: 129.1 lossRate: 0.0 CC:14 score:0.43 previous_total 3796250000 bytes and current_total 3866875000 bytes
+1661630287.785973 -- INFO: Throughput @40.1s:530.0Mbps, rtt :8.99ms cwnd: 129.2 lossRate: 0 CC:14 score:0.4 previous_total 3866875000 bytes and current_total 3933125000 bytes
+1661630288.785814 -- INFO: Throughput @41.1s:545.0Mbps, rtt :10.28ms cwnd: 129.2 lossRate: 0.0 CC:14 score:0.41 previous_total 3933125000 bytes and current_total 4001250000 bytes
+1661630289.693572 -- INFO: score [0.43, 0.4, 0.41] old_score 0.41333333333333333 reward 0.03******
+1661630289.695457 -- INFO: action is  3 for action array 0.25869765877723694 and Changing concurrency to 13******
+1661630289.697069 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630289.699667 -- INFO: Active CC: 13
+1661630289.746270 -- INFO: Process 13 found Queue Full : False
+1661630289.785877 -- INFO: Throughput @42.1s:550.0Mbps, rtt :9.01ms cwnd: 129.2 lossRate: 0.0 CC:13 score:0.43 previous_total 4001250000 bytes and current_total 4070000000 bytes
+1661630290.786425 -- INFO: Throughput @43.1s:505.0Mbps, rtt :9.77ms cwnd: 131.9 lossRate: 0 CC:13 score:0.39 previous_total 4070000000 bytes and current_total 4133125000 bytes
+1661630291.788141 -- INFO: Throughput @44.1s:510.0Mbps, rtt :8.86ms cwnd: 131.9 lossRate: 0.0 CC:13 score:0.39 previous_total 4133125000 bytes and current_total 4196875000 bytes
+1661630292.787783 -- INFO: Throughput @45.1s:535.0Mbps, rtt :10.83ms cwnd: 131.9 lossRate: 0.0 CC:13 score:0.41 previous_total 4196875000 bytes and current_total 4263750000 bytes
+1661630292.900828 -- INFO: score [0.39, 0.39, 0.41] old_score 0.39666666666666667 reward -0.17******
+1661630292.902820 -- INFO: action is  2 for action array 0.07535902410745621 and Changing concurrency to 13******
+1661630292.905279 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630292.908206 -- INFO: Active CC: 13
+1661630293.789041 -- INFO: Throughput @46.1s:510.0Mbps, rtt :9.65ms cwnd: 131.9 lossRate: 0.0 CC:13 score:0.39 previous_total 4263750000 bytes and current_total 4327500000 bytes
+1661630294.789863 -- INFO: Throughput @47.1s:515.0Mbps, rtt :9.4ms cwnd: 129.3 lossRate: 0.00017847183491355272 CC:13 score:0.4 previous_total 4327500000 bytes and current_total 4391875000 bytes
+1661630295.791832 -- INFO: Throughput @48.1s:545.0Mbps, rtt :9.32ms cwnd: 129.3 lossRate: 0.0 CC:13 score:0.42 previous_total 4391875000 bytes and current_total 4460000000 bytes
+1661630296.109476 -- INFO: score [0.39, 0.4, 0.42] old_score 0.4033333333333333 reward 0.07******
+1661630296.111702 -- INFO: action is  2 for action array 0.10855452716350555 and Changing concurrency to 13******
+1661630296.113959 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630296.117411 -- INFO: Active CC: 13
+1661630296.792812 -- INFO: Throughput @49.1s:500.0Mbps, rtt :9.67ms cwnd: 125.2 lossRate: 0.0004900104684054614 CC:13 score:0.38 previous_total 4460000000 bytes and current_total 4522500000 bytes
+1661630297.794351 -- INFO: Throughput @50.1s:510.0Mbps, rtt :9.9ms cwnd: 125.2 lossRate: 0.0 CC:13 score:0.39 previous_total 4522500000 bytes and current_total 4586250000 bytes
+1661630298.795852 -- INFO: Throughput @51.1s:540.0Mbps, rtt :9.13ms cwnd: 125.2 lossRate: 0.0 CC:13 score:0.42 previous_total 4586250000 bytes and current_total 4653750000 bytes
+1661630299.318575 -- INFO: score [0.38, 0.39, 0.42] old_score 0.39666666666666667 reward -0.07******
+1661630299.320254 -- INFO: action is  1 for action array -0.2952917516231537 and Changing concurrency to 15******
+1661630299.321991 -- INFO: Start Process :: 13
+1661630299.322355 -- INFO: Start Process :: 14
+1661630299.323518 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630299.323668 -- INFO: Process 13 found Queue Empty : False
+1661630299.324005 -- INFO: Process 13 get item 24 from queue and executing
+1661630299.324111 -- INFO: Process 14 found Queue Empty : False
+1661630299.324402 -- INFO: starting 13, 24, /home/hjamil/Documents/files_bash/FILE12
+1661630299.324453 -- INFO: Process 14 get item 25 from queue and executing
+1661630299.325228 -- INFO: starting 14, 25, /home/hjamil/Documents/files_bash/FILE28
+1661630299.326054 -- INFO: Active CC: 15
+1661630299.795215 -- INFO: Throughput @52.1s:525.0Mbps, rtt :9.28ms cwnd: 114.3 lossRate: 0.0 CC:15 score:0.39 previous_total 4653750000 bytes and current_total 4719375000 bytes
+1661630300.796382 -- INFO: Throughput @53.1s:565.0Mbps, rtt :9.49ms cwnd: 111.9 lossRate: 0.0003887229428372683 CC:15 score:0.42 previous_total 4719375000 bytes and current_total 4790000000 bytes
+1661630301.798788 -- INFO: Throughput @54.1s:585.0Mbps, rtt :8.37ms cwnd: 112.1 lossRate: 0.0 CC:15 score:0.43 previous_total 4790000000 bytes and current_total 4863125000 bytes
+1661630302.527062 -- INFO: score [0.39, 0.42, 0.43] old_score 0.41333333333333333 reward 0.17******
+1661630302.528686 -- INFO: action is  3 for action array 0.5155380368232727 and Changing concurrency to 14******
+1661630302.530395 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630302.531888 -- INFO: Active CC: 14
+1661630302.598547 -- INFO: Process 14 found Queue Full : False
+1661630302.798826 -- INFO: Throughput @55.1s:560.0Mbps, rtt :9.04ms cwnd: 116.2 lossRate: 0.0 CC:14 score:0.42 previous_total 4863125000 bytes and current_total 4933125000 bytes
+1661630303.800065 -- INFO: Throughput @56.1s:525.0Mbps, rtt :8.89ms cwnd: 116.2 lossRate: 0.0 CC:14 score:0.4 previous_total 4933125000 bytes and current_total 4998750000 bytes
+1661630304.802722 -- INFO: Throughput @57.1s:555.0Mbps, rtt :8.9ms cwnd: 113.4 lossRate: 4.267030786627126e-05 CC:14 score:0.42 previous_total 4998750000 bytes and current_total 5068125000 bytes
+1661630305.733254 -- INFO: score [0.42, 0.4, 0.42] old_score 0.41333333333333333 reward 0.0******
+1661630305.735750 -- INFO: action is  3 for action array 0.2586965560913086 and Changing concurrency to 13******
+1661630305.737817 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630305.740115 -- INFO: Active CC: 13
+1661630305.771911 -- INFO: Process 13 found Queue Full : False
+1661630305.801786 -- INFO: Throughput @58.1s:550.0Mbps, rtt :9.59ms cwnd: 115.7 lossRate: 0.0 CC:13 score:0.43 previous_total 5068125000 bytes and current_total 5136875000 bytes
+1661630306.803397 -- INFO: Throughput @59.1s:505.0Mbps, rtt :9.29ms cwnd: 118.0 lossRate: 0.0 CC:13 score:0.39 previous_total 5136875000 bytes and current_total 5200000000 bytes
+1661630307.803287 -- INFO: Throughput @60.1s:530.0Mbps, rtt :9.07ms cwnd: 118.0 lossRate: 0.0 CC:13 score:0.41 previous_total 5200000000 bytes and current_total 5266250000 bytes
+1661630308.804472 -- INFO: Throughput @61.1s:520.0Mbps, rtt :8.86ms cwnd: 118.0 lossRate: 0.0 CC:13 score:0.4 previous_total 5266250000 bytes and current_total 5331250000 bytes
+1661630308.941274 -- INFO: score [0.39, 0.41, 0.4] old_score 0.4000000000000001 reward -0.13******
+1661630308.942953 -- INFO: action is  2 for action array 0.17972910404205322 and Changing concurrency to 13******
+1661630308.945883 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630308.948131 -- INFO: Active CC: 13
+1661630309.805688 -- INFO: Throughput @62.1s:505.0Mbps, rtt :8.46ms cwnd: 115.8 lossRate: 0.00020104094533920076 CC:13 score:0.39 previous_total 5331250000 bytes and current_total 5394375000 bytes
+1661630310.807560 -- INFO: Throughput @63.1s:530.0Mbps, rtt :9.38ms cwnd: 115.8 lossRate: 0.0 CC:13 score:0.41 previous_total 5394375000 bytes and current_total 5460625000 bytes
+1661630311.809416 -- INFO: Throughput @64.1s:520.0Mbps, rtt :9.35ms cwnd: 115.8 lossRate: 0.0 CC:13 score:0.4 previous_total 5460625000 bytes and current_total 5525625000 bytes
+1661630312.149380 -- INFO: score [0.39, 0.41, 0.4] old_score 0.4000000000000001 reward 0.0******
+1661630312.151020 -- INFO: action is  2 for action array 0.174034982919693 and Changing concurrency to 13******
+1661630312.153124 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630312.155968 -- INFO: Active CC: 13
+1661630312.811478 -- INFO: Throughput @65.1s:515.0Mbps, rtt :8.36ms cwnd: 114.2 lossRate: 0.00020045436322330617 CC:13 score:0.4 previous_total 5525625000 bytes and current_total 5590000000 bytes
+1661630313.810051 -- INFO: Throughput @66.1s:530.0Mbps, rtt :8.1ms cwnd: 114.2 lossRate: 0.0 CC:13 score:0.41 previous_total 5590000000 bytes and current_total 5656250000 bytes
+1661630314.810621 -- INFO: Throughput @67.1s:520.0Mbps, rtt :9.01ms cwnd: 114.2 lossRate: 0.0 CC:13 score:0.4 previous_total 5656250000 bytes and current_total 5721250000 bytes
+1661630315.357086 -- INFO: score [0.4, 0.41, 0.4] old_score 0.4033333333333333 reward 0.03******
+1661630315.358758 -- INFO: action is  3 for action array 0.2560334801673889 and Changing concurrency to 12******
+1661630315.360510 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630315.361970 -- INFO: Active CC: 12
+1661630315.470706 -- INFO: Process 12 found Queue Full : False
+1661630315.812519 -- INFO: Throughput @68.1s:500.0Mbps, rtt :7.96ms cwnd: 114.2 lossRate: 0.0 CC:12 score:0.39 previous_total 5721250000 bytes and current_total 5783750000 bytes
+1661630316.812621 -- INFO: Throughput @69.1s:510.0Mbps, rtt :8.33ms cwnd: 116.6 lossRate: 0 CC:12 score:0.4 previous_total 5783750000 bytes and current_total 5847500000 bytes
+1661630317.813578 -- INFO: Throughput @70.1s:505.0Mbps, rtt :9.17ms cwnd: 116.6 lossRate: 0.0 CC:12 score:0.4 previous_total 5847500000 bytes and current_total 5910625000 bytes
+1661630318.563083 -- INFO: score [0.39, 0.4, 0.4] old_score 0.39666666666666667 reward -0.07******
+1661630318.564714 -- INFO: action is  3 for action array 0.2623303532600403 and Changing concurrency to 11******
+1661630318.567647 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630318.569473 -- INFO: Active CC: 11
+1661630318.600846 -- INFO: Process 11 found Queue Full : False
+1661630318.814550 -- INFO: Throughput @71.1s:500.0Mbps, rtt :8.67ms cwnd: 116.8 lossRate: 0.0 CC:11 score:0.4 previous_total 5910625000 bytes and current_total 5973125000 bytes
+1661630319.818730 -- INFO: Throughput @72.1s:470.0Mbps, rtt :9.11ms cwnd: 116.1 lossRate: 0 CC:11 score:0.38 previous_total 5973125000 bytes and current_total 6031875000 bytes
+1661630320.817035 -- INFO: Throughput @73.1s:460.0Mbps, rtt :9.13ms cwnd: 116.1 lossRate: 0.0 CC:11 score:0.37 previous_total 6031875000 bytes and current_total 6089375000 bytes
+1661630321.770730 -- INFO: score [0.4, 0.38, 0.37] old_score 0.3833333333333333 reward -0.13******
+1661630321.772713 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 10******
+1661630321.774155 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630321.776944 -- INFO: Active CC: 10
+1661630321.817973 -- INFO: Throughput @74.1s:465.0Mbps, rtt :8.29ms cwnd: 116.5 lossRate: 0.0 CC:10 score:0.38 previous_total 6089375000 bytes and current_total 6147500000 bytes
+1661630321.846589 -- INFO: Process 10 found Queue Full : False
+1661630322.819099 -- INFO: Throughput @75.1s:420.0Mbps, rtt :8.07ms cwnd: 115.3 lossRate: 0 CC:10 score:0.34 previous_total 6147500000 bytes and current_total 6200000000 bytes
+1661630323.820868 -- INFO: Throughput @76.1s:405.0Mbps, rtt :9.38ms cwnd: 115.3 lossRate: 0.0 CC:10 score:0.33 previous_total 6200000000 bytes and current_total 6250625000 bytes
+1661630324.820210 -- INFO: Throughput @77.1s:420.0Mbps, rtt :9.52ms cwnd: 115.3 lossRate: 0.0 CC:10 score:0.34 previous_total 6250625000 bytes and current_total 6303125000 bytes
+1661630324.978097 -- INFO: score [0.34, 0.33, 0.34] old_score 0.33666666666666667 reward -0.47******
+1661630324.979726 -- INFO: action is  3 for action array 0.6435790061950684 and Changing concurrency to 9******
+1661630324.981828 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630324.984365 -- INFO: Active CC: 9
+1661630325.019516 -- INFO: Process 9 found Queue Full : False
+1661630325.841688 -- INFO: Throughput @78.1s:395.0Mbps, rtt :8.17ms cwnd: 108.8 lossRate: 0 CC:9 score:0.33 previous_total 6303125000 bytes and current_total 6352500000 bytes
+1661630326.849584 -- INFO: Throughput @79.1s:375.0Mbps, rtt :8.43ms cwnd: 108.8 lossRate: 0.0 CC:9 score:0.31 previous_total 6352500000 bytes and current_total 6399375000 bytes
+1661630327.855498 -- INFO: Throughput @80.1s:375.0Mbps, rtt :8.78ms cwnd: 108.8 lossRate: 0.0 CC:9 score:0.31 previous_total 6399375000 bytes and current_total 6446250000 bytes
+1661630328.186820 -- INFO: score [0.33, 0.31, 0.31] old_score 0.31666666666666665 reward -0.2******
+1661630328.189025 -- INFO: action is  3 for action array 0.537999153137207 and Changing concurrency to 8******
+1661630328.192710 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630328.195915 -- INFO: Active CC: 8
+1661630328.301197 -- INFO: Process 8 found Queue Full : False
+1661630328.866572 -- INFO: Throughput @81.1s:370.0Mbps, rtt :9.0ms cwnd: 126.1 lossRate: 0.0 CC:8 score:0.32 previous_total 6446250000 bytes and current_total 6492500000 bytes
+1661630329.850204 -- INFO: Throughput @82.1s:350.0Mbps, rtt :8.13ms cwnd: 132.5 lossRate: 0 CC:8 score:0.3 previous_total 6492500000 bytes and current_total 6536250000 bytes
+1661630330.894378 -- INFO: Throughput @83.1s:410.0Mbps, rtt :2.5ms cwnd: 345.5 lossRate: 0.0 CC:8 score:0.35 previous_total 6536250000 bytes and current_total 6587500000 bytes
+1661630331.415287 -- INFO: score [0.32, 0.3, 0.35] old_score 0.3233333333333333 reward 0.07******
+1661630331.424864 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 13******
+1661630331.443073 -- INFO: Start Process :: 8
+1661630331.443604 -- INFO: Start Process :: 11
+1661630331.443953 -- INFO: Start Process :: 9
+1661630331.444565 -- INFO: Start Process :: 12
+1661630331.445051 -- INFO: Process 8 found Queue Empty : False
+1661630331.446440 -- INFO: Process 8 get item 26 from queue and executing
+1661630331.446783 -- INFO: starting 8, 26, /home/hjamil/Documents/files_bash/FILE27
+1661630331.447193 -- INFO: Process 12 found Queue Empty : False
+1661630331.447287 -- INFO: Process 11 found Queue Empty : False
+1661630331.447569 -- INFO: Start Process :: 10
+1661630331.447876 -- INFO: Process 11 get item 27 from queue and executing
+1661630331.448148 -- INFO: Process 12 get item 28 from queue and executing
+1661630331.448440 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630331.451163 -- INFO: Active CC: 13
+1661630331.453328 -- INFO: Process 10 found Queue Empty : False
+1661630331.455369 -- INFO: starting 12, 28, /home/hjamil/Documents/files_bash/FILE18
+1661630331.455407 -- INFO: Process 9 found Queue Empty : False
+1661630331.455717 -- INFO: Process 9 get item 29 from queue and executing
+1661630331.471584 -- INFO: Process 10 get item 30 from queue and executing
+1661630331.471903 -- INFO: starting 10, 30, /home/hjamil/Documents/files_bash/FILE16
+1661630331.472270 -- INFO: starting 9, 29, /home/hjamil/Documents/files_bash/FILE0
+1661630331.480186 -- INFO: starting 11, 27, /home/hjamil/Documents/files_bash/FILE26
+1661630331.859850 -- INFO: Throughput @84.1s:485.0Mbps, rtt :2.62ms cwnd: 297.5 lossRate: 0.0 CC:13 score:0.37 previous_total 6587500000 bytes and current_total 6648125000 bytes
+1661630332.858227 -- INFO: Throughput @85.1s:615.0Mbps, rtt :3.92ms cwnd: 344.5 lossRate: 0.0 CC:13 score:0.48 previous_total 6648125000 bytes and current_total 6725000000 bytes
+1661630333.888856 -- INFO: Throughput @86.1s:630.0Mbps, rtt :4.46ms cwnd: 380.8 lossRate: 0.0 CC:13 score:0.49 previous_total 6725000000 bytes and current_total 6803750000 bytes
+1661630334.664879 -- INFO: score [0.37, 0.48, 0.49] old_score 0.4466666666666666 reward 1.23******
+1661630334.675623 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 18******
+1661630334.686452 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630334.686469 -- INFO: Start Process :: 14
+1661630334.686646 -- INFO: Start Process :: 16
+1661630334.686736 -- INFO: Start Process :: 17
+1661630334.686903 -- INFO: Start Process :: 15
+1661630334.686927 -- INFO: Start Process :: 13
+1661630334.687459 -- INFO: Process 14 found Queue Empty : False
+1661630334.687792 -- INFO: Process 14 get item 31 from queue and executing
+1661630334.687857 -- INFO: Process 13 found Queue Empty : False
+1661630334.687784 -- INFO: Active CC: 18
+1661630334.687981 -- INFO: Process 17 found Queue Empty : False
+1661630334.688284 -- INFO: Process 13 get item 23 from queue and executing
+1661630334.688017 -- INFO: starting 14, 31, /home/hjamil/Documents/files_bash/FILE19
+1661630334.688500 -- INFO: Process 17 get item 19 from queue and executing
+1661630334.688785 -- INFO: Process 16 found Queue Empty : False
+1661630334.689316 -- INFO: starting 17, 19, /home/hjamil/Documents/files_bash/FILE8
+1661630334.689432 -- INFO: starting 13, 23, /home/hjamil/Documents/files_bash/FILE10
+1661630334.689410 -- INFO: Process 16 get item 20 from queue and executing
+1661630334.690559 -- INFO: starting 16, 20, /home/hjamil/Documents/files_bash/FILE15
+1661630334.691829 -- INFO: Process 15 found Queue Empty : False
+1661630334.693442 -- INFO: Process 15 get item 21 from queue and executing
+1661630334.695781 -- INFO: starting 15, 21, /home/hjamil/Documents/files_bash/FILE21
+1661630334.878047 -- INFO: Throughput @87.1s:645.0Mbps, rtt :3.47ms cwnd: 302.3 lossRate: 0.0 CC:18 score:0.45 previous_total 6803750000 bytes and current_total 6884375000 bytes
+1661630335.883307 -- INFO: Throughput @88.1s:840.0Mbps, rtt :5.6ms cwnd: 325.4 lossRate: 0.0 CC:18 score:0.59 previous_total 6884375000 bytes and current_total 6989375000 bytes
+1661630336.875661 -- INFO: Throughput @89.1s:840.0Mbps, rtt :4.81ms cwnd: 341.6 lossRate: 0.0 CC:18 score:0.59 previous_total 6989375000 bytes and current_total 7094375000 bytes
+1661630337.876441 -- INFO: Throughput @90.1s:840.0Mbps, rtt :4.21ms cwnd: 357.5 lossRate: 0.0 CC:18 score:0.59 previous_total 7094375000 bytes and current_total 7199375000 bytes
+1661630337.914774 -- INFO: score [0.59, 0.59, 0.59] old_score 0.59 reward 1.43******
+1661630337.923717 -- INFO: action is  0 for action array -0.8764041066169739 and Changing concurrency to 23******
+1661630337.930130 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1661630337.930794 -- INFO: Active CC: 23
+1661630337.931753 -- INFO: Start Process :: 21
+1661630337.932765 -- INFO: Process 21 found Queue Empty : False
+1661630337.933154 -- INFO: Process 21 get item 22 from queue and executing
+1661630337.933309 -- INFO: Start Process :: 22
+1661630337.933481 -- INFO: starting 21, 22, /home/hjamil/Documents/files_bash/FILE9
+1661630337.933486 -- INFO: Start Process :: 19
+1661630337.934451 -- INFO: Start Process :: 18
+1661630337.934804 -- INFO: Process 22 found Queue Empty : False
+1661630337.934858 -- INFO: Start Process :: 20
+1661630337.935109 -- INFO: Process 22 get item 16 from queue and executing
+1661630337.935488 -- INFO: starting 22, 16, /home/hjamil/Documents/files_bash/FILE17
+1661630337.935635 -- INFO: Process 18 found Queue Empty : False
+1661630337.936235 -- INFO: Process 18 get item 15 from queue and executing
+1661630337.936356 -- INFO: Process 19 found Queue Empty : False
+1661630337.936624 -- INFO: Process 19 get item 14 from queue and executing
+1661630337.936730 -- INFO: starting 18, 15, /home/hjamil/Documents/files_bash/FILE5
+1661630337.936974 -- INFO: starting 19, 14, /home/hjamil/Documents/files_bash/FILE30
+1661630337.939520 -- INFO: Process 20 found Queue Empty : False
+1661630337.939807 -- INFO: Process 20 get item 17 from queue and executing
+1661630337.940191 -- INFO: starting 20, 17, /home/hjamil/Documents/files_bash/FILE23
+1661630338.870471 -- INFO: Throughput @91.1s:1045.0Mbps, rtt :10.87ms cwnd: 188.2 lossRate: 0.004814559424715559 CC:23 score:0.61 previous_total 7199375000 bytes and current_total 7330000000 bytes
+1661630339.888865 -- INFO: Throughput @92.1s:1005.0Mbps, rtt :9.87ms cwnd: 167.9 lossRate: 0.0020636076717649916 CC:23 score:0.62 previous_total 7330000000 bytes and current_total 7455625000 bytes
+1661630340.861044 -- INFO: Throughput @93.1s:960.0Mbps, rtt :10.98ms cwnd: 161.0 lossRate: 0.0006485331705642238 CC:23 score:0.6 previous_total 7455625000 bytes and current_total 7575625000 bytes
+1661630341.131823 -- INFO: score [0.61, 0.62, 0.6] old_score 0.61 reward 0.2******
+1661630341.133397 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 22******
+1661630341.146542 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0
+1661630341.147147 -- INFO: Active CC: 22
+1661630341.221404 -- INFO: Process 22 found Queue Full : False
+1661630341.853128 -- INFO: Throughput @94.1s:960.0Mbps, rtt :8.25ms cwnd: 161.4 lossRate: 0.0002500441254339001 CC:22 score:0.62 previous_total 7575625000 bytes and current_total 7695625000 bytes
+1661630342.860395 -- INFO: Throughput @95.1s:945.0Mbps, rtt :9.84ms cwnd: 160.0 lossRate: 0.0002720348204570185 CC:22 score:0.61 previous_total 7695625000 bytes and current_total 7813750000 bytes
+1661630343.884143 -- INFO: Throughput @96.1s:935.0Mbps, rtt :9.98ms cwnd: 161.5 lossRate: 0.0 CC:22 score:0.6 previous_total 7813750000 bytes and current_total 7930625000 bytes
+1661630344.348449 -- INFO: score [0.62, 0.61, 0.6] old_score 0.61 reward 0.0******
+1661630344.350348 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 21******
+1661630344.351024 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1661630344.362142 -- INFO: Active CC: 21
+1661630344.374214 -- INFO: Process 21 found Queue Full : False
+1661630344.872246 -- INFO: Throughput @97.1s:905.0Mbps, rtt :10.21ms cwnd: 156.6 lossRate: 1.9339367215904696e-05 CC:21 score:0.6 previous_total 7930625000 bytes and current_total 8043750000 bytes
+1661630345.858582 -- INFO: Throughput @98.1s:920.0Mbps, rtt :7.75ms cwnd: 156.4 lossRate: 1.2387429236810485e-05 CC:21 score:0.61 previous_total 8043750000 bytes and current_total 8158750000 bytes
+1661630346.864139 -- INFO: Throughput @99.1s:910.0Mbps, rtt :8.97ms cwnd: 159.5 lossRate: 0.0 CC:21 score:0.6 previous_total 8158750000 bytes and current_total 8272500000 bytes
+1661630347.563357 -- INFO: score [0.6, 0.61, 0.6] old_score 0.6033333333333334 reward -0.07******
+1661630347.564977 -- INFO: action is  3 for action array 0.25868701934814453 and Changing concurrency to 20******
+1661630347.568312 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1661630347.568735 -- INFO: Active CC: 20
+1661630347.662198 -- INFO: Process 20 found Queue Full : False
+1661630347.862212 -- INFO: Throughput @100.1s:930.0Mbps, rtt :10.13ms cwnd: 163.1 lossRate: 0.0 CC:20 score:0.63 previous_total 8272500000 bytes and current_total 8388750000 bytes
+1661630348.868222 -- INFO: Throughput @101.1s:925.0Mbps, rtt :8.34ms cwnd: 168.0 lossRate: 0.0 CC:20 score:0.62 previous_total 8388750000 bytes and current_total 8504375000 bytes
+1661630349.884188 -- INFO: Throughput @102.1s:945.0Mbps, rtt :7.78ms cwnd: 169.2 lossRate: 0.0 CC:20 score:0.64 previous_total 8504375000 bytes and current_total 8622500000 bytes
+1661630350.775104 -- INFO: score [0.63, 0.62, 0.64] old_score 0.63 reward 0.27******
+1661630350.777519 -- INFO: action is  3 for action array 0.258661150932312 and Changing concurrency to 19******
+1661630350.794200 -- INFO: Process 19 found Queue Full : False
+1661630350.797992 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630350.798725 -- INFO: Active CC: 19
+1661630350.867530 -- INFO: Throughput @103.1s:915.0Mbps, rtt :6.7ms cwnd: 172.6 lossRate: 0.0 CC:19 score:0.63 previous_total 8622500000 bytes and current_total 8736875000 bytes
+1661630351.884051 -- INFO: Throughput @104.1s:915.0Mbps, rtt :7.86ms cwnd: 180.2 lossRate: 0.0 CC:19 score:0.63 previous_total 8736875000 bytes and current_total 8851250000 bytes
+1661630352.908296 -- INFO: Throughput @105.1s:880.0Mbps, rtt :6.47ms cwnd: 203.3 lossRate: 0.0 CC:19 score:0.6 previous_total 8851250000 bytes and current_total 8961250000 bytes
+1661630353.884688 -- INFO: Throughput @106.1s:895.0Mbps, rtt :7.86ms cwnd: 207.2 lossRate: 0.0002161007792339863 CC:19 score:0.61 previous_total 8961250000 bytes and current_total 9073125000 bytes
+1661630354.006857 -- INFO: score [0.63, 0.6, 0.61] old_score 0.6133333333333333 reward -0.17******
+1661630354.009060 -- INFO: action is  3 for action array 0.25869661569595337 and Changing concurrency to 18******
+1661630354.026343 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630354.027355 -- INFO: Active CC: 18
+1661630354.046748 -- INFO: Process 18 found Queue Full : False
+1661630354.896610 -- INFO: Throughput @107.1s:845.0Mbps, rtt :3.97ms cwnd: 235.9 lossRate: 0.0 CC:18 score:0.59 previous_total 9073125000 bytes and current_total 9178750000 bytes
+1661630355.876004 -- INFO: Throughput @108.1s:850.0Mbps, rtt :6.36ms cwnd: 248.7 lossRate: 0.0 CC:18 score:0.6 previous_total 9178750000 bytes and current_total 9285000000 bytes
+1661630356.890072 -- INFO: Throughput @109.1s:825.0Mbps, rtt :2.94ms cwnd: 274.2 lossRate: 0.0 CC:18 score:0.58 previous_total 9285000000 bytes and current_total 9388125000 bytes
+1661630357.228422 -- INFO: score [0.59, 0.6, 0.58] old_score 0.59 reward -0.23******
+1661630357.230080 -- INFO: action is  3 for action array 0.6437364816665649 and Changing concurrency to 17******
+1661630357.250250 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630357.251628 -- INFO: Active CC: 17
+1661630357.310214 -- INFO: Process 17 found Queue Full : False
+1661630357.903989 -- INFO: Throughput @110.1s:800.0Mbps, rtt :3.49ms cwnd: 285.0 lossRate: 0 CC:17 score:0.57 previous_total 9388125000 bytes and current_total 9488125000 bytes
+1661630358.879915 -- INFO: Throughput @111.1s:795.0Mbps, rtt :3.63ms cwnd: 292.8 lossRate: 0.0 CC:17 score:0.57 previous_total 9488125000 bytes and current_total 9587500000 bytes
+1661630359.875865 -- INFO: Throughput @112.1s:795.0Mbps, rtt :5.06ms cwnd: 295.9 lossRate: 0.0 CC:17 score:0.57 previous_total 9587500000 bytes and current_total 9686875000 bytes
+1661630360.491041 -- INFO: score [0.57, 0.57, 0.57] old_score 0.57 reward -0.2******
+1661630360.492813 -- INFO: action is  3 for action array 0.35936444997787476 and Changing concurrency to 16******
+1661630360.493273 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630360.493751 -- INFO: Active CC: 16
+1661630360.570310 -- INFO: Process 16 found Queue Full : False
+1661630360.896693 -- INFO: Throughput @113.2s:709.09Mbps, rtt :3.51ms cwnd: 289.7 lossRate: 0 CC:16 score:0.52 previous_total 9686875000 bytes and current_total 9784375000 bytes
+1661630361.900474 -- INFO: Throughput @114.2s:745.0Mbps, rtt :2.14ms cwnd: 293.2 lossRate: 0.0 CC:16 score:0.54 previous_total 9784375000 bytes and current_total 9877500000 bytes
+1661630362.891898 -- INFO: Throughput @115.2s:755.0Mbps, rtt :4.93ms cwnd: 294.7 lossRate: 0.0 CC:16 score:0.55 previous_total 9877500000 bytes and current_total 9971875000 bytes
+1661630363.706664 -- INFO: score [0.52, 0.54, 0.55] old_score 0.5366666666666667 reward -0.33******
+1661630363.708553 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 21******
+1661630363.724357 -- INFO: Start Process :: 18
+1661630363.726201 -- INFO: Start Process :: 19
+1661630363.726307 -- INFO: Start Process :: 16
+1661630363.726475 -- INFO: Start Process :: 20
+1661630363.726483 -- INFO: Start Process :: 17
+1661630363.726933 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0
+1661630363.727272 -- INFO: Process 18 found Queue Empty : False
+1661630363.727435 -- INFO: Process 17 found Queue Empty : False
+1661630363.728110 -- INFO: Process 17 get item 18 from queue and executing
+1661630363.728392 -- INFO: starting 17, 18, /home/hjamil/Documents/files_bash/FILE14
+1661630363.728114 -- INFO: Process 18 get item 11 from queue and executing
+1661630363.729006 -- INFO: starting 18, 11, /home/hjamil/Documents/files_bash/FILE6
+1661630363.729251 -- INFO: Process 19 found Queue Empty : False
+1661630363.729495 -- INFO: Process 19 get item 25 from queue and executing
+1661630363.729667 -- INFO: starting 19, 25, /home/hjamil/Documents/files_bash/FILE28
+1661630363.730154 -- INFO: Process 20 found Queue Empty : False
+1661630363.730573 -- INFO: Process 20 get item 24 from queue and executing
+1661630363.730839 -- INFO: starting 20, 24, /home/hjamil/Documents/files_bash/FILE12
+1661630363.733110 -- INFO: Active CC: 21
+1661630363.737968 -- INFO: Process 16 found Queue Empty : False
+1661630363.738311 -- INFO: Process 16 get item 9 from queue and executing
+1661630363.738555 -- INFO: starting 16, 9, /home/hjamil/Documents/files_bash/FILE7
+1661630363.887698 -- INFO: Throughput @116.2s:765.0Mbps, rtt :5.82ms cwnd: 238.6 lossRate: 0.0 CC:21 score:0.5 previous_total 9971875000 bytes and current_total 10067500000 bytes
+1661630364.897535 -- INFO: Throughput @117.2s:975.0Mbps, rtt :8.1ms cwnd: 216.8 lossRate: 0.0007893253147904529 CC:21 score:0.64 previous_total 10067500000 bytes and current_total 10189375000 bytes
+1661630365.931818 -- INFO: Throughput @118.2s:965.0Mbps, rtt :8.39ms cwnd: 203.4 lossRate: 0.0005112661140123434 CC:21 score:0.63 previous_total 10189375000 bytes and current_total 10310000000 bytes
+1661630366.890928 -- INFO: Throughput @119.2s:985.0Mbps, rtt :10.29ms cwnd: 202.0 lossRate: 0.00022634107084475519 CC:21 score:0.65 previous_total 10310000000 bytes and current_total 10433125000 bytes
+1661630366.946767 -- INFO: score [0.64, 0.63, 0.65] old_score 0.64 reward 1.03******
+1661630366.948106 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 20******
+1661630366.948418 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1661630366.966436 -- INFO: Active CC: 20
+1661630367.034062 -- INFO: Process 20 found Queue Full : False
+1661630367.896238 -- INFO: Throughput @120.2s:925.0Mbps, rtt :6.45ms cwnd: 206.5 lossRate: 0.0 CC:20 score:0.62 previous_total 10433125000 bytes and current_total 10548750000 bytes
+1661630368.916209 -- INFO: Throughput @121.2s:920.0Mbps, rtt :8.16ms cwnd: 208.1 lossRate: 0.0 CC:20 score:0.62 previous_total 10548750000 bytes and current_total 10663750000 bytes
+1661630369.891681 -- INFO: Throughput @122.2s:930.0Mbps, rtt :9.86ms cwnd: 209.9 lossRate: 0.0 CC:20 score:0.63 previous_total 10663750000 bytes and current_total 10780000000 bytes
+1661630370.182695 -- INFO: score [0.62, 0.62, 0.63] old_score 0.6233333333333334 reward -0.17******
+1661630370.184368 -- INFO: action is  3 for action array 0.2587010860443115 and Changing concurrency to 19******
+1661630370.194367 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630370.198494 -- INFO: Active CC: 19
+1661630370.222265 -- INFO: Process 19 found Queue Full : False
+1661630370.904194 -- INFO: Throughput @123.2s:935.0Mbps, rtt :7.37ms cwnd: 212.1 lossRate: 0.0 CC:19 score:0.64 previous_total 10780000000 bytes and current_total 10896875000 bytes
+1661630371.904709 -- INFO: Throughput @124.2s:875.0Mbps, rtt :9.39ms cwnd: 210.5 lossRate: 0.0004372758961032471 CC:19 score:0.6 previous_total 10896875000 bytes and current_total 11006250000 bytes
+1661630372.921647 -- INFO: Throughput @125.2s:880.0Mbps, rtt :4.56ms cwnd: 233.0 lossRate: 0.0002490939208628613 CC:19 score:0.6 previous_total 11006250000 bytes and current_total 11116250000 bytes
+1661630373.399699 -- INFO: score [0.64, 0.6, 0.6] old_score 0.6133333333333333 reward -0.1******
+1661630373.414353 -- INFO: action is  3 for action array 0.25869667530059814 and Changing concurrency to 18******
+1661630373.420663 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630373.425349 -- INFO: Active CC: 18
+1661630373.430131 -- INFO: Process 18 found Queue Full : False
+1661630373.903982 -- INFO: Throughput @126.2s:860.0Mbps, rtt :4.36ms cwnd: 260.7 lossRate: 0.0 CC:18 score:0.6 previous_total 11116250000 bytes and current_total 11223750000 bytes
+1661630374.892468 -- INFO: Throughput @127.2s:830.0Mbps, rtt :5.0ms cwnd: 273.7 lossRate: 0.0 CC:18 score:0.58 previous_total 11223750000 bytes and current_total 11327500000 bytes
+1661630375.932222 -- INFO: Throughput @128.2s:830.0Mbps, rtt :2.67ms cwnd: 283.6 lossRate: 0.0 CC:18 score:0.58 previous_total 11327500000 bytes and current_total 11431250000 bytes
+1661630376.630922 -- INFO: score [0.6, 0.58, 0.58] old_score 0.5866666666666666 reward -0.27******
+1661630376.632708 -- INFO: action is  3 for action array 0.6437628269195557 and Changing concurrency to 17******
+1661630376.650339 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630376.651006 -- INFO: Active CC: 17
+1661630376.674083 -- INFO: Process 17 found Queue Full : False
+1661630376.907964 -- INFO: Throughput @129.2s:830.0Mbps, rtt :4.62ms cwnd: 285.0 lossRate: 0.0 CC:17 score:0.59 previous_total 11431250000 bytes and current_total 11535000000 bytes
+1661630377.883924 -- INFO: Throughput @130.2s:775.0Mbps, rtt :3.28ms cwnd: 289.0 lossRate: 0.0 CC:17 score:0.55 previous_total 11535000000 bytes and current_total 11631875000 bytes
+1661630378.891945 -- INFO: Throughput @131.2s:810.0Mbps, rtt :3.82ms cwnd: 295.9 lossRate: 0.0 CC:17 score:0.58 previous_total 11631875000 bytes and current_total 11733125000 bytes
+1661630379.862831 -- INFO: score [0.59, 0.55, 0.58] old_score 0.5733333333333334 reward -0.13******
+1661630379.864451 -- INFO: action is  4 for action array 0.9533352851867676 and Changing concurrency to 15******
+1661630379.882459 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630379.883411 -- INFO: Active CC: 15
+1661630379.930269 -- INFO: Process 16 found Queue Full : False
+1661630379.936818 -- INFO: Throughput @132.2s:790.0Mbps, rtt :3.49ms cwnd: 298.4 lossRate: 0.0 CC:17 score:0.56 previous_total 11733125000 bytes and current_total 11831875000 bytes
+1661630379.954188 -- INFO: Process 15 found Queue Full : False
+1661630380.908908 -- INFO: Throughput @133.2s:710.0Mbps, rtt :2.69ms cwnd: 287.7 lossRate: 0 CC:15 score:0.53 previous_total 11831875000 bytes and current_total 11920625000 bytes
+1661630381.939929 -- INFO: Throughput @134.2s:675.0Mbps, rtt :4.22ms cwnd: 291.1 lossRate: 0.0 CC:15 score:0.5 previous_total 11920625000 bytes and current_total 12005000000 bytes
+1661630382.907757 -- INFO: Throughput @135.2s:710.0Mbps, rtt :2.39ms cwnd: 296.7 lossRate: 0.0 CC:15 score:0.53 previous_total 12005000000 bytes and current_total 12093750000 bytes
+1661630383.090661 -- INFO: score [0.53, 0.5, 0.53] old_score 0.52 reward -0.53******
+1661630383.099411 -- INFO: action is  0 for action array -0.8764029741287231 and Changing concurrency to 20******
+1661630383.114318 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+1661630383.114388 -- INFO: Start Process :: 15
+1661630383.114912 -- INFO: Start Process :: 16
+1661630383.115029 -- INFO: Active CC: 20
+1661630383.115590 -- INFO: Start Process :: 18
+1661630383.116012 -- INFO: Start Process :: 17
+1661630383.117949 -- INFO: Process 18 found Queue Empty : False
+1661630383.118108 -- INFO: Start Process :: 19
+1661630383.118463 -- INFO: Process 15 found Queue Empty : False
+1661630383.118643 -- INFO: Process 17 found Queue Empty : False
+1661630383.118726 -- INFO: Process 15 get item 12 from queue and executing
+1661630383.118870 -- INFO: Process 16 found Queue Empty : False
+1661630383.118900 -- INFO: starting 15, 12, /home/hjamil/Documents/files_bash/FILE22
+1661630383.119592 -- INFO: Process 18 get item 13 from queue and executing
+1661630383.119808 -- INFO: starting 18, 13, /home/hjamil/Documents/files_bash/FILE11
+1661630383.120238 -- INFO: Process 17 get item 10 from queue and executing
+1661630383.120471 -- INFO: starting 17, 10, /home/hjamil/Documents/files_bash/FILE31
+1661630383.120809 -- INFO: Process 16 get item 1 from queue and executing
+1661630383.121432 -- INFO: starting 16, 1, /home/hjamil/Documents/files_bash/FILE1
+1661630383.127965 -- INFO: Process 19 found Queue Empty : False
+1661630383.128680 -- INFO: Process 19 get item 16 from queue and executing
+1661630383.128958 -- INFO: starting 19, 16, /home/hjamil/Documents/files_bash/FILE17
+1661630383.913102 -- INFO: Throughput @136.2s:865.0Mbps, rtt :7.55ms cwnd: 248.8 lossRate: 0.0 CC:20 score:0.58 previous_total 12093750000 bytes and current_total 12201875000 bytes
+1661630384.920578 -- INFO: Throughput @137.2s:930.0Mbps, rtt :7.01ms cwnd: 262.4 lossRate: 0.0 CC:20 score:0.63 previous_total 12201875000 bytes and current_total 12318125000 bytes
+1661630385.922043 -- INFO: Throughput @138.2s:880.0Mbps, rtt :14.25ms cwnd: 142.6 lossRate: 0.006193185760877107 CC:20 score:0.54 previous_total 12318125000 bytes and current_total 12428125000 bytes
+1661630386.316578 -- INFO: score [0.58, 0.63, 0.54] old_score 0.5833333333333334 reward 0.63******
+1661630386.319175 -- INFO: action is  3 for action array 0.43709757924079895 and Changing concurrency to 19******
+1661630386.320387 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630386.321368 -- INFO: Active CC: 19
+1661630386.458120 -- INFO: Process 19 found Queue Full : False
+1661630386.874670 -- INFO: Throughput @139.2s:530.0Mbps, rtt :12.66ms cwnd: 127.8 lossRate: 0.0034432263426603872 CC:19 score:0.35 previous_total 12428125000 bytes and current_total 12494375000 bytes
+1661630387.886595 -- INFO: Throughput @140.2s:430.0Mbps, rtt :10.64ms cwnd: 93.0 lossRate: 0.0031416079796842684 CC:19 score:0.28 previous_total 12494375000 bytes and current_total 12548125000 bytes
+1661630388.875616 -- INFO: Throughput @141.2s:425.0Mbps, rtt :10.01ms cwnd: 80.3 lossRate: 0.0016574437939423103 CC:19 score:0.28 previous_total 12548125000 bytes and current_total 12601250000 bytes
+1661630389.522536 -- INFO: score [0.35, 0.28, 0.28] old_score 0.30333333333333334 reward -2.8******
+1661630389.524423 -- INFO: action is  3 for action array 0.25869670510292053 and Changing concurrency to 18******
+1661630389.526390 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630389.528104 -- INFO: Active CC: 18
+1661630389.728161 -- INFO: Process 18 found Queue Full : False
+1661630389.876704 -- INFO: Throughput @142.2s:435.0Mbps, rtt :9.55ms cwnd: 76.3 lossRate: 0.0006369764849514305 CC:18 score:0.3 previous_total 12601250000 bytes and current_total 12655625000 bytes
+1661630390.878327 -- INFO: Throughput @143.2s:435.0Mbps, rtt :8.57ms cwnd: 67.8 lossRate: 0.0009937394415184338 CC:18 score:0.3 previous_total 12655625000 bytes and current_total 12710000000 bytes
+1661630391.877967 -- INFO: Throughput @144.2s:430.0Mbps, rtt :8.9ms cwnd: 65.5 lossRate: 0.0004025332760841563 CC:18 score:0.3 previous_total 12710000000 bytes and current_total 12763750000 bytes
+1661630392.729311 -- INFO: score [0.3, 0.3, 0.3] old_score 0.3 reward -0.03******
+1661630392.730958 -- INFO: action is  3 for action array 0.2591015696525574 and Changing concurrency to 17******
+1661630392.732820 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630392.734540 -- INFO: Active CC: 17
+1661630392.740971 -- INFO: Process 17 found Queue Full : False
+1661630392.879449 -- INFO: Throughput @145.2s:430.0Mbps, rtt :8.31ms cwnd: 65.5 lossRate: 0.0 CC:17 score:0.31 previous_total 12763750000 bytes and current_total 12817500000 bytes
+1661630393.879981 -- INFO: Throughput @146.2s:430.0Mbps, rtt :8.6ms cwnd: 63.3 lossRate: 0 CC:17 score:0.31 previous_total 12817500000 bytes and current_total 12871250000 bytes
+1661630394.880345 -- INFO: Throughput @147.2s:410.0Mbps, rtt :8.04ms cwnd: 60.8 lossRate: 0.00040831881533101046 CC:17 score:0.29 previous_total 12871250000 bytes and current_total 12922500000 bytes
+1661630395.883902 -- INFO: Throughput @148.2s:430.0Mbps, rtt :8.14ms cwnd: 60.8 lossRate: 0.0 CC:17 score:0.31 previous_total 12922500000 bytes and current_total 12976250000 bytes
+1661630395.935721 -- INFO: score [0.31, 0.29, 0.31] old_score 0.3033333333333333 reward 0.03******
+1661630395.937386 -- INFO: action is  3 for action array 0.258666455745697 and Changing concurrency to 16******
+1661630395.939375 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630395.940629 -- INFO: Active CC: 16
+1661630396.119238 -- INFO: Process 16 found Queue Full : False
+1661630396.889363 -- INFO: Throughput @149.2s:420.0Mbps, rtt :8.2ms cwnd: 60.2 lossRate: 0 CC:16 score:0.31 previous_total 12976250000 bytes and current_total 13028750000 bytes
+1661630397.883793 -- INFO: Throughput @150.2s:415.0Mbps, rtt :8.0ms cwnd: 60.4 lossRate: 0.0 CC:16 score:0.3 previous_total 13028750000 bytes and current_total 13080625000 bytes
+1661630398.884816 -- INFO: Throughput @151.2s:420.0Mbps, rtt :7.99ms cwnd: 60.4 lossRate: 0.0 CC:16 score:0.31 previous_total 13080625000 bytes and current_total 13133125000 bytes
+1661630399.141692 -- INFO: score [0.31, 0.3, 0.31] old_score 0.30666666666666664 reward 0.03******
+1661630399.143371 -- INFO: action is  3 for action array 0.2580314874649048 and Changing concurrency to 15******
+1661630399.145838 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630399.147690 -- INFO: Active CC: 15
+1661630399.315460 -- INFO: Process 15 found Queue Full : False
+1661630399.889581 -- INFO: Throughput @152.2s:410.0Mbps, rtt :7.74ms cwnd: 60.8 lossRate: 0 CC:15 score:0.3 previous_total 13133125000 bytes and current_total 13184375000 bytes
+1661630400.887931 -- INFO: Throughput @153.2s:385.0Mbps, rtt :7.94ms cwnd: 59.9 lossRate: 0.00023476933912431035 CC:15 score:0.29 previous_total 13184375000 bytes and current_total 13232500000 bytes
+1661630401.887725 -- INFO: Throughput @154.2s:405.0Mbps, rtt :7.73ms cwnd: 59.9 lossRate: 0.0 CC:15 score:0.3 previous_total 13232500000 bytes and current_total 13283125000 bytes
+1661630402.348749 -- INFO: score [0.3, 0.29, 0.3] old_score 0.29666666666666663 reward -0.1******
+1661630402.350507 -- INFO: action is  3 for action array 0.2586904764175415 and Changing concurrency to 14******
+1661630402.352667 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630402.354396 -- INFO: Active CC: 14
+1661630402.401372 -- INFO: Process 14 found Queue Full : False
+1661630402.889610 -- INFO: Throughput @155.2s:380.0Mbps, rtt :7.72ms cwnd: 59.9 lossRate: 0.0 CC:14 score:0.29 previous_total 13283125000 bytes and current_total 13330625000 bytes
+1661630403.890200 -- INFO: Throughput @156.2s:370.0Mbps, rtt :7.75ms cwnd: 57.0 lossRate: 0 CC:14 score:0.28 previous_total 13330625000 bytes and current_total 13376875000 bytes
+1661630404.891261 -- INFO: Throughput @157.2s:375.0Mbps, rtt :7.58ms cwnd: 57.0 lossRate: 0.0 CC:14 score:0.28 previous_total 13376875000 bytes and current_total 13423750000 bytes
+1661630405.555420 -- INFO: score [0.29, 0.28, 0.28] old_score 0.2833333333333334 reward -0.13******
+1661630405.557137 -- INFO: action is  3 for action array 0.2586632966995239 and Changing concurrency to 13******
+1661630405.559543 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630405.561414 -- INFO: Active CC: 13
+1661630405.667932 -- INFO: Process 13 found Queue Full : False
+1661630405.891986 -- INFO: Throughput @158.2s:385.0Mbps, rtt :7.3ms cwnd: 57.0 lossRate: 0.0 CC:13 score:0.3 previous_total 13423750000 bytes and current_total 13471875000 bytes
+1661630406.895859 -- INFO: Throughput @159.2s:355.0Mbps, rtt :7.32ms cwnd: 58.6 lossRate: 0 CC:13 score:0.27 previous_total 13471875000 bytes and current_total 13516250000 bytes
+1661630407.898682 -- INFO: Throughput @160.2s:380.0Mbps, rtt :7.33ms cwnd: 59.1 lossRate: 0.0 CC:13 score:0.29 previous_total 13516250000 bytes and current_total 13563750000 bytes
+1661630408.762511 -- INFO: score [0.3, 0.27, 0.29] old_score 0.2866666666666667 reward 0.03******
+1661630408.764133 -- INFO: action is  3 for action array 0.258683443069458 and Changing concurrency to 12******
+1661630408.766800 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630408.769078 -- INFO: Active CC: 12
+1661630408.848324 -- INFO: Process 12 found Queue Full : False
+1661630408.895149 -- INFO: Throughput @161.2s:380.0Mbps, rtt :7.58ms cwnd: 59.7 lossRate: 0.0 CC:12 score:0.3 previous_total 13563750000 bytes and current_total 13611250000 bytes
+1661630409.895538 -- INFO: Throughput @162.2s:320.0Mbps, rtt :7.4ms cwnd: 56.1 lossRate: 0 CC:12 score:0.25 previous_total 13611250000 bytes and current_total 13651250000 bytes
+1661630410.897521 -- INFO: Throughput @163.2s:340.0Mbps, rtt :7.16ms cwnd: 56.1 lossRate: 0.0 CC:12 score:0.27 previous_total 13651250000 bytes and current_total 13693750000 bytes
+1661630411.900290 -- INFO: Throughput @164.2s:340.0Mbps, rtt :7.64ms cwnd: 57.4 lossRate: 0.0 CC:12 score:0.27 previous_total 13693750000 bytes and current_total 13736250000 bytes
+1661630411.970176 -- INFO: score [0.25, 0.27, 0.27] old_score 0.26333333333333336 reward -0.23******
+1661630411.971822 -- INFO: action is  1 for action array -0.4463382065296173 and Changing concurrency to 14******
+1661630411.973211 -- INFO: Start Process :: 12
+1661630411.973254 -- INFO: Start Process :: 13
+1661630411.974444 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630411.974657 -- INFO: Process 13 found Queue Empty : False
+1661630411.975032 -- INFO: Process 13 get item 22 from queue and executing
+1661630411.975029 -- INFO: Process 12 found Queue Empty : False
+1661630411.975462 -- INFO: Process 12 get item 17 from queue and executing
+1661630411.975480 -- INFO: starting 13, 22, /home/hjamil/Documents/files_bash/FILE9
+1661630411.975794 -- INFO: starting 12, 17, /home/hjamil/Documents/files_bash/FILE23
+1661630411.976527 -- INFO: Active CC: 14
+1661630412.899195 -- INFO: Throughput @165.2s:365.0Mbps, rtt :7.64ms cwnd: 55.3 lossRate: 0.0 CC:14 score:0.28 previous_total 13736250000 bytes and current_total 13781875000 bytes
+1661630413.902064 -- INFO: Throughput @166.2s:375.0Mbps, rtt :7.92ms cwnd: 55.4 lossRate: 0.0 CC:14 score:0.28 previous_total 13781875000 bytes and current_total 13828750000 bytes
+1661630414.900783 -- INFO: Throughput @167.2s:365.0Mbps, rtt :7.89ms cwnd: 55.6 lossRate: 0.0 CC:14 score:0.28 previous_total 13828750000 bytes and current_total 13874375000 bytes
+1661630415.177605 -- INFO: score [0.28, 0.28, 0.28] old_score 0.28 reward 0.17******
+1661630415.179323 -- INFO: action is  3 for action array 0.2510109543800354 and Changing concurrency to 13******
+1661630415.180744 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630415.182316 -- INFO: Active CC: 13
+1661630415.329671 -- INFO: Process 13 found Queue Full : False
+1661630415.901921 -- INFO: Throughput @168.2s:345.0Mbps, rtt :7.91ms cwnd: 56.8 lossRate: 0.0 CC:13 score:0.27 previous_total 13874375000 bytes and current_total 13917500000 bytes
+1661630416.903958 -- INFO: Throughput @169.2s:345.0Mbps, rtt :7.79ms cwnd: 56.8 lossRate: 0.0 CC:13 score:0.27 previous_total 13917500000 bytes and current_total 13960625000 bytes
+1661630417.907778 -- INFO: Throughput @170.2s:360.0Mbps, rtt :7.65ms cwnd: 56.8 lossRate: 0.0 CC:13 score:0.28 previous_total 13960625000 bytes and current_total 14005625000 bytes
+1661630418.383430 -- INFO: score [0.27, 0.27, 0.28] old_score 0.2733333333333334 reward -0.07******
+1661630418.385294 -- INFO: action is  2 for action array 0.04063231498003006 and Changing concurrency to 13******
+1661630418.387915 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630418.390116 -- INFO: Active CC: 13
+1661630418.906361 -- INFO: Throughput @171.2s:355.0Mbps, rtt :7.96ms cwnd: 56.8 lossRate: 0.0 CC:13 score:0.27 previous_total 14005625000 bytes and current_total 14050000000 bytes
+1661630419.906084 -- INFO: Throughput @172.2s:345.0Mbps, rtt :7.81ms cwnd: 56.8 lossRate: 0.0 CC:13 score:0.27 previous_total 14050000000 bytes and current_total 14093125000 bytes
+1661630420.922200 -- INFO: Throughput @173.2s:350.0Mbps, rtt :7.66ms cwnd: 56.8 lossRate: 0.0 CC:13 score:0.27 previous_total 14093125000 bytes and current_total 14136875000 bytes
+1661630421.591209 -- INFO: score [0.27, 0.27, 0.27] old_score 0.27 reward -0.03******
+1661630421.592916 -- INFO: action is  3 for action array 0.25851601362228394 and Changing concurrency to 12******
+1661630421.594652 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630421.596545 -- INFO: Active CC: 12
+1661630421.719409 -- INFO: Process 12 found Queue Full : False
+1661630421.907678 -- INFO: Throughput @174.2s:345.0Mbps, rtt :7.26ms cwnd: 57.4 lossRate: 0.0 CC:12 score:0.27 previous_total 14136875000 bytes and current_total 14180000000 bytes
+1661630422.908563 -- INFO: Throughput @175.2s:330.0Mbps, rtt :7.28ms cwnd: 57.5 lossRate: 0.0 CC:12 score:0.26 previous_total 14180000000 bytes and current_total 14221250000 bytes
+1661630423.912920 -- INFO: Throughput @176.2s:350.0Mbps, rtt :7.18ms cwnd: 57.5 lossRate: 0.0 CC:12 score:0.28 previous_total 14221250000 bytes and current_total 14265000000 bytes
+1661630424.797615 -- INFO: score [0.27, 0.26, 0.28] old_score 0.27 reward 0.0******
+1661630424.799340 -- INFO: action is  3 for action array 0.25691401958465576 and Changing concurrency to 11******
+1661630424.801503 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630424.803342 -- INFO: Active CC: 11
+1661630424.829261 -- INFO: Process 11 found Queue Full : False
+1661630424.910481 -- INFO: Throughput @177.2s:345.0Mbps, rtt :7.3ms cwnd: 57.5 lossRate: 0.0 CC:11 score:0.28 previous_total 14265000000 bytes and current_total 14308125000 bytes
+1661630425.913269 -- INFO: Throughput @178.2s:305.0Mbps, rtt :7.67ms cwnd: 59.2 lossRate: 0 CC:11 score:0.25 previous_total 14308125000 bytes and current_total 14346250000 bytes
+1661630426.912662 -- INFO: Throughput @179.2s:335.0Mbps, rtt :7.76ms cwnd: 59.2 lossRate: 0.0 CC:11 score:0.27 previous_total 14346250000 bytes and current_total 14388125000 bytes
+1661630427.913682 -- INFO: Throughput @180.2s:325.0Mbps, rtt :7.31ms cwnd: 59.2 lossRate: 0.0 CC:11 score:0.26 previous_total 14388125000 bytes and current_total 14428750000 bytes
+1661630428.004485 -- INFO: score [0.25, 0.27, 0.26] old_score 0.26 reward -0.1******
+1661630428.006444 -- INFO: action is  2 for action array 0.09371557831764221 and Changing concurrency to 11******
+1661630428.009227 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630428.011717 -- INFO: Active CC: 11
+1661630428.915176 -- INFO: Throughput @181.2s:330.0Mbps, rtt :7.26ms cwnd: 59.2 lossRate: 0.0 CC:11 score:0.27 previous_total 14428750000 bytes and current_total 14470000000 bytes
+1661630429.916050 -- INFO: Throughput @182.2s:325.0Mbps, rtt :7.7ms cwnd: 56.5 lossRate: 0.00039059725871742066 CC:11 score:0.26 previous_total 14470000000 bytes and current_total 14510625000 bytes
+1661630430.916803 -- INFO: Throughput @183.2s:325.0Mbps, rtt :7.12ms cwnd: 56.5 lossRate: 0.0 CC:11 score:0.26 previous_total 14510625000 bytes and current_total 14551250000 bytes
+1661630431.212821 -- INFO: score [0.27, 0.26, 0.26] old_score 0.26333333333333336 reward 0.03******
+1661630431.214424 -- INFO: action is  3 for action array 0.2586117684841156 and Changing concurrency to 10******
+1661630431.216700 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630431.218936 -- INFO: Active CC: 10
+1661630431.258364 -- INFO: Process 10 found Queue Full : False
+1661630431.928840 -- INFO: Throughput @184.2s:305.0Mbps, rtt :8.0ms cwnd: 59.5 lossRate: 0 CC:10 score:0.25 previous_total 14551250000 bytes and current_total 14589375000 bytes
+1661630432.920672 -- INFO: Throughput @185.2s:315.0Mbps, rtt :7.36ms cwnd: 61.9 lossRate: 0.0 CC:10 score:0.26 previous_total 14589375000 bytes and current_total 14628750000 bytes
+1661630433.950109 -- INFO: Throughput @186.2s:325.0Mbps, rtt :7.74ms cwnd: 61.9 lossRate: 0.0 CC:10 score:0.27 previous_total 14628750000 bytes and current_total 14669375000 bytes
+1661630434.420270 -- INFO: score [0.25, 0.26, 0.27] old_score 0.26 reward -0.03******
+1661630434.422694 -- INFO: action is  1 for action array -0.6773231029510498 and Changing concurrency to 12******
+1661630434.423704 -- INFO: Start Process :: 10
+1661630434.423835 -- INFO: Start Process :: 11
+1661630434.424573 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630434.425298 -- INFO: Process 11 found Queue Empty : False
+1661630434.425504 -- INFO: Process 10 found Queue Empty : False
+1661630434.425606 -- INFO: Process 11 get item 14 from queue and executing
+1661630434.425852 -- INFO: Process 10 get item 15 from queue and executing
+1661630434.425979 -- INFO: starting 11, 14, /home/hjamil/Documents/files_bash/FILE30
+1661630434.426184 -- INFO: starting 10, 15, /home/hjamil/Documents/files_bash/FILE5
+1661630434.427030 -- INFO: Active CC: 12
+1661630434.935669 -- INFO: Throughput @187.2s:310.0Mbps, rtt :8.11ms cwnd: 58.2 lossRate: 0.0 CC:12 score:0.24 previous_total 14669375000 bytes and current_total 14708125000 bytes
+1661630435.950746 -- INFO: Throughput @188.2s:535.0Mbps, rtt :3.76ms cwnd: 147.8 lossRate: 0.0001972289334845422 CC:12 score:0.42 previous_total 14708125000 bytes and current_total 14775000000 bytes
+1661630436.951056 -- INFO: Throughput @189.2s:565.0Mbps, rtt :4.73ms cwnd: 261.8 lossRate: 0.0 CC:12 score:0.45 previous_total 14775000000 bytes and current_total 14845625000 bytes
+1661630437.627935 -- INFO: score [0.24, 0.42, 0.45] old_score 0.36999999999999994 reward 1.1******
+1661630437.629513 -- INFO: action is  0 for action array -1.0 and Changing concurrency to 17******
+1661630437.638471 -- INFO: Start Process :: 13
+1661630437.638551 -- INFO: Start Process :: 12
+1661630437.638630 -- INFO: Start Process :: 16
+1661630437.638527 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630437.639289 -- INFO: Start Process :: 15
+1661630437.639390 -- INFO: Process 13 found Queue Empty : False
+1661630437.639688 -- INFO: Process 13 get item 19 from queue and executing
+1661630437.639696 -- INFO: Process 16 found Queue Empty : False
+1661630437.639902 -- INFO: starting 13, 19, /home/hjamil/Documents/files_bash/FILE8
+1661630437.639951 -- INFO: Process 16 get item 20 from queue and executing
+1661630437.640154 -- INFO: starting 16, 20, /home/hjamil/Documents/files_bash/FILE15
+1661630437.640390 -- INFO: Process 12 found Queue Empty : False
+1661630437.640411 -- INFO: Active CC: 17
+1661630437.640742 -- INFO: Start Process :: 14
+1661630437.640873 -- INFO: Process 12 get item 24 from queue and executing
+1661630437.641119 -- INFO: starting 12, 24, /home/hjamil/Documents/files_bash/FILE12
+1661630437.642628 -- INFO: Process 15 found Queue Empty : False
+1661630437.643047 -- INFO: Process 15 get item 25 from queue and executing
+1661630437.643225 -- INFO: starting 15, 25, /home/hjamil/Documents/files_bash/FILE28
+1661630437.648192 -- INFO: Process 14 found Queue Empty : False
+1661630437.652237 -- INFO: Process 14 get item 11 from queue and executing
+1661630437.652888 -- INFO: starting 14, 11, /home/hjamil/Documents/files_bash/FILE6
+1661630437.978696 -- INFO: Throughput @190.2s:650.0Mbps, rtt :3.67ms cwnd: 225.1 lossRate: 0.0 CC:17 score:0.46 previous_total 14845625000 bytes and current_total 14926875000 bytes
+1661630438.948250 -- INFO: Throughput @191.2s:795.0Mbps, rtt :2.87ms cwnd: 252.8 lossRate: 0.0 CC:17 score:0.57 previous_total 14926875000 bytes and current_total 15026250000 bytes
+1661630439.955719 -- INFO: Throughput @192.2s:815.0Mbps, rtt :3.14ms cwnd: 269.3 lossRate: 0.0 CC:17 score:0.58 previous_total 15026250000 bytes and current_total 15128125000 bytes
+1661630440.573997 -- INFO: Process 3 finished on working on file 3 
+1661630440.577260 -- INFO: Process 3 found Queue Empty : False
+1661630440.577562 -- INFO: Process 3 get item 18 from queue and executing
+1661630440.577937 -- INFO: starting 3, 18, /home/hjamil/Documents/files_bash/FILE14
+1661630440.846820 -- INFO: score [0.46, 0.57, 0.58] old_score 0.5366666666666666 reward 1.67******
+1661630440.855444 -- INFO: action is  1 for action array -0.7285583019256592 and Changing concurrency to 19******
+1661630440.856026 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630440.856251 -- INFO: Start Process :: 18
+1661630440.856515 -- INFO: Start Process :: 17
+1661630440.856617 -- INFO: Active CC: 19
+1661630440.857120 -- INFO: Process 18 found Queue Empty : False
+1661630440.858231 -- INFO: Process 18 get item 9 from queue and executing
+1661630440.858437 -- INFO: starting 18, 9, /home/hjamil/Documents/files_bash/FILE7
+1661630440.858774 -- INFO: Process 17 found Queue Empty : False
+1661630440.859378 -- INFO: Process 17 get item 21 from queue and executing
+1661630440.859749 -- INFO: starting 17, 21, /home/hjamil/Documents/files_bash/FILE21
+1661630440.961045 -- INFO: Throughput @193.2s:790.0Mbps, rtt :5.43ms cwnd: 257.0 lossRate: 0.0 CC:19 score:0.54 previous_total 15128125000 bytes and current_total 15226875000 bytes
+1661630441.069981 -- INFO: Process 7 finished on working on file 6 
+1661630441.087757 -- INFO: Process 7 found Queue Empty : False
+1661630441.088243 -- INFO: Process 7 get item 16 from queue and executing
+1661630441.089832 -- INFO: starting 7, 16, /home/hjamil/Documents/files_bash/FILE17
+1661630441.606938 -- INFO: Process 2 finished on working on file 2 
+1661630441.613525 -- INFO: Process 2 found Queue Empty : False
+1661630441.615412 -- INFO: Process 2 get item 13 from queue and executing
+1661630441.617256 -- INFO: starting 2, 13, /home/hjamil/Documents/files_bash/FILE11
+1661630442.014080 -- INFO: Throughput @194.2s:905.0Mbps, rtt :4.71ms cwnd: 276.0 lossRate: 0.0 CC:19 score:0.62 previous_total 15226875000 bytes and current_total 15340000000 bytes
+1661630442.971193 -- INFO: Throughput @195.2s:875.0Mbps, rtt :4.93ms cwnd: 286.3 lossRate: 0.0 CC:19 score:0.6 previous_total 15340000000 bytes and current_total 15449375000 bytes
+1661630443.968143 -- INFO: Throughput @196.2s:880.0Mbps, rtt :5.53ms cwnd: 293.3 lossRate: 0.0 CC:19 score:0.6 previous_total 15449375000 bytes and current_total 15559375000 bytes
+1661630444.062871 -- INFO: score [0.62, 0.6, 0.6] old_score 0.6066666666666666 reward 0.7******
+1661630444.064943 -- INFO: action is  3 for action array 0.6437638401985168 and Changing concurrency to 18******
+1661630444.078787 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1661630444.079899 -- INFO: Active CC: 18
+1661630444.150004 -- INFO: Process 18 found Queue Full : False
+1661630444.977062 -- INFO: Throughput @197.2s:855.0Mbps, rtt :6.18ms cwnd: 314.2 lossRate: 0.0 CC:18 score:0.6 previous_total 15559375000 bytes and current_total 15666250000 bytes
+1661630446.004078 -- INFO: Throughput @198.2s:825.0Mbps, rtt :3.24ms cwnd: 330.9 lossRate: 0.0 CC:18 score:0.58 previous_total 15666250000 bytes and current_total 15769375000 bytes
+1661630446.968918 -- INFO: Throughput @199.2s:840.0Mbps, rtt :4.74ms cwnd: 338.4 lossRate: 0.0 CC:18 score:0.59 previous_total 15769375000 bytes and current_total 15874375000 bytes
+1661630447.197997 -- INFO: Process 6 finished on working on file 7 
+1661630447.205999 -- INFO: Process 6 found Queue Empty : False
+1661630447.206527 -- INFO: Process 6 get item 10 from queue and executing
+1661630447.207279 -- INFO: starting 6, 10, /home/hjamil/Documents/files_bash/FILE31
+1661630447.302934 -- INFO: score [0.6, 0.58, 0.59] old_score 0.59 reward -0.17******
+1661630447.304807 -- INFO: action is  0 for action array -0.8612082004547119 and Changing concurrency to 23******
+1661630447.319068 -- INFO: Start Process :: 22
+1661630447.319127 -- INFO: Start Process :: 19
+1661630447.319209 -- INFO: Start Process :: 18
+1661630447.319536 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0
+1661630447.319929 -- INFO: Process 22 found Queue Empty : False
+1661630447.320053 -- INFO: Process 18 found Queue Empty : False
+1661630447.320215 -- INFO: Process 22 get item 1 from queue and executing
+1661630447.320287 -- INFO: Process 18 get item 12 from queue and executing
+1661630447.320410 -- INFO: starting 22, 1, /home/hjamil/Documents/files_bash/FILE1
+1661630447.320501 -- INFO: starting 18, 12, /home/hjamil/Documents/files_bash/FILE22
+1661630447.320889 -- INFO: Start Process :: 20
+1661630447.321718 -- INFO: Active CC: 23
+1661630447.322347 -- INFO: Start Process :: 21
+1661630447.323242 -- INFO: Process 19 found Queue Empty : False
+1661630447.323635 -- INFO: Process 19 get item 31 from queue and executing
+1661630447.323927 -- INFO: starting 19, 31, /home/hjamil/Documents/files_bash/FILE19
+1661630447.325007 -- INFO: Process 21 found Queue Empty : False
+1661630447.325234 -- INFO: Process 21 get item 23 from queue and executing
+1661630447.325403 -- INFO: starting 21, 23, /home/hjamil/Documents/files_bash/FILE10
+1661630447.334275 -- INFO: Process 20 found Queue Empty : False
+1661630447.334782 -- INFO: Process 20 get item 28 from queue and executing
+1661630447.335146 -- INFO: starting 20, 28, /home/hjamil/Documents/files_bash/FILE18
+1661630447.558061 -- INFO: Process 5 finished on working on file 4 
+1661630447.559017 -- INFO: Process 5 found Queue Empty : False
+1661630447.560057 -- INFO: Process 5 get item 22 from queue and executing
+1661630447.561021 -- INFO: starting 5, 22, /home/hjamil/Documents/files_bash/FILE9
+1661630447.993299 -- INFO: Throughput @200.2s:960.0Mbps, rtt :10.18ms cwnd: 231.4 lossRate: 0.002156005034832567 CC:23 score:0.59 previous_total 15874375000 bytes and current_total 15994375000 bytes
+1661630448.976765 -- INFO: Throughput @201.2s:980.0Mbps, rtt :10.16ms cwnd: 227.0 lossRate: 0.0014389405322806571 CC:23 score:0.61 previous_total 15994375000 bytes and current_total 16116875000 bytes
+1661630449.992743 -- INFO: Throughput @202.2s:945.0Mbps, rtt :10.07ms cwnd: 209.7 lossRate: 0.00014635752704565135 CC:23 score:0.6 previous_total 16116875000 bytes and current_total 16235000000 bytes
+1661630450.542823 -- INFO: score [0.59, 0.61, 0.6] old_score 0.6 reward 0.1******
+1661630450.544383 -- INFO: episode expires
+1661630450.544707 -- INFO: Process 26 shutdown itself from outest loop
+1661630450.544915 -- INFO: Process 29 shutdown itself from outest loop
+1661630450.545685 -- INFO: Process 30 shutdown itself from outest loop
+1661630450.545762 -- INFO: Process 24 shutdown itself from outest loop
+1661630450.546434 -- INFO: Process 23 shutdown itself from outest loop
+1661630450.546296 -- INFO: Process 25 shutdown itself from outest loop
+1661630450.546590 -- INFO: Process 28 shutdown itself from outest loop
+1661630450.547491 -- INFO: Process 27 shutdown itself from outest loop
+1661630450.550182 -- INFO: Process 31 shutdown itself from outest loop
