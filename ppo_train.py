@@ -50,15 +50,15 @@ configurations["cpu_count"] = mp.cpu_count()
 
 if __name__ == "__main__":
 
-  models_dir = f"models/transferPPO_RA_NR-{time.time()}"
-  logdir = f"logs/transferPPO_RA_NR-{time.time()}"
+  models_dir = f"models/transferPPO_RA_NR_09_05_1500-{time.time()}"
+  logdir = f"logs/transferPPO_RA_NR_09_05_1500-{time.time()}"
 
   if not os.path.exists(models_dir):
       os.makedirs(models_dir)
 
   if not os.path.exists(logdir):
       os.makedirs(logdir)
-  csv_name="ppo_ra_nr_8_26_2022.csv"
+  csv_name="ppo_ra_nr_9_5_2022_1500.csv"
   transfer=TransferClass_(configurations,log,transfer_emulation=True)
   env=transferEnv_RA(transfer,record_name=csv_name,csv_save=True)
   env.change_run_type(1)
@@ -88,9 +88,9 @@ if __name__ == "__main__":
   # model = PPO.load(model_path, env=env,
   #   tensorboard_log=logdir)
   callback = SaveOnBestTrainingRewardCallback(check_freq=100, log_dir=models_dir)
-  TIMESTEPS = 2000
-  for i in range(10):
-    model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="PPO_RA_NR",callback=callback)
+  TIMESTEPS = 1500
+  for i in range(20):
+    model.learn(total_timesteps=TIMESTEPS,reset_num_timesteps=False, tb_log_name="PPO_RA_NR_09_03_1500",callback=callback)
     model_path=f"{models_dir}/{TIMESTEPS*i}"
     model.save(model_path)
     env.close()

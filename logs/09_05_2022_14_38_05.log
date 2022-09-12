@@ -1,0 +1,255 @@
+1662403088.479207 -- INFO: action is  2 for action array 0.11965515464544296 and Changing concurrency to 10******
+1662403088.482768 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403088.482699 -- INFO: Start Process :: 6
+1662403088.483325 -- INFO: Start Process :: 0
+1662403088.484339 -- INFO: Start Process :: 1
+1662403088.484507 -- INFO: Start Process :: 5
+1662403088.484555 -- INFO: Start Process :: 2
+1662403088.485895 -- INFO: Start Process :: 4
+1662403088.486355 -- INFO: Active CC: 10
+1662403088.486401 -- INFO: Process 6 found Queue Empty : False
+1662403088.486454 -- INFO: Process 5 found Queue Empty : False
+1662403088.486861 -- INFO: Process 0 found Queue Empty : False
+1662403088.487107 -- INFO: Process 2 found Queue Empty : False
+1662403088.487477 -- INFO: Process 5 get item 1 from queue and executing
+1662403088.487707 -- INFO: starting 5, 1, /home/hjamil/Documents/files_bash/FILE1
+1662403088.487845 -- INFO: Process 0 get item 2 from queue and executing
+1662403088.487880 -- INFO: Process 4 found Queue Empty : False
+1662403088.488054 -- INFO: Process 6 get item 0 from queue and executing
+1662403088.488142 -- INFO: Process 2 get item 3 from queue and executing
+1662403088.488273 -- INFO: starting 6, 0, /home/hjamil/Documents/files_bash/FILE25
+1662403088.488335 -- INFO: starting 2, 3, /home/hjamil/Documents/files_bash/FILE13
+1662403088.489521 -- INFO: Process 1 found Queue Empty : False
+1662403088.490127 -- INFO: Start Process :: 7
+1662403088.490595 -- INFO: Process 1 get item 4 from queue and executing
+1662403088.490641 -- INFO: starting 0, 2, /home/hjamil/Documents/files_bash/FILE4
+1662403088.490826 -- INFO: starting 1, 4, /home/hjamil/Documents/files_bash/FILE3
+1662403088.490547 -- INFO: Start Process :: 3
+1662403088.492550 -- INFO: Process 4 get item 5 from queue and executing
+1662403088.492930 -- INFO: starting 4, 5, /home/hjamil/Documents/files_bash/FILE24
+1662403088.493084 -- INFO: Process 7 found Queue Empty : False
+1662403088.493009 -- INFO: Process 3 found Queue Empty : False
+1662403088.493345 -- INFO: Process 7 get item 6 from queue and executing
+1662403088.493517 -- INFO: starting 7, 6, /home/hjamil/Documents/files_bash/FILE2
+1662403088.493171 -- INFO: Start Process :: 8
+1662403088.493630 -- INFO: Process 3 get item 7 from queue and executing
+1662403088.494023 -- INFO: starting 3, 7, /home/hjamil/Documents/files_bash/FILE20
+1662403088.498841 -- INFO: Process 8 found Queue Empty : False
+1662403088.499292 -- INFO: Process 8 get item 8 from queue and executing
+1662403088.499742 -- INFO: starting 8, 8, /home/hjamil/Documents/files_bash/FILE29
+1662403088.498492 -- INFO: Start Process :: 9
+1662403088.535258 -- INFO: Process 9 found Queue Empty : False
+1662403088.536724 -- INFO: Process 9 get item 9 from queue and executing
+1662403088.536947 -- INFO: starting 9, 9, /home/hjamil/Documents/files_bash/FILE7
+1662403088.575509 -- INFO: Throughput @0.1s:150.0Mbps, rtt :1.33ms cwnd: 44.1 lossRate: 0.0 CC:10 score:0.12 previous_total 0 bytes and current_total 1875000 bytes
+1662403089.543934 -- INFO: Throughput @1.1s:480.0Mbps, rtt :2.7ms cwnd: 160.3 lossRate: 0.0 CC:10 score:0.39 previous_total 1875000 bytes and current_total 61875000 bytes
+1662403090.539126 -- INFO: Throughput @2.1s:500.0Mbps, rtt :2.72ms cwnd: 225.9 lossRate: 0.0 CC:10 score:0.41 previous_total 61875000 bytes and current_total 124375000 bytes
+1662403091.560137 -- INFO: Throughput @3.1s:485.0Mbps, rtt :2.71ms cwnd: 269.7 lossRate: 0.0 CC:10 score:0.4 previous_total 124375000 bytes and current_total 185000000 bytes
+1662403091.689696 -- INFO: score [0.39, 0.41, 0.4] old_score 0.4000000000000001 reward 4.0******
+1662403091.695392 -- INFO: action is  2 for action array -0.03951907530426979 and Changing concurrency to 10******
+1662403091.717868 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403091.743230 -- INFO: Active CC: 10
+1662403092.547122 -- INFO: Throughput @4.1s:465.0Mbps, rtt :2.75ms cwnd: 343.2 lossRate: 0.0 CC:10 score:0.38 previous_total 185000000 bytes and current_total 243125000 bytes
+1662403093.551816 -- INFO: Throughput @5.1s:485.0Mbps, rtt :3.8ms cwnd: 381.7 lossRate: 0.0 CC:10 score:0.4 previous_total 243125000 bytes and current_total 303750000 bytes
+1662403094.548478 -- INFO: Throughput @6.1s:470.0Mbps, rtt :3.25ms cwnd: 392.7 lossRate: 0.0 CC:10 score:0.39 previous_total 303750000 bytes and current_total 362500000 bytes
+1662403094.944646 -- INFO: score [0.38, 0.4, 0.39] old_score 0.38999999999999996 reward -0.1******
+1662403094.946279 -- INFO: action is  2 for action array -0.1349412500858307 and Changing concurrency to 10******
+1662403094.946926 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403094.947524 -- INFO: Active CC: 10
+1662403095.576065 -- INFO: Throughput @7.1s:480.0Mbps, rtt :3.13ms cwnd: 403.4 lossRate: 0.0 CC:10 score:0.39 previous_total 362500000 bytes and current_total 422500000 bytes
+1662403096.539246 -- INFO: Throughput @8.1s:475.0Mbps, rtt :4.32ms cwnd: 411.6 lossRate: 0.0 CC:10 score:0.39 previous_total 422500000 bytes and current_total 481875000 bytes
+1662403097.564127 -- INFO: Throughput @9.1s:475.0Mbps, rtt :6.25ms cwnd: 420.1 lossRate: 0.0 CC:10 score:0.39 previous_total 481875000 bytes and current_total 541250000 bytes
+1662403098.160883 -- INFO: score [0.39, 0.39, 0.39] old_score 0.38999999999999996 reward 0.0******
+1662403098.163753 -- INFO: action is  2 for action array -0.2333492487668991 and Changing concurrency to 10******
+1662403098.175548 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403098.176389 -- INFO: Active CC: 10
+1662403098.552147 -- INFO: Throughput @10.1s:485.0Mbps, rtt :5.28ms cwnd: 422.3 lossRate: 0.0 CC:10 score:0.4 previous_total 541250000 bytes and current_total 601875000 bytes
+1662403099.592100 -- INFO: Throughput @11.1s:470.0Mbps, rtt :4.88ms cwnd: 426.5 lossRate: 0.0 CC:10 score:0.39 previous_total 601875000 bytes and current_total 660625000 bytes
+1662403100.548103 -- INFO: Throughput @12.1s:485.0Mbps, rtt :3.9ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.4 previous_total 660625000 bytes and current_total 721250000 bytes
+1662403101.395387 -- INFO: score [0.4, 0.39, 0.4] old_score 0.39666666666666667 reward 0.07******
+1662403101.396727 -- INFO: action is  2 for action array -0.21607285737991333 and Changing concurrency to 10******
+1662403101.403584 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403101.404675 -- INFO: Active CC: 10
+1662403101.577641 -- INFO: Throughput @13.1s:480.0Mbps, rtt :4.06ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.39 previous_total 721250000 bytes and current_total 781250000 bytes
+1662403102.560448 -- INFO: Throughput @14.1s:480.0Mbps, rtt :3.7ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.39 previous_total 781250000 bytes and current_total 841250000 bytes
+1662403103.592173 -- INFO: Throughput @15.1s:485.0Mbps, rtt :3.08ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.4 previous_total 841250000 bytes and current_total 901875000 bytes
+1662403104.560412 -- INFO: Throughput @16.1s:475.0Mbps, rtt :5.11ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.39 previous_total 901875000 bytes and current_total 961250000 bytes
+1662403104.627707 -- INFO: score [0.39, 0.4, 0.39] old_score 0.39333333333333337 reward -0.03******
+1662403104.632575 -- INFO: action is  2 for action array -0.2157382071018219 and Changing concurrency to 10******
+1662403104.640231 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403104.645445 -- INFO: Active CC: 10
+1662403105.559682 -- INFO: Throughput @17.1s:470.0Mbps, rtt :3.35ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.39 previous_total 961250000 bytes and current_total 1020000000 bytes
+1662403106.562415 -- INFO: Throughput @18.1s:475.0Mbps, rtt :4.99ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.39 previous_total 1020000000 bytes and current_total 1079375000 bytes
+1662403107.555240 -- INFO: Throughput @19.1s:490.0Mbps, rtt :2.76ms cwnd: 428.6 lossRate: 0.0 CC:10 score:0.4 previous_total 1079375000 bytes and current_total 1140625000 bytes
+1662403107.873437 -- INFO: score [0.39, 0.39, 0.4] old_score 0.39333333333333337 reward 0.0******
+1662403107.876391 -- INFO: action is  2 for action array -0.2162737399339676 and Changing concurrency to 10******
+1662403107.886899 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403107.887514 -- INFO: Active CC: 10
+1662403108.555107 -- INFO: Throughput @20.1s:480.0Mbps, rtt :3.43ms cwnd: 430.7 lossRate: 0.0 CC:10 score:0.39 previous_total 1140625000 bytes and current_total 1200625000 bytes
+1662403109.559241 -- INFO: Throughput @21.1s:470.0Mbps, rtt :4.01ms cwnd: 430.7 lossRate: 0.0 CC:10 score:0.39 previous_total 1200625000 bytes and current_total 1259375000 bytes
+1662403110.568322 -- INFO: Throughput @22.1s:485.0Mbps, rtt :3.68ms cwnd: 430.7 lossRate: 0.0 CC:10 score:0.4 previous_total 1259375000 bytes and current_total 1320000000 bytes
+1662403111.103826 -- INFO: score [0.39, 0.39, 0.4] old_score 0.39333333333333337 reward 0.0******
+1662403111.105845 -- INFO: action is  2 for action array -0.2157248854637146 and Changing concurrency to 10******
+1662403111.107418 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403111.108358 -- INFO: Active CC: 10
+1662403111.604523 -- INFO: Throughput @23.1s:465.0Mbps, rtt :4.03ms cwnd: 430.7 lossRate: 0.0 CC:10 score:0.38 previous_total 1320000000 bytes and current_total 1378125000 bytes
+1662403112.544504 -- INFO: Throughput @24.1s:495.0Mbps, rtt :4.22ms cwnd: 430.7 lossRate: 0.0 CC:10 score:0.41 previous_total 1378125000 bytes and current_total 1440000000 bytes
+1662403113.568404 -- INFO: Throughput @25.1s:485.0Mbps, rtt :3.84ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.4 previous_total 1440000000 bytes and current_total 1500625000 bytes
+1662403114.319774 -- INFO: score [0.38, 0.41, 0.4] old_score 0.39666666666666667 reward 0.03******
+1662403114.322495 -- INFO: action is  2 for action array -0.21805745363235474 and Changing concurrency to 10******
+1662403114.329567 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403114.334928 -- INFO: Active CC: 10
+1662403114.571854 -- INFO: Throughput @26.1s:475.0Mbps, rtt :3.67ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.39 previous_total 1500625000 bytes and current_total 1560000000 bytes
+1662403115.574830 -- INFO: Throughput @27.1s:490.0Mbps, rtt :5.56ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.4 previous_total 1560000000 bytes and current_total 1621250000 bytes
+1662403116.571164 -- INFO: Throughput @28.1s:475.0Mbps, rtt :4.03ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.39 previous_total 1621250000 bytes and current_total 1680625000 bytes
+1662403117.536025 -- INFO: score [0.39, 0.4, 0.39] old_score 0.39333333333333337 reward -0.03******
+1662403117.537545 -- INFO: action is  2 for action array -0.21572278439998627 and Changing concurrency to 10******
+1662403117.539316 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403117.540017 -- INFO: Active CC: 10
+1662403117.559133 -- INFO: Throughput @29.1s:465.0Mbps, rtt :3.47ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.38 previous_total 1680625000 bytes and current_total 1738750000 bytes
+1662403118.561777 -- INFO: Throughput @30.1s:490.0Mbps, rtt :4.55ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.4 previous_total 1738750000 bytes and current_total 1800000000 bytes
+1662403119.592100 -- INFO: Throughput @31.1s:475.0Mbps, rtt :4.66ms cwnd: 432.8 lossRate: 0.0 CC:10 score:0.39 previous_total 1800000000 bytes and current_total 1859375000 bytes
+1662403120.584086 -- INFO: Throughput @32.1s:485.0Mbps, rtt :4.49ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.4 previous_total 1859375000 bytes and current_total 1920000000 bytes
+1662403120.763428 -- INFO: score [0.4, 0.39, 0.4] old_score 0.39666666666666667 reward 0.03******
+1662403120.771879 -- INFO: action is  2 for action array -0.21572345495224 and Changing concurrency to 10******
+1662403120.783946 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403120.785054 -- INFO: Active CC: 10
+1662403121.575267 -- INFO: Throughput @33.1s:470.0Mbps, rtt :4.54ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 1920000000 bytes and current_total 1978750000 bytes
+1662403122.587129 -- INFO: Throughput @34.1s:480.0Mbps, rtt :3.94ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 1978750000 bytes and current_total 2038750000 bytes
+1662403123.583423 -- INFO: Throughput @35.1s:485.0Mbps, rtt :4.07ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.4 previous_total 2038750000 bytes and current_total 2099375000 bytes
+1662403124.004753 -- INFO: score [0.39, 0.39, 0.4] old_score 0.39333333333333337 reward -0.03******
+1662403124.007027 -- INFO: action is  2 for action array -0.21572229266166687 and Changing concurrency to 10******
+1662403124.020293 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403124.021168 -- INFO: Active CC: 10
+1662403124.591910 -- INFO: Throughput @36.1s:480.0Mbps, rtt :3.43ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 2099375000 bytes and current_total 2159375000 bytes
+1662403125.579789 -- INFO: Throughput @37.1s:460.0Mbps, rtt :3.73ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.38 previous_total 2159375000 bytes and current_total 2216875000 bytes
+1662403126.592636 -- INFO: Throughput @38.1s:480.0Mbps, rtt :6.33ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 2216875000 bytes and current_total 2276875000 bytes
+1662403127.225916 -- INFO: score [0.39, 0.38, 0.39] old_score 0.3866666666666667 reward -0.07******
+1662403127.227302 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403127.227827 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403127.228343 -- INFO: Active CC: 10
+1662403127.611577 -- INFO: Throughput @39.1s:485.0Mbps, rtt :5.69ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.4 previous_total 2276875000 bytes and current_total 2337500000 bytes
+1662403128.592650 -- INFO: Throughput @40.1s:480.0Mbps, rtt :3.54ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 2337500000 bytes and current_total 2397500000 bytes
+1662403129.596734 -- INFO: Throughput @41.1s:490.0Mbps, rtt :3.71ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.4 previous_total 2397500000 bytes and current_total 2458750000 bytes
+1662403130.443387 -- INFO: score [0.4, 0.39, 0.4] old_score 0.39666666666666667 reward 0.1******
+1662403130.444896 -- INFO: action is  2 for action array -0.21573540568351746 and Changing concurrency to 10******
+1662403130.458974 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403130.459490 -- INFO: Active CC: 10
+1662403130.583182 -- INFO: Throughput @42.1s:485.0Mbps, rtt :4.43ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.4 previous_total 2458750000 bytes and current_total 2519375000 bytes
+1662403131.596475 -- INFO: Throughput @43.1s:475.0Mbps, rtt :3.53ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 2519375000 bytes and current_total 2578750000 bytes
+1662403132.611181 -- INFO: Throughput @44.1s:475.0Mbps, rtt :4.29ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 2578750000 bytes and current_total 2638125000 bytes
+1662403133.588708 -- INFO: Throughput @45.1s:470.0Mbps, rtt :3.9ms cwnd: 435.0 lossRate: 0.0 CC:10 score:0.39 previous_total 2638125000 bytes and current_total 2696875000 bytes
+1662403133.660435 -- INFO: score [0.39, 0.39, 0.39] old_score 0.38999999999999996 reward -0.07******
+1662403133.662261 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403133.683201 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403133.684050 -- INFO: Active CC: 10
+1662403134.599262 -- INFO: Throughput @46.1s:480.0Mbps, rtt :4.34ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 2696875000 bytes and current_total 2756875000 bytes
+1662403135.620999 -- INFO: Throughput @47.1s:465.0Mbps, rtt :5.42ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.38 previous_total 2756875000 bytes and current_total 2815000000 bytes
+1662403136.595919 -- INFO: Throughput @48.1s:490.0Mbps, rtt :4.7ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 2815000000 bytes and current_total 2876250000 bytes
+1662403136.895426 -- INFO: score [0.39, 0.38, 0.4] old_score 0.38999999999999996 reward 0.0******
+1662403136.897362 -- INFO: action is  2 for action array -0.21572069823741913 and Changing concurrency to 10******
+1662403136.904878 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403136.905255 -- INFO: Active CC: 10
+1662403137.600230 -- INFO: Throughput @49.1s:475.0Mbps, rtt :4.75ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 2876250000 bytes and current_total 2935625000 bytes
+1662403138.595962 -- INFO: Throughput @50.1s:470.0Mbps, rtt :6.65ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 2935625000 bytes and current_total 2994375000 bytes
+1662403139.592173 -- INFO: Throughput @51.1s:470.0Mbps, rtt :4.03ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 2994375000 bytes and current_total 3053125000 bytes
+1662403140.117077 -- INFO: score [0.39, 0.39, 0.39] old_score 0.38999999999999996 reward 0.0******
+1662403140.118686 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403140.134967 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403140.135692 -- INFO: Active CC: 10
+1662403140.592112 -- INFO: Throughput @52.1s:490.0Mbps, rtt :4.19ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 3053125000 bytes and current_total 3114375000 bytes
+1662403141.596578 -- INFO: Throughput @53.1s:490.0Mbps, rtt :4.13ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 3114375000 bytes and current_total 3175625000 bytes
+1662403142.607196 -- INFO: Throughput @54.1s:470.0Mbps, rtt :3.29ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3175625000 bytes and current_total 3234375000 bytes
+1662403143.336918 -- INFO: score [0.4, 0.4, 0.39] old_score 0.39666666666666667 reward 0.07******
+1662403143.338904 -- INFO: action is  2 for action array -0.21572060883045197 and Changing concurrency to 10******
+1662403143.350835 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403143.351569 -- INFO: Active CC: 10
+1662403143.595289 -- INFO: Throughput @55.1s:475.0Mbps, rtt :3.28ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3234375000 bytes and current_total 3293750000 bytes
+1662403144.599120 -- INFO: Throughput @56.1s:485.0Mbps, rtt :5.17ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 3293750000 bytes and current_total 3354375000 bytes
+1662403145.616078 -- INFO: Throughput @57.1s:485.0Mbps, rtt :4.01ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 3354375000 bytes and current_total 3415000000 bytes
+1662403146.558250 -- INFO: score [0.39, 0.4, 0.4] old_score 0.39666666666666667 reward 0.0******
+1662403146.560179 -- INFO: action is  2 for action array -0.21572688221931458 and Changing concurrency to 10******
+1662403146.580389 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403146.591551 -- INFO: Active CC: 10
+1662403146.616348 -- INFO: Throughput @58.1s:470.0Mbps, rtt :3.13ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3415000000 bytes and current_total 3473750000 bytes
+1662403147.622403 -- INFO: Throughput @59.1s:475.0Mbps, rtt :4.28ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3473750000 bytes and current_total 3533125000 bytes
+1662403148.613528 -- INFO: Throughput @60.1s:490.0Mbps, rtt :3.49ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 3533125000 bytes and current_total 3594375000 bytes
+1662403149.619241 -- INFO: Throughput @61.1s:480.0Mbps, rtt :2.97ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3594375000 bytes and current_total 3654375000 bytes
+1662403149.803375 -- INFO: score [0.39, 0.4, 0.39] old_score 0.39333333333333337 reward -0.03******
+1662403149.804868 -- INFO: action is  2 for action array -0.21572452783584595 and Changing concurrency to 10******
+1662403149.815918 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403149.817147 -- INFO: Active CC: 10
+1662403150.586120 -- INFO: Throughput @62.1s:470.0Mbps, rtt :3.06ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3654375000 bytes and current_total 3713125000 bytes
+1662403151.616104 -- INFO: Throughput @63.1s:480.0Mbps, rtt :3.69ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3713125000 bytes and current_total 3773125000 bytes
+1662403152.631186 -- INFO: Throughput @64.1s:485.0Mbps, rtt :5.13ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.4 previous_total 3773125000 bytes and current_total 3833750000 bytes
+1662403153.018074 -- INFO: score [0.39, 0.39, 0.4] old_score 0.39333333333333337 reward 0.0******
+1662403153.019933 -- INFO: action is  2 for action array -0.21572214365005493 and Changing concurrency to 10******
+1662403153.036408 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403153.037995 -- INFO: Active CC: 10
+1662403153.628311 -- INFO: Throughput @65.1s:470.0Mbps, rtt :3.62ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3833750000 bytes and current_total 3892500000 bytes
+1662403154.615587 -- INFO: Throughput @66.1s:480.0Mbps, rtt :3.53ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3892500000 bytes and current_total 3952500000 bytes
+1662403155.640691 -- INFO: Throughput @67.1s:470.0Mbps, rtt :4.14ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 3952500000 bytes and current_total 4011250000 bytes
+1662403156.247380 -- INFO: score [0.39, 0.39, 0.39] old_score 0.38999999999999996 reward -0.03******
+1662403156.249113 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403156.251709 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403156.254098 -- INFO: Active CC: 10
+1662403156.620074 -- INFO: Throughput @68.1s:495.0Mbps, rtt :4.27ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.41 previous_total 4011250000 bytes and current_total 4073125000 bytes
+1662403157.603045 -- INFO: Throughput @69.1s:470.0Mbps, rtt :3.86ms cwnd: 435.1 lossRate: 0.0 CC:10 score:0.39 previous_total 4073125000 bytes and current_total 4131875000 bytes
+1662403158.607083 -- INFO: Throughput @70.1s:480.0Mbps, rtt :3.47ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 4131875000 bytes and current_total 4191875000 bytes
+1662403159.455205 -- INFO: score [0.41, 0.39, 0.39] old_score 0.39666666666666667 reward 0.07******
+1662403159.456665 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403159.467103 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403159.467713 -- INFO: Active CC: 10
+1662403159.612108 -- INFO: Throughput @71.1s:485.0Mbps, rtt :4.14ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4191875000 bytes and current_total 4252500000 bytes
+1662403160.620128 -- INFO: Throughput @72.1s:470.0Mbps, rtt :5.12ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 4252500000 bytes and current_total 4311250000 bytes
+1662403161.612471 -- INFO: Throughput @73.1s:480.0Mbps, rtt :4.87ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 4311250000 bytes and current_total 4371250000 bytes
+1662403162.643153 -- INFO: Throughput @74.1s:485.0Mbps, rtt :5.12ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4371250000 bytes and current_total 4431875000 bytes
+1662403162.675007 -- INFO: score [0.39, 0.39, 0.4] old_score 0.39333333333333337 reward -0.03******
+1662403162.676327 -- INFO: action is  2 for action array -0.2157207429409027 and Changing concurrency to 10******
+1662403162.691803 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403162.694683 -- INFO: Active CC: 10
+1662403163.628094 -- INFO: Throughput @75.1s:485.0Mbps, rtt :3.6ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4431875000 bytes and current_total 4492500000 bytes
+1662403164.623143 -- INFO: Throughput @76.1s:485.0Mbps, rtt :4.17ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4492500000 bytes and current_total 4553125000 bytes
+1662403165.624116 -- INFO: Throughput @77.1s:465.0Mbps, rtt :6.5ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.38 previous_total 4553125000 bytes and current_total 4611250000 bytes
+1662403165.896054 -- INFO: score [0.4, 0.4, 0.38] old_score 0.39333333333333337 reward 0.0******
+1662403165.898041 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403165.908100 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403165.909893 -- INFO: Active CC: 10
+1662403166.633867 -- INFO: Throughput @78.1s:485.0Mbps, rtt :4.6ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4611250000 bytes and current_total 4671875000 bytes
+1662403167.615236 -- INFO: Throughput @79.1s:465.0Mbps, rtt :6.28ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.38 previous_total 4671875000 bytes and current_total 4730000000 bytes
+1662403168.611170 -- INFO: Throughput @80.1s:490.0Mbps, rtt :4.06ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4730000000 bytes and current_total 4791250000 bytes
+1662403169.113946 -- INFO: score [0.4, 0.38, 0.4] old_score 0.39333333333333337 reward 0.0******
+1662403169.120058 -- INFO: action is  2 for action array -0.21572057902812958 and Changing concurrency to 10******
+1662403169.128067 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403169.135543 -- INFO: Active CC: 10
+1662403169.640076 -- INFO: Throughput @81.1s:475.0Mbps, rtt :3.91ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 4791250000 bytes and current_total 4850625000 bytes
+1662403170.636167 -- INFO: Throughput @82.1s:470.0Mbps, rtt :5.44ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 4850625000 bytes and current_total 4909375000 bytes
+1662403171.635577 -- INFO: Throughput @83.1s:490.0Mbps, rtt :3.82ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 4909375000 bytes and current_total 4970625000 bytes
+1662403172.337435 -- INFO: score [0.39, 0.39, 0.4] old_score 0.39333333333333337 reward 0.0******
+1662403172.339194 -- INFO: action is  2 for action array -0.21572063863277435 and Changing concurrency to 10******
+1662403172.354863 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403172.359313 -- INFO: Active CC: 10
+1662403172.651729 -- INFO: Throughput @84.1s:475.0Mbps, rtt :4.21ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 4970625000 bytes and current_total 5030000000 bytes
+1662403173.623877 -- INFO: Throughput @85.1s:480.0Mbps, rtt :4.71ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5030000000 bytes and current_total 5090000000 bytes
+1662403174.646511 -- INFO: Throughput @86.1s:475.0Mbps, rtt :3.25ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5090000000 bytes and current_total 5149375000 bytes
+1662403175.577930 -- INFO: score [0.39, 0.39, 0.39] old_score 0.38999999999999996 reward -0.03******
+1662403175.619200 -- INFO: action is  2 for action array -0.21572056412696838 and Changing concurrency to 10******
+1662403175.619597 -- INFO: Throughput @87.1s:475.0Mbps, rtt :4.73ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5149375000 bytes and current_total 5208750000 bytes
+1662403175.624342 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403175.632666 -- INFO: Active CC: 10
+1662403176.643077 -- INFO: Throughput @88.1s:485.0Mbps, rtt :3.86ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 5208750000 bytes and current_total 5269375000 bytes
+1662403177.639506 -- INFO: Throughput @89.1s:465.0Mbps, rtt :4.58ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.38 previous_total 5269375000 bytes and current_total 5327500000 bytes
+1662403178.640102 -- INFO: Throughput @90.1s:490.0Mbps, rtt :3.28ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 5327500000 bytes and current_total 5388750000 bytes
+1662403178.847397 -- INFO: score [0.4, 0.38, 0.4] old_score 0.39333333333333337 reward 0.03******
+1662403178.848966 -- INFO: action is  2 for action array -0.2157205492258072 and Changing concurrency to 10******
+1662403178.849792 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403178.850652 -- INFO: Active CC: 10
+1662403179.674960 -- INFO: Throughput @91.1s:480.0Mbps, rtt :5.19ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5388750000 bytes and current_total 5448750000 bytes
+1662403180.640087 -- INFO: Throughput @92.1s:485.0Mbps, rtt :3.8ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.4 previous_total 5448750000 bytes and current_total 5509375000 bytes
+1662403181.653541 -- INFO: Throughput @93.1s:475.0Mbps, rtt :5.85ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5509375000 bytes and current_total 5568750000 bytes
+1662403182.061630 -- INFO: score [0.39, 0.4, 0.39] old_score 0.39333333333333337 reward 0.0******
+1662403182.062953 -- INFO: action is  2 for action array -0.215720534324646 and Changing concurrency to 10******
+1662403182.091923 -- INFO: Process Status Bits from change concurrency are: 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1662403182.127048 -- INFO: Active CC: 10
+1662403182.671825 -- INFO: Throughput @94.1s:480.0Mbps, rtt :3.73ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5568750000 bytes and current_total 5628750000 bytes
+1662403183.627303 -- INFO: Throughput @95.1s:470.0Mbps, rtt :4.5ms cwnd: 437.3 lossRate: 0.0 CC:10 score:0.39 previous_total 5628750000 bytes and current_total 5687500000 bytes
